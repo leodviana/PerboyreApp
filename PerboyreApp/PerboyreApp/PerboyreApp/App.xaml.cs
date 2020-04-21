@@ -8,7 +8,7 @@ namespace PerboyreApp
     {
         public App()
         {
-#DEBUG
+#if DEBUG
             HotReloader.Current.Run(this);
 #endif
             InitializeComponent();
