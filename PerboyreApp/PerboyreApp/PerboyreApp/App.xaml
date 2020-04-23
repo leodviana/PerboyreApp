@@ -8,6 +8,14 @@
               mc:Ignorable="d"
              x:Class="PerboyreApp.App">
     <Application.Resources>
+        <ResourceDictionary>
+            
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="#4c0507" />
+                <Setter Property="BarTextColor" Value="White" />
+            </Style>
 
+            
+        </ResourceDictionary>
     </Application.Resources>
 </prism:PrismApplication>

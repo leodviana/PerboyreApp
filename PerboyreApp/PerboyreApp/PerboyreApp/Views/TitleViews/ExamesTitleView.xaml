@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="PerboyreApp.Views.TitleViews.ExamesTitleView"
+    >
+   
+    <ContentView.Content>
+
+        <StackLayout
+            Orientation="Horizontal"
+            VerticalOptions="Center"
+            Spacing="10"
+        >
+        <Button Text="voltar" TextColor="White" HorizontalOptions="Start"></Button>    
+        <Label Text="essa e a navigate da tela " HorizontalOptions="CenterAndExpand"  VerticalOptions="CenterAndExpand" TextColor="White" ></Label>
+         
+        <Image Source="unnamed" HorizontalOptions="EndAndExpand"></Image>
+        </StackLayout>
+       
+    </ContentView.Content>
+</ContentView>
