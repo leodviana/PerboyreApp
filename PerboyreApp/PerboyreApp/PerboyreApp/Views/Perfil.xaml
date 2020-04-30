@@ -3,8 +3,11 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="PerboyreApp.Views.Perfil"
+   Icon="home"
+    
 >
     <ContentPage.Content>
-        <Label Text="perfil"></Label>
+
+        <Button Command="{Binding LogoutCommand}" Text="Sair"></Button>
     </ContentPage.Content>
 </ContentPage>

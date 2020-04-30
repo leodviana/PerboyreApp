@@ -1,4 +1,5 @@
 ﻿
+using Newtonsoft.Json;
 using PerboyreApp.Interfaces;
 using PerboyreApp.Services;
 using PerboyreApp.ViewModels;
@@ -6,33 +7,66 @@ using PerboyreApp.Views;
 using Prism;
 using Prism.DryIoc;
 using Prism.Ioc;
+using Prism.Navigation;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using PerboyreApp.Models;
 
 namespace PerboyreApp
 {
     public partial class App : PrismApplication
     {
+        public static Models.Dentista usuariologado { get; set; }
         public App() : base(null) { }
         public App(IPlatformInitializer initializer) : base(initializer) { }
 
         protected override async void OnInitialized()
         {
             InitializeComponent();
+            string usuario_logado = Preferences.Get("dentistaserializado", "");
+            App.usuariologado = JsonConvert.DeserializeObject<Models.Dentista>(usuario_logado);
 
-            var mainPage = $"{nameof(NavigationPage)}/{nameof(MainPage2)}";
-            await NavigationService.NavigateAsync(mainPage);
+            if (App.usuariologado == null)
+            {
+
+                await this.NavigationService.NavigateAsync("LoginPage");
+            }
+            else
+            {
+                if (usuariologado.Id == 999999999)
+                {
+                    usuariologado.tipo = "Administrador";
+                    var mainPage = $"{nameof(NavigationPage)}/{nameof(MainPage2)}";
+                    await NavigationService.NavigateAsync(mainPage);
+                   // await this.NavigationService.NavigateAsync("/MasterPage/NavigationPage/DentistaPage");
+                }
+                else
+                {
+                    App.usuariologado.tipo = "Dentista";
+                    var navigationParams = new NavigationParameters();
+                    navigationParams.Add("paciente", App.usuariologado);
+
+                    
+                    var mainPage = $"{nameof(NavigationPage)}/{nameof(MainPage2)}";
+                    await NavigationService.NavigateAsync(mainPage);
+                    
+                }
+            }
+           // var mainPage = $"{nameof(NavigationPage)}/{nameof(MainPage2)}";
+           // await NavigationService.NavigateAsync(mainPage);
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage2,MainPage2ViewModel>();
-            containerRegistry.RegisterForNavigation<Login,LoginViewModel>();
-            containerRegistry.RegisterForNavigation<Dentista,DentistaViewModel>();
+            containerRegistry.RegisterForNavigation<LoginPage,LoginPageViewModel>();
+            containerRegistry.RegisterForNavigation<Views.Dentista, DentistaViewModel>();
             containerRegistry.RegisterForNavigation<Localizacao,LocalizacaoViewModel>();
             containerRegistry.RegisterForNavigation<Perfil, PerfilViewModel>();
             containerRegistry.RegisterForNavigation<Exames, ExamesViewModel>();
+            containerRegistry.RegisterForNavigation<PacientesPage, PacientesViewModel>();
 
 
             containerRegistry.RegisterSingleton<IApiService, ApiService>();

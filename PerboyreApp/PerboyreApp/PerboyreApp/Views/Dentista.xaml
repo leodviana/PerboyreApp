@@ -3,8 +3,8 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="PerboyreApp.Views.Dentista"
-    Icon="unnamed.png"
-    Title="Dentista">
+   Icon="Dentistas"
+    >
 
 
        <ContentPage.Resources>
@@ -35,7 +35,7 @@
                
         <StackLayout Padding="0" Spacing="0">
                
-              <SearchBar Placeholder="Dentista" 
+              <SearchBar Placeholder="Localizar" Margin="10,0,0,0" 
                  x:Name="filtro" HeightRequest="40"
                  Text="{Binding DentistaFilter, Mode=TwoWay}"
                  SearchCommand="{Binding PesquisaCommand}">
@@ -57,8 +57,10 @@
               RefreshColor="#4c0507"
            >
            <CollectionView
+               
                x:Name="colecdentistas"
-               Margin="0,10,0,10"
+               
+               Margin="0,10,0,0"
                ItemsSource="{Binding dentistas, Mode=OneWay}"
                SelectionMode="Single"
                SelectedItem="{Binding Selection}"
@@ -80,7 +82,7 @@
                                    
                                 </Grid.ColumnDefinitions>
                                 <Image  Grid.Column="0" VerticalOptions="Start" Margin="0,0,0,0" 
-                            Aspect="AspectFit" HeightRequest="60" WidthRequest="60" Source="Dentistas.png">
+                            Aspect="AspectFit" HeightRequest="60" WidthRequest="60" Source="Dentistas_colection">
                                     
                                 </Image>
                                 <StackLayout Grid.Column="1" Spacing="0">
@@ -106,7 +108,7 @@
                                 
 
                             </Grid>
-                            <Frame Padding="0" HeightRequest="1" BackgroundColor="Black" HasShadow="False"/>
+                            <Frame Margin="10,0,10,0" Padding="0" HeightRequest="1" BackgroundColor="Black" HasShadow="False"/>
                       </StackLayout>
                   </DataTemplate>
                </CollectionView.ItemTemplate>

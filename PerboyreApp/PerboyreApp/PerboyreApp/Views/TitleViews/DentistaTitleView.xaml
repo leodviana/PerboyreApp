@@ -5,6 +5,6 @@
     x:Class="PerboyreApp.Views.TitleViews.DentistaTitleView"
 >
     <ContentView.Content>
-        <Label Text="Dentista" FontSize="Large" FontAttributes="Bold" VerticalOptions="CenterAndExpand" TextColor="White" HorizontalOptions="CenterAndExpand"/>
+        <Label Text="Dentista" FontSize="Medium" FontAttributes="Bold" VerticalOptions="CenterAndExpand" TextColor="White" HorizontalOptions="CenterAndExpand"/>
     </ContentView.Content>
 </ContentView>

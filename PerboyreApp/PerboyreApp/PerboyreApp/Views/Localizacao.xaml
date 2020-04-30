@@ -3,6 +3,8 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="PerboyreApp.Views.Localizacao"
+    Icon="home"
+    Title="Localização"
 >
     <ContentPage.Content>
         <Label Text="Localizacao"></Label>

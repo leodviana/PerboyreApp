@@ -68,6 +68,7 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="renderers\CustomTabbedPageRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -127,7 +128,16 @@
       <Version>7.2.0.1422</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="4.5.0.617" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.1" />
+    <PackageReference Include="Plugin.Permissions">
+      <Version>6.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.FFImageLoading.Forms">
+      <Version>2.4.3.840</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.FFImageLoading.Transformations">
+      <Version>2.4.3.840</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
@@ -139,6 +149,29 @@
   <ItemGroup>
     <BundleResource Include="Resources\Dentistas.png" />
     <BundleResource Include="Resources\unnamed.png" />
+    <BundleResource Include="Resources\logo02.png" />
+    <BundleResource Include="Resources\Email36.png" />
+    <BundleResource Include="Resources\password36.png" />
+    <BundleResource Include="Resources\Dentistas_colection.png" />
+    <BundleResource Include="Resources\Dentistas_colection%402x.png" />
+    <BundleResource Include="Resources\Dentistas_colection%403x.png" />
+    <BundleResource Include="Resources\Dentistas%402x.png" />
+    <BundleResource Include="Resources\Dentistas%403x.png" />
+    <BundleResource Include="Resources\home%402x.png" />
+    <BundleResource Include="Resources\home%403x.png" />
+    <BundleResource Include="Resources\home.png" />
+    <BundleResource Include="Resources\home_selected.png" />
+    <BundleResource Include="Resources\home_selected%402x.png" />
+    <BundleResource Include="Resources\home_selected%403x.png" />
+    <BundleResource Include="Resources\Dentistas%403x cópia.png" />
+    <BundleResource Include="Resources\Dentistas%403x cópia%402x.png" />
+    <BundleResource Include="Resources\Dentistas%403x cópia%403x.png" />
+    <BundleResource Include="Resources\dentista_invertido.png" />
+    <BundleResource Include="Resources\dentista_invertido%402x.png" />
+    <BundleResource Include="Resources\dentista_invertido%403x.png" />
+    <BundleResource Include="Resources\dentista_ivertido_sem fundo.png" />
+    <BundleResource Include="Resources\dentista_ivertido_sem fundo%402x.png" />
+    <BundleResource Include="Resources\dentista_ivertido_sem fundo%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="renderers\" />

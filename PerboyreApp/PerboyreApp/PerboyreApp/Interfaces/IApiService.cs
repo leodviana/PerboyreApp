@@ -1,7 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using PainelStudioPerboyre.Models;
 using PerboyreApp.Models;
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace PerboyreApp.Interfaces
 {

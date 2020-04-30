@@ -6,13 +6,16 @@
     xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    Title="Título app"
+    
     android:TabbedPage.ToolbarPlacement="Bottom"
-    BarBackgroundColor="#4c0507"
+    BarBackgroundColor="White"
     BarTextColor="White"
-    android:TabbedPage.BarSelectedItemColor ="White"
+    android:TabbedPage.BarSelectedItemColor ="#4c0507"
     android:TabbedPage.BarItemColor="Black"
-    mc:Ignorable="d" />
+    mc:Ignorable="d"
+    Padding="0,20,10,0"/>
+
+
 
 
     

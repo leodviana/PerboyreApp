@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using PerboyreApp.Interfaces;
 using PerboyreApp.Models;
+using PerboyreApp.Services;
 using Prism.Commands;
 using Prism.Navigation;
 using Prism.Services;
@@ -253,12 +254,14 @@ namespace PerboyreApp.ViewModels
 
      private async void Navega()
      {
+            
             if (Selection != null)
             {
                 //await PageDialogService.DisplayAlertAsync("app", Selection.nome, "Ok");
                 var navigationParams = new NavigationParameters();
                 navigationParams.Add("paciente", Selection);
-                await  NavigationService.NavigateAsync("Exames", navigationParams);
+                await  NavigationService.NavigateAsync("PacientesPage", navigationParams);
+                Selection = null;
             }
 
         }

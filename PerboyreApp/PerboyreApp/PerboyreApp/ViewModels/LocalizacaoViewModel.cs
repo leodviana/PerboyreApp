@@ -7,7 +7,7 @@ namespace PerboyreApp.ViewModels
 {
     public class LocalizacaoViewModel :ViewModelBase
     {
-        public LocalizacaoViewModel(INavigationService navigationService, IPageDialogService pageDialogService, IApiService ApiService) : base(navigationService, pageDialogService)
+        public LocalizacaoViewModel(INavigationService navigationService, IPageDialogService pageDialogService,IApiService ApiService) : base(navigationService, pageDialogService)
         {
 
         }

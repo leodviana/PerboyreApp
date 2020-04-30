@@ -5,7 +5,6 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-
 using PerboyreApp.Interfaces;
 using PerboyreApp.Models;
 
@@ -78,14 +77,14 @@ namespace PerboyreApp.Services
 
                 var result = await response.Content.ReadAsStringAsync();
                 List<Dentista> exames = JsonConvert.DeserializeObject<List<Dentista>>(result);
-               // if (App.usuariologado.Id == 999999999)
-               // {
+                if (App.usuariologado.Id == 999999999)
+                {
                     return exames;
-               // }
-               // else
-               // {
-                 //   return exames.Where(x => x.Id == App.usuariologado.Id).ToList();
-               // }
+                }
+                else
+                {
+                    return exames.Where(x => x.Id == App.usuariologado.Id).ToList();
+                }
                 // return exames.Skip(pageIndex * pageSize).Take(pageSize).ToList();     //_pessoas.Skip(pageIndex * pageSize).Take(pageSize).ToList();
 
 
@@ -191,7 +190,7 @@ namespace PerboyreApp.Services
                 var jsonRequest = JsonConvert.SerializeObject(loginRequest);
                 var httpContent = new StringContent(jsonRequest, Encoding.UTF8, "application/json");
                 var client = new HttpClient();
-                client.BaseAddress = new Uri("http://www.painelstudio.com/perboyre/");
+                client.BaseAddress = new Uri("https://www.painelstudio.com/perboyre/");
                 //client.BaseAddress = new Uri("http://192.168.0.7:30000/");
                 var url = "api/Dentista/Login";
 
