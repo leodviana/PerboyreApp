@@ -12,6 +12,8 @@ using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using PerboyreApp.Models;
+using PerboyreApp.Views.Mensagens;
+using PerboyreApp.Navegacao;
 
 namespace PerboyreApp
 {
@@ -26,7 +28,7 @@ namespace PerboyreApp
             InitializeComponent();
             string usuario_logado = Preferences.Get("dentistaserializado", "");
             App.usuariologado = JsonConvert.DeserializeObject<Models.Dentista>(usuario_logado);
-
+           
             if (App.usuariologado == null)
             {
 
@@ -37,6 +39,7 @@ namespace PerboyreApp
                 if (usuariologado.Id == 999999999)
                 {
                     usuariologado.tipo = "Administrador";
+                    // $"{nameof(NavigationPage)}/{nameof(MainPage)}"
                     var mainPage = $"{nameof(NavigationPage)}/{nameof(MainPage2)}";
                     await NavigationService.NavigateAsync(mainPage);
                    // await this.NavigationService.NavigateAsync("/MasterPage/NavigationPage/DentistaPage");
@@ -47,7 +50,7 @@ namespace PerboyreApp
                     var navigationParams = new NavigationParameters();
                     navigationParams.Add("paciente", App.usuariologado);
 
-                    
+
                     var mainPage = $"{nameof(NavigationPage)}/{nameof(MainPage2)}";
                     await NavigationService.NavigateAsync(mainPage);
                     
@@ -60,13 +63,16 @@ namespace PerboyreApp
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
             containerRegistry.RegisterForNavigation<NavigationPage>();
+            //containerRegistry.RegisterForNavigation<CustomNavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage2,MainPage2ViewModel>();
             containerRegistry.RegisterForNavigation<LoginPage,LoginPageViewModel>();
-            containerRegistry.RegisterForNavigation<Views.Dentista, DentistaViewModel>();
+            containerRegistry.RegisterForNavigation<DentistaPage, Dentista2ViewModel>();
             containerRegistry.RegisterForNavigation<Localizacao,LocalizacaoViewModel>();
             containerRegistry.RegisterForNavigation<Perfil, PerfilViewModel>();
             containerRegistry.RegisterForNavigation<Exames, ExamesViewModel>();
             containerRegistry.RegisterForNavigation<PacientesPage, PacientesViewModel>();
+            containerRegistry.RegisterForNavigation<ErroPage, ErroViewModel>();
+
 
 
             containerRegistry.RegisterSingleton<IApiService, ApiService>();

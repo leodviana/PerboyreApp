@@ -5,13 +5,44 @@
     x:Class="PerboyreApp.Views.PacientesPage"
  >
 
-  <StackLayout Padding="0" Spacing="0">
+    <NavigationPage.TitleView>
+        
+           <Grid  RowSpacing="0" ColumnSpacing="0" >
+            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="*"/>
                
-              <SearchBar Placeholder="Localizar" Margin="10,5,10,0" 
+                
+            </Grid.ColumnDefinitions>
+           <Button Grid.Column="0" Command="{Binding voltarCommand}" Text="voltar" TextColor="#4c0507" HorizontalOptions="StartAndExpand" ></Button>    
+           <Label Grid.Column="1" Text="Pacientes"  TextColor="#4c0507" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" ></Label>
+           
+          </Grid>
+           
+         
+    </NavigationPage.TitleView>
+  
+  <StackLayout Padding="0" Spacing="0">
+
+       <FlexLayout Direction="Row"  HeightRequest="100" IsVisible="true">
+            <ffimageloading:CachedImage   VerticalOptions="Start" Margin="0,10,0,0" DownsampleToViewSize="true"
+                    Aspect="AspectFit" HeightRequest="60" WidthRequest="60" Source="Dentistas">
+                                <ffimageloading:CachedImage.Transformations>
+                                    <fftransformations:CircleTransformation />
+                                </ffimageloading:CachedImage.Transformations>
+                            </ffimageloading:CachedImage>
+
+           <Label Margin="0,10" Text="{Binding nomeProfissional}"/>
+       </FlexLayout>
+           
+              <SearchBar Placeholder="Localizar" Margin="10,0,10,0" 
                  x:Name="filtro" HeightRequest="40"
                  Text="{Binding DentistaFilter, Mode=TwoWay}"
-                 SearchCommand="{Binding PesquisaCommand}">
-            
+                 SearchCommand="{Binding PesquisaCommand}"
+                 TextColor="#8F8E8F"
+                 IsVisible="{Binding Mostra}">
+                 
                
              </SearchBar>
              <ActivityIndicator
@@ -38,7 +69,7 @@
                SelectedItem="{Binding Selection}"
                ItemSizingStrategy="MeasureAllItems"
                >
-
+               
                <CollectionView.ItemsLayout>
                    <GridItemsLayout Orientation="Vertical"  VerticalItemSpacing="2" >
 
@@ -87,6 +118,28 @@
                       </StackLayout>
                   </DataTemplate>
                </CollectionView.ItemTemplate>
+               <CollectionView.EmptyView >
+                   
+                  <StackLayout>
+                     <Frame 
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="CenterAndExpand"
+                        IsVisible="{Binding Mostramensagem}"
+
+                        WidthRequest="300"
+                      >
+                     <Label
+                       Text="{Binding Mensagem}"
+                       FontSize="20"
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="CenterAndExpand"
+                     />
+                     </Frame>     
+                  </StackLayout>
+
+            
+                   
+               </CollectionView.EmptyView>
            </CollectionView>
           </RefreshView>
        </StackLayout>

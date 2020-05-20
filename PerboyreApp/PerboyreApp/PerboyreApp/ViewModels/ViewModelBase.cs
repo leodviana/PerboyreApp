@@ -3,12 +3,15 @@ using Prism;
 using Prism.Mvvm;
 using Prism.Navigation;
 using Prism.Services;
+using Xamarin.Essentials;
+using Xamarin.Forms;
 
 namespace PerboyreApp.ViewModels
 {
     public class ViewModelBase : BindableBase, INavigationAware, IDestructible, IActiveAware
 
     {
+        
         protected INavigationService NavigationService { get; set; }
         protected IPageDialogService PageDialogService { get; set; }
 
@@ -95,6 +98,19 @@ namespace PerboyreApp.ViewModels
             get => _isActive;
             set => SetProperty(ref _isActive, value, RaiseIsActiveChanged);
         }
+        public static bool InternetConnectivity()
+        {
+            
+            var current = Connectivity.NetworkAccess;
+
+            if (current == NetworkAccess.Internet)
+            {
+                return true;
+            }
+            
+            return false;
+        }
+
 
         protected ViewModelBase(INavigationService navigationService, IPageDialogService pageDialogService)
         {
@@ -130,9 +146,6 @@ namespace PerboyreApp.ViewModels
             IsActiveChanged?.Invoke(this, EventArgs.Empty);
         }
 
-
-
-
-
+        
     }
 }

@@ -4,7 +4,21 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="PerboyreApp.Views.TitleViews.DentistaTitleView"
 >
-    <ContentView.Content>
-        <Label Text="Dentista" FontSize="Medium" FontAttributes="Bold" VerticalOptions="CenterAndExpand" TextColor="White" HorizontalOptions="CenterAndExpand"/>
-    </ContentView.Content>
+
+    
+
+
+    <StackLayout>
+        
+       <Label Text="Dentistas" TextColor="#4c0507" FontSize="Large"  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+       
+       
+      
+           
+   
+    </StackLayout>
+           
+         
+        
+    
 </ContentView>

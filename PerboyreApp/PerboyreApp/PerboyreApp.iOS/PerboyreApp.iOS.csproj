@@ -69,6 +69,8 @@
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="renderers\CustomTabbedPageRenderer.cs" />
+    <Compile Include="renderers\SearchViewRenderer.cs" />
+    <Compile Include="renderers\SearchPageRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -152,7 +154,7 @@
     <BundleResource Include="Resources\logo02.png" />
     <BundleResource Include="Resources\Email36.png" />
     <BundleResource Include="Resources\password36.png" />
-    <BundleResource Include="Resources\Dentistas_colection.png" />
+    <BundleResource Include="Resources\Dentistas_collection.png" />
     <BundleResource Include="Resources\Dentistas_colection%402x.png" />
     <BundleResource Include="Resources\Dentistas_colection%403x.png" />
     <BundleResource Include="Resources\Dentistas%402x.png" />

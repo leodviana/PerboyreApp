@@ -1,27 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using PerboyreApp.Interfaces;
 using PerboyreApp.Models;
-using PerboyreApp.Services;
-using Prism.Commands;
 using Prism.Navigation;
 using Prism.Services;
-using Xamarin.Essentials;
 using Xamarin.Forms;
+using System.Linq;
 
 namespace PerboyreApp.ViewModels
 {
-    public class DentistaViewModel : ViewModelBase, IInitialize
+    public class Dentista2ViewModel : ViewModelBase 
     {
         IApiService apiService;
 
         private bool isRunning;
 
-        
+
 
         public bool IsRunning
         {
@@ -44,7 +41,7 @@ namespace PerboyreApp.ViewModels
             }
         }
 
-        
+
 
         private bool _mostra;
 
@@ -109,7 +106,7 @@ namespace PerboyreApp.ViewModels
 
         List<Dentista> Lista;
         ObservableCollection<Dentista> Lista_filtrada;
-        private string _DentistaFilter = "";
+        private string _DentistaFilter;
 
         public string DentistaFilter
         {
@@ -117,7 +114,7 @@ namespace PerboyreApp.ViewModels
             set
             {
                 SetProperty(ref _DentistaFilter, value);
-                
+
                 GetDentistas();
             }
         }
@@ -127,38 +124,40 @@ namespace PerboyreApp.ViewModels
             GetDentistas();
          }*/
 
-         
-        public DentistaViewModel(INavigationService navigationService, IPageDialogService pageDialogService, IApiService ApiService) : base(navigationService, pageDialogService)
+
+        public Dentista2ViewModel(INavigationService navigationService, IPageDialogService pageDialogService, IApiService ApiService) : base(navigationService, pageDialogService)
         {
-            
+
             apiService = ApiService;
             Lista = new List<Dentista>();
             Lista_filtrada = new ObservableCollection<Dentista>();
             dentistas = new ObservableCollection<Dentista>();
             isVisible2 = true;
             mostra = false;
-           // PageDialogService.DisplayAlertAsync("app", "Sem conexao!", "Ok");
+           
+            //PageDialogService.DisplayAlertAsync("app", "Sem conexao!", "Ok");
         }
 
-        
+
         private void GetDentistas()
         {
-           
+
             if (string.IsNullOrEmpty(DentistaFilter))
             {
-               dentistas = new ObservableCollection<Dentista>(Lista);
+                dentistas = new ObservableCollection<Dentista>(Lista);
             }
             else if (DentistaFilter.Trim().Length > 0)
             {
-                
+
                 Lista_filtrada = new ObservableCollection<Dentista>(Lista.Where(x => x.nome.ToUpper().Contains(DentistaFilter.ToUpper())));
                 if (Lista_filtrada.Count == 0)
                     mostra = true;
                 dentistas = Lista_filtrada;
-              //dentistas = new ObservableCollection<Dentista>(Lista.Where(x => x.nome.ToUpper().Contains(DentistaFilter.ToUpper())));
-            }   
-            
-            
+               
+                //dentistas = new ObservableCollection<Dentista>(Lista.Where(x => x.nome.ToUpper().Contains(DentistaFilter.ToUpper())));
+            }
+
+
 
         }
 
@@ -172,6 +171,7 @@ namespace PerboyreApp.ViewModels
             {
                 if (InternetConnectivity())
                 {
+                   
                     if (Lista != null)
                     {
                         if (Lista.Any())
@@ -179,17 +179,20 @@ namespace PerboyreApp.ViewModels
                     }
 
                     Lista = await apiService.getDentistas();
-                   dentistas = new ObservableCollection<Dentista>(Lista);
+                    dentistas = new ObservableCollection<Dentista>(Lista);
 
-                    
+                   
                 }
                 else
                 {
-                   // dentistas = new ObservableCollection<Dentista>();
+
+                    await NavigationService.NavigateAsync("ErroPage", null, true, true);
+                    // dentistas = new ObservableCollection<Dentista>();
                     mostra = true;
-                   /* await PageDialogService.DisplayAlertAsync("app", "Sem conexao!", "Ok");
                    
-                    return;*/
+                    // await PageDialogService.DisplayAlertAsync("app", "Sem conexao!", "Ok");
+                  
+                    
                 }
             }
             catch (Exception ex)
@@ -203,52 +206,79 @@ namespace PerboyreApp.ViewModels
 
         }
 
-        
 
-        public async void Initialize(INavigationParameters parameters)
+
+        /*private async void Initialize(INavigationParameters parameters)
         {
+            
+                // await PageDialogService.DisplayAlertAsync("app", "Sem conexao!", "Ok");
 
-           
-           
-            await InitializeAsync();
+                await InitializeAsync();
             
 
-        }
+        }*/
 
-        private  async Task InitializeAsync()
+       private async Task InitializeAsync()
         {
-           
-            await GetDentistasasync();
-            
+            //await PageDialogService.DisplayAlertAsync("app", "Sem conexao!", "Ok");
+            try
+            {
+                await GetDentistasasync();
+                
+            }
+            catch(Exception ex)
+            {
+                await PageDialogService.DisplayAlertAsync("app", ex.ToString(), "Ok");
+                return;
+            }
         }
 
         private async void Navega()
         {
-            
+
             if (Selection != null)
             {
-               // await PageDialogService.DisplayAlertAsync("app", Selection.nome, "Ok");
+                // await PageDialogService.DisplayAlertAsync("app", Selection.nome, "Ok");
                 var navigationParams = new NavigationParameters();
                 navigationParams.Add("paciente", Selection);
-                await  NavigationService.NavigateAsync("PacientesPage", navigationParams);
+                await NavigationService.NavigateAsync("PacientesPage", navigationParams);
                 Selection = null;
             }
 
         }
 
+        public override void OnNavigatedFrom(INavigationParameters parameters)
+        {
+            
+        }
+
+        public override async void OnNavigatedTo(INavigationParameters parameters)
+        {
+            var navigationMode = parameters.GetNavigationMode();
+
+            if (navigationMode!= NavigationMode.Back)
+
+               await InitializeAsync();
+        }
+
+        public override async void OnNavigatingTo(INavigationParameters parameters)
+        {
+
+           // await InitializeAsync();
+        }
 
         
         public ICommand RefreshCommand
         {
             get
             {
-                return _refresh ?? (_refresh = new Command( async objeto =>
+                return _refresh ?? (_refresh = new Command(async objeto =>
                 {
 
-                   
-                    
-                     await GetDentistasasync();
-                   
+
+
+                    await GetDentistasasync();
+
 
                 }));
             }

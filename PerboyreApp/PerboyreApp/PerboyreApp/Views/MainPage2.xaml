@@ -5,17 +5,19 @@
     x:Class="PerboyreApp.Views.MainPage2"
     xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:views="clr-namespace:PerboyreApp.Views"
     
     android:TabbedPage.ToolbarPlacement="Bottom"
     BarBackgroundColor="White"
-    BarTextColor="White"
+    BarTextColor="Black"
     android:TabbedPage.BarSelectedItemColor ="#4c0507"
     android:TabbedPage.BarItemColor="Black"
     mc:Ignorable="d"
-    Padding="0,20,10,0"/>
+    Padding="0">
+    
 
-
+</TabbedPage>
+    
 
 
     

@@ -16,16 +16,18 @@ namespace PerboyreApp.ViewModels
 
         public PerfilViewModel(INavigationService navigationService, IPageDialogService pageDialogService, IApiService ApiService) : base(navigationService, pageDialogService)
         {
+             
         }
 
         public ICommand LogoutCommand
         {
             get
             {
-                return _logout ?? (_logout = new Command(objeto =>
+                return _logout ?? (_logout = new Command(async  objeto =>
                 {
+                    
 
-
+                    //await PageDialogService.DisplayAlertAsync("app", "Sem conexao!", "Ok");
                     Preferences.Clear();
                     App.usuariologado = null;
                     Page nova = navegacaoAux.GetMainPage();

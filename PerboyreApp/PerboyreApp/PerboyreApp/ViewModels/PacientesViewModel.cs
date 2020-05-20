@@ -2,12 +2,16 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Windows.Input;
 using PerboyreApp.Interfaces;
 using PerboyreApp.Models;
+
 using Prism.Commands;
 using Prism.Navigation;
+using Prism.Navigation.Xaml;
 using Prism.Services;
 using Xamarin.Essentials;
+using Xamarin.Forms;
 
 namespace PerboyreApp.ViewModels
 {
@@ -52,6 +56,31 @@ namespace PerboyreApp.ViewModels
             }
         }
 
+        private bool mostra_mensage;
+
+        public bool Mostramensagem
+        {
+            get { return mostra_mensage; }
+            set
+            {
+                SetProperty(ref mostra_mensage, value);
+
+            }
+        }
+
+
+        private string _nomeProfissional;
+
+        public string nomeProfissional
+        {
+            get { return _nomeProfissional; }
+            set
+            {
+                SetProperty(ref _nomeProfissional, value);
+
+            }
+        }
+
         private string mensagem;
 
         public string Mensagem
@@ -74,6 +103,7 @@ namespace PerboyreApp.ViewModels
             }
         }
 
+        private ICommand _voltar;
         public List<paciente> Lista;
 
         private string _DentistaFilter = "";
@@ -116,15 +146,19 @@ namespace PerboyreApp.ViewModels
             apiService = ApiService;
             pacs = new ObservableCollection<paciente>();
             Lista = new List<paciente>();
+           
             //GetPacientes(1204);
 
         }
 
         private async void GetPacientes(long id)
         {
+            
 
             isVisible = true;
             IsRunning = true;
+            Mostra = true;
+            Mostramensagem = false;
             //testa a conexao 
             var current = Connectivity.NetworkAccess;
 
@@ -135,6 +169,7 @@ namespace PerboyreApp.ViewModels
             }
             else
             {
+                
                 await PageDialogService.DisplayAlertAsync("app", "Sem conexao!", "Ok");
                 IsRunning = false;
                 isVisible = false;
@@ -157,12 +192,16 @@ namespace PerboyreApp.ViewModels
 
             if (Lista.Count == 0)
             {
-                await PageDialogService.DisplayAlertAsync("app", "Dentista sem pacientes para o periodo", "OK");
+
+                Mostra = false;
+                Mostramensagem = true;
+                Mensagem = "Não há pacientes para o periodo";
+                //await PageDialogService.DisplayAlertAsync("app", "Dentista sem pacientes para o periodo", "OK");
                 IsRunning = false;
                 isVisible = false;
-                await NavigationService.GoBackAsync();
+               // await NavigationService.GoBackAsync();
 
-                return;
+                //return;
             }
             pacs = new ObservableCollection<paciente>(Lista);
             /* foreach (var item in Lista)
@@ -193,7 +232,7 @@ namespace PerboyreApp.ViewModels
             if (_dentista == null)
             {
                 _dentista = (Dentista)parameters["paciente"];
-
+                nomeProfissional = _dentista.nome;
                 GetPacientes(_dentista.Id);
             }
         }
@@ -222,12 +261,27 @@ namespace PerboyreApp.ViewModels
                 return new DelegateCommand<paciente>((item) =>
                 {
 
-                    var navigationParams = new NavigationParameters();
+                   /* var navigationParams = new NavigationParameters();
                     navigationParams.Add("paciente", item);
                     // _navigationService.NavigateAsync("Imagens", navigationParams);
-                    NavigationService.NavigateAsync("ExamesTab", navigationParams);
+                    NavigationService.NavigateAsync("ExamesTab", navigationParams);*/
                 });
 
+            }
+        }
+
+        public ICommand voltarCommand
+        {
+            get
+            {
+                return _voltar ?? (_voltar = new Command(objeto =>
+                {
+
+
+                     NavigationService.GoBackAsync();
+
+
+                }));
             }
         }
     }

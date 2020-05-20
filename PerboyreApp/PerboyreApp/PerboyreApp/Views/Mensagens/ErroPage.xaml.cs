@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+
 using Xamarin.Forms;
 
-namespace PerboyreApp.Views.TitleViews
+namespace PerboyreApp.Views.Mensagens
 {
-    public partial class DentistaTitleView : ContentView
+    public partial class ErroPage : ContentPage
     {
-        public DentistaTitleView()
+        public ErroPage()
         {
             InitializeComponent();
-           
         }
     }
 }
