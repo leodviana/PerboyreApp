@@ -12,7 +12,10 @@ namespace PerboyreApp.ViewModels
     {
         private ICommand _refresh;
 
-        
+
+       
+
+
         public ErroViewModel(INavigationService navigationService, IPageDialogService pageDialogService, IApiService ApiService) : base(navigationService, pageDialogService)
         {
             

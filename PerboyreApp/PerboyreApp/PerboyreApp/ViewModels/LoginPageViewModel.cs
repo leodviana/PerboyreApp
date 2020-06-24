@@ -122,17 +122,16 @@ namespace PerboyreApp.ViewModels
             var testa = await ChecapermisaoService.checa_permissao();
             if (string.IsNullOrEmpty(Usuarioid))
             {
-                await PageDialogService.DisplayAlertAsync("Erro", "Prencha o campo Email!", "OK");
-                mostra_mensagem = true;
-                mensagem = "Prencha o campo Email!";
-                // await dialogServices.ShowMessage("Erro", "Prencha o campo Usuário!");
+                await exibeErro("Prencha o campo Email!");
+               
                 return;
             }
 
 
             if (string.IsNullOrEmpty(Senha))
             {
-                await PageDialogService.DisplayAlertAsync("Erro", "Prencha o campo Senha!", "OK");
+                await exibeErro("Prencha o campo Senha!");
+                //await PageDialogService.DisplayAlertAsync("Erro", "Prencha o campo Senha!", "OK");
                 return;
             }
 
@@ -147,7 +146,8 @@ namespace PerboyreApp.ViewModels
             }
             else
             {
-                await PageDialogService.DisplayAlertAsync("Erro", "Dispositivo sem Conexâo", "OK");
+                await exibeErro("Dispositivo não está conectado a internet!");
+                //await PageDialogService.DisplayAlertAsync("Erro", "Dispositivo sem Conexâo", "OK");
                 //await dialogServices.ShowMessage("Erro", response.Message);
                 IsRunning = false;
                 return;
@@ -156,7 +156,8 @@ namespace PerboyreApp.ViewModels
 
             if (!response.IsSuccess)
             {
-                await PageDialogService.DisplayAlertAsync("Erro", response.Message, "OK");
+                await exibeErro(response.Message);
+                //await PageDialogService.DisplayAlertAsync("Erro", response.Message, "OK");
                 //await dialogServices.ShowMessage("Erro", response.Message);
                 return;
             }
@@ -189,13 +190,7 @@ namespace PerboyreApp.ViewModels
                 await NavigationService.NavigateAsync(mainPage);
                 //  await _navigationService.NavigateAsync("/MasterPage/NavigationPage/ExamesPage", navigationParams);
             }
-            //grava usuario
-
-
-            //
-
-            //await _navigationService.NavigateAsync("MainPage");
-            //navigationServices.SetMainPage(User);
+            
         }
 
         public void OnNavigatedFrom(NavigationParameters parameters)

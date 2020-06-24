@@ -42,6 +42,17 @@ namespace PerboyreApp.ViewModels
         }
 
 
+        private bool _inicializa;
+
+        public bool inicializa
+        {
+            get { return _inicializa; }
+            set
+            {
+                SetProperty(ref _inicializa, value);
+
+            }
+        }
 
         private bool _mostra;
 
@@ -134,6 +145,7 @@ namespace PerboyreApp.ViewModels
             dentistas = new ObservableCollection<Dentista>();
             isVisible2 = true;
             mostra = false;
+            inicializa = false;
            
             //PageDialogService.DisplayAlertAsync("app", "Sem conexao!", "Ok");
         }
@@ -141,20 +153,27 @@ namespace PerboyreApp.ViewModels
 
         private void GetDentistas()
         {
-
-            if (string.IsNullOrEmpty(DentistaFilter))
+            try
             {
-                dentistas = new ObservableCollection<Dentista>(Lista);
+
+                if (string.IsNullOrEmpty(DentistaFilter))
+                {
+                    dentistas = new ObservableCollection<Dentista>(Lista);
+                }
+                else if (DentistaFilter.Trim().Length > 0)
+                {
+
+                    Lista_filtrada = new ObservableCollection<Dentista>(Lista.Where(x => x.nome.ToUpper().Contains(DentistaFilter.ToUpper())));
+                    if (Lista_filtrada.Count == 0)
+                        mostra = true;
+                    dentistas = Lista_filtrada;
+
+                    //dentistas = new ObservableCollection<Dentista>(Lista.Where(x => x.nome.ToUpper().Contains(DentistaFilter.ToUpper())));
+                }
             }
-            else if (DentistaFilter.Trim().Length > 0)
+            catch (Exception ex)
             {
-
-                Lista_filtrada = new ObservableCollection<Dentista>(Lista.Where(x => x.nome.ToUpper().Contains(DentistaFilter.ToUpper())));
-                if (Lista_filtrada.Count == 0)
-                    mostra = true;
-                dentistas = Lista_filtrada;
-               
-                //dentistas = new ObservableCollection<Dentista>(Lista.Where(x => x.nome.ToUpper().Contains(DentistaFilter.ToUpper())));
+                
             }
 
 
@@ -171,7 +190,6 @@ namespace PerboyreApp.ViewModels
             {
                 if (InternetConnectivity())
                 {
-                   
                     if (Lista != null)
                     {
                         if (Lista.Any())
@@ -179,15 +197,22 @@ namespace PerboyreApp.ViewModels
                     }
 
                     Lista = await apiService.getDentistas();
-                    dentistas = new ObservableCollection<Dentista>(Lista);
+                    if (Lista != null)
+                    {
+                        dentistas = new ObservableCollection<Dentista>(Lista);
+                    }
+                    else
+                    {
+                        dentistas = null;
+                        await exibeErro("Dispositivo não está conectado a internet!");
+                    }
 
                    
                 }
                 else
                 {
-
-                    await NavigationService.NavigateAsync("ErroPage", null, true, true);
-                    // dentistas = new ObservableCollection<Dentista>();
+                    await exibeErro("Dispositivo não está conectado a internet!");
+                    
                     mostra = true;
                    
                     // await PageDialogService.DisplayAlertAsync("app", "Sem conexao!", "Ok");
@@ -197,8 +222,9 @@ namespace PerboyreApp.ViewModels
             }
             catch (Exception ex)
             {
-                await PageDialogService.DisplayAlertAsync("app", ex.ToString(), "Ok");
-                return;
+                await exibeErro(ex.Message.ToString());
+                
+               
             }
             IsRunning = false;
             isVisible = false;
@@ -207,6 +233,7 @@ namespace PerboyreApp.ViewModels
         }
 
 
+        
 
         /*private async void Initialize(INavigationParameters parameters)
         {
@@ -224,6 +251,7 @@ namespace PerboyreApp.ViewModels
             try
             {
                 await GetDentistasasync();
+                inicializa = true ;
                 
             }
             catch(Exception ex)
@@ -275,9 +303,12 @@ namespace PerboyreApp.ViewModels
                 return _refresh ?? (_refresh = new Command(async objeto =>
                 {
 
-
-
-                    await GetDentistasasync();
+                    if (inicializa)
+                    {
+                        await GetDentistasasync();
+                    }
+                    inicializa = true;
+                      
 
 
                 }));

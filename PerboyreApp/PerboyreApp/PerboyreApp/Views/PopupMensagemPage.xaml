@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pages:PopupPage
+ xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    
+    xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup" xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+    x:Class="PerboyreApp.Views.PopupMensagemPage"
+    
+    >
+    
+    <pages:PopupPage.Animation>
+        <animations:ScaleAnimation
+            DurationIn="400"
+            DurationOut="300"
+            EasingIn="SinInOut"
+            EasingOut="SinIn"
+            HasBackgroundAnimation="True"
+            PositionIn="Top"
+            PositionOut="Top"
+            ScaleIn="1.2"
+            ScaleOut="0.8"/>
+    </pages:PopupPage.Animation>
+    
+    
+       <Grid  VerticalOptions="FillAndExpand" RowSpacing="0" BackgroundColor="Gray" >
+           <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="6*"/>
+            </Grid.RowDefinitions>
+        
+         <pancake:PancakeView
+           
+           
+           Margin="{OnPlatform  iOS='0,50,0,0'}"
+           BackgroundColor="White"
+           CornerRadius="0,0,25,25"
+           HasShadow="True"
+           HeightRequest="200"
+         >
+         <StackLayout 
+           Spacing="0"
+           HorizontalOptions="FillAndExpand"
+           VerticalOptions="FillAndExpand"
+          >
+         <StackLayout 
+            HeightRequest="30"
+            BackgroundColor="#4c0507"
+            HorizontalOptions="FillAndExpand"
+            Orientation="Horizontal"
+         >
+            <ImageButton
+                BackgroundColor="#4c0507"
+                x:Name="PopupDialogClose"
+                Source="cancelwhite"
+                Command="{Binding voltarCommand}"
+                WidthRequest="13"
+                Margin="0,0,10,0"
+                HorizontalOptions="EndAndExpand">
+
+            </ImageButton>
+          
+         </StackLayout>
+         <Label 
+              HorizontalOptions="CenterAndExpand"
+              HorizontalTextAlignment="Center"
+              Text="{Binding Mensagem}"
+              TextColor="#4c0507"
+              VerticalOptions="CenterAndExpand"
+              >
+
+          </Label>
+           
+       </StackLayout>
+       
+    </pancake:PancakeView>
+      
+           <Button Grid.Row="1"  Command="{Binding voltarCommand}"  VerticalOptions="FillAndExpand" BackgroundColor="Gray"></Button>
+      
+      
+       </Grid>
+    
+      
+    
+</pages:PopupPage>

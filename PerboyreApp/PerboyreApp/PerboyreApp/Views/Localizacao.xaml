@@ -1,41 +1,41 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations" xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
     x:Class="PerboyreApp.Views.Localizacao"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
     Icon="home"
-    Title="Localização"
->
-    
-    <ContentPage.Content>
-        <FlexLayout Direction="Column" Margin="0" >
-
-
-            <Frame HeightRequest="110" BackgroundColor="#8F8E8F">
-                <FlexLayout BackgroundColor="Green">
-                  <Button Grid.Column="0" Command="{Binding voltarCommand}" Text="voltar" TextColor="#4c0507" HorizontalOptions="CenterAndExpand" ></Button>    
-                  <Grid  RowSpacing="0" ColumnSpacing="20"  Margin="0,10" >
-            
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="40"/>
-               
-                
-            </Grid.ColumnDefinitions>
+    BackgroundColor="White"
+    ios:Page.UseSafeArea ="False"
+    >
+    <StackLayout>
+    <pancake:PancakeView
+        HeightRequest="{OnPlatform Android='80', iOS='120'}"
+        BackgroundGradientStartColor="#4c0507"
+        BackgroundGradientEndColor="#4c0507"
+        BackgroundGradientAngle="10"
+        >
+        
+       <Label Margin="{OnPlatform  iOS='50'}" Text="Dentistas" TextColor="White" FontSize="{OnPlatform Android='20', iOS='26'}"  VerticalOptions="Center" HorizontalOptions="Center"/>
            
-           <Label LineBreakMode="TailTruncation" MaxLines="0" Grid.Column="1" Text="testet do no me do pde ntista"  TextColor="#4c0507" HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand" ></Label>
-           <ffimageloading:CachedImage   Grid.Column="1" VerticalOptions="EndAndExpand" Margin="0,0,0,0" DownsampleToViewSize="true"
-                    Aspect="AspectFit" HeightRequest="60" WidthRequest="60" Source="unnamed">
-                                <ffimageloading:CachedImage.Transformations>
-                                    <fftransformations:CircleTransformation />
-                                </ffimageloading:CachedImage.Transformations>
-                            </ffimageloading:CachedImage>
-           
-          </Grid>
+   
+    </pancake:PancakeView>
+    <Grid RowSpacing="0" >
+      <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="70"/>
+      </Grid.RowDefinitions>
+      <Grid Grid.Row="0"  >
+          <Grid.RowDefinitions>
+              <RowDefinition Height="70">
 
-                </FlexLayout>
-             </Frame>
-            <Label Text=" teste"/>
-        </FlexLayout>
-    </ContentPage.Content>
+              </RowDefinition>
+          </Grid.RowDefinitions>
+           <Image Margin="5"  HorizontalOptions="Start"    Source="back" VerticalOptions="Center"/>
+           <Button Grid.Column="1" HorizontalOptions="EndAndExpand" Margin="15" BackgroundColor="Transparent" FontSize="25"  ImageSource="back"/>
+      </Grid>
+     
+     </Grid>
+        </StackLayout>
 </ContentPage>

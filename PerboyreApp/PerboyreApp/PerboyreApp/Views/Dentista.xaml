@@ -33,9 +33,9 @@
         </Style>
     </ContentPage.Resources>
       
-        <StackLayout Padding="0" Spacing="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+        <StackLayout  Spacing="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
                
-             <SearchBar Placeholder="Localizar" Margin="10,0,15,0"
+             <SearchBar Placeholder="Localizar"  Margin="10,0,15,0"
                  x:Name="filtro" 
                  Text="{Binding DentistaFilter, Mode=TwoWay}"
                  SearchCommand="{Binding PesquisaCommand}"

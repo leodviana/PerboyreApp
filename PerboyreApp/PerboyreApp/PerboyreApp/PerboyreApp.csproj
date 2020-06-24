@@ -20,6 +20,9 @@
     <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.4.3.840" />
     <PackageReference Include="Xamarin.FFImageLoading.Transformations" Version="2.4.3.840" />
     <PackageReference Include="Xamarin.Forms.PancakeView" Version="1.4.2" />
+    <PackageReference Include="Rg.Plugins.Popup" Version="2.0.0.2" />
+    <PackageReference Include="Prism.Plugin.Popups" Version="7.2.0.1046" />
+    <PackageReference Include="PhotoBrowser.Forms" Version="0.1.4" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\" />

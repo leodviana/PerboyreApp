@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 using Prism;
 using Prism.Mvvm;
 using Prism.Navigation;
@@ -118,6 +119,13 @@ namespace PerboyreApp.ViewModels
             PageDialogService = pageDialogService;
 
             this.Title = $"Default";
+        }
+
+        public  async Task exibeErro(string _mensagem)
+        {
+            var navigationParams = new NavigationParameters();
+            navigationParams.Add("mensagem", _mensagem);
+            await NavigationService.NavigateAsync("PopupMensagemPage", navigationParams, useModalNavigation: true);
         }
 
         public virtual void OnNavigatedFrom(INavigationParameters parameters)

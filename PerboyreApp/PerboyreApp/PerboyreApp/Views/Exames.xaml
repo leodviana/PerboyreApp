@@ -1,11 +1,51 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage
+<TabbedPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:PerboyreApp.Views"
+    xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
     x:Class="PerboyreApp.Views.Exames"
->
     
-    <ContentPage.Content>
-        <Label Text="Exames"></Label>
-    </ContentPage.Content>
-</ContentPage>
+    android:TabbedPage.ToolbarPlacement="Bottom"
+    BarBackgroundColor="#EFEFF0"
+    BarTextColor="Black"
+    android:TabbedPage.BarSelectedItemColor ="#4c0507"
+    android:TabbedPage.BarItemColor="Black"
+    
+    Padding="0"
+
+    
+    Title="Exames">
+
+    <NavigationPage.TitleView >
+        
+           <Grid  ColumnSpacing="0" >
+
+               <Grid.ColumnDefinitions>
+                   <ColumnDefinition Width="{OnPlatform Android='22', iOS='15'}"></ColumnDefinition>
+                    <ColumnDefinition Width="13"/>
+                   <ColumnDefinition Width="*"/>
+                   
+                   
+               </Grid.ColumnDefinitions>
+               
+               <Button HeightRequest="22"  Grid.Column="0"  BackgroundColor="Transparent"  Command="{Binding voltarCommand}" ImageSource="backwhite" HorizontalOptions="Start" ></Button>
+               <Label Grid.Column="1"  Text="5"  FontSize="Subtitle"  TextColor="White" HorizontalOptions="Start" VerticalOptions="Center" >
+                   <Label.GestureRecognizers>
+                       <TapGestureRecognizer Command="{Binding voltarCommand}"/>
+
+                       
+                   </Label.GestureRecognizers>
+               </Label>  
+           
+               <Label  Grid.Column="2"  Text="Exames"  FontSize="{OnPlatform Android='20', iOS='26'}"   TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"  >
+                   
+               </Label>
+           
+          </Grid>
+           
+         
+    </NavigationPage.TitleView>
+
+    
+</TabbedPage>

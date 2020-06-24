@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             x:Class="PerboyreApp.Views.imagensPage"
+             Icon="sorriso"
+          >
+    <ContentPage.Content>
+        <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+        <Grid.RowDefinitions>
+            
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+    
+        
+        <StackLayout Grid.Row="0"   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <CollectionView
+            x:Name="ListViewExames"
+            SelectionMode="Single"
+            ItemsSource="{Binding imgs, Mode=OneWay}"
+            BackgroundColor="Transparent"
+            
+            SelectedItem="{Binding Selection}"
+            ItemSizingStrategy="MeasureAllItems"
+        >
+        <CollectionView.ItemsLayout>
+                   <GridItemsLayout Orientation="Vertical"  VerticalItemSpacing="2" >
+
+                   </GridItemsLayout>
+               </CollectionView.ItemsLayout>
+               <CollectionView.ItemTemplate >
+                  <DataTemplate>
+                      <StackLayout>
+                      <Frame HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"  Margin="10,12,10,12" >
+
+                                <StackLayout   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="5,10" Margin="0,15,0,15">
+                                    <BoxView  Color="LightGray" HeightRequest="2" HorizontalOptions="FillAndExpand" ></BoxView>
+                                    <ffimageloading:CachedImage  CacheDuration="50" RetryCount="3" RetryDelay="600"  HorizontalOptions="CenterAndExpand" DownsampleToViewSize="true"
+                                   Aspect="AspectFit" HeightRequest="300" WidthRequest="300" Source="{Binding nome_arquivo_completo}" 
+                                   LoadingPlaceholder = "Spinner.gif"  ErrorPlaceholder="unnamed.png" DownsampleWidth="100" DownsampleHeight="100" Margin="20,20,20,10" CacheType="Memory">
+                                        <ffimageloading:CachedImage.GestureRecognizers>
+                                            <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding Path=BindingContext.SelecionarItem, Source={x:Reference ListViewExames}}" CommandParameter="{Binding .}">
+
+                                            </TapGestureRecognizer>
+                                        </ffimageloading:CachedImage.GestureRecognizers>
+                                    </ffimageloading:CachedImage>
+                                    <BoxView  Color="LightGray" HeightRequest="2" HorizontalOptions="FillAndExpand"></BoxView>
+                                    <Grid BackgroundColor="White" HeightRequest="30" HorizontalOptions="FillAndExpand">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="30" />
+                                            <ColumnDefinition Width="1" />
+                                            <ColumnDefinition Width="30" />
+                                            
+                                        </Grid.ColumnDefinitions>
+                                        <Image Source="zoom.png"  Grid.Column="0" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" >
+                                            <Image.GestureRecognizers>
+                                                <TapGestureRecognizer  Command="{Binding Path=BindingContext.SelecionarItem2, Source={x:Reference ListViewExames}}" CommandParameter="{Binding .}" />
+                                            </Image.GestureRecognizers>
+
+                                        </Image>
+                                        <Image  Source="share.png" Grid.Column="2"  VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
+                                            <Image.GestureRecognizers>
+                                                <TapGestureRecognizer  Command="{Binding Path=BindingContext.SelecionarItem3, Source={x:Reference ListViewExames}}" CommandParameter="{Binding .}" />
+                                            </Image.GestureRecognizers>
+                                        </Image>
+                                    </Grid>
+
+                                </StackLayout>
+
+                      </Frame>
+                         
+                          </StackLayout>
+                  </DataTemplate>
+               </CollectionView.ItemTemplate>
+               <CollectionView.EmptyView >
+                   
+                  <StackLayout Margin="30,0,0,20">
+                     <Frame 
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="CenterAndExpand"
+                        IsVisible="{Binding Mostramensagem}"
+
+                         WidthRequest="300"
+                      >
+                     <Label
+                       Text="{Binding Mensagem}"
+                       FontSize="20"
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="CenterAndExpand"
+                     />
+                     </Frame>     
+                  </StackLayout>
+
+            
+                   
+               </CollectionView.EmptyView>
+           </CollectionView>    
+        
+
+        </StackLayout>
+    </Grid> 
+    </ContentPage.Content>
+</ContentPage>

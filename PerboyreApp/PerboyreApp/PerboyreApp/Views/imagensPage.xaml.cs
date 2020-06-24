@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 using Xamarin.Forms;
 
-namespace PerboyreApp.Views.Mensagens
+namespace PerboyreApp.Views
 {
-    public partial class ErroPage : ContentPage
+    public partial class imagensPage : ContentPage
     {
-        public ErroPage()
+        public imagensPage()
         {
             InitializeComponent();
         }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 
 using Xamarin.Forms;
+using Xamarin.Forms.PlatformConfiguration;
 
 namespace PerboyreApp.Views
 {
@@ -10,6 +11,7 @@ namespace PerboyreApp.Views
         public Localizacao()
         {
             InitializeComponent();
+            
         }
     }
 }

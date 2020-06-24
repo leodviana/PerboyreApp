@@ -26,18 +26,22 @@ namespace PerboyreApp.Droid.Renderers
         {
             base.OnElementChanged(e);
 
-            if (e.NewElement != null)
+            /*if (e.NewElement != null)
             {
                 _formsTabs = Element;
                 _formsTabs.CurrentPageChanged += OnCurrentPageChanged;
 
                 var relativeLayout = base.GetChildAt(0) as Android.Widget.RelativeLayout;
-                _bottomNavigationView = relativeLayout.GetChildAt(1) as BottomNavigationView;
-               // _bottomNavigationView.ItemIconTintList =null;
-                _bottomNavigationView.LabelVisibilityMode = LabelVisibilityMode.LabelVisibilityUnlabeled;
+                
+                    _bottomNavigationView = relativeLayout.GetChildAt(1) as BottomNavigationView;
+                    // _bottomNavigationView.ItemIconTintList =null;
+                    _bottomNavigationView.LabelVisibilityMode = LabelVisibilityMode.LabelVisibilityUnlabeled;
 
-                UpdateAllTabs();
-            }
+                    UpdateAllTabs();
+                
+                
+               
+            }*/
 
             if (e.OldElement != null)
             {

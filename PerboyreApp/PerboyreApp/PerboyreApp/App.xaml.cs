@@ -12,8 +12,9 @@ using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using PerboyreApp.Models;
-using PerboyreApp.Views.Mensagens;
+
 using PerboyreApp.Navegacao;
+using Prism.Plugin.Popups;
 
 namespace PerboyreApp
 {
@@ -62,7 +63,9 @@ namespace PerboyreApp
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
+           // containerRegistry.RegisterPopupNavigationService();
             containerRegistry.RegisterForNavigation<NavigationPage>();
+
             //containerRegistry.RegisterForNavigation<CustomNavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage2,MainPage2ViewModel>();
             containerRegistry.RegisterForNavigation<LoginPage,LoginPageViewModel>();
@@ -71,8 +74,9 @@ namespace PerboyreApp
             containerRegistry.RegisterForNavigation<Perfil, PerfilViewModel>();
             containerRegistry.RegisterForNavigation<Exames, ExamesViewModel>();
             containerRegistry.RegisterForNavigation<PacientesPage, PacientesViewModel>();
-            containerRegistry.RegisterForNavigation<ErroPage, ErroViewModel>();
-
+            containerRegistry.RegisterForNavigation<PopupMensagemPage,PopMensagemViewModel>();
+            containerRegistry.RegisterForNavigation<imagensPage, ImagensViewModel>();
+            containerRegistry.RegisterForNavigation<PdfPage, pdfViewModel>();
 
 
             containerRegistry.RegisterSingleton<IApiService, ApiService>();

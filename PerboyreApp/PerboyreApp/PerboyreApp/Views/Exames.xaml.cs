@@ -6,21 +6,25 @@ using Xamarin.Forms;
 
 namespace PerboyreApp.Views
 {
-    public partial class Exames : ContentPage
+    public partial class Exames : TabbedPage
     {
         private View _title;
 
         public Exames()
         {
             InitializeComponent();
-            NavigationPage.SetHasBackButton(this, false);
-            
-            NavigationPage.SetTitleView(this,new ExamesTitleView());
+           
+
+            Children.Add(new imagensPage());
+            Children.Add(new PdfPage());
+            Xamarin.Forms.NavigationPage.SetHasBackButton(this, false);
 
         }
 
         
+        
 
-       
+
+
     }
 }

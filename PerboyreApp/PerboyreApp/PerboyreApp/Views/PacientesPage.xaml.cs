@@ -20,9 +20,12 @@ namespace PerboyreApp.Views
         //    Xamarin.Forms.NavigationPage.SetTitleView(this, new PacienteTitleView());
         }
 
-        
+        void TapGestureRecognizer_Tapped(System.Object sender, System.EventArgs e)
+        {
+        }
 
-        
-        
+
+
+
     }
 }

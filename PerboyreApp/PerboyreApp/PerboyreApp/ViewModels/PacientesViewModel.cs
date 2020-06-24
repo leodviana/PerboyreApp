@@ -5,13 +5,14 @@ using System.Linq;
 using System.Windows.Input;
 using PerboyreApp.Interfaces;
 using PerboyreApp.Models;
-
+using PerboyreApp.Views;
 using Prism.Commands;
 using Prism.Navigation;
 using Prism.Navigation.Xaml;
 using Prism.Services;
 using Xamarin.Essentials;
 using Xamarin.Forms;
+using Dentista = PerboyreApp.Models.Dentista;
 
 namespace PerboyreApp.ViewModels
 {
@@ -118,6 +119,29 @@ namespace PerboyreApp.ViewModels
             }
         }
 
+        private Int32 _pacientecont = 0;
+
+        public Int32 pacientecont
+        {
+            get { return _pacientecont; }
+            set
+            {
+                SetProperty(ref _pacientecont, value);
+                
+            }
+        }
+        private paciente _Selection;
+        public paciente Selection
+        {
+            get { return _Selection; }
+            set
+            {
+                SetProperty(ref _Selection, value);
+
+                Navega();
+            }
+        }
+
         private void Filtro()
         {
             if (DentistaFilter.Trim().Length > 0)
@@ -148,6 +172,21 @@ namespace PerboyreApp.ViewModels
             Lista = new List<paciente>();
            
             //GetPacientes(1204);
+
+        }
+        private async void Navega()
+        {
+
+            if (Selection != null)
+            {
+                // await PageDialogService.DisplayAlertAsync("app", Selection.nome, "Ok");
+                var navigationParams = new Prism.Navigation.NavigationParameters();
+                navigationParams.Add("paciente", Selection);
+                //var mainPage = $"{nameof(NavigationPage)}/{nameof(Exames)}";
+
+                await NavigationService.NavigateAsync("Exames", navigationParams);
+                Selection = null;
+            }
 
         }
 
@@ -192,7 +231,7 @@ namespace PerboyreApp.ViewModels
 
             if (Lista.Count == 0)
             {
-
+                pacientecont = 0;
                 Mostra = false;
                 Mostramensagem = true;
                 Mensagem = "Não há pacientes para o periodo";
@@ -204,18 +243,8 @@ namespace PerboyreApp.ViewModels
                 //return;
             }
             pacs = new ObservableCollection<paciente>(Lista);
-            /* foreach (var item in Lista)
-             {
-                 pacs.Add(new paciente()
-                 {
-                     Id = item.Id,
-                     nome = item.nome,
-                     dt_atendimento = item.dt_atendimento,
-                     dt_nascimento = item.dt_nascimento,
-                     photo = item.photo
-
-                 });
-             }*/
+            pacientecont = pacs.Count;
+           
 
             IsRunning = false;
             isVisible = false;
