@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.IO;
+using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using PerboyreApp.Interfaces;
@@ -132,7 +133,7 @@ namespace PerboyreApp.ViewModels
             apiService = ApiService;
 
             Lista = new List<ArqImagens>();
-            imgs = new ObservableCollection<ArqImagens>(Lista);
+            imgs = new ObservableCollection<ArqImagens>();
             mostra_label = false;
             mostra_listview = true;
         }
@@ -153,56 +154,62 @@ namespace PerboyreApp.ViewModels
             isVisible = true;
             IsRunning = true;
 
-            var current = Connectivity.NetworkAccess;
-
-            if (current == NetworkAccess.Internet)
-            {
-
-            }
-            else
-            {
-
-                await PageDialogService.DisplayAlertAsync("app", "Sem conexao!", "Ok");
-                IsRunning = false;
-                isVisible = false;
-                await NavigationService.GoBackAsync();
-                return;
-
-            }
+            
             try
             {
-
-                var Lista = await apiService.getExames(_paciente);
-                if (Lista == null)
+                if (InternetConnectivity())
                 {
-                    IsRunning = false;
-                    isVisible = false;
-                    // await _navigationService.GoBackAsync();
-                    Mostra_label = true;
-                    Mostra_listview = false;
-                    Mensagem = "Sem Imagens!";
-                    return;
+                    
+                    if (Lista != null)
+                    {
+                        if (Lista.Any())
+                        {
+                            Lista.Clear();
+                        }
+                        /*IsRunning = false;
+                        isVisible = false;
+                        // await _navigationService.GoBackAsync();
+                        Mostra_label = true;
+                        Mostra_listview = false;
+                        Mensagem = "Sem Imagens!";
+                        return;*/
+                    }
+                    Lista = await apiService.getExames(_paciente);
+                    if (Lista!=null)
+                    {
+                        imgs = new ObservableCollection<ArqImagens>(Lista);
+                        
+                    }
+                    else
+                    {
+                        // await _dialogService.DisplayAlertAsync("app", "Paciente sem exames", "OK");
+
+                        IsRunning = false;
+                        isVisible = false;
+                        // await _navigationService.GoBackAsync();
+                        Mostra_label = true;
+                        Mostra_listview = false;
+                        Mensagem = "Sem Imagens!";
+                        return;
+                    }
+                   
+                    //pacientecont = imgs.Count;
+
                 }
-                if (Lista.Count == 0)
+                else
                 {
-                    // await _dialogService.DisplayAlertAsync("app", "Paciente sem exames", "OK");
-
-                    IsRunning = false;
-                    isVisible = false;
-                    // await _navigationService.GoBackAsync();
-                    Mostra_label = true;
-                    Mostra_listview = false;
+                    await exibeErro("Dispositivo não está conectado a internet");
                     Mensagem = "Sem Imagens!";
-                    return;
+                    mostra_label = true;
                 }
 
-                imgs = new ObservableCollection<ArqImagens>(Lista);
-                //pacientecont = imgs.Count;
+
 
             }
             catch (Exception ex)
             {
-                ex.Message.ToString();
+                await exibeErro(ex.Message.ToString());
+                return;
             }
 
             IsRunning = false;
