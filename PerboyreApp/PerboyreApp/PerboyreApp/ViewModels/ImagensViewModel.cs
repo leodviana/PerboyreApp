@@ -153,8 +153,8 @@ namespace PerboyreApp.ViewModels
 
             isVisible = true;
             IsRunning = true;
+            Mostra_label = false;
 
-            
             try
             {
                 if (InternetConnectivity())
@@ -177,8 +177,21 @@ namespace PerboyreApp.ViewModels
                     Lista = await apiService.getExames(_paciente);
                     if (Lista!=null)
                     {
-                        imgs = new ObservableCollection<ArqImagens>(Lista);
-                        
+                        if (Lista.Count > 0)
+                        {
+                            imgs = new ObservableCollection<ArqImagens>(Lista);
+                            imagemcont = Lista.Count;
+                        }
+                          
+                        else
+                        {
+                            Mostra_label = true;
+                            Mostra_listview = false;
+                            Mensagem = "Sem Imagens!";
+                            imagemcont = 0;
+        
+                        }
+
                     }
                     else
                     {
@@ -190,6 +203,7 @@ namespace PerboyreApp.ViewModels
                         Mostra_label = true;
                         Mostra_listview = false;
                         Mensagem = "Sem Imagens!";
+                        imagemcont = 0;
                         return;
                     }
                    

@@ -77,7 +77,7 @@
                      <Frame 
                         VerticalOptions="CenterAndExpand"
                         HorizontalOptions="CenterAndExpand"
-                        IsVisible="{Binding Mostramensagem}"
+                        IsVisible="{Binding Mostra_label}"
 
                          WidthRequest="300"
                       >
