@@ -2,6 +2,7 @@
 using PerboyreApp.Models;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -16,5 +17,6 @@ namespace PerboyreApp.Interfaces
         Task<Response> Login(string email, string password);
         Task<Response> PutDentista(Dentista dentista);
         Task<byte[]> getExame(paciente pac);
+        Task<MemoryStream> DownloadFileAsync(string url);
     }
 }

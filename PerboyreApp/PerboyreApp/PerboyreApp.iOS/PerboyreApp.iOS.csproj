@@ -149,6 +149,9 @@
     <PackageReference Include="PhotoBrowser.Forms">
       <Version>0.1.4</Version>
     </PackageReference>
+    <PackageReference Include="Acr.UserDialogs">
+      <Version>7.1.0.442</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
@@ -208,6 +211,11 @@
     <BundleResource Include="Resources\zoom%401x.png" />
     <BundleResource Include="Resources\zoom%402x.png" />
     <BundleResource Include="Resources\Spinner.gif" />
+    <BundleResource Include="Resources\exames2.png" />
+    <BundleResource Include="Resources\exames2%402x.png" />
+    <BundleResource Include="Resources\exames2%403x.png" />
+    <BundleResource Include="Resources\share%403x.png" />
+    <BundleResource Include="Resources\zoom%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="renderers\" />

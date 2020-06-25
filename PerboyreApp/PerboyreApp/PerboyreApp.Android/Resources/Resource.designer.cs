@@ -25,6 +25,2599 @@ namespace PerboyreApp.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Acr.UserDialogs.Resource.Animation.abc_fade_in = global::PerboyreApp.Droid.Resource.Animation.abc_fade_in;
+			global::Acr.UserDialogs.Resource.Animation.abc_fade_out = global::PerboyreApp.Droid.Resource.Animation.abc_fade_out;
+			global::Acr.UserDialogs.Resource.Animation.abc_grow_fade_in_from_bottom = global::PerboyreApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Acr.UserDialogs.Resource.Animation.abc_popup_enter = global::PerboyreApp.Droid.Resource.Animation.abc_popup_enter;
+			global::Acr.UserDialogs.Resource.Animation.abc_popup_exit = global::PerboyreApp.Droid.Resource.Animation.abc_popup_exit;
+			global::Acr.UserDialogs.Resource.Animation.abc_shrink_fade_out_from_bottom = global::PerboyreApp.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Acr.UserDialogs.Resource.Animation.abc_slide_in_bottom = global::PerboyreApp.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Acr.UserDialogs.Resource.Animation.abc_slide_in_top = global::PerboyreApp.Droid.Resource.Animation.abc_slide_in_top;
+			global::Acr.UserDialogs.Resource.Animation.abc_slide_out_bottom = global::PerboyreApp.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Acr.UserDialogs.Resource.Animation.abc_slide_out_top = global::PerboyreApp.Droid.Resource.Animation.abc_slide_out_top;
+			global::Acr.UserDialogs.Resource.Animation.abc_tooltip_enter = global::PerboyreApp.Droid.Resource.Animation.abc_tooltip_enter;
+			global::Acr.UserDialogs.Resource.Animation.abc_tooltip_exit = global::PerboyreApp.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Acr.UserDialogs.Resource.Animation.design_bottom_sheet_slide_in = global::PerboyreApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Acr.UserDialogs.Resource.Animation.design_bottom_sheet_slide_out = global::PerboyreApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Acr.UserDialogs.Resource.Animation.design_snackbar_in = global::PerboyreApp.Droid.Resource.Animation.design_snackbar_in;
+			global::Acr.UserDialogs.Resource.Animation.design_snackbar_out = global::PerboyreApp.Droid.Resource.Animation.design_snackbar_out;
+			global::Acr.UserDialogs.Resource.Animator.design_appbar_state_list_animator = global::PerboyreApp.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Acr.UserDialogs.Resource.Animator.design_fab_hide_motion_spec = global::PerboyreApp.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::Acr.UserDialogs.Resource.Animator.design_fab_show_motion_spec = global::PerboyreApp.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Acr.UserDialogs.Resource.Animator.mtrl_btn_state_list_anim = global::PerboyreApp.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Acr.UserDialogs.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::PerboyreApp.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Acr.UserDialogs.Resource.Animator.mtrl_chip_state_list_anim = global::PerboyreApp.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Acr.UserDialogs.Resource.Animator.mtrl_fab_hide_motion_spec = global::PerboyreApp.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Acr.UserDialogs.Resource.Animator.mtrl_fab_show_motion_spec = global::PerboyreApp.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Acr.UserDialogs.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::PerboyreApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Acr.UserDialogs.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::PerboyreApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarDivider = global::PerboyreApp.Droid.Resource.Attribute.actionBarDivider;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarItemBackground = global::PerboyreApp.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarPopupTheme = global::PerboyreApp.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarSize = global::PerboyreApp.Droid.Resource.Attribute.actionBarSize;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarSplitStyle = global::PerboyreApp.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarStyle = global::PerboyreApp.Droid.Resource.Attribute.actionBarStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarTabBarStyle = global::PerboyreApp.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarTabStyle = global::PerboyreApp.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarTabTextStyle = global::PerboyreApp.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarTheme = global::PerboyreApp.Droid.Resource.Attribute.actionBarTheme;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarWidgetTheme = global::PerboyreApp.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Acr.UserDialogs.Resource.Attribute.actionButtonStyle = global::PerboyreApp.Droid.Resource.Attribute.actionButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionDropDownStyle = global::PerboyreApp.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionLayout = global::PerboyreApp.Droid.Resource.Attribute.actionLayout;
+			global::Acr.UserDialogs.Resource.Attribute.actionMenuTextAppearance = global::PerboyreApp.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.actionMenuTextColor = global::PerboyreApp.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeBackground = global::PerboyreApp.Droid.Resource.Attribute.actionModeBackground;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeCloseButtonStyle = global::PerboyreApp.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeCloseDrawable = global::PerboyreApp.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeCopyDrawable = global::PerboyreApp.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeCutDrawable = global::PerboyreApp.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeFindDrawable = global::PerboyreApp.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.actionModePasteDrawable = global::PerboyreApp.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.actionModePopupWindowStyle = global::PerboyreApp.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeSelectAllDrawable = global::PerboyreApp.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeShareDrawable = global::PerboyreApp.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeSplitBackground = global::PerboyreApp.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeStyle = global::PerboyreApp.Droid.Resource.Attribute.actionModeStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeWebSearchDrawable = global::PerboyreApp.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.actionOverflowButtonStyle = global::PerboyreApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionOverflowMenuStyle = global::PerboyreApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionProviderClass = global::PerboyreApp.Droid.Resource.Attribute.actionProviderClass;
+			global::Acr.UserDialogs.Resource.Attribute.actionViewClass = global::PerboyreApp.Droid.Resource.Attribute.actionViewClass;
+			global::Acr.UserDialogs.Resource.Attribute.activityChooserViewStyle = global::PerboyreApp.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Acr.UserDialogs.Resource.Attribute.ahBarColor = global::PerboyreApp.Droid.Resource.Attribute.ahBarColor;
+			global::Acr.UserDialogs.Resource.Attribute.ahBarLength = global::PerboyreApp.Droid.Resource.Attribute.ahBarLength;
+			global::Acr.UserDialogs.Resource.Attribute.ahBarWidth = global::PerboyreApp.Droid.Resource.Attribute.ahBarWidth;
+			global::Acr.UserDialogs.Resource.Attribute.ahCircleColor = global::PerboyreApp.Droid.Resource.Attribute.ahCircleColor;
+			global::Acr.UserDialogs.Resource.Attribute.ahDelayMillis = global::PerboyreApp.Droid.Resource.Attribute.ahDelayMillis;
+			global::Acr.UserDialogs.Resource.Attribute.ahRadius = global::PerboyreApp.Droid.Resource.Attribute.ahRadius;
+			global::Acr.UserDialogs.Resource.Attribute.ahRimColor = global::PerboyreApp.Droid.Resource.Attribute.ahRimColor;
+			global::Acr.UserDialogs.Resource.Attribute.ahRimWidth = global::PerboyreApp.Droid.Resource.Attribute.ahRimWidth;
+			global::Acr.UserDialogs.Resource.Attribute.ahSpinSpeed = global::PerboyreApp.Droid.Resource.Attribute.ahSpinSpeed;
+			global::Acr.UserDialogs.Resource.Attribute.ahText = global::PerboyreApp.Droid.Resource.Attribute.ahText;
+			global::Acr.UserDialogs.Resource.Attribute.ahTextColor = global::PerboyreApp.Droid.Resource.Attribute.ahTextColor;
+			global::Acr.UserDialogs.Resource.Attribute.ahTextSize = global::PerboyreApp.Droid.Resource.Attribute.ahTextSize;
+			global::Acr.UserDialogs.Resource.Attribute.alertDialogButtonGroupStyle = global::PerboyreApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Acr.UserDialogs.Resource.Attribute.alertDialogCenterButtons = global::PerboyreApp.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Acr.UserDialogs.Resource.Attribute.alertDialogStyle = global::PerboyreApp.Droid.Resource.Attribute.alertDialogStyle;
+			global::Acr.UserDialogs.Resource.Attribute.alertDialogTheme = global::PerboyreApp.Droid.Resource.Attribute.alertDialogTheme;
+			global::Acr.UserDialogs.Resource.Attribute.allowStacking = global::PerboyreApp.Droid.Resource.Attribute.allowStacking;
+			global::Acr.UserDialogs.Resource.Attribute.alpha = global::PerboyreApp.Droid.Resource.Attribute.alpha;
+			global::Acr.UserDialogs.Resource.Attribute.alphabeticModifiers = global::PerboyreApp.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Acr.UserDialogs.Resource.Attribute.arrowHeadLength = global::PerboyreApp.Droid.Resource.Attribute.arrowHeadLength;
+			global::Acr.UserDialogs.Resource.Attribute.arrowShaftLength = global::PerboyreApp.Droid.Resource.Attribute.arrowShaftLength;
+			global::Acr.UserDialogs.Resource.Attribute.autoCompleteTextViewStyle = global::PerboyreApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Acr.UserDialogs.Resource.Attribute.autoSizeMaxTextSize = global::PerboyreApp.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Acr.UserDialogs.Resource.Attribute.autoSizeMinTextSize = global::PerboyreApp.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Acr.UserDialogs.Resource.Attribute.autoSizePresetSizes = global::PerboyreApp.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Acr.UserDialogs.Resource.Attribute.autoSizeStepGranularity = global::PerboyreApp.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Acr.UserDialogs.Resource.Attribute.autoSizeTextType = global::PerboyreApp.Droid.Resource.Attribute.autoSizeTextType;
+			global::Acr.UserDialogs.Resource.Attribute.background = global::PerboyreApp.Droid.Resource.Attribute.background;
+			global::Acr.UserDialogs.Resource.Attribute.backgroundSplit = global::PerboyreApp.Droid.Resource.Attribute.backgroundSplit;
+			global::Acr.UserDialogs.Resource.Attribute.backgroundStacked = global::PerboyreApp.Droid.Resource.Attribute.backgroundStacked;
+			global::Acr.UserDialogs.Resource.Attribute.backgroundTint = global::PerboyreApp.Droid.Resource.Attribute.backgroundTint;
+			global::Acr.UserDialogs.Resource.Attribute.backgroundTintMode = global::PerboyreApp.Droid.Resource.Attribute.backgroundTintMode;
+			global::Acr.UserDialogs.Resource.Attribute.barLength = global::PerboyreApp.Droid.Resource.Attribute.barLength;
+			global::Acr.UserDialogs.Resource.Attribute.behavior_autoHide = global::PerboyreApp.Droid.Resource.Attribute.behavior_autoHide;
+			global::Acr.UserDialogs.Resource.Attribute.behavior_fitToContents = global::PerboyreApp.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Acr.UserDialogs.Resource.Attribute.behavior_hideable = global::PerboyreApp.Droid.Resource.Attribute.behavior_hideable;
+			global::Acr.UserDialogs.Resource.Attribute.behavior_overlapTop = global::PerboyreApp.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Acr.UserDialogs.Resource.Attribute.behavior_peekHeight = global::PerboyreApp.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Acr.UserDialogs.Resource.Attribute.behavior_skipCollapsed = global::PerboyreApp.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Acr.UserDialogs.Resource.Attribute.borderlessButtonStyle = global::PerboyreApp.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.borderWidth = global::PerboyreApp.Droid.Resource.Attribute.borderWidth;
+			global::Acr.UserDialogs.Resource.Attribute.bottomAppBarStyle = global::PerboyreApp.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::Acr.UserDialogs.Resource.Attribute.bottomNavigationStyle = global::PerboyreApp.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::Acr.UserDialogs.Resource.Attribute.bottomSheetDialogTheme = global::PerboyreApp.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Acr.UserDialogs.Resource.Attribute.bottomSheetStyle = global::PerboyreApp.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Acr.UserDialogs.Resource.Attribute.boxBackgroundColor = global::PerboyreApp.Droid.Resource.Attribute.boxBackgroundColor;
+			global::Acr.UserDialogs.Resource.Attribute.boxBackgroundMode = global::PerboyreApp.Droid.Resource.Attribute.boxBackgroundMode;
+			global::Acr.UserDialogs.Resource.Attribute.boxCollapsedPaddingTop = global::PerboyreApp.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Acr.UserDialogs.Resource.Attribute.boxCornerRadiusBottomEnd = global::PerboyreApp.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Acr.UserDialogs.Resource.Attribute.boxCornerRadiusBottomStart = global::PerboyreApp.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Acr.UserDialogs.Resource.Attribute.boxCornerRadiusTopEnd = global::PerboyreApp.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Acr.UserDialogs.Resource.Attribute.boxCornerRadiusTopStart = global::PerboyreApp.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Acr.UserDialogs.Resource.Attribute.boxStrokeColor = global::PerboyreApp.Droid.Resource.Attribute.boxStrokeColor;
+			global::Acr.UserDialogs.Resource.Attribute.boxStrokeWidth = global::PerboyreApp.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Acr.UserDialogs.Resource.Attribute.buttonBarButtonStyle = global::PerboyreApp.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.buttonBarNegativeButtonStyle = global::PerboyreApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.buttonBarNeutralButtonStyle = global::PerboyreApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.buttonBarPositiveButtonStyle = global::PerboyreApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.buttonBarStyle = global::PerboyreApp.Droid.Resource.Attribute.buttonBarStyle;
+			global::Acr.UserDialogs.Resource.Attribute.buttonGravity = global::PerboyreApp.Droid.Resource.Attribute.buttonGravity;
+			global::Acr.UserDialogs.Resource.Attribute.buttonIconDimen = global::PerboyreApp.Droid.Resource.Attribute.buttonIconDimen;
+			global::Acr.UserDialogs.Resource.Attribute.buttonPanelSideLayout = global::PerboyreApp.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Acr.UserDialogs.Resource.Attribute.buttonStyle = global::PerboyreApp.Droid.Resource.Attribute.buttonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.buttonStyleSmall = global::PerboyreApp.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Acr.UserDialogs.Resource.Attribute.buttonTint = global::PerboyreApp.Droid.Resource.Attribute.buttonTint;
+			global::Acr.UserDialogs.Resource.Attribute.buttonTintMode = global::PerboyreApp.Droid.Resource.Attribute.buttonTintMode;
+			global::Acr.UserDialogs.Resource.Attribute.cardBackgroundColor = global::PerboyreApp.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Acr.UserDialogs.Resource.Attribute.cardCornerRadius = global::PerboyreApp.Droid.Resource.Attribute.cardCornerRadius;
+			global::Acr.UserDialogs.Resource.Attribute.cardElevation = global::PerboyreApp.Droid.Resource.Attribute.cardElevation;
+			global::Acr.UserDialogs.Resource.Attribute.cardMaxElevation = global::PerboyreApp.Droid.Resource.Attribute.cardMaxElevation;
+			global::Acr.UserDialogs.Resource.Attribute.cardPreventCornerOverlap = global::PerboyreApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Acr.UserDialogs.Resource.Attribute.cardUseCompatPadding = global::PerboyreApp.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Acr.UserDialogs.Resource.Attribute.cardViewStyle = global::PerboyreApp.Droid.Resource.Attribute.cardViewStyle;
+			global::Acr.UserDialogs.Resource.Attribute.checkboxStyle = global::PerboyreApp.Droid.Resource.Attribute.checkboxStyle;
+			global::Acr.UserDialogs.Resource.Attribute.checkedChip = global::PerboyreApp.Droid.Resource.Attribute.checkedChip;
+			global::Acr.UserDialogs.Resource.Attribute.checkedIcon = global::PerboyreApp.Droid.Resource.Attribute.checkedIcon;
+			global::Acr.UserDialogs.Resource.Attribute.checkedIconEnabled = global::PerboyreApp.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.checkedIconVisible = global::PerboyreApp.Droid.Resource.Attribute.checkedIconVisible;
+			global::Acr.UserDialogs.Resource.Attribute.checkedTextViewStyle = global::PerboyreApp.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Acr.UserDialogs.Resource.Attribute.chipBackgroundColor = global::PerboyreApp.Droid.Resource.Attribute.chipBackgroundColor;
+			global::Acr.UserDialogs.Resource.Attribute.chipCornerRadius = global::PerboyreApp.Droid.Resource.Attribute.chipCornerRadius;
+			global::Acr.UserDialogs.Resource.Attribute.chipEndPadding = global::PerboyreApp.Droid.Resource.Attribute.chipEndPadding;
+			global::Acr.UserDialogs.Resource.Attribute.chipGroupStyle = global::PerboyreApp.Droid.Resource.Attribute.chipGroupStyle;
+			global::Acr.UserDialogs.Resource.Attribute.chipIcon = global::PerboyreApp.Droid.Resource.Attribute.chipIcon;
+			global::Acr.UserDialogs.Resource.Attribute.chipIconEnabled = global::PerboyreApp.Droid.Resource.Attribute.chipIconEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.chipIconSize = global::PerboyreApp.Droid.Resource.Attribute.chipIconSize;
+			global::Acr.UserDialogs.Resource.Attribute.chipIconTint = global::PerboyreApp.Droid.Resource.Attribute.chipIconTint;
+			global::Acr.UserDialogs.Resource.Attribute.chipIconVisible = global::PerboyreApp.Droid.Resource.Attribute.chipIconVisible;
+			global::Acr.UserDialogs.Resource.Attribute.chipMinHeight = global::PerboyreApp.Droid.Resource.Attribute.chipMinHeight;
+			global::Acr.UserDialogs.Resource.Attribute.chipSpacing = global::PerboyreApp.Droid.Resource.Attribute.chipSpacing;
+			global::Acr.UserDialogs.Resource.Attribute.chipSpacingHorizontal = global::PerboyreApp.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::Acr.UserDialogs.Resource.Attribute.chipSpacingVertical = global::PerboyreApp.Droid.Resource.Attribute.chipSpacingVertical;
+			global::Acr.UserDialogs.Resource.Attribute.chipStandaloneStyle = global::PerboyreApp.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::Acr.UserDialogs.Resource.Attribute.chipStartPadding = global::PerboyreApp.Droid.Resource.Attribute.chipStartPadding;
+			global::Acr.UserDialogs.Resource.Attribute.chipStrokeColor = global::PerboyreApp.Droid.Resource.Attribute.chipStrokeColor;
+			global::Acr.UserDialogs.Resource.Attribute.chipStrokeWidth = global::PerboyreApp.Droid.Resource.Attribute.chipStrokeWidth;
+			global::Acr.UserDialogs.Resource.Attribute.chipStyle = global::PerboyreApp.Droid.Resource.Attribute.chipStyle;
+			global::Acr.UserDialogs.Resource.Attribute.closeIcon = global::PerboyreApp.Droid.Resource.Attribute.closeIcon;
+			global::Acr.UserDialogs.Resource.Attribute.closeIconEnabled = global::PerboyreApp.Droid.Resource.Attribute.closeIconEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.closeIconEndPadding = global::PerboyreApp.Droid.Resource.Attribute.closeIconEndPadding;
+			global::Acr.UserDialogs.Resource.Attribute.closeIconSize = global::PerboyreApp.Droid.Resource.Attribute.closeIconSize;
+			global::Acr.UserDialogs.Resource.Attribute.closeIconStartPadding = global::PerboyreApp.Droid.Resource.Attribute.closeIconStartPadding;
+			global::Acr.UserDialogs.Resource.Attribute.closeIconTint = global::PerboyreApp.Droid.Resource.Attribute.closeIconTint;
+			global::Acr.UserDialogs.Resource.Attribute.closeIconVisible = global::PerboyreApp.Droid.Resource.Attribute.closeIconVisible;
+			global::Acr.UserDialogs.Resource.Attribute.closeItemLayout = global::PerboyreApp.Droid.Resource.Attribute.closeItemLayout;
+			global::Acr.UserDialogs.Resource.Attribute.collapseContentDescription = global::PerboyreApp.Droid.Resource.Attribute.collapseContentDescription;
+			global::Acr.UserDialogs.Resource.Attribute.collapsedTitleGravity = global::PerboyreApp.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Acr.UserDialogs.Resource.Attribute.collapsedTitleTextAppearance = global::PerboyreApp.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.collapseIcon = global::PerboyreApp.Droid.Resource.Attribute.collapseIcon;
+			global::Acr.UserDialogs.Resource.Attribute.color = global::PerboyreApp.Droid.Resource.Attribute.color;
+			global::Acr.UserDialogs.Resource.Attribute.colorAccent = global::PerboyreApp.Droid.Resource.Attribute.colorAccent;
+			global::Acr.UserDialogs.Resource.Attribute.colorBackgroundFloating = global::PerboyreApp.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Acr.UserDialogs.Resource.Attribute.colorButtonNormal = global::PerboyreApp.Droid.Resource.Attribute.colorButtonNormal;
+			global::Acr.UserDialogs.Resource.Attribute.colorControlActivated = global::PerboyreApp.Droid.Resource.Attribute.colorControlActivated;
+			global::Acr.UserDialogs.Resource.Attribute.colorControlHighlight = global::PerboyreApp.Droid.Resource.Attribute.colorControlHighlight;
+			global::Acr.UserDialogs.Resource.Attribute.colorControlNormal = global::PerboyreApp.Droid.Resource.Attribute.colorControlNormal;
+			global::Acr.UserDialogs.Resource.Attribute.colorError = global::PerboyreApp.Droid.Resource.Attribute.colorError;
+			global::Acr.UserDialogs.Resource.Attribute.colorPrimary = global::PerboyreApp.Droid.Resource.Attribute.colorPrimary;
+			global::Acr.UserDialogs.Resource.Attribute.colorPrimaryDark = global::PerboyreApp.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Acr.UserDialogs.Resource.Attribute.colorSecondary = global::PerboyreApp.Droid.Resource.Attribute.colorSecondary;
+			global::Acr.UserDialogs.Resource.Attribute.colorSwitchThumbNormal = global::PerboyreApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Acr.UserDialogs.Resource.Attribute.commitIcon = global::PerboyreApp.Droid.Resource.Attribute.commitIcon;
+			global::Acr.UserDialogs.Resource.Attribute.contentDescription = global::PerboyreApp.Droid.Resource.Attribute.contentDescription;
+			global::Acr.UserDialogs.Resource.Attribute.contentInsetEnd = global::PerboyreApp.Droid.Resource.Attribute.contentInsetEnd;
+			global::Acr.UserDialogs.Resource.Attribute.contentInsetEndWithActions = global::PerboyreApp.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Acr.UserDialogs.Resource.Attribute.contentInsetLeft = global::PerboyreApp.Droid.Resource.Attribute.contentInsetLeft;
+			global::Acr.UserDialogs.Resource.Attribute.contentInsetRight = global::PerboyreApp.Droid.Resource.Attribute.contentInsetRight;
+			global::Acr.UserDialogs.Resource.Attribute.contentInsetStart = global::PerboyreApp.Droid.Resource.Attribute.contentInsetStart;
+			global::Acr.UserDialogs.Resource.Attribute.contentInsetStartWithNavigation = global::PerboyreApp.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Acr.UserDialogs.Resource.Attribute.contentPadding = global::PerboyreApp.Droid.Resource.Attribute.contentPadding;
+			global::Acr.UserDialogs.Resource.Attribute.contentPaddingBottom = global::PerboyreApp.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Acr.UserDialogs.Resource.Attribute.contentPaddingLeft = global::PerboyreApp.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Acr.UserDialogs.Resource.Attribute.contentPaddingRight = global::PerboyreApp.Droid.Resource.Attribute.contentPaddingRight;
+			global::Acr.UserDialogs.Resource.Attribute.contentPaddingTop = global::PerboyreApp.Droid.Resource.Attribute.contentPaddingTop;
+			global::Acr.UserDialogs.Resource.Attribute.contentScrim = global::PerboyreApp.Droid.Resource.Attribute.contentScrim;
+			global::Acr.UserDialogs.Resource.Attribute.controlBackground = global::PerboyreApp.Droid.Resource.Attribute.controlBackground;
+			global::Acr.UserDialogs.Resource.Attribute.coordinatorLayoutStyle = global::PerboyreApp.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Acr.UserDialogs.Resource.Attribute.cornerRadius = global::PerboyreApp.Droid.Resource.Attribute.cornerRadius;
+			global::Acr.UserDialogs.Resource.Attribute.counterEnabled = global::PerboyreApp.Droid.Resource.Attribute.counterEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.counterMaxLength = global::PerboyreApp.Droid.Resource.Attribute.counterMaxLength;
+			global::Acr.UserDialogs.Resource.Attribute.counterOverflowTextAppearance = global::PerboyreApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.counterTextAppearance = global::PerboyreApp.Droid.Resource.Attribute.counterTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.customNavigationLayout = global::PerboyreApp.Droid.Resource.Attribute.customNavigationLayout;
+			global::Acr.UserDialogs.Resource.Attribute.defaultQueryHint = global::PerboyreApp.Droid.Resource.Attribute.defaultQueryHint;
+			global::Acr.UserDialogs.Resource.Attribute.dialogCornerRadius = global::PerboyreApp.Droid.Resource.Attribute.dialogCornerRadius;
+			global::Acr.UserDialogs.Resource.Attribute.dialogPreferredPadding = global::PerboyreApp.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Acr.UserDialogs.Resource.Attribute.dialogTheme = global::PerboyreApp.Droid.Resource.Attribute.dialogTheme;
+			global::Acr.UserDialogs.Resource.Attribute.displayOptions = global::PerboyreApp.Droid.Resource.Attribute.displayOptions;
+			global::Acr.UserDialogs.Resource.Attribute.divider = global::PerboyreApp.Droid.Resource.Attribute.divider;
+			global::Acr.UserDialogs.Resource.Attribute.dividerHorizontal = global::PerboyreApp.Droid.Resource.Attribute.dividerHorizontal;
+			global::Acr.UserDialogs.Resource.Attribute.dividerPadding = global::PerboyreApp.Droid.Resource.Attribute.dividerPadding;
+			global::Acr.UserDialogs.Resource.Attribute.dividerVertical = global::PerboyreApp.Droid.Resource.Attribute.dividerVertical;
+			global::Acr.UserDialogs.Resource.Attribute.drawableSize = global::PerboyreApp.Droid.Resource.Attribute.drawableSize;
+			global::Acr.UserDialogs.Resource.Attribute.drawerArrowStyle = global::PerboyreApp.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Acr.UserDialogs.Resource.Attribute.dropdownListPreferredItemHeight = global::PerboyreApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Acr.UserDialogs.Resource.Attribute.dropDownListViewStyle = global::PerboyreApp.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Acr.UserDialogs.Resource.Attribute.editTextBackground = global::PerboyreApp.Droid.Resource.Attribute.editTextBackground;
+			global::Acr.UserDialogs.Resource.Attribute.editTextColor = global::PerboyreApp.Droid.Resource.Attribute.editTextColor;
+			global::Acr.UserDialogs.Resource.Attribute.editTextStyle = global::PerboyreApp.Droid.Resource.Attribute.editTextStyle;
+			global::Acr.UserDialogs.Resource.Attribute.elevation = global::PerboyreApp.Droid.Resource.Attribute.elevation;
+			global::Acr.UserDialogs.Resource.Attribute.enforceMaterialTheme = global::PerboyreApp.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::Acr.UserDialogs.Resource.Attribute.enforceTextAppearance = global::PerboyreApp.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.errorEnabled = global::PerboyreApp.Droid.Resource.Attribute.errorEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.errorTextAppearance = global::PerboyreApp.Droid.Resource.Attribute.errorTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.expandActivityOverflowButtonDrawable = global::PerboyreApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.expanded = global::PerboyreApp.Droid.Resource.Attribute.expanded;
+			global::Acr.UserDialogs.Resource.Attribute.expandedTitleGravity = global::PerboyreApp.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Acr.UserDialogs.Resource.Attribute.expandedTitleMargin = global::PerboyreApp.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Acr.UserDialogs.Resource.Attribute.expandedTitleMarginBottom = global::PerboyreApp.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Acr.UserDialogs.Resource.Attribute.expandedTitleMarginEnd = global::PerboyreApp.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Acr.UserDialogs.Resource.Attribute.expandedTitleMarginStart = global::PerboyreApp.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Acr.UserDialogs.Resource.Attribute.expandedTitleMarginTop = global::PerboyreApp.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Acr.UserDialogs.Resource.Attribute.expandedTitleTextAppearance = global::PerboyreApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.fabAlignmentMode = global::PerboyreApp.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Acr.UserDialogs.Resource.Attribute.fabCradleMargin = global::PerboyreApp.Droid.Resource.Attribute.fabCradleMargin;
+			global::Acr.UserDialogs.Resource.Attribute.fabCradleRoundedCornerRadius = global::PerboyreApp.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Acr.UserDialogs.Resource.Attribute.fabCradleVerticalOffset = global::PerboyreApp.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::Acr.UserDialogs.Resource.Attribute.fabCustomSize = global::PerboyreApp.Droid.Resource.Attribute.fabCustomSize;
+			global::Acr.UserDialogs.Resource.Attribute.fabSize = global::PerboyreApp.Droid.Resource.Attribute.fabSize;
+			global::Acr.UserDialogs.Resource.Attribute.fastScrollEnabled = global::PerboyreApp.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::PerboyreApp.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::PerboyreApp.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.fastScrollVerticalThumbDrawable = global::PerboyreApp.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.fastScrollVerticalTrackDrawable = global::PerboyreApp.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.firstBaselineToTopHeight = global::PerboyreApp.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::Acr.UserDialogs.Resource.Attribute.floatingActionButtonStyle = global::PerboyreApp.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.font = global::PerboyreApp.Droid.Resource.Attribute.font;
+			global::Acr.UserDialogs.Resource.Attribute.fontFamily = global::PerboyreApp.Droid.Resource.Attribute.fontFamily;
+			global::Acr.UserDialogs.Resource.Attribute.fontProviderAuthority = global::PerboyreApp.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Acr.UserDialogs.Resource.Attribute.fontProviderCerts = global::PerboyreApp.Droid.Resource.Attribute.fontProviderCerts;
+			global::Acr.UserDialogs.Resource.Attribute.fontProviderFetchStrategy = global::PerboyreApp.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Acr.UserDialogs.Resource.Attribute.fontProviderFetchTimeout = global::PerboyreApp.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Acr.UserDialogs.Resource.Attribute.fontProviderPackage = global::PerboyreApp.Droid.Resource.Attribute.fontProviderPackage;
+			global::Acr.UserDialogs.Resource.Attribute.fontProviderQuery = global::PerboyreApp.Droid.Resource.Attribute.fontProviderQuery;
+			global::Acr.UserDialogs.Resource.Attribute.fontStyle = global::PerboyreApp.Droid.Resource.Attribute.fontStyle;
+			global::Acr.UserDialogs.Resource.Attribute.fontVariationSettings = global::PerboyreApp.Droid.Resource.Attribute.fontVariationSettings;
+			global::Acr.UserDialogs.Resource.Attribute.fontWeight = global::PerboyreApp.Droid.Resource.Attribute.fontWeight;
+			global::Acr.UserDialogs.Resource.Attribute.foregroundInsidePadding = global::PerboyreApp.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Acr.UserDialogs.Resource.Attribute.gapBetweenBars = global::PerboyreApp.Droid.Resource.Attribute.gapBetweenBars;
+			global::Acr.UserDialogs.Resource.Attribute.goIcon = global::PerboyreApp.Droid.Resource.Attribute.goIcon;
+			global::Acr.UserDialogs.Resource.Attribute.headerLayout = global::PerboyreApp.Droid.Resource.Attribute.headerLayout;
+			global::Acr.UserDialogs.Resource.Attribute.height = global::PerboyreApp.Droid.Resource.Attribute.height;
+			global::Acr.UserDialogs.Resource.Attribute.helperText = global::PerboyreApp.Droid.Resource.Attribute.helperText;
+			global::Acr.UserDialogs.Resource.Attribute.helperTextEnabled = global::PerboyreApp.Droid.Resource.Attribute.helperTextEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.helperTextTextAppearance = global::PerboyreApp.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.hideMotionSpec = global::PerboyreApp.Droid.Resource.Attribute.hideMotionSpec;
+			global::Acr.UserDialogs.Resource.Attribute.hideOnContentScroll = global::PerboyreApp.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Acr.UserDialogs.Resource.Attribute.hideOnScroll = global::PerboyreApp.Droid.Resource.Attribute.hideOnScroll;
+			global::Acr.UserDialogs.Resource.Attribute.hintAnimationEnabled = global::PerboyreApp.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.hintEnabled = global::PerboyreApp.Droid.Resource.Attribute.hintEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.hintTextAppearance = global::PerboyreApp.Droid.Resource.Attribute.hintTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.homeAsUpIndicator = global::PerboyreApp.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Acr.UserDialogs.Resource.Attribute.homeLayout = global::PerboyreApp.Droid.Resource.Attribute.homeLayout;
+			global::Acr.UserDialogs.Resource.Attribute.hoveredFocusedTranslationZ = global::PerboyreApp.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::Acr.UserDialogs.Resource.Attribute.icon = global::PerboyreApp.Droid.Resource.Attribute.icon;
+			global::Acr.UserDialogs.Resource.Attribute.iconEndPadding = global::PerboyreApp.Droid.Resource.Attribute.iconEndPadding;
+			global::Acr.UserDialogs.Resource.Attribute.iconGravity = global::PerboyreApp.Droid.Resource.Attribute.iconGravity;
+			global::Acr.UserDialogs.Resource.Attribute.iconifiedByDefault = global::PerboyreApp.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Acr.UserDialogs.Resource.Attribute.iconPadding = global::PerboyreApp.Droid.Resource.Attribute.iconPadding;
+			global::Acr.UserDialogs.Resource.Attribute.iconSize = global::PerboyreApp.Droid.Resource.Attribute.iconSize;
+			global::Acr.UserDialogs.Resource.Attribute.iconStartPadding = global::PerboyreApp.Droid.Resource.Attribute.iconStartPadding;
+			global::Acr.UserDialogs.Resource.Attribute.iconTint = global::PerboyreApp.Droid.Resource.Attribute.iconTint;
+			global::Acr.UserDialogs.Resource.Attribute.iconTintMode = global::PerboyreApp.Droid.Resource.Attribute.iconTintMode;
+			global::Acr.UserDialogs.Resource.Attribute.imageButtonStyle = global::PerboyreApp.Droid.Resource.Attribute.imageButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.indeterminateProgressStyle = global::PerboyreApp.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Acr.UserDialogs.Resource.Attribute.initialActivityCount = global::PerboyreApp.Droid.Resource.Attribute.initialActivityCount;
+			global::Acr.UserDialogs.Resource.Attribute.insetForeground = global::PerboyreApp.Droid.Resource.Attribute.insetForeground;
+			global::Acr.UserDialogs.Resource.Attribute.isLightTheme = global::PerboyreApp.Droid.Resource.Attribute.isLightTheme;
+			global::Acr.UserDialogs.Resource.Attribute.itemBackground = global::PerboyreApp.Droid.Resource.Attribute.itemBackground;
+			global::Acr.UserDialogs.Resource.Attribute.itemHorizontalPadding = global::PerboyreApp.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::Acr.UserDialogs.Resource.Attribute.itemHorizontalTranslationEnabled = global::PerboyreApp.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.itemIconPadding = global::PerboyreApp.Droid.Resource.Attribute.itemIconPadding;
+			global::Acr.UserDialogs.Resource.Attribute.itemIconSize = global::PerboyreApp.Droid.Resource.Attribute.itemIconSize;
+			global::Acr.UserDialogs.Resource.Attribute.itemIconTint = global::PerboyreApp.Droid.Resource.Attribute.itemIconTint;
+			global::Acr.UserDialogs.Resource.Attribute.itemPadding = global::PerboyreApp.Droid.Resource.Attribute.itemPadding;
+			global::Acr.UserDialogs.Resource.Attribute.itemSpacing = global::PerboyreApp.Droid.Resource.Attribute.itemSpacing;
+			global::Acr.UserDialogs.Resource.Attribute.itemTextAppearance = global::PerboyreApp.Droid.Resource.Attribute.itemTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.itemTextAppearanceActive = global::PerboyreApp.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::Acr.UserDialogs.Resource.Attribute.itemTextAppearanceInactive = global::PerboyreApp.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::Acr.UserDialogs.Resource.Attribute.itemTextColor = global::PerboyreApp.Droid.Resource.Attribute.itemTextColor;
+			global::Acr.UserDialogs.Resource.Attribute.keylines = global::PerboyreApp.Droid.Resource.Attribute.keylines;
+			global::Acr.UserDialogs.Resource.Attribute.labelVisibilityMode = global::PerboyreApp.Droid.Resource.Attribute.labelVisibilityMode;
+			global::Acr.UserDialogs.Resource.Attribute.lastBaselineToBottomHeight = global::PerboyreApp.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Acr.UserDialogs.Resource.Attribute.layout = global::PerboyreApp.Droid.Resource.Attribute.layout;
+			global::Acr.UserDialogs.Resource.Attribute.layoutManager = global::PerboyreApp.Droid.Resource.Attribute.layoutManager;
+			global::Acr.UserDialogs.Resource.Attribute.layout_anchor = global::PerboyreApp.Droid.Resource.Attribute.layout_anchor;
+			global::Acr.UserDialogs.Resource.Attribute.layout_anchorGravity = global::PerboyreApp.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Acr.UserDialogs.Resource.Attribute.layout_behavior = global::PerboyreApp.Droid.Resource.Attribute.layout_behavior;
+			global::Acr.UserDialogs.Resource.Attribute.layout_collapseMode = global::PerboyreApp.Droid.Resource.Attribute.layout_collapseMode;
+			global::Acr.UserDialogs.Resource.Attribute.layout_collapseParallaxMultiplier = global::PerboyreApp.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Acr.UserDialogs.Resource.Attribute.layout_dodgeInsetEdges = global::PerboyreApp.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Acr.UserDialogs.Resource.Attribute.layout_insetEdge = global::PerboyreApp.Droid.Resource.Attribute.layout_insetEdge;
+			global::Acr.UserDialogs.Resource.Attribute.layout_keyline = global::PerboyreApp.Droid.Resource.Attribute.layout_keyline;
+			global::Acr.UserDialogs.Resource.Attribute.layout_scrollFlags = global::PerboyreApp.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Acr.UserDialogs.Resource.Attribute.layout_scrollInterpolator = global::PerboyreApp.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Acr.UserDialogs.Resource.Attribute.liftOnScroll = global::PerboyreApp.Droid.Resource.Attribute.liftOnScroll;
+			global::Acr.UserDialogs.Resource.Attribute.lineHeight = global::PerboyreApp.Droid.Resource.Attribute.lineHeight;
+			global::Acr.UserDialogs.Resource.Attribute.lineSpacing = global::PerboyreApp.Droid.Resource.Attribute.lineSpacing;
+			global::Acr.UserDialogs.Resource.Attribute.listChoiceBackgroundIndicator = global::PerboyreApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Acr.UserDialogs.Resource.Attribute.listDividerAlertDialog = global::PerboyreApp.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Acr.UserDialogs.Resource.Attribute.listItemLayout = global::PerboyreApp.Droid.Resource.Attribute.listItemLayout;
+			global::Acr.UserDialogs.Resource.Attribute.listLayout = global::PerboyreApp.Droid.Resource.Attribute.listLayout;
+			global::Acr.UserDialogs.Resource.Attribute.listMenuViewStyle = global::PerboyreApp.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Acr.UserDialogs.Resource.Attribute.listPopupWindowStyle = global::PerboyreApp.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Acr.UserDialogs.Resource.Attribute.listPreferredItemHeight = global::PerboyreApp.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Acr.UserDialogs.Resource.Attribute.listPreferredItemHeightLarge = global::PerboyreApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Acr.UserDialogs.Resource.Attribute.listPreferredItemHeightSmall = global::PerboyreApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Acr.UserDialogs.Resource.Attribute.listPreferredItemPaddingLeft = global::PerboyreApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Acr.UserDialogs.Resource.Attribute.listPreferredItemPaddingRight = global::PerboyreApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Acr.UserDialogs.Resource.Attribute.logo = global::PerboyreApp.Droid.Resource.Attribute.logo;
+			global::Acr.UserDialogs.Resource.Attribute.logoDescription = global::PerboyreApp.Droid.Resource.Attribute.logoDescription;
+			global::Acr.UserDialogs.Resource.Attribute.materialButtonStyle = global::PerboyreApp.Droid.Resource.Attribute.materialButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.materialCardViewStyle = global::PerboyreApp.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Acr.UserDialogs.Resource.Attribute.maxActionInlineWidth = global::PerboyreApp.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Acr.UserDialogs.Resource.Attribute.maxButtonHeight = global::PerboyreApp.Droid.Resource.Attribute.maxButtonHeight;
+			global::Acr.UserDialogs.Resource.Attribute.maxImageSize = global::PerboyreApp.Droid.Resource.Attribute.maxImageSize;
+			global::Acr.UserDialogs.Resource.Attribute.measureWithLargestChild = global::PerboyreApp.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Acr.UserDialogs.Resource.Attribute.menu = global::PerboyreApp.Droid.Resource.Attribute.menu;
+			global::Acr.UserDialogs.Resource.Attribute.multiChoiceItemLayout = global::PerboyreApp.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Acr.UserDialogs.Resource.Attribute.navigationContentDescription = global::PerboyreApp.Droid.Resource.Attribute.navigationContentDescription;
+			global::Acr.UserDialogs.Resource.Attribute.navigationIcon = global::PerboyreApp.Droid.Resource.Attribute.navigationIcon;
+			global::Acr.UserDialogs.Resource.Attribute.navigationMode = global::PerboyreApp.Droid.Resource.Attribute.navigationMode;
+			global::Acr.UserDialogs.Resource.Attribute.navigationViewStyle = global::PerboyreApp.Droid.Resource.Attribute.navigationViewStyle;
+			global::Acr.UserDialogs.Resource.Attribute.numericModifiers = global::PerboyreApp.Droid.Resource.Attribute.numericModifiers;
+			global::Acr.UserDialogs.Resource.Attribute.overlapAnchor = global::PerboyreApp.Droid.Resource.Attribute.overlapAnchor;
+			global::Acr.UserDialogs.Resource.Attribute.paddingBottomNoButtons = global::PerboyreApp.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Acr.UserDialogs.Resource.Attribute.paddingEnd = global::PerboyreApp.Droid.Resource.Attribute.paddingEnd;
+			global::Acr.UserDialogs.Resource.Attribute.paddingStart = global::PerboyreApp.Droid.Resource.Attribute.paddingStart;
+			global::Acr.UserDialogs.Resource.Attribute.paddingTopNoTitle = global::PerboyreApp.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Acr.UserDialogs.Resource.Attribute.panelBackground = global::PerboyreApp.Droid.Resource.Attribute.panelBackground;
+			global::Acr.UserDialogs.Resource.Attribute.panelMenuListTheme = global::PerboyreApp.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Acr.UserDialogs.Resource.Attribute.panelMenuListWidth = global::PerboyreApp.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Acr.UserDialogs.Resource.Attribute.passwordToggleContentDescription = global::PerboyreApp.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Acr.UserDialogs.Resource.Attribute.passwordToggleDrawable = global::PerboyreApp.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.passwordToggleEnabled = global::PerboyreApp.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.passwordToggleTint = global::PerboyreApp.Droid.Resource.Attribute.passwordToggleTint;
+			global::Acr.UserDialogs.Resource.Attribute.passwordToggleTintMode = global::PerboyreApp.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Acr.UserDialogs.Resource.Attribute.popupMenuStyle = global::PerboyreApp.Droid.Resource.Attribute.popupMenuStyle;
+			global::Acr.UserDialogs.Resource.Attribute.popupTheme = global::PerboyreApp.Droid.Resource.Attribute.popupTheme;
+			global::Acr.UserDialogs.Resource.Attribute.popupWindowStyle = global::PerboyreApp.Droid.Resource.Attribute.popupWindowStyle;
+			global::Acr.UserDialogs.Resource.Attribute.preserveIconSpacing = global::PerboyreApp.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Acr.UserDialogs.Resource.Attribute.pressedTranslationZ = global::PerboyreApp.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Acr.UserDialogs.Resource.Attribute.progressBarPadding = global::PerboyreApp.Droid.Resource.Attribute.progressBarPadding;
+			global::Acr.UserDialogs.Resource.Attribute.progressBarStyle = global::PerboyreApp.Droid.Resource.Attribute.progressBarStyle;
+			global::Acr.UserDialogs.Resource.Attribute.queryBackground = global::PerboyreApp.Droid.Resource.Attribute.queryBackground;
+			global::Acr.UserDialogs.Resource.Attribute.queryHint = global::PerboyreApp.Droid.Resource.Attribute.queryHint;
+			global::Acr.UserDialogs.Resource.Attribute.radioButtonStyle = global::PerboyreApp.Droid.Resource.Attribute.radioButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.ratingBarStyle = global::PerboyreApp.Droid.Resource.Attribute.ratingBarStyle;
+			global::Acr.UserDialogs.Resource.Attribute.ratingBarStyleIndicator = global::PerboyreApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Acr.UserDialogs.Resource.Attribute.ratingBarStyleSmall = global::PerboyreApp.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Acr.UserDialogs.Resource.Attribute.reverseLayout = global::PerboyreApp.Droid.Resource.Attribute.reverseLayout;
+			global::Acr.UserDialogs.Resource.Attribute.rippleColor = global::PerboyreApp.Droid.Resource.Attribute.rippleColor;
+			global::Acr.UserDialogs.Resource.Attribute.scrimAnimationDuration = global::PerboyreApp.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Acr.UserDialogs.Resource.Attribute.scrimBackground = global::PerboyreApp.Droid.Resource.Attribute.scrimBackground;
+			global::Acr.UserDialogs.Resource.Attribute.scrimVisibleHeightTrigger = global::PerboyreApp.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Acr.UserDialogs.Resource.Attribute.searchHintIcon = global::PerboyreApp.Droid.Resource.Attribute.searchHintIcon;
+			global::Acr.UserDialogs.Resource.Attribute.searchIcon = global::PerboyreApp.Droid.Resource.Attribute.searchIcon;
+			global::Acr.UserDialogs.Resource.Attribute.searchViewStyle = global::PerboyreApp.Droid.Resource.Attribute.searchViewStyle;
+			global::Acr.UserDialogs.Resource.Attribute.seekBarStyle = global::PerboyreApp.Droid.Resource.Attribute.seekBarStyle;
+			global::Acr.UserDialogs.Resource.Attribute.selectableItemBackground = global::PerboyreApp.Droid.Resource.Attribute.selectableItemBackground;
+			global::Acr.UserDialogs.Resource.Attribute.selectableItemBackgroundBorderless = global::PerboyreApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Acr.UserDialogs.Resource.Attribute.showAsAction = global::PerboyreApp.Droid.Resource.Attribute.showAsAction;
+			global::Acr.UserDialogs.Resource.Attribute.showDividers = global::PerboyreApp.Droid.Resource.Attribute.showDividers;
+			global::Acr.UserDialogs.Resource.Attribute.showMotionSpec = global::PerboyreApp.Droid.Resource.Attribute.showMotionSpec;
+			global::Acr.UserDialogs.Resource.Attribute.showText = global::PerboyreApp.Droid.Resource.Attribute.showText;
+			global::Acr.UserDialogs.Resource.Attribute.showTitle = global::PerboyreApp.Droid.Resource.Attribute.showTitle;
+			global::Acr.UserDialogs.Resource.Attribute.singleChoiceItemLayout = global::PerboyreApp.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Acr.UserDialogs.Resource.Attribute.singleLine = global::PerboyreApp.Droid.Resource.Attribute.singleLine;
+			global::Acr.UserDialogs.Resource.Attribute.singleSelection = global::PerboyreApp.Droid.Resource.Attribute.singleSelection;
+			global::Acr.UserDialogs.Resource.Attribute.snackbarButtonStyle = global::PerboyreApp.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.snackbarStyle = global::PerboyreApp.Droid.Resource.Attribute.snackbarStyle;
+			global::Acr.UserDialogs.Resource.Attribute.spanCount = global::PerboyreApp.Droid.Resource.Attribute.spanCount;
+			global::Acr.UserDialogs.Resource.Attribute.spinBars = global::PerboyreApp.Droid.Resource.Attribute.spinBars;
+			global::Acr.UserDialogs.Resource.Attribute.spinnerDropDownItemStyle = global::PerboyreApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Acr.UserDialogs.Resource.Attribute.spinnerStyle = global::PerboyreApp.Droid.Resource.Attribute.spinnerStyle;
+			global::Acr.UserDialogs.Resource.Attribute.splitTrack = global::PerboyreApp.Droid.Resource.Attribute.splitTrack;
+			global::Acr.UserDialogs.Resource.Attribute.srcCompat = global::PerboyreApp.Droid.Resource.Attribute.srcCompat;
+			global::Acr.UserDialogs.Resource.Attribute.stackFromEnd = global::PerboyreApp.Droid.Resource.Attribute.stackFromEnd;
+			global::Acr.UserDialogs.Resource.Attribute.state_above_anchor = global::PerboyreApp.Droid.Resource.Attribute.state_above_anchor;
+			global::Acr.UserDialogs.Resource.Attribute.state_collapsed = global::PerboyreApp.Droid.Resource.Attribute.state_collapsed;
+			global::Acr.UserDialogs.Resource.Attribute.state_collapsible = global::PerboyreApp.Droid.Resource.Attribute.state_collapsible;
+			global::Acr.UserDialogs.Resource.Attribute.state_liftable = global::PerboyreApp.Droid.Resource.Attribute.state_liftable;
+			global::Acr.UserDialogs.Resource.Attribute.state_lifted = global::PerboyreApp.Droid.Resource.Attribute.state_lifted;
+			global::Acr.UserDialogs.Resource.Attribute.statusBarBackground = global::PerboyreApp.Droid.Resource.Attribute.statusBarBackground;
+			global::Acr.UserDialogs.Resource.Attribute.statusBarScrim = global::PerboyreApp.Droid.Resource.Attribute.statusBarScrim;
+			global::Acr.UserDialogs.Resource.Attribute.strokeColor = global::PerboyreApp.Droid.Resource.Attribute.strokeColor;
+			global::Acr.UserDialogs.Resource.Attribute.strokeWidth = global::PerboyreApp.Droid.Resource.Attribute.strokeWidth;
+			global::Acr.UserDialogs.Resource.Attribute.subMenuArrow = global::PerboyreApp.Droid.Resource.Attribute.subMenuArrow;
+			global::Acr.UserDialogs.Resource.Attribute.submitBackground = global::PerboyreApp.Droid.Resource.Attribute.submitBackground;
+			global::Acr.UserDialogs.Resource.Attribute.subtitle = global::PerboyreApp.Droid.Resource.Attribute.subtitle;
+			global::Acr.UserDialogs.Resource.Attribute.subtitleTextAppearance = global::PerboyreApp.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.subtitleTextColor = global::PerboyreApp.Droid.Resource.Attribute.subtitleTextColor;
+			global::Acr.UserDialogs.Resource.Attribute.subtitleTextStyle = global::PerboyreApp.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Acr.UserDialogs.Resource.Attribute.suggestionRowLayout = global::PerboyreApp.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Acr.UserDialogs.Resource.Attribute.switchMinWidth = global::PerboyreApp.Droid.Resource.Attribute.switchMinWidth;
+			global::Acr.UserDialogs.Resource.Attribute.switchPadding = global::PerboyreApp.Droid.Resource.Attribute.switchPadding;
+			global::Acr.UserDialogs.Resource.Attribute.switchStyle = global::PerboyreApp.Droid.Resource.Attribute.switchStyle;
+			global::Acr.UserDialogs.Resource.Attribute.switchTextAppearance = global::PerboyreApp.Droid.Resource.Attribute.switchTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.tabBackground = global::PerboyreApp.Droid.Resource.Attribute.tabBackground;
+			global::Acr.UserDialogs.Resource.Attribute.tabContentStart = global::PerboyreApp.Droid.Resource.Attribute.tabContentStart;
+			global::Acr.UserDialogs.Resource.Attribute.tabGravity = global::PerboyreApp.Droid.Resource.Attribute.tabGravity;
+			global::Acr.UserDialogs.Resource.Attribute.tabIconTint = global::PerboyreApp.Droid.Resource.Attribute.tabIconTint;
+			global::Acr.UserDialogs.Resource.Attribute.tabIconTintMode = global::PerboyreApp.Droid.Resource.Attribute.tabIconTintMode;
+			global::Acr.UserDialogs.Resource.Attribute.tabIndicator = global::PerboyreApp.Droid.Resource.Attribute.tabIndicator;
+			global::Acr.UserDialogs.Resource.Attribute.tabIndicatorAnimationDuration = global::PerboyreApp.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Acr.UserDialogs.Resource.Attribute.tabIndicatorColor = global::PerboyreApp.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Acr.UserDialogs.Resource.Attribute.tabIndicatorFullWidth = global::PerboyreApp.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::Acr.UserDialogs.Resource.Attribute.tabIndicatorGravity = global::PerboyreApp.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::Acr.UserDialogs.Resource.Attribute.tabIndicatorHeight = global::PerboyreApp.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Acr.UserDialogs.Resource.Attribute.tabInlineLabel = global::PerboyreApp.Droid.Resource.Attribute.tabInlineLabel;
+			global::Acr.UserDialogs.Resource.Attribute.tabMaxWidth = global::PerboyreApp.Droid.Resource.Attribute.tabMaxWidth;
+			global::Acr.UserDialogs.Resource.Attribute.tabMinWidth = global::PerboyreApp.Droid.Resource.Attribute.tabMinWidth;
+			global::Acr.UserDialogs.Resource.Attribute.tabMode = global::PerboyreApp.Droid.Resource.Attribute.tabMode;
+			global::Acr.UserDialogs.Resource.Attribute.tabPadding = global::PerboyreApp.Droid.Resource.Attribute.tabPadding;
+			global::Acr.UserDialogs.Resource.Attribute.tabPaddingBottom = global::PerboyreApp.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Acr.UserDialogs.Resource.Attribute.tabPaddingEnd = global::PerboyreApp.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Acr.UserDialogs.Resource.Attribute.tabPaddingStart = global::PerboyreApp.Droid.Resource.Attribute.tabPaddingStart;
+			global::Acr.UserDialogs.Resource.Attribute.tabPaddingTop = global::PerboyreApp.Droid.Resource.Attribute.tabPaddingTop;
+			global::Acr.UserDialogs.Resource.Attribute.tabRippleColor = global::PerboyreApp.Droid.Resource.Attribute.tabRippleColor;
+			global::Acr.UserDialogs.Resource.Attribute.tabSelectedTextColor = global::PerboyreApp.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Acr.UserDialogs.Resource.Attribute.tabStyle = global::PerboyreApp.Droid.Resource.Attribute.tabStyle;
+			global::Acr.UserDialogs.Resource.Attribute.tabTextAppearance = global::PerboyreApp.Droid.Resource.Attribute.tabTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.tabTextColor = global::PerboyreApp.Droid.Resource.Attribute.tabTextColor;
+			global::Acr.UserDialogs.Resource.Attribute.tabUnboundedRipple = global::PerboyreApp.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Acr.UserDialogs.Resource.Attribute.textAllCaps = global::PerboyreApp.Droid.Resource.Attribute.textAllCaps;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceBody1 = global::PerboyreApp.Droid.Resource.Attribute.textAppearanceBody1;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceBody2 = global::PerboyreApp.Droid.Resource.Attribute.textAppearanceBody2;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceButton = global::PerboyreApp.Droid.Resource.Attribute.textAppearanceButton;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceCaption = global::PerboyreApp.Droid.Resource.Attribute.textAppearanceCaption;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceHeadline1 = global::PerboyreApp.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceHeadline2 = global::PerboyreApp.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceHeadline3 = global::PerboyreApp.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceHeadline4 = global::PerboyreApp.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceHeadline5 = global::PerboyreApp.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceHeadline6 = global::PerboyreApp.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceLargePopupMenu = global::PerboyreApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceListItem = global::PerboyreApp.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceListItemSecondary = global::PerboyreApp.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceListItemSmall = global::PerboyreApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceOverline = global::PerboyreApp.Droid.Resource.Attribute.textAppearanceOverline;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearancePopupMenuHeader = global::PerboyreApp.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceSearchResultSubtitle = global::PerboyreApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceSearchResultTitle = global::PerboyreApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceSmallPopupMenu = global::PerboyreApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceSubtitle1 = global::PerboyreApp.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceSubtitle2 = global::PerboyreApp.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::Acr.UserDialogs.Resource.Attribute.textColorAlertDialogListItem = global::PerboyreApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Acr.UserDialogs.Resource.Attribute.textColorSearchUrl = global::PerboyreApp.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Acr.UserDialogs.Resource.Attribute.textEndPadding = global::PerboyreApp.Droid.Resource.Attribute.textEndPadding;
+			global::Acr.UserDialogs.Resource.Attribute.textInputStyle = global::PerboyreApp.Droid.Resource.Attribute.textInputStyle;
+			global::Acr.UserDialogs.Resource.Attribute.textStartPadding = global::PerboyreApp.Droid.Resource.Attribute.textStartPadding;
+			global::Acr.UserDialogs.Resource.Attribute.theme = global::PerboyreApp.Droid.Resource.Attribute.theme;
+			global::Acr.UserDialogs.Resource.Attribute.thickness = global::PerboyreApp.Droid.Resource.Attribute.thickness;
+			global::Acr.UserDialogs.Resource.Attribute.thumbTextPadding = global::PerboyreApp.Droid.Resource.Attribute.thumbTextPadding;
+			global::Acr.UserDialogs.Resource.Attribute.thumbTint = global::PerboyreApp.Droid.Resource.Attribute.thumbTint;
+			global::Acr.UserDialogs.Resource.Attribute.thumbTintMode = global::PerboyreApp.Droid.Resource.Attribute.thumbTintMode;
+			global::Acr.UserDialogs.Resource.Attribute.tickMark = global::PerboyreApp.Droid.Resource.Attribute.tickMark;
+			global::Acr.UserDialogs.Resource.Attribute.tickMarkTint = global::PerboyreApp.Droid.Resource.Attribute.tickMarkTint;
+			global::Acr.UserDialogs.Resource.Attribute.tickMarkTintMode = global::PerboyreApp.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Acr.UserDialogs.Resource.Attribute.tint = global::PerboyreApp.Droid.Resource.Attribute.tint;
+			global::Acr.UserDialogs.Resource.Attribute.tintMode = global::PerboyreApp.Droid.Resource.Attribute.tintMode;
+			global::Acr.UserDialogs.Resource.Attribute.title = global::PerboyreApp.Droid.Resource.Attribute.title;
+			global::Acr.UserDialogs.Resource.Attribute.titleEnabled = global::PerboyreApp.Droid.Resource.Attribute.titleEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.titleMargin = global::PerboyreApp.Droid.Resource.Attribute.titleMargin;
+			global::Acr.UserDialogs.Resource.Attribute.titleMarginBottom = global::PerboyreApp.Droid.Resource.Attribute.titleMarginBottom;
+			global::Acr.UserDialogs.Resource.Attribute.titleMarginEnd = global::PerboyreApp.Droid.Resource.Attribute.titleMarginEnd;
+			global::Acr.UserDialogs.Resource.Attribute.titleMargins = global::PerboyreApp.Droid.Resource.Attribute.titleMargins;
+			global::Acr.UserDialogs.Resource.Attribute.titleMarginStart = global::PerboyreApp.Droid.Resource.Attribute.titleMarginStart;
+			global::Acr.UserDialogs.Resource.Attribute.titleMarginTop = global::PerboyreApp.Droid.Resource.Attribute.titleMarginTop;
+			global::Acr.UserDialogs.Resource.Attribute.titleTextAppearance = global::PerboyreApp.Droid.Resource.Attribute.titleTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.titleTextColor = global::PerboyreApp.Droid.Resource.Attribute.titleTextColor;
+			global::Acr.UserDialogs.Resource.Attribute.titleTextStyle = global::PerboyreApp.Droid.Resource.Attribute.titleTextStyle;
+			global::Acr.UserDialogs.Resource.Attribute.toolbarId = global::PerboyreApp.Droid.Resource.Attribute.toolbarId;
+			global::Acr.UserDialogs.Resource.Attribute.toolbarNavigationButtonStyle = global::PerboyreApp.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.toolbarStyle = global::PerboyreApp.Droid.Resource.Attribute.toolbarStyle;
+			global::Acr.UserDialogs.Resource.Attribute.tooltipForegroundColor = global::PerboyreApp.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Acr.UserDialogs.Resource.Attribute.tooltipFrameBackground = global::PerboyreApp.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Acr.UserDialogs.Resource.Attribute.tooltipText = global::PerboyreApp.Droid.Resource.Attribute.tooltipText;
+			global::Acr.UserDialogs.Resource.Attribute.track = global::PerboyreApp.Droid.Resource.Attribute.track;
+			global::Acr.UserDialogs.Resource.Attribute.trackTint = global::PerboyreApp.Droid.Resource.Attribute.trackTint;
+			global::Acr.UserDialogs.Resource.Attribute.trackTintMode = global::PerboyreApp.Droid.Resource.Attribute.trackTintMode;
+			global::Acr.UserDialogs.Resource.Attribute.ttcIndex = global::PerboyreApp.Droid.Resource.Attribute.ttcIndex;
+			global::Acr.UserDialogs.Resource.Attribute.useCompatPadding = global::PerboyreApp.Droid.Resource.Attribute.useCompatPadding;
+			global::Acr.UserDialogs.Resource.Attribute.viewInflaterClass = global::PerboyreApp.Droid.Resource.Attribute.viewInflaterClass;
+			global::Acr.UserDialogs.Resource.Attribute.voiceIcon = global::PerboyreApp.Droid.Resource.Attribute.voiceIcon;
+			global::Acr.UserDialogs.Resource.Attribute.windowActionBar = global::PerboyreApp.Droid.Resource.Attribute.windowActionBar;
+			global::Acr.UserDialogs.Resource.Attribute.windowActionBarOverlay = global::PerboyreApp.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Acr.UserDialogs.Resource.Attribute.windowActionModeOverlay = global::PerboyreApp.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Acr.UserDialogs.Resource.Attribute.windowFixedHeightMajor = global::PerboyreApp.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Acr.UserDialogs.Resource.Attribute.windowFixedHeightMinor = global::PerboyreApp.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Acr.UserDialogs.Resource.Attribute.windowFixedWidthMajor = global::PerboyreApp.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Acr.UserDialogs.Resource.Attribute.windowFixedWidthMinor = global::PerboyreApp.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Acr.UserDialogs.Resource.Attribute.windowMinWidthMajor = global::PerboyreApp.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Acr.UserDialogs.Resource.Attribute.windowMinWidthMinor = global::PerboyreApp.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Acr.UserDialogs.Resource.Attribute.windowNoTitle = global::PerboyreApp.Droid.Resource.Attribute.windowNoTitle;
+			global::Acr.UserDialogs.Resource.Boolean.abc_action_bar_embed_tabs = global::PerboyreApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Acr.UserDialogs.Resource.Boolean.abc_allow_stacked_button_bar = global::PerboyreApp.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Acr.UserDialogs.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::PerboyreApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Acr.UserDialogs.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::PerboyreApp.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::Acr.UserDialogs.Resource.Color.abc_background_cache_hint_selector_material_dark = global::PerboyreApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Acr.UserDialogs.Resource.Color.abc_background_cache_hint_selector_material_light = global::PerboyreApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Acr.UserDialogs.Resource.Color.abc_btn_colored_borderless_text_material = global::PerboyreApp.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Acr.UserDialogs.Resource.Color.abc_btn_colored_text_material = global::PerboyreApp.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Acr.UserDialogs.Resource.Color.abc_color_highlight_material = global::PerboyreApp.Droid.Resource.Color.abc_color_highlight_material;
+			global::Acr.UserDialogs.Resource.Color.abc_hint_foreground_material_dark = global::PerboyreApp.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Acr.UserDialogs.Resource.Color.abc_hint_foreground_material_light = global::PerboyreApp.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Acr.UserDialogs.Resource.Color.abc_input_method_navigation_guard = global::PerboyreApp.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Acr.UserDialogs.Resource.Color.abc_primary_text_disable_only_material_dark = global::PerboyreApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Acr.UserDialogs.Resource.Color.abc_primary_text_disable_only_material_light = global::PerboyreApp.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Acr.UserDialogs.Resource.Color.abc_primary_text_material_dark = global::PerboyreApp.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Acr.UserDialogs.Resource.Color.abc_primary_text_material_light = global::PerboyreApp.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Acr.UserDialogs.Resource.Color.abc_search_url_text = global::PerboyreApp.Droid.Resource.Color.abc_search_url_text;
+			global::Acr.UserDialogs.Resource.Color.abc_search_url_text_normal = global::PerboyreApp.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Acr.UserDialogs.Resource.Color.abc_search_url_text_pressed = global::PerboyreApp.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Acr.UserDialogs.Resource.Color.abc_search_url_text_selected = global::PerboyreApp.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Acr.UserDialogs.Resource.Color.abc_secondary_text_material_dark = global::PerboyreApp.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Acr.UserDialogs.Resource.Color.abc_secondary_text_material_light = global::PerboyreApp.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Acr.UserDialogs.Resource.Color.abc_tint_btn_checkable = global::PerboyreApp.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Acr.UserDialogs.Resource.Color.abc_tint_default = global::PerboyreApp.Droid.Resource.Color.abc_tint_default;
+			global::Acr.UserDialogs.Resource.Color.abc_tint_edittext = global::PerboyreApp.Droid.Resource.Color.abc_tint_edittext;
+			global::Acr.UserDialogs.Resource.Color.abc_tint_seek_thumb = global::PerboyreApp.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Acr.UserDialogs.Resource.Color.abc_tint_spinner = global::PerboyreApp.Droid.Resource.Color.abc_tint_spinner;
+			global::Acr.UserDialogs.Resource.Color.abc_tint_switch_track = global::PerboyreApp.Droid.Resource.Color.abc_tint_switch_track;
+			global::Acr.UserDialogs.Resource.Color.accent_material_dark = global::PerboyreApp.Droid.Resource.Color.accent_material_dark;
+			global::Acr.UserDialogs.Resource.Color.accent_material_light = global::PerboyreApp.Droid.Resource.Color.accent_material_light;
+			global::Acr.UserDialogs.Resource.Color.background_floating_material_dark = global::PerboyreApp.Droid.Resource.Color.background_floating_material_dark;
+			global::Acr.UserDialogs.Resource.Color.background_floating_material_light = global::PerboyreApp.Droid.Resource.Color.background_floating_material_light;
+			global::Acr.UserDialogs.Resource.Color.background_material_dark = global::PerboyreApp.Droid.Resource.Color.background_material_dark;
+			global::Acr.UserDialogs.Resource.Color.background_material_light = global::PerboyreApp.Droid.Resource.Color.background_material_light;
+			global::Acr.UserDialogs.Resource.Color.bright_foreground_disabled_material_dark = global::PerboyreApp.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Acr.UserDialogs.Resource.Color.bright_foreground_disabled_material_light = global::PerboyreApp.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Acr.UserDialogs.Resource.Color.bright_foreground_inverse_material_dark = global::PerboyreApp.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Acr.UserDialogs.Resource.Color.bright_foreground_inverse_material_light = global::PerboyreApp.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Acr.UserDialogs.Resource.Color.bright_foreground_material_dark = global::PerboyreApp.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Acr.UserDialogs.Resource.Color.bright_foreground_material_light = global::PerboyreApp.Droid.Resource.Color.bright_foreground_material_light;
+			global::Acr.UserDialogs.Resource.Color.button_material_dark = global::PerboyreApp.Droid.Resource.Color.button_material_dark;
+			global::Acr.UserDialogs.Resource.Color.button_material_light = global::PerboyreApp.Droid.Resource.Color.button_material_light;
+			global::Acr.UserDialogs.Resource.Color.cardview_dark_background = global::PerboyreApp.Droid.Resource.Color.cardview_dark_background;
+			global::Acr.UserDialogs.Resource.Color.cardview_light_background = global::PerboyreApp.Droid.Resource.Color.cardview_light_background;
+			global::Acr.UserDialogs.Resource.Color.cardview_shadow_end_color = global::PerboyreApp.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Acr.UserDialogs.Resource.Color.cardview_shadow_start_color = global::PerboyreApp.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Acr.UserDialogs.Resource.Color.design_bottom_navigation_shadow_color = global::PerboyreApp.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Acr.UserDialogs.Resource.Color.design_default_color_primary = global::PerboyreApp.Droid.Resource.Color.design_default_color_primary;
+			global::Acr.UserDialogs.Resource.Color.design_default_color_primary_dark = global::PerboyreApp.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Acr.UserDialogs.Resource.Color.design_error = global::PerboyreApp.Droid.Resource.Color.design_error;
+			global::Acr.UserDialogs.Resource.Color.design_fab_shadow_end_color = global::PerboyreApp.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Acr.UserDialogs.Resource.Color.design_fab_shadow_mid_color = global::PerboyreApp.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Acr.UserDialogs.Resource.Color.design_fab_shadow_start_color = global::PerboyreApp.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Acr.UserDialogs.Resource.Color.design_fab_stroke_end_inner_color = global::PerboyreApp.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Acr.UserDialogs.Resource.Color.design_fab_stroke_end_outer_color = global::PerboyreApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Acr.UserDialogs.Resource.Color.design_fab_stroke_top_inner_color = global::PerboyreApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Acr.UserDialogs.Resource.Color.design_fab_stroke_top_outer_color = global::PerboyreApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Acr.UserDialogs.Resource.Color.design_snackbar_background_color = global::PerboyreApp.Droid.Resource.Color.design_snackbar_background_color;
+			global::Acr.UserDialogs.Resource.Color.design_tint_password_toggle = global::PerboyreApp.Droid.Resource.Color.design_tint_password_toggle;
+			global::Acr.UserDialogs.Resource.Color.dim_foreground_disabled_material_dark = global::PerboyreApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Acr.UserDialogs.Resource.Color.dim_foreground_disabled_material_light = global::PerboyreApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Acr.UserDialogs.Resource.Color.dim_foreground_material_dark = global::PerboyreApp.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Acr.UserDialogs.Resource.Color.dim_foreground_material_light = global::PerboyreApp.Droid.Resource.Color.dim_foreground_material_light;
+			global::Acr.UserDialogs.Resource.Color.error_color_material_dark = global::PerboyreApp.Droid.Resource.Color.error_color_material_dark;
+			global::Acr.UserDialogs.Resource.Color.error_color_material_light = global::PerboyreApp.Droid.Resource.Color.error_color_material_light;
+			global::Acr.UserDialogs.Resource.Color.foreground_material_dark = global::PerboyreApp.Droid.Resource.Color.foreground_material_dark;
+			global::Acr.UserDialogs.Resource.Color.foreground_material_light = global::PerboyreApp.Droid.Resource.Color.foreground_material_light;
+			global::Acr.UserDialogs.Resource.Color.highlighted_text_material_dark = global::PerboyreApp.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Acr.UserDialogs.Resource.Color.highlighted_text_material_light = global::PerboyreApp.Droid.Resource.Color.highlighted_text_material_light;
+			global::Acr.UserDialogs.Resource.Color.material_blue_grey_800 = global::PerboyreApp.Droid.Resource.Color.material_blue_grey_800;
+			global::Acr.UserDialogs.Resource.Color.material_blue_grey_900 = global::PerboyreApp.Droid.Resource.Color.material_blue_grey_900;
+			global::Acr.UserDialogs.Resource.Color.material_blue_grey_950 = global::PerboyreApp.Droid.Resource.Color.material_blue_grey_950;
+			global::Acr.UserDialogs.Resource.Color.material_deep_teal_200 = global::PerboyreApp.Droid.Resource.Color.material_deep_teal_200;
+			global::Acr.UserDialogs.Resource.Color.material_deep_teal_500 = global::PerboyreApp.Droid.Resource.Color.material_deep_teal_500;
+			global::Acr.UserDialogs.Resource.Color.material_grey_100 = global::PerboyreApp.Droid.Resource.Color.material_grey_100;
+			global::Acr.UserDialogs.Resource.Color.material_grey_300 = global::PerboyreApp.Droid.Resource.Color.material_grey_300;
+			global::Acr.UserDialogs.Resource.Color.material_grey_50 = global::PerboyreApp.Droid.Resource.Color.material_grey_50;
+			global::Acr.UserDialogs.Resource.Color.material_grey_600 = global::PerboyreApp.Droid.Resource.Color.material_grey_600;
+			global::Acr.UserDialogs.Resource.Color.material_grey_800 = global::PerboyreApp.Droid.Resource.Color.material_grey_800;
+			global::Acr.UserDialogs.Resource.Color.material_grey_850 = global::PerboyreApp.Droid.Resource.Color.material_grey_850;
+			global::Acr.UserDialogs.Resource.Color.material_grey_900 = global::PerboyreApp.Droid.Resource.Color.material_grey_900;
+			global::Acr.UserDialogs.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::PerboyreApp.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::Acr.UserDialogs.Resource.Color.mtrl_bottom_nav_item_tint = global::PerboyreApp.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::Acr.UserDialogs.Resource.Color.mtrl_btn_bg_color_disabled = global::PerboyreApp.Droid.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::Acr.UserDialogs.Resource.Color.mtrl_btn_bg_color_selector = global::PerboyreApp.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Acr.UserDialogs.Resource.Color.mtrl_btn_ripple_color = global::PerboyreApp.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_btn_stroke_color_selector = global::PerboyreApp.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Acr.UserDialogs.Resource.Color.mtrl_btn_text_btn_ripple_color = global::PerboyreApp.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_btn_text_color_disabled = global::PerboyreApp.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Acr.UserDialogs.Resource.Color.mtrl_btn_text_color_selector = global::PerboyreApp.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::Acr.UserDialogs.Resource.Color.mtrl_btn_transparent_bg_color = global::PerboyreApp.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_chip_background_color = global::PerboyreApp.Droid.Resource.Color.mtrl_chip_background_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_chip_close_icon_tint = global::PerboyreApp.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Acr.UserDialogs.Resource.Color.mtrl_chip_ripple_color = global::PerboyreApp.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_chip_text_color = global::PerboyreApp.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_fab_ripple_color = global::PerboyreApp.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_scrim_color = global::PerboyreApp.Droid.Resource.Color.mtrl_scrim_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_tabs_colored_ripple_color = global::PerboyreApp.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_tabs_icon_color_selector = global::PerboyreApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Acr.UserDialogs.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::PerboyreApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Acr.UserDialogs.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::PerboyreApp.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Acr.UserDialogs.Resource.Color.mtrl_tabs_ripple_color = global::PerboyreApp.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_textinput_default_box_stroke_color = global::PerboyreApp.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_textinput_disabled_color = global::PerboyreApp.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::PerboyreApp.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::PerboyreApp.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_text_btn_text_color_selector = global::PerboyreApp.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::Acr.UserDialogs.Resource.Color.notification_action_color_filter = global::PerboyreApp.Droid.Resource.Color.notification_action_color_filter;
+			global::Acr.UserDialogs.Resource.Color.notification_icon_bg_color = global::PerboyreApp.Droid.Resource.Color.notification_icon_bg_color;
+			global::Acr.UserDialogs.Resource.Color.primary_dark_material_dark = global::PerboyreApp.Droid.Resource.Color.primary_dark_material_dark;
+			global::Acr.UserDialogs.Resource.Color.primary_dark_material_light = global::PerboyreApp.Droid.Resource.Color.primary_dark_material_light;
+			global::Acr.UserDialogs.Resource.Color.primary_material_dark = global::PerboyreApp.Droid.Resource.Color.primary_material_dark;
+			global::Acr.UserDialogs.Resource.Color.primary_material_light = global::PerboyreApp.Droid.Resource.Color.primary_material_light;
+			global::Acr.UserDialogs.Resource.Color.primary_text_default_material_dark = global::PerboyreApp.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Acr.UserDialogs.Resource.Color.primary_text_default_material_light = global::PerboyreApp.Droid.Resource.Color.primary_text_default_material_light;
+			global::Acr.UserDialogs.Resource.Color.primary_text_disabled_material_dark = global::PerboyreApp.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Acr.UserDialogs.Resource.Color.primary_text_disabled_material_light = global::PerboyreApp.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Acr.UserDialogs.Resource.Color.ripple_material_dark = global::PerboyreApp.Droid.Resource.Color.ripple_material_dark;
+			global::Acr.UserDialogs.Resource.Color.ripple_material_light = global::PerboyreApp.Droid.Resource.Color.ripple_material_light;
+			global::Acr.UserDialogs.Resource.Color.secondary_text_default_material_dark = global::PerboyreApp.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Acr.UserDialogs.Resource.Color.secondary_text_default_material_light = global::PerboyreApp.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Acr.UserDialogs.Resource.Color.secondary_text_disabled_material_dark = global::PerboyreApp.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Acr.UserDialogs.Resource.Color.secondary_text_disabled_material_light = global::PerboyreApp.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Acr.UserDialogs.Resource.Color.switch_thumb_disabled_material_dark = global::PerboyreApp.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Acr.UserDialogs.Resource.Color.switch_thumb_disabled_material_light = global::PerboyreApp.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Acr.UserDialogs.Resource.Color.switch_thumb_material_dark = global::PerboyreApp.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Acr.UserDialogs.Resource.Color.switch_thumb_material_light = global::PerboyreApp.Droid.Resource.Color.switch_thumb_material_light;
+			global::Acr.UserDialogs.Resource.Color.switch_thumb_normal_material_dark = global::PerboyreApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Acr.UserDialogs.Resource.Color.switch_thumb_normal_material_light = global::PerboyreApp.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Acr.UserDialogs.Resource.Color.tooltip_background_dark = global::PerboyreApp.Droid.Resource.Color.tooltip_background_dark;
+			global::Acr.UserDialogs.Resource.Color.tooltip_background_light = global::PerboyreApp.Droid.Resource.Color.tooltip_background_light;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_content_inset_material = global::PerboyreApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::PerboyreApp.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_default_height_material = global::PerboyreApp.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_default_padding_end_material = global::PerboyreApp.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_default_padding_start_material = global::PerboyreApp.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_elevation_material = global::PerboyreApp.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::PerboyreApp.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::PerboyreApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::PerboyreApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_stacked_max_height = global::PerboyreApp.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::PerboyreApp.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::PerboyreApp.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::PerboyreApp.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_button_min_height_material = global::PerboyreApp.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_button_min_width_material = global::PerboyreApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_button_min_width_overflow_material = global::PerboyreApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_alert_dialog_button_bar_height = global::PerboyreApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Acr.UserDialogs.Resource.Dimension.abc_alert_dialog_button_dimen = global::PerboyreApp.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::Acr.UserDialogs.Resource.Dimension.abc_button_inset_horizontal_material = global::PerboyreApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_button_inset_vertical_material = global::PerboyreApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_button_padding_horizontal_material = global::PerboyreApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_button_padding_vertical_material = global::PerboyreApp.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::PerboyreApp.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Acr.UserDialogs.Resource.Dimension.abc_config_prefDialogWidth = global::PerboyreApp.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Acr.UserDialogs.Resource.Dimension.abc_control_corner_material = global::PerboyreApp.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_control_inset_material = global::PerboyreApp.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_control_padding_material = global::PerboyreApp.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_corner_radius_material = global::PerboyreApp.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_fixed_height_major = global::PerboyreApp.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_fixed_height_minor = global::PerboyreApp.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_fixed_width_major = global::PerboyreApp.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_fixed_width_minor = global::PerboyreApp.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::PerboyreApp.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::PerboyreApp.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_min_width_major = global::PerboyreApp.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_min_width_minor = global::PerboyreApp.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_padding_material = global::PerboyreApp.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_padding_top_material = global::PerboyreApp.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_title_divider_material = global::PerboyreApp.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_disabled_alpha_material_dark = global::PerboyreApp.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Acr.UserDialogs.Resource.Dimension.abc_disabled_alpha_material_light = global::PerboyreApp.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dropdownitem_icon_width = global::PerboyreApp.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dropdownitem_text_padding_left = global::PerboyreApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dropdownitem_text_padding_right = global::PerboyreApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Acr.UserDialogs.Resource.Dimension.abc_edit_text_inset_bottom_material = global::PerboyreApp.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::PerboyreApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_edit_text_inset_top_material = global::PerboyreApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_floating_window_z = global::PerboyreApp.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Acr.UserDialogs.Resource.Dimension.abc_list_item_padding_horizontal_material = global::PerboyreApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_panel_menu_list_width = global::PerboyreApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Acr.UserDialogs.Resource.Dimension.abc_progress_bar_height_material = global::PerboyreApp.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_search_view_preferred_height = global::PerboyreApp.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Acr.UserDialogs.Resource.Dimension.abc_search_view_preferred_width = global::PerboyreApp.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Acr.UserDialogs.Resource.Dimension.abc_seekbar_track_background_height_material = global::PerboyreApp.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_seekbar_track_progress_height_material = global::PerboyreApp.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_select_dialog_padding_start_material = global::PerboyreApp.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_switch_padding = global::PerboyreApp.Droid.Resource.Dimension.abc_switch_padding;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_body_1_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_body_2_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_button_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_caption_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_display_1_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_display_2_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_display_3_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_display_4_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_headline_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_large_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_medium_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_menu_header_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_menu_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_small_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_subhead_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_title_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_title_material_toolbar = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Acr.UserDialogs.Resource.Dimension.cardview_compat_inset_shadow = global::PerboyreApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Acr.UserDialogs.Resource.Dimension.cardview_default_elevation = global::PerboyreApp.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.cardview_default_radius = global::PerboyreApp.Droid.Resource.Dimension.cardview_default_radius;
+			global::Acr.UserDialogs.Resource.Dimension.compat_button_inset_horizontal_material = global::PerboyreApp.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Acr.UserDialogs.Resource.Dimension.compat_button_inset_vertical_material = global::PerboyreApp.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Acr.UserDialogs.Resource.Dimension.compat_button_padding_horizontal_material = global::PerboyreApp.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Acr.UserDialogs.Resource.Dimension.compat_button_padding_vertical_material = global::PerboyreApp.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Acr.UserDialogs.Resource.Dimension.compat_control_corner_material = global::PerboyreApp.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Acr.UserDialogs.Resource.Dimension.compat_notification_large_icon_max_height = global::PerboyreApp.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Acr.UserDialogs.Resource.Dimension.compat_notification_large_icon_max_width = global::PerboyreApp.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_appbar_elevation = global::PerboyreApp.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::PerboyreApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::PerboyreApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_active_text_size = global::PerboyreApp.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_elevation = global::PerboyreApp.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_height = global::PerboyreApp.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_icon_size = global::PerboyreApp.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_item_max_width = global::PerboyreApp.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_item_min_width = global::PerboyreApp.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_margin = global::PerboyreApp.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_shadow_height = global::PerboyreApp.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_text_size = global::PerboyreApp.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_sheet_modal_elevation = global::PerboyreApp.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_sheet_peek_height_min = global::PerboyreApp.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Acr.UserDialogs.Resource.Dimension.design_fab_border_width = global::PerboyreApp.Droid.Resource.Dimension.design_fab_border_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_fab_elevation = global::PerboyreApp.Droid.Resource.Dimension.design_fab_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.design_fab_image_size = global::PerboyreApp.Droid.Resource.Dimension.design_fab_image_size;
+			global::Acr.UserDialogs.Resource.Dimension.design_fab_size_mini = global::PerboyreApp.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Acr.UserDialogs.Resource.Dimension.design_fab_size_normal = global::PerboyreApp.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Acr.UserDialogs.Resource.Dimension.design_fab_translation_z_hovered_focused = global::PerboyreApp.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::Acr.UserDialogs.Resource.Dimension.design_fab_translation_z_pressed = global::PerboyreApp.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Acr.UserDialogs.Resource.Dimension.design_navigation_elevation = global::PerboyreApp.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.design_navigation_icon_padding = global::PerboyreApp.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Acr.UserDialogs.Resource.Dimension.design_navigation_icon_size = global::PerboyreApp.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Acr.UserDialogs.Resource.Dimension.design_navigation_item_horizontal_padding = global::PerboyreApp.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Acr.UserDialogs.Resource.Dimension.design_navigation_item_icon_padding = global::PerboyreApp.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::Acr.UserDialogs.Resource.Dimension.design_navigation_max_width = global::PerboyreApp.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_navigation_padding_bottom = global::PerboyreApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Acr.UserDialogs.Resource.Dimension.design_navigation_separator_vertical_padding = global::PerboyreApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Acr.UserDialogs.Resource.Dimension.design_snackbar_action_inline_max_width = global::PerboyreApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_snackbar_background_corner_radius = global::PerboyreApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Acr.UserDialogs.Resource.Dimension.design_snackbar_elevation = global::PerboyreApp.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::PerboyreApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Acr.UserDialogs.Resource.Dimension.design_snackbar_max_width = global::PerboyreApp.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_snackbar_min_width = global::PerboyreApp.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_snackbar_padding_horizontal = global::PerboyreApp.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Acr.UserDialogs.Resource.Dimension.design_snackbar_padding_vertical = global::PerboyreApp.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Acr.UserDialogs.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::PerboyreApp.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Acr.UserDialogs.Resource.Dimension.design_snackbar_text_size = global::PerboyreApp.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Acr.UserDialogs.Resource.Dimension.design_tab_max_width = global::PerboyreApp.Droid.Resource.Dimension.design_tab_max_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_tab_scrollable_min_width = global::PerboyreApp.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_tab_text_size = global::PerboyreApp.Droid.Resource.Dimension.design_tab_text_size;
+			global::Acr.UserDialogs.Resource.Dimension.design_tab_text_size_2line = global::PerboyreApp.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Acr.UserDialogs.Resource.Dimension.design_textinput_caption_translate_y = global::PerboyreApp.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::Acr.UserDialogs.Resource.Dimension.disabled_alpha_material_dark = global::PerboyreApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Acr.UserDialogs.Resource.Dimension.disabled_alpha_material_light = global::PerboyreApp.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Acr.UserDialogs.Resource.Dimension.fastscroll_default_thickness = global::PerboyreApp.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Acr.UserDialogs.Resource.Dimension.fastscroll_margin = global::PerboyreApp.Droid.Resource.Dimension.fastscroll_margin;
+			global::Acr.UserDialogs.Resource.Dimension.fastscroll_minimum_range = global::PerboyreApp.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Acr.UserDialogs.Resource.Dimension.highlight_alpha_material_colored = global::PerboyreApp.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Acr.UserDialogs.Resource.Dimension.highlight_alpha_material_dark = global::PerboyreApp.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Acr.UserDialogs.Resource.Dimension.highlight_alpha_material_light = global::PerboyreApp.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Acr.UserDialogs.Resource.Dimension.hint_alpha_material_dark = global::PerboyreApp.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Acr.UserDialogs.Resource.Dimension.hint_alpha_material_light = global::PerboyreApp.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Acr.UserDialogs.Resource.Dimension.hint_pressed_alpha_material_dark = global::PerboyreApp.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Acr.UserDialogs.Resource.Dimension.hint_pressed_alpha_material_light = global::PerboyreApp.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Acr.UserDialogs.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::PerboyreApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Acr.UserDialogs.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::PerboyreApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Acr.UserDialogs.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::PerboyreApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::PerboyreApp.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::PerboyreApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::PerboyreApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::PerboyreApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_bottomappbar_height = global::PerboyreApp.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_corner_radius = global::PerboyreApp.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::PerboyreApp.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_disabled_elevation = global::PerboyreApp.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_disabled_z = global::PerboyreApp.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_elevation = global::PerboyreApp.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_focused_z = global::PerboyreApp.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_hovered_z = global::PerboyreApp.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::PerboyreApp.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_icon_padding = global::PerboyreApp.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_inset = global::PerboyreApp.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_letter_spacing = global::PerboyreApp.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_padding_bottom = global::PerboyreApp.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_padding_left = global::PerboyreApp.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_padding_right = global::PerboyreApp.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_padding_top = global::PerboyreApp.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_pressed_z = global::PerboyreApp.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_stroke_size = global::PerboyreApp.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::PerboyreApp.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::PerboyreApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::PerboyreApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_text_size = global::PerboyreApp.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_z = global::PerboyreApp.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_card_elevation = global::PerboyreApp.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_card_spacing = global::PerboyreApp.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_chip_pressed_translation_z = global::PerboyreApp.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_chip_text_size = global::PerboyreApp.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_fab_elevation = global::PerboyreApp.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::PerboyreApp.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_fab_translation_z_pressed = global::PerboyreApp.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_navigation_elevation = global::PerboyreApp.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::PerboyreApp.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_navigation_item_icon_padding = global::PerboyreApp.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::PerboyreApp.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_snackbar_margin = global::PerboyreApp.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::PerboyreApp.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::PerboyreApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::PerboyreApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::PerboyreApp.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_textinput_box_padding_end = global::PerboyreApp.Droid.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::PerboyreApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::PerboyreApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::PerboyreApp.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_toolbar_default_height = global::PerboyreApp.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Acr.UserDialogs.Resource.Dimension.notification_action_icon_size = global::PerboyreApp.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Acr.UserDialogs.Resource.Dimension.notification_action_text_size = global::PerboyreApp.Droid.Resource.Dimension.notification_action_text_size;
+			global::Acr.UserDialogs.Resource.Dimension.notification_big_circle_margin = global::PerboyreApp.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Acr.UserDialogs.Resource.Dimension.notification_content_margin_start = global::PerboyreApp.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Acr.UserDialogs.Resource.Dimension.notification_large_icon_height = global::PerboyreApp.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Acr.UserDialogs.Resource.Dimension.notification_large_icon_width = global::PerboyreApp.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Acr.UserDialogs.Resource.Dimension.notification_main_column_padding_top = global::PerboyreApp.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Acr.UserDialogs.Resource.Dimension.notification_media_narrow_margin = global::PerboyreApp.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Acr.UserDialogs.Resource.Dimension.notification_right_icon_size = global::PerboyreApp.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Acr.UserDialogs.Resource.Dimension.notification_right_side_padding_top = global::PerboyreApp.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Acr.UserDialogs.Resource.Dimension.notification_small_icon_background_padding = global::PerboyreApp.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Acr.UserDialogs.Resource.Dimension.notification_small_icon_size_as_large = global::PerboyreApp.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Acr.UserDialogs.Resource.Dimension.notification_subtext_size = global::PerboyreApp.Droid.Resource.Dimension.notification_subtext_size;
+			global::Acr.UserDialogs.Resource.Dimension.notification_top_pad = global::PerboyreApp.Droid.Resource.Dimension.notification_top_pad;
+			global::Acr.UserDialogs.Resource.Dimension.notification_top_pad_large_text = global::PerboyreApp.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Acr.UserDialogs.Resource.Dimension.tooltip_corner_radius = global::PerboyreApp.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Acr.UserDialogs.Resource.Dimension.tooltip_horizontal_padding = global::PerboyreApp.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Acr.UserDialogs.Resource.Dimension.tooltip_margin = global::PerboyreApp.Droid.Resource.Dimension.tooltip_margin;
+			global::Acr.UserDialogs.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::PerboyreApp.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Acr.UserDialogs.Resource.Dimension.tooltip_precise_anchor_threshold = global::PerboyreApp.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Acr.UserDialogs.Resource.Dimension.tooltip_vertical_padding = global::PerboyreApp.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Acr.UserDialogs.Resource.Dimension.tooltip_y_offset_non_touch = global::PerboyreApp.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Acr.UserDialogs.Resource.Dimension.tooltip_y_offset_touch = global::PerboyreApp.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_action_bar_item_background_material = global::PerboyreApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_borderless_material = global::PerboyreApp.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_check_material = global::PerboyreApp.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::PerboyreApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::PerboyreApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_colored_material = global::PerboyreApp.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_default_mtrl_shape = global::PerboyreApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_radio_material = global::PerboyreApp.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::PerboyreApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::PerboyreApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::PerboyreApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::PerboyreApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Acr.UserDialogs.Resource.Drawable.abc_cab_background_internal_bg = global::PerboyreApp.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Acr.UserDialogs.Resource.Drawable.abc_cab_background_top_material = global::PerboyreApp.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_control_background_material = global::PerboyreApp.Droid.Resource.Drawable.abc_control_background_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_dialog_material_background = global::PerboyreApp.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Acr.UserDialogs.Resource.Drawable.abc_edit_text_material = global::PerboyreApp.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_ab_back_material = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_clear_material = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_go_search_api_material = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_menu_overflow_material = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_search_api_material = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_star_black_16dp = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_star_black_36dp = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_star_black_48dp = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_star_half_black_16dp = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_star_half_black_36dp = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_star_half_black_48dp = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_voice_search_api_material = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_item_background_holo_dark = global::PerboyreApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Acr.UserDialogs.Resource.Drawable.abc_item_background_holo_light = global::PerboyreApp.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_divider_material = global::PerboyreApp.Droid.Resource.Drawable.abc_list_divider_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_divider_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_focused_holo = global::PerboyreApp.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_longpressed_holo = global::PerboyreApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_pressed_holo_dark = global::PerboyreApp.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_pressed_holo_light = global::PerboyreApp.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::PerboyreApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::PerboyreApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::PerboyreApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_selector_disabled_holo_light = global::PerboyreApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_selector_holo_dark = global::PerboyreApp.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_selector_holo_light = global::PerboyreApp.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Acr.UserDialogs.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::PerboyreApp.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Acr.UserDialogs.Resource.Drawable.abc_popup_background_mtrl_mult = global::PerboyreApp.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ratingbar_indicator_material = global::PerboyreApp.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ratingbar_material = global::PerboyreApp.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ratingbar_small_material = global::PerboyreApp.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::PerboyreApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Acr.UserDialogs.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::PerboyreApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Acr.UserDialogs.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_seekbar_thumb_material = global::PerboyreApp.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_seekbar_tick_mark_material = global::PerboyreApp.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_seekbar_track_material = global::PerboyreApp.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_spinner_textfield_background_material = global::PerboyreApp.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_switch_thumb_material = global::PerboyreApp.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_switch_track_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_tab_indicator_material = global::PerboyreApp.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_textfield_search_material = global::PerboyreApp.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_text_cursor_material = global::PerboyreApp.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::PerboyreApp.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Acr.UserDialogs.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::PerboyreApp.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Acr.UserDialogs.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::PerboyreApp.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Acr.UserDialogs.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::PerboyreApp.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Acr.UserDialogs.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::PerboyreApp.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Acr.UserDialogs.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::PerboyreApp.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Acr.UserDialogs.Resource.Drawable.abc_vector_test = global::PerboyreApp.Droid.Resource.Drawable.abc_vector_test;
+			global::Acr.UserDialogs.Resource.Drawable.avd_hide_password = global::PerboyreApp.Droid.Resource.Drawable.avd_hide_password;
+			global::Acr.UserDialogs.Resource.Drawable.avd_show_password = global::PerboyreApp.Droid.Resource.Drawable.avd_show_password;
+			global::Acr.UserDialogs.Resource.Drawable.design_bottom_navigation_item_background = global::PerboyreApp.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Acr.UserDialogs.Resource.Drawable.design_fab_background = global::PerboyreApp.Droid.Resource.Drawable.design_fab_background;
+			global::Acr.UserDialogs.Resource.Drawable.design_ic_visibility = global::PerboyreApp.Droid.Resource.Drawable.design_ic_visibility;
+			global::Acr.UserDialogs.Resource.Drawable.design_ic_visibility_off = global::PerboyreApp.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Acr.UserDialogs.Resource.Drawable.design_password_eye = global::PerboyreApp.Droid.Resource.Drawable.design_password_eye;
+			global::Acr.UserDialogs.Resource.Drawable.design_snackbar_background = global::PerboyreApp.Droid.Resource.Drawable.design_snackbar_background;
+			global::Acr.UserDialogs.Resource.Drawable.ic_errorstatus = global::PerboyreApp.Droid.Resource.Drawable.ic_errorstatus;
+			global::Acr.UserDialogs.Resource.Drawable.ic_mtrl_chip_checked_black = global::PerboyreApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Acr.UserDialogs.Resource.Drawable.ic_mtrl_chip_checked_circle = global::PerboyreApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Acr.UserDialogs.Resource.Drawable.ic_mtrl_chip_close_circle = global::PerboyreApp.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Acr.UserDialogs.Resource.Drawable.ic_successstatus = global::PerboyreApp.Droid.Resource.Drawable.ic_successstatus;
+			global::Acr.UserDialogs.Resource.Drawable.mtrl_snackbar_background = global::PerboyreApp.Droid.Resource.Drawable.mtrl_snackbar_background;
+			global::Acr.UserDialogs.Resource.Drawable.mtrl_tabs_default_indicator = global::PerboyreApp.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::Acr.UserDialogs.Resource.Drawable.navigation_empty_icon = global::PerboyreApp.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Acr.UserDialogs.Resource.Drawable.notification_action_background = global::PerboyreApp.Droid.Resource.Drawable.notification_action_background;
+			global::Acr.UserDialogs.Resource.Drawable.notification_bg = global::PerboyreApp.Droid.Resource.Drawable.notification_bg;
+			global::Acr.UserDialogs.Resource.Drawable.notification_bg_low = global::PerboyreApp.Droid.Resource.Drawable.notification_bg_low;
+			global::Acr.UserDialogs.Resource.Drawable.notification_bg_low_normal = global::PerboyreApp.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Acr.UserDialogs.Resource.Drawable.notification_bg_low_pressed = global::PerboyreApp.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Acr.UserDialogs.Resource.Drawable.notification_bg_normal = global::PerboyreApp.Droid.Resource.Drawable.notification_bg_normal;
+			global::Acr.UserDialogs.Resource.Drawable.notification_bg_normal_pressed = global::PerboyreApp.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Acr.UserDialogs.Resource.Drawable.notification_icon_background = global::PerboyreApp.Droid.Resource.Drawable.notification_icon_background;
+			global::Acr.UserDialogs.Resource.Drawable.notification_template_icon_bg = global::PerboyreApp.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Acr.UserDialogs.Resource.Drawable.notification_template_icon_low_bg = global::PerboyreApp.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Acr.UserDialogs.Resource.Drawable.notification_tile_bg = global::PerboyreApp.Droid.Resource.Drawable.notification_tile_bg;
+			global::Acr.UserDialogs.Resource.Drawable.notify_panel_notification_icon_bg = global::PerboyreApp.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Acr.UserDialogs.Resource.Drawable.roundedbg = global::PerboyreApp.Droid.Resource.Drawable.roundedbg;
+			global::Acr.UserDialogs.Resource.Drawable.roundedbgdark = global::PerboyreApp.Droid.Resource.Drawable.roundedbgdark;
+			global::Acr.UserDialogs.Resource.Drawable.tooltip_frame_dark = global::PerboyreApp.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Acr.UserDialogs.Resource.Drawable.tooltip_frame_light = global::PerboyreApp.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Acr.UserDialogs.Resource.Id.actions = global::PerboyreApp.Droid.Resource.Id.actions;
+			global::Acr.UserDialogs.Resource.Id.action_bar = global::PerboyreApp.Droid.Resource.Id.action_bar;
+			global::Acr.UserDialogs.Resource.Id.action_bar_activity_content = global::PerboyreApp.Droid.Resource.Id.action_bar_activity_content;
+			global::Acr.UserDialogs.Resource.Id.action_bar_container = global::PerboyreApp.Droid.Resource.Id.action_bar_container;
+			global::Acr.UserDialogs.Resource.Id.action_bar_root = global::PerboyreApp.Droid.Resource.Id.action_bar_root;
+			global::Acr.UserDialogs.Resource.Id.action_bar_spinner = global::PerboyreApp.Droid.Resource.Id.action_bar_spinner;
+			global::Acr.UserDialogs.Resource.Id.action_bar_subtitle = global::PerboyreApp.Droid.Resource.Id.action_bar_subtitle;
+			global::Acr.UserDialogs.Resource.Id.action_bar_title = global::PerboyreApp.Droid.Resource.Id.action_bar_title;
+			global::Acr.UserDialogs.Resource.Id.action_container = global::PerboyreApp.Droid.Resource.Id.action_container;
+			global::Acr.UserDialogs.Resource.Id.action_context_bar = global::PerboyreApp.Droid.Resource.Id.action_context_bar;
+			global::Acr.UserDialogs.Resource.Id.action_divider = global::PerboyreApp.Droid.Resource.Id.action_divider;
+			global::Acr.UserDialogs.Resource.Id.action_image = global::PerboyreApp.Droid.Resource.Id.action_image;
+			global::Acr.UserDialogs.Resource.Id.action_menu_divider = global::PerboyreApp.Droid.Resource.Id.action_menu_divider;
+			global::Acr.UserDialogs.Resource.Id.action_menu_presenter = global::PerboyreApp.Droid.Resource.Id.action_menu_presenter;
+			global::Acr.UserDialogs.Resource.Id.action_mode_bar = global::PerboyreApp.Droid.Resource.Id.action_mode_bar;
+			global::Acr.UserDialogs.Resource.Id.action_mode_bar_stub = global::PerboyreApp.Droid.Resource.Id.action_mode_bar_stub;
+			global::Acr.UserDialogs.Resource.Id.action_mode_close_button = global::PerboyreApp.Droid.Resource.Id.action_mode_close_button;
+			global::Acr.UserDialogs.Resource.Id.action_text = global::PerboyreApp.Droid.Resource.Id.action_text;
+			global::Acr.UserDialogs.Resource.Id.activity_chooser_view_content = global::PerboyreApp.Droid.Resource.Id.activity_chooser_view_content;
+			global::Acr.UserDialogs.Resource.Id.add = global::PerboyreApp.Droid.Resource.Id.add;
+			global::Acr.UserDialogs.Resource.Id.alertTitle = global::PerboyreApp.Droid.Resource.Id.alertTitle;
+			global::Acr.UserDialogs.Resource.Id.all = global::PerboyreApp.Droid.Resource.Id.all;
+			global::Acr.UserDialogs.Resource.Id.ALT = global::PerboyreApp.Droid.Resource.Id.ALT;
+			global::Acr.UserDialogs.Resource.Id.always = global::PerboyreApp.Droid.Resource.Id.always;
+			global::Acr.UserDialogs.Resource.Id.async = global::PerboyreApp.Droid.Resource.Id.async;
+			global::Acr.UserDialogs.Resource.Id.auto = global::PerboyreApp.Droid.Resource.Id.auto;
+			global::Acr.UserDialogs.Resource.Id.beginning = global::PerboyreApp.Droid.Resource.Id.beginning;
+			global::Acr.UserDialogs.Resource.Id.blocking = global::PerboyreApp.Droid.Resource.Id.blocking;
+			global::Acr.UserDialogs.Resource.Id.bottom = global::PerboyreApp.Droid.Resource.Id.bottom;
+			global::Acr.UserDialogs.Resource.Id.buttonPanel = global::PerboyreApp.Droid.Resource.Id.buttonPanel;
+			global::Acr.UserDialogs.Resource.Id.center = global::PerboyreApp.Droid.Resource.Id.center;
+			global::Acr.UserDialogs.Resource.Id.center_horizontal = global::PerboyreApp.Droid.Resource.Id.center_horizontal;
+			global::Acr.UserDialogs.Resource.Id.center_vertical = global::PerboyreApp.Droid.Resource.Id.center_vertical;
+			global::Acr.UserDialogs.Resource.Id.checkbox = global::PerboyreApp.Droid.Resource.Id.checkbox;
+			global::Acr.UserDialogs.Resource.Id.chronometer = global::PerboyreApp.Droid.Resource.Id.chronometer;
+			global::Acr.UserDialogs.Resource.Id.clip_horizontal = global::PerboyreApp.Droid.Resource.Id.clip_horizontal;
+			global::Acr.UserDialogs.Resource.Id.clip_vertical = global::PerboyreApp.Droid.Resource.Id.clip_vertical;
+			global::Acr.UserDialogs.Resource.Id.collapseActionView = global::PerboyreApp.Droid.Resource.Id.collapseActionView;
+			global::Acr.UserDialogs.Resource.Id.container = global::PerboyreApp.Droid.Resource.Id.container;
+			global::Acr.UserDialogs.Resource.Id.content = global::PerboyreApp.Droid.Resource.Id.content;
+			global::Acr.UserDialogs.Resource.Id.contentPanel = global::PerboyreApp.Droid.Resource.Id.contentPanel;
+			global::Acr.UserDialogs.Resource.Id.coordinator = global::PerboyreApp.Droid.Resource.Id.coordinator;
+			global::Acr.UserDialogs.Resource.Id.CTRL = global::PerboyreApp.Droid.Resource.Id.CTRL;
+			global::Acr.UserDialogs.Resource.Id.custom = global::PerboyreApp.Droid.Resource.Id.custom;
+			global::Acr.UserDialogs.Resource.Id.customPanel = global::PerboyreApp.Droid.Resource.Id.customPanel;
+			global::Acr.UserDialogs.Resource.Id.decor_content_parent = global::PerboyreApp.Droid.Resource.Id.decor_content_parent;
+			global::Acr.UserDialogs.Resource.Id.default_activity_button = global::PerboyreApp.Droid.Resource.Id.default_activity_button;
+			global::Acr.UserDialogs.Resource.Id.design_bottom_sheet = global::PerboyreApp.Droid.Resource.Id.design_bottom_sheet;
+			global::Acr.UserDialogs.Resource.Id.design_menu_item_action_area = global::PerboyreApp.Droid.Resource.Id.design_menu_item_action_area;
+			global::Acr.UserDialogs.Resource.Id.design_menu_item_action_area_stub = global::PerboyreApp.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Acr.UserDialogs.Resource.Id.design_menu_item_text = global::PerboyreApp.Droid.Resource.Id.design_menu_item_text;
+			global::Acr.UserDialogs.Resource.Id.design_navigation_view = global::PerboyreApp.Droid.Resource.Id.design_navigation_view;
+			global::Acr.UserDialogs.Resource.Id.disableHome = global::PerboyreApp.Droid.Resource.Id.disableHome;
+			global::Acr.UserDialogs.Resource.Id.edit_query = global::PerboyreApp.Droid.Resource.Id.edit_query;
+			global::Acr.UserDialogs.Resource.Id.end = global::PerboyreApp.Droid.Resource.Id.end;
+			global::Acr.UserDialogs.Resource.Id.enterAlways = global::PerboyreApp.Droid.Resource.Id.enterAlways;
+			global::Acr.UserDialogs.Resource.Id.enterAlwaysCollapsed = global::PerboyreApp.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Acr.UserDialogs.Resource.Id.exitUntilCollapsed = global::PerboyreApp.Droid.Resource.Id.exitUntilCollapsed;
+			global::Acr.UserDialogs.Resource.Id.expanded_menu = global::PerboyreApp.Droid.Resource.Id.expanded_menu;
+			global::Acr.UserDialogs.Resource.Id.expand_activities_button = global::PerboyreApp.Droid.Resource.Id.expand_activities_button;
+			global::Acr.UserDialogs.Resource.Id.fill = global::PerboyreApp.Droid.Resource.Id.fill;
+			global::Acr.UserDialogs.Resource.Id.filled = global::PerboyreApp.Droid.Resource.Id.filled;
+			global::Acr.UserDialogs.Resource.Id.fill_horizontal = global::PerboyreApp.Droid.Resource.Id.fill_horizontal;
+			global::Acr.UserDialogs.Resource.Id.fill_vertical = global::PerboyreApp.Droid.Resource.Id.fill_vertical;
+			global::Acr.UserDialogs.Resource.Id.@fixed = global::PerboyreApp.Droid.Resource.Id.@fixed;
+			global::Acr.UserDialogs.Resource.Id.forever = global::PerboyreApp.Droid.Resource.Id.forever;
+			global::Acr.UserDialogs.Resource.Id.FUNCTION = global::PerboyreApp.Droid.Resource.Id.FUNCTION;
+			global::Acr.UserDialogs.Resource.Id.ghost_view = global::PerboyreApp.Droid.Resource.Id.ghost_view;
+			global::Acr.UserDialogs.Resource.Id.group_divider = global::PerboyreApp.Droid.Resource.Id.group_divider;
+			global::Acr.UserDialogs.Resource.Id.home = global::PerboyreApp.Droid.Resource.Id.home;
+			global::Acr.UserDialogs.Resource.Id.homeAsUp = global::PerboyreApp.Droid.Resource.Id.homeAsUp;
+			global::Acr.UserDialogs.Resource.Id.icon = global::PerboyreApp.Droid.Resource.Id.icon;
+			global::Acr.UserDialogs.Resource.Id.icon_group = global::PerboyreApp.Droid.Resource.Id.icon_group;
+			global::Acr.UserDialogs.Resource.Id.ifRoom = global::PerboyreApp.Droid.Resource.Id.ifRoom;
+			global::Acr.UserDialogs.Resource.Id.image = global::PerboyreApp.Droid.Resource.Id.image;
+			global::Acr.UserDialogs.Resource.Id.info = global::PerboyreApp.Droid.Resource.Id.info;
+			global::Acr.UserDialogs.Resource.Id.italic = global::PerboyreApp.Droid.Resource.Id.italic;
+			global::Acr.UserDialogs.Resource.Id.item_touch_helper_previous_elevation = global::PerboyreApp.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Acr.UserDialogs.Resource.Id.labeled = global::PerboyreApp.Droid.Resource.Id.labeled;
+			global::Acr.UserDialogs.Resource.Id.largeLabel = global::PerboyreApp.Droid.Resource.Id.largeLabel;
+			global::Acr.UserDialogs.Resource.Id.left = global::PerboyreApp.Droid.Resource.Id.left;
+			global::Acr.UserDialogs.Resource.Id.line1 = global::PerboyreApp.Droid.Resource.Id.line1;
+			global::Acr.UserDialogs.Resource.Id.line3 = global::PerboyreApp.Droid.Resource.Id.line3;
+			global::Acr.UserDialogs.Resource.Id.listMode = global::PerboyreApp.Droid.Resource.Id.listMode;
+			global::Acr.UserDialogs.Resource.Id.list_item = global::PerboyreApp.Droid.Resource.Id.list_item;
+			global::Acr.UserDialogs.Resource.Id.loadingImage = global::PerboyreApp.Droid.Resource.Id.loadingImage;
+			global::Acr.UserDialogs.Resource.Id.loadingProgressBar = global::PerboyreApp.Droid.Resource.Id.loadingProgressBar;
+			global::Acr.UserDialogs.Resource.Id.loadingProgressWheel = global::PerboyreApp.Droid.Resource.Id.loadingProgressWheel;
+			global::Acr.UserDialogs.Resource.Id.masked = global::PerboyreApp.Droid.Resource.Id.masked;
+			global::Acr.UserDialogs.Resource.Id.message = global::PerboyreApp.Droid.Resource.Id.message;
+			global::Acr.UserDialogs.Resource.Id.META = global::PerboyreApp.Droid.Resource.Id.META;
+			global::Acr.UserDialogs.Resource.Id.middle = global::PerboyreApp.Droid.Resource.Id.middle;
+			global::Acr.UserDialogs.Resource.Id.mini = global::PerboyreApp.Droid.Resource.Id.mini;
+			global::Acr.UserDialogs.Resource.Id.mtrl_child_content_container = global::PerboyreApp.Droid.Resource.Id.mtrl_child_content_container;
+			global::Acr.UserDialogs.Resource.Id.mtrl_internal_children_alpha_tag = global::PerboyreApp.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Acr.UserDialogs.Resource.Id.multiply = global::PerboyreApp.Droid.Resource.Id.multiply;
+			global::Acr.UserDialogs.Resource.Id.navigation_header_container = global::PerboyreApp.Droid.Resource.Id.navigation_header_container;
+			global::Acr.UserDialogs.Resource.Id.never = global::PerboyreApp.Droid.Resource.Id.never;
+			global::Acr.UserDialogs.Resource.Id.none = global::PerboyreApp.Droid.Resource.Id.none;
+			global::Acr.UserDialogs.Resource.Id.normal = global::PerboyreApp.Droid.Resource.Id.normal;
+			global::Acr.UserDialogs.Resource.Id.notification_background = global::PerboyreApp.Droid.Resource.Id.notification_background;
+			global::Acr.UserDialogs.Resource.Id.notification_main_column = global::PerboyreApp.Droid.Resource.Id.notification_main_column;
+			global::Acr.UserDialogs.Resource.Id.notification_main_column_container = global::PerboyreApp.Droid.Resource.Id.notification_main_column_container;
+			global::Acr.UserDialogs.Resource.Id.outline = global::PerboyreApp.Droid.Resource.Id.outline;
+			global::Acr.UserDialogs.Resource.Id.parallax = global::PerboyreApp.Droid.Resource.Id.parallax;
+			global::Acr.UserDialogs.Resource.Id.parentPanel = global::PerboyreApp.Droid.Resource.Id.parentPanel;
+			global::Acr.UserDialogs.Resource.Id.parent_matrix = global::PerboyreApp.Droid.Resource.Id.parent_matrix;
+			global::Acr.UserDialogs.Resource.Id.pin = global::PerboyreApp.Droid.Resource.Id.pin;
+			global::Acr.UserDialogs.Resource.Id.progress_circular = global::PerboyreApp.Droid.Resource.Id.progress_circular;
+			global::Acr.UserDialogs.Resource.Id.progress_horizontal = global::PerboyreApp.Droid.Resource.Id.progress_horizontal;
+			global::Acr.UserDialogs.Resource.Id.radio = global::PerboyreApp.Droid.Resource.Id.radio;
+			global::Acr.UserDialogs.Resource.Id.right = global::PerboyreApp.Droid.Resource.Id.right;
+			global::Acr.UserDialogs.Resource.Id.right_icon = global::PerboyreApp.Droid.Resource.Id.right_icon;
+			global::Acr.UserDialogs.Resource.Id.right_side = global::PerboyreApp.Droid.Resource.Id.right_side;
+			global::Acr.UserDialogs.Resource.Id.save_image_matrix = global::PerboyreApp.Droid.Resource.Id.save_image_matrix;
+			global::Acr.UserDialogs.Resource.Id.save_non_transition_alpha = global::PerboyreApp.Droid.Resource.Id.save_non_transition_alpha;
+			global::Acr.UserDialogs.Resource.Id.save_scale_type = global::PerboyreApp.Droid.Resource.Id.save_scale_type;
+			global::Acr.UserDialogs.Resource.Id.screen = global::PerboyreApp.Droid.Resource.Id.screen;
+			global::Acr.UserDialogs.Resource.Id.scroll = global::PerboyreApp.Droid.Resource.Id.scroll;
+			global::Acr.UserDialogs.Resource.Id.scrollable = global::PerboyreApp.Droid.Resource.Id.scrollable;
+			global::Acr.UserDialogs.Resource.Id.scrollIndicatorDown = global::PerboyreApp.Droid.Resource.Id.scrollIndicatorDown;
+			global::Acr.UserDialogs.Resource.Id.scrollIndicatorUp = global::PerboyreApp.Droid.Resource.Id.scrollIndicatorUp;
+			global::Acr.UserDialogs.Resource.Id.scrollView = global::PerboyreApp.Droid.Resource.Id.scrollView;
+			global::Acr.UserDialogs.Resource.Id.search_badge = global::PerboyreApp.Droid.Resource.Id.search_badge;
+			global::Acr.UserDialogs.Resource.Id.search_bar = global::PerboyreApp.Droid.Resource.Id.search_bar;
+			global::Acr.UserDialogs.Resource.Id.search_button = global::PerboyreApp.Droid.Resource.Id.search_button;
+			global::Acr.UserDialogs.Resource.Id.search_close_btn = global::PerboyreApp.Droid.Resource.Id.search_close_btn;
+			global::Acr.UserDialogs.Resource.Id.search_edit_frame = global::PerboyreApp.Droid.Resource.Id.search_edit_frame;
+			global::Acr.UserDialogs.Resource.Id.search_go_btn = global::PerboyreApp.Droid.Resource.Id.search_go_btn;
+			global::Acr.UserDialogs.Resource.Id.search_mag_icon = global::PerboyreApp.Droid.Resource.Id.search_mag_icon;
+			global::Acr.UserDialogs.Resource.Id.search_plate = global::PerboyreApp.Droid.Resource.Id.search_plate;
+			global::Acr.UserDialogs.Resource.Id.search_src_text = global::PerboyreApp.Droid.Resource.Id.search_src_text;
+			global::Acr.UserDialogs.Resource.Id.search_voice_btn = global::PerboyreApp.Droid.Resource.Id.search_voice_btn;
+			global::Acr.UserDialogs.Resource.Id.selected = global::PerboyreApp.Droid.Resource.Id.selected;
+			global::Acr.UserDialogs.Resource.Id.select_dialog_listview = global::PerboyreApp.Droid.Resource.Id.select_dialog_listview;
+			global::Acr.UserDialogs.Resource.Id.SHIFT = global::PerboyreApp.Droid.Resource.Id.SHIFT;
+			global::Acr.UserDialogs.Resource.Id.shortcut = global::PerboyreApp.Droid.Resource.Id.shortcut;
+			global::Acr.UserDialogs.Resource.Id.showCustom = global::PerboyreApp.Droid.Resource.Id.showCustom;
+			global::Acr.UserDialogs.Resource.Id.showHome = global::PerboyreApp.Droid.Resource.Id.showHome;
+			global::Acr.UserDialogs.Resource.Id.showTitle = global::PerboyreApp.Droid.Resource.Id.showTitle;
+			global::Acr.UserDialogs.Resource.Id.smallLabel = global::PerboyreApp.Droid.Resource.Id.smallLabel;
+			global::Acr.UserDialogs.Resource.Id.snackbar_action = global::PerboyreApp.Droid.Resource.Id.snackbar_action;
+			global::Acr.UserDialogs.Resource.Id.snackbar_text = global::PerboyreApp.Droid.Resource.Id.snackbar_text;
+			global::Acr.UserDialogs.Resource.Id.snap = global::PerboyreApp.Droid.Resource.Id.snap;
+			global::Acr.UserDialogs.Resource.Id.snapMargins = global::PerboyreApp.Droid.Resource.Id.snapMargins;
+			global::Acr.UserDialogs.Resource.Id.spacer = global::PerboyreApp.Droid.Resource.Id.spacer;
+			global::Acr.UserDialogs.Resource.Id.split_action_bar = global::PerboyreApp.Droid.Resource.Id.split_action_bar;
+			global::Acr.UserDialogs.Resource.Id.src_atop = global::PerboyreApp.Droid.Resource.Id.src_atop;
+			global::Acr.UserDialogs.Resource.Id.src_in = global::PerboyreApp.Droid.Resource.Id.src_in;
+			global::Acr.UserDialogs.Resource.Id.src_over = global::PerboyreApp.Droid.Resource.Id.src_over;
+			global::Acr.UserDialogs.Resource.Id.start = global::PerboyreApp.Droid.Resource.Id.start;
+			global::Acr.UserDialogs.Resource.Id.stretch = global::PerboyreApp.Droid.Resource.Id.stretch;
+			global::Acr.UserDialogs.Resource.Id.submenuarrow = global::PerboyreApp.Droid.Resource.Id.submenuarrow;
+			global::Acr.UserDialogs.Resource.Id.submit_area = global::PerboyreApp.Droid.Resource.Id.submit_area;
+			global::Acr.UserDialogs.Resource.Id.SYM = global::PerboyreApp.Droid.Resource.Id.SYM;
+			global::Acr.UserDialogs.Resource.Id.tabMode = global::PerboyreApp.Droid.Resource.Id.tabMode;
+			global::Acr.UserDialogs.Resource.Id.tag_transition_group = global::PerboyreApp.Droid.Resource.Id.tag_transition_group;
+			global::Acr.UserDialogs.Resource.Id.tag_unhandled_key_event_manager = global::PerboyreApp.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Acr.UserDialogs.Resource.Id.tag_unhandled_key_listeners = global::PerboyreApp.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Acr.UserDialogs.Resource.Id.text = global::PerboyreApp.Droid.Resource.Id.text;
+			global::Acr.UserDialogs.Resource.Id.text2 = global::PerboyreApp.Droid.Resource.Id.text2;
+			global::Acr.UserDialogs.Resource.Id.textinput_counter = global::PerboyreApp.Droid.Resource.Id.textinput_counter;
+			global::Acr.UserDialogs.Resource.Id.textinput_error = global::PerboyreApp.Droid.Resource.Id.textinput_error;
+			global::Acr.UserDialogs.Resource.Id.textinput_helper_text = global::PerboyreApp.Droid.Resource.Id.textinput_helper_text;
+			global::Acr.UserDialogs.Resource.Id.textSpacerNoButtons = global::PerboyreApp.Droid.Resource.Id.textSpacerNoButtons;
+			global::Acr.UserDialogs.Resource.Id.textSpacerNoTitle = global::PerboyreApp.Droid.Resource.Id.textSpacerNoTitle;
+			global::Acr.UserDialogs.Resource.Id.textStart = global::PerboyreApp.Droid.Resource.Id.textStart;
+			global::Acr.UserDialogs.Resource.Id.textViewStatus = global::PerboyreApp.Droid.Resource.Id.textViewStatus;
+			global::Acr.UserDialogs.Resource.Id.text_input_password_toggle = global::PerboyreApp.Droid.Resource.Id.text_input_password_toggle;
+			global::Acr.UserDialogs.Resource.Id.time = global::PerboyreApp.Droid.Resource.Id.time;
+			global::Acr.UserDialogs.Resource.Id.title = global::PerboyreApp.Droid.Resource.Id.title;
+			global::Acr.UserDialogs.Resource.Id.titleDividerNoCustom = global::PerboyreApp.Droid.Resource.Id.titleDividerNoCustom;
+			global::Acr.UserDialogs.Resource.Id.title_template = global::PerboyreApp.Droid.Resource.Id.title_template;
+			global::Acr.UserDialogs.Resource.Id.top = global::PerboyreApp.Droid.Resource.Id.top;
+			global::Acr.UserDialogs.Resource.Id.topPanel = global::PerboyreApp.Droid.Resource.Id.topPanel;
+			global::Acr.UserDialogs.Resource.Id.touch_outside = global::PerboyreApp.Droid.Resource.Id.touch_outside;
+			global::Acr.UserDialogs.Resource.Id.transition_current_scene = global::PerboyreApp.Droid.Resource.Id.transition_current_scene;
+			global::Acr.UserDialogs.Resource.Id.transition_layout_save = global::PerboyreApp.Droid.Resource.Id.transition_layout_save;
+			global::Acr.UserDialogs.Resource.Id.transition_position = global::PerboyreApp.Droid.Resource.Id.transition_position;
+			global::Acr.UserDialogs.Resource.Id.transition_scene_layoutid_cache = global::PerboyreApp.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Acr.UserDialogs.Resource.Id.transition_transform = global::PerboyreApp.Droid.Resource.Id.transition_transform;
+			global::Acr.UserDialogs.Resource.Id.uniform = global::PerboyreApp.Droid.Resource.Id.uniform;
+			global::Acr.UserDialogs.Resource.Id.unlabeled = global::PerboyreApp.Droid.Resource.Id.unlabeled;
+			global::Acr.UserDialogs.Resource.Id.up = global::PerboyreApp.Droid.Resource.Id.up;
+			global::Acr.UserDialogs.Resource.Id.useLogo = global::PerboyreApp.Droid.Resource.Id.useLogo;
+			global::Acr.UserDialogs.Resource.Id.view_offset_helper = global::PerboyreApp.Droid.Resource.Id.view_offset_helper;
+			global::Acr.UserDialogs.Resource.Id.visible = global::PerboyreApp.Droid.Resource.Id.visible;
+			global::Acr.UserDialogs.Resource.Id.withText = global::PerboyreApp.Droid.Resource.Id.withText;
+			global::Acr.UserDialogs.Resource.Id.wrap_content = global::PerboyreApp.Droid.Resource.Id.wrap_content;
+			global::Acr.UserDialogs.Resource.Integer.abc_config_activityDefaultDur = global::PerboyreApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Acr.UserDialogs.Resource.Integer.abc_config_activityShortDur = global::PerboyreApp.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Acr.UserDialogs.Resource.Integer.app_bar_elevation_anim_duration = global::PerboyreApp.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Acr.UserDialogs.Resource.Integer.bottom_sheet_slide_duration = global::PerboyreApp.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Acr.UserDialogs.Resource.Integer.cancel_button_image_alpha = global::PerboyreApp.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Acr.UserDialogs.Resource.Integer.config_tooltipAnimTime = global::PerboyreApp.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Acr.UserDialogs.Resource.Integer.design_snackbar_text_max_lines = global::PerboyreApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Acr.UserDialogs.Resource.Integer.design_tab_indicator_anim_duration_ms = global::PerboyreApp.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::Acr.UserDialogs.Resource.Integer.hide_password_duration = global::PerboyreApp.Droid.Resource.Integer.hide_password_duration;
+			global::Acr.UserDialogs.Resource.Integer.mtrl_btn_anim_delay_ms = global::PerboyreApp.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Acr.UserDialogs.Resource.Integer.mtrl_btn_anim_duration_ms = global::PerboyreApp.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Acr.UserDialogs.Resource.Integer.mtrl_chip_anim_duration = global::PerboyreApp.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::Acr.UserDialogs.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::PerboyreApp.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::Acr.UserDialogs.Resource.Integer.show_password_duration = global::PerboyreApp.Droid.Resource.Integer.show_password_duration;
+			global::Acr.UserDialogs.Resource.Integer.status_bar_notification_info_maxnum = global::PerboyreApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Acr.UserDialogs.Resource.Interpolator.mtrl_fast_out_linear_in = global::PerboyreApp.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Acr.UserDialogs.Resource.Interpolator.mtrl_fast_out_slow_in = global::PerboyreApp.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Acr.UserDialogs.Resource.Interpolator.mtrl_linear = global::PerboyreApp.Droid.Resource.Interpolator.mtrl_linear;
+			global::Acr.UserDialogs.Resource.Interpolator.mtrl_linear_out_slow_in = global::PerboyreApp.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::Acr.UserDialogs.Resource.Layout.abc_action_bar_title_item = global::PerboyreApp.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Acr.UserDialogs.Resource.Layout.abc_action_bar_up_container = global::PerboyreApp.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Acr.UserDialogs.Resource.Layout.abc_action_menu_item_layout = global::PerboyreApp.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Acr.UserDialogs.Resource.Layout.abc_action_menu_layout = global::PerboyreApp.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Acr.UserDialogs.Resource.Layout.abc_action_mode_bar = global::PerboyreApp.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Acr.UserDialogs.Resource.Layout.abc_action_mode_close_item_material = global::PerboyreApp.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Acr.UserDialogs.Resource.Layout.abc_activity_chooser_view = global::PerboyreApp.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Acr.UserDialogs.Resource.Layout.abc_activity_chooser_view_list_item = global::PerboyreApp.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Acr.UserDialogs.Resource.Layout.abc_alert_dialog_button_bar_material = global::PerboyreApp.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Acr.UserDialogs.Resource.Layout.abc_alert_dialog_material = global::PerboyreApp.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Acr.UserDialogs.Resource.Layout.abc_alert_dialog_title_material = global::PerboyreApp.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Acr.UserDialogs.Resource.Layout.abc_cascading_menu_item_layout = global::PerboyreApp.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::Acr.UserDialogs.Resource.Layout.abc_dialog_title_material = global::PerboyreApp.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Acr.UserDialogs.Resource.Layout.abc_expanded_menu_layout = global::PerboyreApp.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Acr.UserDialogs.Resource.Layout.abc_list_menu_item_checkbox = global::PerboyreApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Acr.UserDialogs.Resource.Layout.abc_list_menu_item_icon = global::PerboyreApp.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Acr.UserDialogs.Resource.Layout.abc_list_menu_item_layout = global::PerboyreApp.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Acr.UserDialogs.Resource.Layout.abc_list_menu_item_radio = global::PerboyreApp.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Acr.UserDialogs.Resource.Layout.abc_popup_menu_header_item_layout = global::PerboyreApp.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Acr.UserDialogs.Resource.Layout.abc_popup_menu_item_layout = global::PerboyreApp.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Acr.UserDialogs.Resource.Layout.abc_screen_content_include = global::PerboyreApp.Droid.Resource.Layout.abc_screen_content_include;
+			global::Acr.UserDialogs.Resource.Layout.abc_screen_simple = global::PerboyreApp.Droid.Resource.Layout.abc_screen_simple;
+			global::Acr.UserDialogs.Resource.Layout.abc_screen_simple_overlay_action_mode = global::PerboyreApp.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Acr.UserDialogs.Resource.Layout.abc_screen_toolbar = global::PerboyreApp.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Acr.UserDialogs.Resource.Layout.abc_search_dropdown_item_icons_2line = global::PerboyreApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Acr.UserDialogs.Resource.Layout.abc_search_view = global::PerboyreApp.Droid.Resource.Layout.abc_search_view;
+			global::Acr.UserDialogs.Resource.Layout.abc_select_dialog_material = global::PerboyreApp.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Acr.UserDialogs.Resource.Layout.abc_tooltip = global::PerboyreApp.Droid.Resource.Layout.abc_tooltip;
+			global::Acr.UserDialogs.Resource.Layout.design_bottom_navigation_item = global::PerboyreApp.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Acr.UserDialogs.Resource.Layout.design_bottom_sheet_dialog = global::PerboyreApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Acr.UserDialogs.Resource.Layout.design_layout_snackbar = global::PerboyreApp.Droid.Resource.Layout.design_layout_snackbar;
+			global::Acr.UserDialogs.Resource.Layout.design_layout_snackbar_include = global::PerboyreApp.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Acr.UserDialogs.Resource.Layout.design_layout_tab_icon = global::PerboyreApp.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Acr.UserDialogs.Resource.Layout.design_layout_tab_text = global::PerboyreApp.Droid.Resource.Layout.design_layout_tab_text;
+			global::Acr.UserDialogs.Resource.Layout.design_menu_item_action_area = global::PerboyreApp.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Acr.UserDialogs.Resource.Layout.design_navigation_item = global::PerboyreApp.Droid.Resource.Layout.design_navigation_item;
+			global::Acr.UserDialogs.Resource.Layout.design_navigation_item_header = global::PerboyreApp.Droid.Resource.Layout.design_navigation_item_header;
+			global::Acr.UserDialogs.Resource.Layout.design_navigation_item_separator = global::PerboyreApp.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Acr.UserDialogs.Resource.Layout.design_navigation_item_subheader = global::PerboyreApp.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Acr.UserDialogs.Resource.Layout.design_navigation_menu = global::PerboyreApp.Droid.Resource.Layout.design_navigation_menu;
+			global::Acr.UserDialogs.Resource.Layout.design_navigation_menu_item = global::PerboyreApp.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Acr.UserDialogs.Resource.Layout.design_text_input_password_icon = global::PerboyreApp.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Acr.UserDialogs.Resource.Layout.loading = global::PerboyreApp.Droid.Resource.Layout.loading;
+			global::Acr.UserDialogs.Resource.Layout.loadingimage = global::PerboyreApp.Droid.Resource.Layout.loadingimage;
+			global::Acr.UserDialogs.Resource.Layout.loadingprogress = global::PerboyreApp.Droid.Resource.Layout.loadingprogress;
+			global::Acr.UserDialogs.Resource.Layout.mtrl_layout_snackbar = global::PerboyreApp.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::Acr.UserDialogs.Resource.Layout.mtrl_layout_snackbar_include = global::PerboyreApp.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Acr.UserDialogs.Resource.Layout.notification_action = global::PerboyreApp.Droid.Resource.Layout.notification_action;
+			global::Acr.UserDialogs.Resource.Layout.notification_action_tombstone = global::PerboyreApp.Droid.Resource.Layout.notification_action_tombstone;
+			global::Acr.UserDialogs.Resource.Layout.notification_template_custom_big = global::PerboyreApp.Droid.Resource.Layout.notification_template_custom_big;
+			global::Acr.UserDialogs.Resource.Layout.notification_template_icon_group = global::PerboyreApp.Droid.Resource.Layout.notification_template_icon_group;
+			global::Acr.UserDialogs.Resource.Layout.notification_template_part_chronometer = global::PerboyreApp.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Acr.UserDialogs.Resource.Layout.notification_template_part_time = global::PerboyreApp.Droid.Resource.Layout.notification_template_part_time;
+			global::Acr.UserDialogs.Resource.Layout.select_dialog_item_material = global::PerboyreApp.Droid.Resource.Layout.select_dialog_item_material;
+			global::Acr.UserDialogs.Resource.Layout.select_dialog_multichoice_material = global::PerboyreApp.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Acr.UserDialogs.Resource.Layout.select_dialog_singlechoice_material = global::PerboyreApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Acr.UserDialogs.Resource.Layout.support_simple_spinner_dropdown_item = global::PerboyreApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Acr.UserDialogs.Resource.String.abc_action_bar_home_description = global::PerboyreApp.Droid.Resource.String.abc_action_bar_home_description;
+			global::Acr.UserDialogs.Resource.String.abc_action_bar_up_description = global::PerboyreApp.Droid.Resource.String.abc_action_bar_up_description;
+			global::Acr.UserDialogs.Resource.String.abc_action_menu_overflow_description = global::PerboyreApp.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Acr.UserDialogs.Resource.String.abc_action_mode_done = global::PerboyreApp.Droid.Resource.String.abc_action_mode_done;
+			global::Acr.UserDialogs.Resource.String.abc_activitychooserview_choose_application = global::PerboyreApp.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Acr.UserDialogs.Resource.String.abc_activity_chooser_view_see_all = global::PerboyreApp.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Acr.UserDialogs.Resource.String.abc_capital_off = global::PerboyreApp.Droid.Resource.String.abc_capital_off;
+			global::Acr.UserDialogs.Resource.String.abc_capital_on = global::PerboyreApp.Droid.Resource.String.abc_capital_on;
+			global::Acr.UserDialogs.Resource.String.abc_font_family_body_1_material = global::PerboyreApp.Droid.Resource.String.abc_font_family_body_1_material;
+			global::Acr.UserDialogs.Resource.String.abc_font_family_body_2_material = global::PerboyreApp.Droid.Resource.String.abc_font_family_body_2_material;
+			global::Acr.UserDialogs.Resource.String.abc_font_family_button_material = global::PerboyreApp.Droid.Resource.String.abc_font_family_button_material;
+			global::Acr.UserDialogs.Resource.String.abc_font_family_caption_material = global::PerboyreApp.Droid.Resource.String.abc_font_family_caption_material;
+			global::Acr.UserDialogs.Resource.String.abc_font_family_display_1_material = global::PerboyreApp.Droid.Resource.String.abc_font_family_display_1_material;
+			global::Acr.UserDialogs.Resource.String.abc_font_family_display_2_material = global::PerboyreApp.Droid.Resource.String.abc_font_family_display_2_material;
+			global::Acr.UserDialogs.Resource.String.abc_font_family_display_3_material = global::PerboyreApp.Droid.Resource.String.abc_font_family_display_3_material;
+			global::Acr.UserDialogs.Resource.String.abc_font_family_display_4_material = global::PerboyreApp.Droid.Resource.String.abc_font_family_display_4_material;
+			global::Acr.UserDialogs.Resource.String.abc_font_family_headline_material = global::PerboyreApp.Droid.Resource.String.abc_font_family_headline_material;
+			global::Acr.UserDialogs.Resource.String.abc_font_family_menu_material = global::PerboyreApp.Droid.Resource.String.abc_font_family_menu_material;
+			global::Acr.UserDialogs.Resource.String.abc_font_family_subhead_material = global::PerboyreApp.Droid.Resource.String.abc_font_family_subhead_material;
+			global::Acr.UserDialogs.Resource.String.abc_font_family_title_material = global::PerboyreApp.Droid.Resource.String.abc_font_family_title_material;
+			global::Acr.UserDialogs.Resource.String.abc_menu_alt_shortcut_label = global::PerboyreApp.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::Acr.UserDialogs.Resource.String.abc_menu_ctrl_shortcut_label = global::PerboyreApp.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Acr.UserDialogs.Resource.String.abc_menu_delete_shortcut_label = global::PerboyreApp.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::Acr.UserDialogs.Resource.String.abc_menu_enter_shortcut_label = global::PerboyreApp.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::Acr.UserDialogs.Resource.String.abc_menu_function_shortcut_label = global::PerboyreApp.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::Acr.UserDialogs.Resource.String.abc_menu_meta_shortcut_label = global::PerboyreApp.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::Acr.UserDialogs.Resource.String.abc_menu_shift_shortcut_label = global::PerboyreApp.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::Acr.UserDialogs.Resource.String.abc_menu_space_shortcut_label = global::PerboyreApp.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::Acr.UserDialogs.Resource.String.abc_menu_sym_shortcut_label = global::PerboyreApp.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::Acr.UserDialogs.Resource.String.abc_prepend_shortcut_label = global::PerboyreApp.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::Acr.UserDialogs.Resource.String.abc_searchview_description_clear = global::PerboyreApp.Droid.Resource.String.abc_searchview_description_clear;
+			global::Acr.UserDialogs.Resource.String.abc_searchview_description_query = global::PerboyreApp.Droid.Resource.String.abc_searchview_description_query;
+			global::Acr.UserDialogs.Resource.String.abc_searchview_description_search = global::PerboyreApp.Droid.Resource.String.abc_searchview_description_search;
+			global::Acr.UserDialogs.Resource.String.abc_searchview_description_submit = global::PerboyreApp.Droid.Resource.String.abc_searchview_description_submit;
+			global::Acr.UserDialogs.Resource.String.abc_searchview_description_voice = global::PerboyreApp.Droid.Resource.String.abc_searchview_description_voice;
+			global::Acr.UserDialogs.Resource.String.abc_search_hint = global::PerboyreApp.Droid.Resource.String.abc_search_hint;
+			global::Acr.UserDialogs.Resource.String.abc_shareactionprovider_share_with = global::PerboyreApp.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Acr.UserDialogs.Resource.String.abc_shareactionprovider_share_with_application = global::PerboyreApp.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Acr.UserDialogs.Resource.String.abc_toolbar_collapse_description = global::PerboyreApp.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Acr.UserDialogs.Resource.String.appbar_scrolling_view_behavior = global::PerboyreApp.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Acr.UserDialogs.Resource.String.bottom_sheet_behavior = global::PerboyreApp.Droid.Resource.String.bottom_sheet_behavior;
+			global::Acr.UserDialogs.Resource.String.character_counter_content_description = global::PerboyreApp.Droid.Resource.String.character_counter_content_description;
+			global::Acr.UserDialogs.Resource.String.character_counter_pattern = global::PerboyreApp.Droid.Resource.String.character_counter_pattern;
+			global::Acr.UserDialogs.Resource.String.fab_transformation_scrim_behavior = global::PerboyreApp.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::Acr.UserDialogs.Resource.String.fab_transformation_sheet_behavior = global::PerboyreApp.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Acr.UserDialogs.Resource.String.hide_bottom_view_on_scroll_behavior = global::PerboyreApp.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Acr.UserDialogs.Resource.String.library_name = global::PerboyreApp.Droid.Resource.String.library_name;
+			global::Acr.UserDialogs.Resource.String.mtrl_chip_close_icon_content_description = global::PerboyreApp.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Acr.UserDialogs.Resource.String.password_toggle_content_description = global::PerboyreApp.Droid.Resource.String.password_toggle_content_description;
+			global::Acr.UserDialogs.Resource.String.path_password_eye = global::PerboyreApp.Droid.Resource.String.path_password_eye;
+			global::Acr.UserDialogs.Resource.String.path_password_eye_mask_strike_through = global::PerboyreApp.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Acr.UserDialogs.Resource.String.path_password_eye_mask_visible = global::PerboyreApp.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Acr.UserDialogs.Resource.String.path_password_strike_through = global::PerboyreApp.Droid.Resource.String.path_password_strike_through;
+			global::Acr.UserDialogs.Resource.String.search_menu_title = global::PerboyreApp.Droid.Resource.String.search_menu_title;
+			global::Acr.UserDialogs.Resource.String.status_bar_notification_info_overflow = global::PerboyreApp.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Acr.UserDialogs.Resource.Style.AlertDialog_AppCompat = global::PerboyreApp.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.AlertDialog_AppCompat_Light = global::PerboyreApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Animation_AppCompat_Dialog = global::PerboyreApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Animation_AppCompat_DropDownUp = global::PerboyreApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Acr.UserDialogs.Resource.Style.Animation_AppCompat_Tooltip = global::PerboyreApp.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Acr.UserDialogs.Resource.Style.Animation_Design_BottomSheetDialog = global::PerboyreApp.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Acr.UserDialogs.Resource.Style.Base_AlertDialog_AppCompat = global::PerboyreApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_AlertDialog_AppCompat_Light = global::PerboyreApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_Animation_AppCompat_Dialog = global::PerboyreApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::PerboyreApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Acr.UserDialogs.Resource.Style.Base_Animation_AppCompat_Tooltip = global::PerboyreApp.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Acr.UserDialogs.Resource.Style.Base_CardView = global::PerboyreApp.Droid.Resource.Style.Base_CardView;
+			global::Acr.UserDialogs.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::PerboyreApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_DialogWindowTitle_AppCompat = global::PerboyreApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Button = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Large = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Small = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Title = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Acr.UserDialogs.Resource.Style.Base_ThemeOverlay_AppCompat = global::PerboyreApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::PerboyreApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::PerboyreApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Acr.UserDialogs.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::PerboyreApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::PerboyreApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::PerboyreApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::PerboyreApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::PerboyreApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::PerboyreApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat = global::PerboyreApp.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::PerboyreApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Dialog = global::PerboyreApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::PerboyreApp.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::PerboyreApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::PerboyreApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::PerboyreApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Light = global::PerboyreApp.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::PerboyreApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::PerboyreApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::PerboyreApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::PerboyreApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::PerboyreApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::PerboyreApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents = global::PerboyreApp.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::PerboyreApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::PerboyreApp.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::PerboyreApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::PerboyreApp.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::PerboyreApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::PerboyreApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::PerboyreApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Light = global::PerboyreApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::PerboyreApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::PerboyreApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::PerboyreApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::PerboyreApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::PerboyreApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::PerboyreApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::PerboyreApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::PerboyreApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Acr.UserDialogs.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::PerboyreApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::PerboyreApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Base_V14_Theme_MaterialComponents = global::PerboyreApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Acr.UserDialogs.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::PerboyreApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::PerboyreApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::PerboyreApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::PerboyreApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::PerboyreApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::PerboyreApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::PerboyreApp.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_V21_Theme_AppCompat = global::PerboyreApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::PerboyreApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_V21_Theme_AppCompat_Light = global::PerboyreApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::PerboyreApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_V22_Theme_AppCompat = global::PerboyreApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_V22_Theme_AppCompat_Light = global::PerboyreApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_V23_Theme_AppCompat = global::PerboyreApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_V23_Theme_AppCompat_Light = global::PerboyreApp.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_V26_Theme_AppCompat = global::PerboyreApp.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_V26_Theme_AppCompat_Light = global::PerboyreApp.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::PerboyreApp.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Acr.UserDialogs.Resource.Style.Base_V28_Theme_AppCompat = global::PerboyreApp.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_V28_Theme_AppCompat_Light = global::PerboyreApp.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::PerboyreApp.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_V7_Theme_AppCompat = global::PerboyreApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::PerboyreApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_V7_Theme_AppCompat_Light = global::PerboyreApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::PerboyreApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::PerboyreApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Acr.UserDialogs.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::PerboyreApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Acr.UserDialogs.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::PerboyreApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ActionBar = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ActionButton = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ActionMode = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Button = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Button_Small = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_EditText = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ImageButton = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ListView = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_RatingBar = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_SearchView = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_SeekBar = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Spinner = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Toolbar = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_Design_TabLayout = global::PerboyreApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_MaterialComponents_Chip = global::PerboyreApp.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::PerboyreApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::PerboyreApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Acr.UserDialogs.Resource.Style.CardView = global::PerboyreApp.Droid.Resource.Style.CardView;
+			global::Acr.UserDialogs.Resource.Style.CardView_Dark = global::PerboyreApp.Droid.Resource.Style.CardView_Dark;
+			global::Acr.UserDialogs.Resource.Style.CardView_Light = global::PerboyreApp.Droid.Resource.Style.CardView_Light;
+			global::Acr.UserDialogs.Resource.Style.Platform_AppCompat = global::PerboyreApp.Droid.Resource.Style.Platform_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Platform_AppCompat_Light = global::PerboyreApp.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Platform_MaterialComponents = global::PerboyreApp.Droid.Resource.Style.Platform_MaterialComponents;
+			global::Acr.UserDialogs.Resource.Style.Platform_MaterialComponents_Dialog = global::PerboyreApp.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Platform_MaterialComponents_Light = global::PerboyreApp.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::Acr.UserDialogs.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::PerboyreApp.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Platform_ThemeOverlay_AppCompat = global::PerboyreApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::PerboyreApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Acr.UserDialogs.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::PerboyreApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Platform_V21_AppCompat = global::PerboyreApp.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Platform_V21_AppCompat_Light = global::PerboyreApp.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Platform_V25_AppCompat = global::PerboyreApp.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Platform_V25_AppCompat_Light = global::PerboyreApp.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Platform_Widget_AppCompat_Spinner = global::PerboyreApp.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::PerboyreApp.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::PerboyreApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::PerboyreApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::PerboyreApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::PerboyreApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::PerboyreApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::PerboyreApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::PerboyreApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::PerboyreApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::PerboyreApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::PerboyreApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::PerboyreApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::PerboyreApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::PerboyreApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::PerboyreApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Acr.UserDialogs.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::PerboyreApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Acr.UserDialogs.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::PerboyreApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Body1 = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Body2 = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Button = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Caption = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Display1 = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Display2 = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Display3 = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Display4 = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Headline = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Inverse = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Large = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Medium = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Menu = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Small = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Subhead = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Title = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Tooltip = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Compat_Notification = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Compat_Notification_Info = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Compat_Notification_Time = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Compat_Notification_Title = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Design_Counter = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Design_Counter_Overflow = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Design_Error = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Design_HelperText = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Design_Hint = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Design_Snackbar_Message = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Design_Tab = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::PerboyreApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::PerboyreApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Button = global::PerboyreApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Caption = global::PerboyreApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Chip = global::PerboyreApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::PerboyreApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::PerboyreApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::PerboyreApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::PerboyreApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::PerboyreApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::PerboyreApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Overline = global::PerboyreApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::PerboyreApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::PerboyreApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Tab = global::PerboyreApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_AppCompat = global::PerboyreApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::PerboyreApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_AppCompat_Dark = global::PerboyreApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::PerboyreApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::PerboyreApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::PerboyreApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_AppCompat_Light = global::PerboyreApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents = global::PerboyreApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::PerboyreApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::PerboyreApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::PerboyreApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::PerboyreApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::PerboyreApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::PerboyreApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::PerboyreApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::PerboyreApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::PerboyreApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::PerboyreApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::PerboyreApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_CompactMenu = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_DayNight = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_Dialog = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_Dialog_Alert = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_Light = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_Light_Dialog = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_NoActionBar = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Acr.UserDialogs.Resource.Style.Theme_Design = global::PerboyreApp.Droid.Resource.Style.Theme_Design;
+			global::Acr.UserDialogs.Resource.Style.Theme_Design_BottomSheetDialog = global::PerboyreApp.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Acr.UserDialogs.Resource.Style.Theme_Design_Light = global::PerboyreApp.Droid.Resource.Style.Theme_Design_Light;
+			global::Acr.UserDialogs.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::PerboyreApp.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Acr.UserDialogs.Resource.Style.Theme_Design_Light_NoActionBar = global::PerboyreApp.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Acr.UserDialogs.Resource.Style.Theme_Design_NoActionBar = global::PerboyreApp.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents = global::PerboyreApp.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::PerboyreApp.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Bridge = global::PerboyreApp.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_CompactMenu = global::PerboyreApp.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Dialog = global::PerboyreApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::PerboyreApp.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::PerboyreApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::PerboyreApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light = global::PerboyreApp.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::PerboyreApp.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::PerboyreApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::PerboyreApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::PerboyreApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::PerboyreApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::PerboyreApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::PerboyreApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::PerboyreApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::PerboyreApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::PerboyreApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_NoActionBar = global::PerboyreApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::PerboyreApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ActionBar = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ActionButton = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ActionMode = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ActivityChooserView = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Button = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ButtonBar = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Button_Borderless = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Button_Colored = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Button_Small = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_EditText = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ImageButton = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionBar = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionButton = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_SearchView = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ListMenuView = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ListPopupWindow = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ListView = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ListView_DropDown = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ListView_Menu = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_PopupMenu = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_PopupWindow = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ProgressBar = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_RatingBar = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_RatingBar_Small = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_SearchView = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_SeekBar = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Spinner = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Toolbar = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Acr.UserDialogs.Resource.Style.Widget_Compat_NotificationActionContainer = global::PerboyreApp.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Acr.UserDialogs.Resource.Style.Widget_Compat_NotificationActionText = global::PerboyreApp.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Acr.UserDialogs.Resource.Style.Widget_Design_AppBarLayout = global::PerboyreApp.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Acr.UserDialogs.Resource.Style.Widget_Design_BottomNavigationView = global::PerboyreApp.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Acr.UserDialogs.Resource.Style.Widget_Design_BottomSheet_Modal = global::PerboyreApp.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Acr.UserDialogs.Resource.Style.Widget_Design_CollapsingToolbar = global::PerboyreApp.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Acr.UserDialogs.Resource.Style.Widget_Design_FloatingActionButton = global::PerboyreApp.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Acr.UserDialogs.Resource.Style.Widget_Design_NavigationView = global::PerboyreApp.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Acr.UserDialogs.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::PerboyreApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Acr.UserDialogs.Resource.Style.Widget_Design_Snackbar = global::PerboyreApp.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Acr.UserDialogs.Resource.Style.Widget_Design_TabLayout = global::PerboyreApp.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Acr.UserDialogs.Resource.Style.Widget_Design_TextInputLayout = global::PerboyreApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Button = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Button_Icon = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_CardView = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_ChipGroup = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Chip_Action = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_NavigationView = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Snackbar = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_TabLayout = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Toolbar = global::PerboyreApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Acr.UserDialogs.Resource.Style.Widget_Support_CoordinatorLayout = global::PerboyreApp.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar = global::PerboyreApp.Droid.Resource.Styleable.ActionBar;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBarLayout = global::PerboyreApp.Droid.Resource.Styleable.ActionBarLayout;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::PerboyreApp.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_background = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_background;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_backgroundSplit = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_backgroundStacked = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_contentInsetEnd = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_contentInsetLeft = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_contentInsetRight = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_contentInsetStart = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_customNavigationLayout = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_displayOptions = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_divider = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_divider;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_elevation = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_height = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_height;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_hideOnContentScroll = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_homeAsUpIndicator = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_homeLayout = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_icon = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_icon;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_itemPadding = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_logo = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_logo;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_navigationMode = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_popupTheme = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_progressBarPadding = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_progressBarStyle = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_subtitle = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_subtitleTextStyle = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_title = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_title;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_titleTextStyle = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Acr.UserDialogs.Resource.Styleable.ActionMenuItemView = global::PerboyreApp.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Acr.UserDialogs.Resource.Styleable.ActionMenuItemView_android_minWidth = global::PerboyreApp.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Acr.UserDialogs.Resource.Styleable.ActionMenuView = global::PerboyreApp.Droid.Resource.Styleable.ActionMenuView;
+			global::Acr.UserDialogs.Resource.Styleable.ActionMode = global::PerboyreApp.Droid.Resource.Styleable.ActionMode;
+			global::Acr.UserDialogs.Resource.Styleable.ActionMode_background = global::PerboyreApp.Droid.Resource.Styleable.ActionMode_background;
+			global::Acr.UserDialogs.Resource.Styleable.ActionMode_backgroundSplit = global::PerboyreApp.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Acr.UserDialogs.Resource.Styleable.ActionMode_closeItemLayout = global::PerboyreApp.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Acr.UserDialogs.Resource.Styleable.ActionMode_height = global::PerboyreApp.Droid.Resource.Styleable.ActionMode_height;
+			global::Acr.UserDialogs.Resource.Styleable.ActionMode_subtitleTextStyle = global::PerboyreApp.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Acr.UserDialogs.Resource.Styleable.ActionMode_titleTextStyle = global::PerboyreApp.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Acr.UserDialogs.Resource.Styleable.ActivityChooserView = global::PerboyreApp.Droid.Resource.Styleable.ActivityChooserView;
+			global::Acr.UserDialogs.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::PerboyreApp.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.ActivityChooserView_initialActivityCount = global::PerboyreApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Acr.UserDialogs.Resource.Styleable.AlertDialog = global::PerboyreApp.Droid.Resource.Styleable.AlertDialog;
+			global::Acr.UserDialogs.Resource.Styleable.AlertDialog_android_layout = global::PerboyreApp.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Acr.UserDialogs.Resource.Styleable.AlertDialog_buttonIconDimen = global::PerboyreApp.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::Acr.UserDialogs.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::PerboyreApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Acr.UserDialogs.Resource.Styleable.AlertDialog_listItemLayout = global::PerboyreApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Acr.UserDialogs.Resource.Styleable.AlertDialog_listLayout = global::PerboyreApp.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Acr.UserDialogs.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::PerboyreApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Acr.UserDialogs.Resource.Styleable.AlertDialog_showTitle = global::PerboyreApp.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Acr.UserDialogs.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::PerboyreApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableCompat = global::PerboyreApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::PerboyreApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::PerboyreApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::PerboyreApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::PerboyreApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::PerboyreApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::PerboyreApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableItem = global::PerboyreApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::PerboyreApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::PerboyreApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableTransition = global::PerboyreApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::PerboyreApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::PerboyreApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::PerboyreApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::PerboyreApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayout = global::PerboyreApp.Droid.Resource.Styleable.AppBarLayout;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayoutStates = global::PerboyreApp.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::PerboyreApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::PerboyreApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayoutStates_state_liftable = global::PerboyreApp.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayoutStates_state_lifted = global::PerboyreApp.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayout_android_background = global::PerboyreApp.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::PerboyreApp.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::PerboyreApp.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayout_elevation = global::PerboyreApp.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayout_expanded = global::PerboyreApp.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayout_Layout = global::PerboyreApp.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::PerboyreApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::PerboyreApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayout_liftOnScroll = global::PerboyreApp.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatImageView = global::PerboyreApp.Droid.Resource.Styleable.AppCompatImageView;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatImageView_android_src = global::PerboyreApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatImageView_srcCompat = global::PerboyreApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatImageView_tint = global::PerboyreApp.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatImageView_tintMode = global::PerboyreApp.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatSeekBar = global::PerboyreApp.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatSeekBar_android_thumb = global::PerboyreApp.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatSeekBar_tickMark = global::PerboyreApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::PerboyreApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::PerboyreApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextHelper = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextView;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_android_textAppearance = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_fontFamily = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_lineHeight = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_textAllCaps = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarDivider = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarSize = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarTheme = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeBackground = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_buttonStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_checkboxStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_colorAccent = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_colorControlActivated = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_colorControlNormal = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_colorError = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_colorPrimary = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_controlBackground = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_dialogTheme = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_dividerVertical = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_editTextBackground = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_editTextColor = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_editTextStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_panelBackground = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_searchViewStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_seekBarStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_spinnerStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_switchStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_toolbarStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_windowActionBar = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_windowNoTitle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Acr.UserDialogs.Resource.Styleable.BottomAppBar = global::PerboyreApp.Droid.Resource.Styleable.BottomAppBar;
+			global::Acr.UserDialogs.Resource.Styleable.BottomAppBar_backgroundTint = global::PerboyreApp.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Acr.UserDialogs.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::PerboyreApp.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Acr.UserDialogs.Resource.Styleable.BottomAppBar_fabCradleMargin = global::PerboyreApp.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Acr.UserDialogs.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::PerboyreApp.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Acr.UserDialogs.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::PerboyreApp.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Acr.UserDialogs.Resource.Styleable.BottomAppBar_hideOnScroll = global::PerboyreApp.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Acr.UserDialogs.Resource.Styleable.BottomNavigationView = global::PerboyreApp.Droid.Resource.Styleable.BottomNavigationView;
+			global::Acr.UserDialogs.Resource.Styleable.BottomNavigationView_elevation = global::PerboyreApp.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Acr.UserDialogs.Resource.Styleable.BottomNavigationView_itemBackground = global::PerboyreApp.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Acr.UserDialogs.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::PerboyreApp.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.BottomNavigationView_itemIconSize = global::PerboyreApp.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::Acr.UserDialogs.Resource.Styleable.BottomNavigationView_itemIconTint = global::PerboyreApp.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Acr.UserDialogs.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::PerboyreApp.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::Acr.UserDialogs.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::PerboyreApp.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::Acr.UserDialogs.Resource.Styleable.BottomNavigationView_itemTextColor = global::PerboyreApp.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Acr.UserDialogs.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::PerboyreApp.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::Acr.UserDialogs.Resource.Styleable.BottomNavigationView_menu = global::PerboyreApp.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Acr.UserDialogs.Resource.Styleable.BottomSheetBehavior_Layout = global::PerboyreApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Acr.UserDialogs.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::PerboyreApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Acr.UserDialogs.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::PerboyreApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Acr.UserDialogs.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::PerboyreApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Acr.UserDialogs.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::PerboyreApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Acr.UserDialogs.Resource.Styleable.ButtonBarLayout = global::PerboyreApp.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Acr.UserDialogs.Resource.Styleable.ButtonBarLayout_allowStacking = global::PerboyreApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Acr.UserDialogs.Resource.Styleable.CardView = global::PerboyreApp.Droid.Resource.Styleable.CardView;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_android_minHeight = global::PerboyreApp.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_android_minWidth = global::PerboyreApp.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_cardBackgroundColor = global::PerboyreApp.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_cardCornerRadius = global::PerboyreApp.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_cardElevation = global::PerboyreApp.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_cardMaxElevation = global::PerboyreApp.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_cardPreventCornerOverlap = global::PerboyreApp.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_cardUseCompatPadding = global::PerboyreApp.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_contentPadding = global::PerboyreApp.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_contentPaddingBottom = global::PerboyreApp.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_contentPaddingLeft = global::PerboyreApp.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_contentPaddingRight = global::PerboyreApp.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_contentPaddingTop = global::PerboyreApp.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Acr.UserDialogs.Resource.Styleable.Chip = global::PerboyreApp.Droid.Resource.Styleable.Chip;
+			global::Acr.UserDialogs.Resource.Styleable.ChipGroup = global::PerboyreApp.Droid.Resource.Styleable.ChipGroup;
+			global::Acr.UserDialogs.Resource.Styleable.ChipGroup_checkedChip = global::PerboyreApp.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Acr.UserDialogs.Resource.Styleable.ChipGroup_chipSpacing = global::PerboyreApp.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Acr.UserDialogs.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::PerboyreApp.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Acr.UserDialogs.Resource.Styleable.ChipGroup_chipSpacingVertical = global::PerboyreApp.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Acr.UserDialogs.Resource.Styleable.ChipGroup_singleLine = global::PerboyreApp.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Acr.UserDialogs.Resource.Styleable.ChipGroup_singleSelection = global::PerboyreApp.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_android_checkable = global::PerboyreApp.Droid.Resource.Styleable.Chip_android_checkable;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_android_ellipsize = global::PerboyreApp.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_android_maxWidth = global::PerboyreApp.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_android_text = global::PerboyreApp.Droid.Resource.Styleable.Chip_android_text;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_android_textAppearance = global::PerboyreApp.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_checkedIcon = global::PerboyreApp.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_checkedIconEnabled = global::PerboyreApp.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_checkedIconVisible = global::PerboyreApp.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipBackgroundColor = global::PerboyreApp.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipCornerRadius = global::PerboyreApp.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipEndPadding = global::PerboyreApp.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipIcon = global::PerboyreApp.Droid.Resource.Styleable.Chip_chipIcon;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipIconEnabled = global::PerboyreApp.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipIconSize = global::PerboyreApp.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipIconTint = global::PerboyreApp.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipIconVisible = global::PerboyreApp.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipMinHeight = global::PerboyreApp.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipStartPadding = global::PerboyreApp.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipStrokeColor = global::PerboyreApp.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipStrokeWidth = global::PerboyreApp.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_closeIcon = global::PerboyreApp.Droid.Resource.Styleable.Chip_closeIcon;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_closeIconEnabled = global::PerboyreApp.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_closeIconEndPadding = global::PerboyreApp.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_closeIconSize = global::PerboyreApp.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_closeIconStartPadding = global::PerboyreApp.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_closeIconTint = global::PerboyreApp.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_closeIconVisible = global::PerboyreApp.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_hideMotionSpec = global::PerboyreApp.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_iconEndPadding = global::PerboyreApp.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_iconStartPadding = global::PerboyreApp.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_rippleColor = global::PerboyreApp.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_showMotionSpec = global::PerboyreApp.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_textEndPadding = global::PerboyreApp.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_textStartPadding = global::PerboyreApp.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_Layout = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_title = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Acr.UserDialogs.Resource.Styleable.ColorStateListItem = global::PerboyreApp.Droid.Resource.Styleable.ColorStateListItem;
+			global::Acr.UserDialogs.Resource.Styleable.ColorStateListItem_alpha = global::PerboyreApp.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Acr.UserDialogs.Resource.Styleable.ColorStateListItem_android_alpha = global::PerboyreApp.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Acr.UserDialogs.Resource.Styleable.ColorStateListItem_android_color = global::PerboyreApp.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Acr.UserDialogs.Resource.Styleable.CompoundButton = global::PerboyreApp.Droid.Resource.Styleable.CompoundButton;
+			global::Acr.UserDialogs.Resource.Styleable.CompoundButton_android_button = global::PerboyreApp.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Acr.UserDialogs.Resource.Styleable.CompoundButton_buttonTint = global::PerboyreApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Acr.UserDialogs.Resource.Styleable.CompoundButton_buttonTintMode = global::PerboyreApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout = global::PerboyreApp.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout_keylines = global::PerboyreApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout_Layout = global::PerboyreApp.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::PerboyreApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::PerboyreApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::PerboyreApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::PerboyreApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::PerboyreApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::PerboyreApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::PerboyreApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::PerboyreApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Acr.UserDialogs.Resource.Styleable.DesignTheme = global::PerboyreApp.Droid.Resource.Styleable.DesignTheme;
+			global::Acr.UserDialogs.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::PerboyreApp.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Acr.UserDialogs.Resource.Styleable.DesignTheme_bottomSheetStyle = global::PerboyreApp.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Acr.UserDialogs.Resource.Styleable.DrawerArrowToggle = global::PerboyreApp.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Acr.UserDialogs.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::PerboyreApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Acr.UserDialogs.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::PerboyreApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Acr.UserDialogs.Resource.Styleable.DrawerArrowToggle_barLength = global::PerboyreApp.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Acr.UserDialogs.Resource.Styleable.DrawerArrowToggle_color = global::PerboyreApp.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Acr.UserDialogs.Resource.Styleable.DrawerArrowToggle_drawableSize = global::PerboyreApp.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Acr.UserDialogs.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::PerboyreApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Acr.UserDialogs.Resource.Styleable.DrawerArrowToggle_spinBars = global::PerboyreApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Acr.UserDialogs.Resource.Styleable.DrawerArrowToggle_thickness = global::PerboyreApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton = global::PerboyreApp.Droid.Resource.Styleable.FloatingActionButton;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_backgroundTint = global::PerboyreApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::PerboyreApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::PerboyreApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::PerboyreApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_borderWidth = global::PerboyreApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_elevation = global::PerboyreApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_fabCustomSize = global::PerboyreApp.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_fabSize = global::PerboyreApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::PerboyreApp.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::PerboyreApp.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_maxImageSize = global::PerboyreApp.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::PerboyreApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_rippleColor = global::PerboyreApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_showMotionSpec = global::PerboyreApp.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_useCompatPadding = global::PerboyreApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Acr.UserDialogs.Resource.Styleable.FlowLayout = global::PerboyreApp.Droid.Resource.Styleable.FlowLayout;
+			global::Acr.UserDialogs.Resource.Styleable.FlowLayout_itemSpacing = global::PerboyreApp.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Acr.UserDialogs.Resource.Styleable.FlowLayout_lineSpacing = global::PerboyreApp.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamily = global::PerboyreApp.Droid.Resource.Styleable.FontFamily;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont = global::PerboyreApp.Droid.Resource.Styleable.FontFamilyFont;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont_android_font = global::PerboyreApp.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont_android_fontStyle = global::PerboyreApp.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::PerboyreApp.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont_android_fontWeight = global::PerboyreApp.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::PerboyreApp.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont_font = global::PerboyreApp.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont_fontStyle = global::PerboyreApp.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::PerboyreApp.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont_fontWeight = global::PerboyreApp.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont_ttcIndex = global::PerboyreApp.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamily_fontProviderAuthority = global::PerboyreApp.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamily_fontProviderCerts = global::PerboyreApp.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::PerboyreApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::PerboyreApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamily_fontProviderPackage = global::PerboyreApp.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamily_fontProviderQuery = global::PerboyreApp.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Acr.UserDialogs.Resource.Styleable.ForegroundLinearLayout = global::PerboyreApp.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Acr.UserDialogs.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::PerboyreApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Acr.UserDialogs.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::PerboyreApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Acr.UserDialogs.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::PerboyreApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor = global::PerboyreApp.Droid.Resource.Styleable.GradientColor;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColorItem = global::PerboyreApp.Droid.Resource.Styleable.GradientColorItem;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColorItem_android_color = global::PerboyreApp.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColorItem_android_offset = global::PerboyreApp.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_centerColor = global::PerboyreApp.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_centerX = global::PerboyreApp.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_centerY = global::PerboyreApp.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_endColor = global::PerboyreApp.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_endX = global::PerboyreApp.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_endY = global::PerboyreApp.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_gradientRadius = global::PerboyreApp.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_startColor = global::PerboyreApp.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_startX = global::PerboyreApp.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_startY = global::PerboyreApp.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_tileMode = global::PerboyreApp.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_type = global::PerboyreApp.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat = global::PerboyreApp.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::PerboyreApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::PerboyreApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_android_gravity = global::PerboyreApp.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_android_orientation = global::PerboyreApp.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::PerboyreApp.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_divider = global::PerboyreApp.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::PerboyreApp.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_Layout = global::PerboyreApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::PerboyreApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::PerboyreApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::PerboyreApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::PerboyreApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::PerboyreApp.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_showDividers = global::PerboyreApp.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Acr.UserDialogs.Resource.Styleable.ListPopupWindow = global::PerboyreApp.Droid.Resource.Styleable.ListPopupWindow;
+			global::Acr.UserDialogs.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::PerboyreApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Acr.UserDialogs.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::PerboyreApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton = global::PerboyreApp.Droid.Resource.Styleable.MaterialButton;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_android_insetBottom = global::PerboyreApp.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_android_insetLeft = global::PerboyreApp.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_android_insetRight = global::PerboyreApp.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_android_insetTop = global::PerboyreApp.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_backgroundTint = global::PerboyreApp.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_backgroundTintMode = global::PerboyreApp.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_cornerRadius = global::PerboyreApp.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_icon = global::PerboyreApp.Droid.Resource.Styleable.MaterialButton_icon;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_iconGravity = global::PerboyreApp.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_iconPadding = global::PerboyreApp.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_iconSize = global::PerboyreApp.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_iconTint = global::PerboyreApp.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_iconTintMode = global::PerboyreApp.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_rippleColor = global::PerboyreApp.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_strokeColor = global::PerboyreApp.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_strokeWidth = global::PerboyreApp.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialCardView = global::PerboyreApp.Droid.Resource.Styleable.MaterialCardView;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialCardView_strokeColor = global::PerboyreApp.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialCardView_strokeWidth = global::PerboyreApp.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::PerboyreApp.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
+			global::Acr.UserDialogs.Resource.Styleable.MenuGroup = global::PerboyreApp.Droid.Resource.Styleable.MenuGroup;
+			global::Acr.UserDialogs.Resource.Styleable.MenuGroup_android_checkableBehavior = global::PerboyreApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Acr.UserDialogs.Resource.Styleable.MenuGroup_android_enabled = global::PerboyreApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Acr.UserDialogs.Resource.Styleable.MenuGroup_android_id = global::PerboyreApp.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Acr.UserDialogs.Resource.Styleable.MenuGroup_android_menuCategory = global::PerboyreApp.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Acr.UserDialogs.Resource.Styleable.MenuGroup_android_orderInCategory = global::PerboyreApp.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Acr.UserDialogs.Resource.Styleable.MenuGroup_android_visible = global::PerboyreApp.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem = global::PerboyreApp.Droid.Resource.Styleable.MenuItem;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_actionLayout = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_actionProviderClass = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_actionViewClass = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_alphabeticModifiers = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_checkable = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_checked = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_enabled = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_icon = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_id = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_menuCategory = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_numericShortcut = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_onClick = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_orderInCategory = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_title = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_titleCondensed = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_visible = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_contentDescription = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_iconTint = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_iconTintMode = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_numericModifiers = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_showAsAction = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_tooltipText = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Acr.UserDialogs.Resource.Styleable.MenuView = global::PerboyreApp.Droid.Resource.Styleable.MenuView;
+			global::Acr.UserDialogs.Resource.Styleable.MenuView_android_headerBackground = global::PerboyreApp.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Acr.UserDialogs.Resource.Styleable.MenuView_android_horizontalDivider = global::PerboyreApp.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Acr.UserDialogs.Resource.Styleable.MenuView_android_itemBackground = global::PerboyreApp.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Acr.UserDialogs.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::PerboyreApp.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Acr.UserDialogs.Resource.Styleable.MenuView_android_itemTextAppearance = global::PerboyreApp.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.MenuView_android_verticalDivider = global::PerboyreApp.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Acr.UserDialogs.Resource.Styleable.MenuView_android_windowAnimationStyle = global::PerboyreApp.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Acr.UserDialogs.Resource.Styleable.MenuView_preserveIconSpacing = global::PerboyreApp.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Acr.UserDialogs.Resource.Styleable.MenuView_subMenuArrow = global::PerboyreApp.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView = global::PerboyreApp.Droid.Resource.Styleable.NavigationView;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_android_background = global::PerboyreApp.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::PerboyreApp.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_android_maxWidth = global::PerboyreApp.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_elevation = global::PerboyreApp.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_headerLayout = global::PerboyreApp.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_itemBackground = global::PerboyreApp.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_itemHorizontalPadding = global::PerboyreApp.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_itemIconPadding = global::PerboyreApp.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_itemIconTint = global::PerboyreApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_itemTextAppearance = global::PerboyreApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_itemTextColor = global::PerboyreApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_menu = global::PerboyreApp.Droid.Resource.Styleable.NavigationView_menu;
+			global::Acr.UserDialogs.Resource.Styleable.PopupWindow = global::PerboyreApp.Droid.Resource.Styleable.PopupWindow;
+			global::Acr.UserDialogs.Resource.Styleable.PopupWindowBackgroundState = global::PerboyreApp.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Acr.UserDialogs.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::PerboyreApp.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Acr.UserDialogs.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::PerboyreApp.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Acr.UserDialogs.Resource.Styleable.PopupWindow_android_popupBackground = global::PerboyreApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Acr.UserDialogs.Resource.Styleable.PopupWindow_overlapAnchor = global::PerboyreApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel = global::PerboyreApp.Droid.Resource.Styleable.ProgressWheel;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahBarColor = global::PerboyreApp.Droid.Resource.Styleable.ProgressWheel_ahBarColor;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahBarLength = global::PerboyreApp.Droid.Resource.Styleable.ProgressWheel_ahBarLength;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahBarWidth = global::PerboyreApp.Droid.Resource.Styleable.ProgressWheel_ahBarWidth;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahCircleColor = global::PerboyreApp.Droid.Resource.Styleable.ProgressWheel_ahCircleColor;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahDelayMillis = global::PerboyreApp.Droid.Resource.Styleable.ProgressWheel_ahDelayMillis;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahRadius = global::PerboyreApp.Droid.Resource.Styleable.ProgressWheel_ahRadius;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahRimColor = global::PerboyreApp.Droid.Resource.Styleable.ProgressWheel_ahRimColor;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahRimWidth = global::PerboyreApp.Droid.Resource.Styleable.ProgressWheel_ahRimWidth;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahSpinSpeed = global::PerboyreApp.Droid.Resource.Styleable.ProgressWheel_ahSpinSpeed;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahText = global::PerboyreApp.Droid.Resource.Styleable.ProgressWheel_ahText;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahTextColor = global::PerboyreApp.Droid.Resource.Styleable.ProgressWheel_ahTextColor;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahTextSize = global::PerboyreApp.Droid.Resource.Styleable.ProgressWheel_ahTextSize;
+			global::Acr.UserDialogs.Resource.Styleable.RecycleListView = global::PerboyreApp.Droid.Resource.Styleable.RecycleListView;
+			global::Acr.UserDialogs.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::PerboyreApp.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Acr.UserDialogs.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::PerboyreApp.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView = global::PerboyreApp.Droid.Resource.Styleable.RecyclerView;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_android_descendantFocusability = global::PerboyreApp.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_android_orientation = global::PerboyreApp.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_fastScrollEnabled = global::PerboyreApp.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::PerboyreApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::PerboyreApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::PerboyreApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::PerboyreApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_layoutManager = global::PerboyreApp.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_reverseLayout = global::PerboyreApp.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_spanCount = global::PerboyreApp.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_stackFromEnd = global::PerboyreApp.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Acr.UserDialogs.Resource.Styleable.ScrimInsetsFrameLayout = global::PerboyreApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Acr.UserDialogs.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::PerboyreApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Acr.UserDialogs.Resource.Styleable.ScrollingViewBehavior_Layout = global::PerboyreApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Acr.UserDialogs.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::PerboyreApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView = global::PerboyreApp.Droid.Resource.Styleable.SearchView;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_android_focusable = global::PerboyreApp.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_android_imeOptions = global::PerboyreApp.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_android_inputType = global::PerboyreApp.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_android_maxWidth = global::PerboyreApp.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_closeIcon = global::PerboyreApp.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_commitIcon = global::PerboyreApp.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_defaultQueryHint = global::PerboyreApp.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_goIcon = global::PerboyreApp.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_iconifiedByDefault = global::PerboyreApp.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_layout = global::PerboyreApp.Droid.Resource.Styleable.SearchView_layout;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_queryBackground = global::PerboyreApp.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_queryHint = global::PerboyreApp.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_searchHintIcon = global::PerboyreApp.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_searchIcon = global::PerboyreApp.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_submitBackground = global::PerboyreApp.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_suggestionRowLayout = global::PerboyreApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_voiceIcon = global::PerboyreApp.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Acr.UserDialogs.Resource.Styleable.Snackbar = global::PerboyreApp.Droid.Resource.Styleable.Snackbar;
+			global::Acr.UserDialogs.Resource.Styleable.SnackbarLayout = global::PerboyreApp.Droid.Resource.Styleable.SnackbarLayout;
+			global::Acr.UserDialogs.Resource.Styleable.SnackbarLayout_android_maxWidth = global::PerboyreApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Acr.UserDialogs.Resource.Styleable.SnackbarLayout_elevation = global::PerboyreApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Acr.UserDialogs.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::PerboyreApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Acr.UserDialogs.Resource.Styleable.Snackbar_snackbarButtonStyle = global::PerboyreApp.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.Snackbar_snackbarStyle = global::PerboyreApp.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Acr.UserDialogs.Resource.Styleable.Spinner = global::PerboyreApp.Droid.Resource.Styleable.Spinner;
+			global::Acr.UserDialogs.Resource.Styleable.Spinner_android_dropDownWidth = global::PerboyreApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Acr.UserDialogs.Resource.Styleable.Spinner_android_entries = global::PerboyreApp.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Acr.UserDialogs.Resource.Styleable.Spinner_android_popupBackground = global::PerboyreApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Acr.UserDialogs.Resource.Styleable.Spinner_android_prompt = global::PerboyreApp.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Acr.UserDialogs.Resource.Styleable.Spinner_popupTheme = global::PerboyreApp.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Acr.UserDialogs.Resource.Styleable.StateListDrawable = global::PerboyreApp.Droid.Resource.Styleable.StateListDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.StateListDrawableItem = global::PerboyreApp.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Acr.UserDialogs.Resource.Styleable.StateListDrawableItem_android_drawable = global::PerboyreApp.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Acr.UserDialogs.Resource.Styleable.StateListDrawable_android_constantSize = global::PerboyreApp.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Acr.UserDialogs.Resource.Styleable.StateListDrawable_android_dither = global::PerboyreApp.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::Acr.UserDialogs.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::PerboyreApp.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Acr.UserDialogs.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::PerboyreApp.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Acr.UserDialogs.Resource.Styleable.StateListDrawable_android_variablePadding = global::PerboyreApp.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Acr.UserDialogs.Resource.Styleable.StateListDrawable_android_visible = global::PerboyreApp.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat = global::PerboyreApp.Droid.Resource.Styleable.SwitchCompat;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_android_textOff = global::PerboyreApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_android_textOn = global::PerboyreApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_android_thumb = global::PerboyreApp.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_showText = global::PerboyreApp.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_splitTrack = global::PerboyreApp.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_switchMinWidth = global::PerboyreApp.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_switchPadding = global::PerboyreApp.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_switchTextAppearance = global::PerboyreApp.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_thumbTextPadding = global::PerboyreApp.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_thumbTint = global::PerboyreApp.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_thumbTintMode = global::PerboyreApp.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_track = global::PerboyreApp.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_trackTint = global::PerboyreApp.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_trackTintMode = global::PerboyreApp.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.TabItem = global::PerboyreApp.Droid.Resource.Styleable.TabItem;
+			global::Acr.UserDialogs.Resource.Styleable.TabItem_android_icon = global::PerboyreApp.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Acr.UserDialogs.Resource.Styleable.TabItem_android_layout = global::PerboyreApp.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Acr.UserDialogs.Resource.Styleable.TabItem_android_text = global::PerboyreApp.Droid.Resource.Styleable.TabItem_android_text;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout = global::PerboyreApp.Droid.Resource.Styleable.TabLayout;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabBackground = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabContentStart = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabGravity = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabIconTint = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabIconTintMode = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabIndicator = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabIndicatorColor = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabIndicatorGravity = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabIndicatorHeight = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabInlineLabel = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabMaxWidth = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabMinWidth = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabMode = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabPadding = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabPaddingBottom = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabPaddingEnd = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabPaddingStart = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabPaddingTop = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabRippleColor = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabSelectedTextColor = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabTextAppearance = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabTextColor = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabUnboundedRipple = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance = global::PerboyreApp.Droid.Resource.Styleable.TextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_fontFamily = global::PerboyreApp.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_shadowColor = global::PerboyreApp.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_shadowDx = global::PerboyreApp.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_shadowDy = global::PerboyreApp.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_shadowRadius = global::PerboyreApp.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_textColor = global::PerboyreApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_textColorHint = global::PerboyreApp.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_textColorLink = global::PerboyreApp.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_textSize = global::PerboyreApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_textStyle = global::PerboyreApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_typeface = global::PerboyreApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_fontFamily = global::PerboyreApp.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_textAllCaps = global::PerboyreApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_android_hint = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_android_textColorHint = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_boxStrokeColor = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_counterEnabled = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_counterMaxLength = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_counterTextAppearance = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_errorEnabled = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_errorTextAppearance = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_helperText = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_helperTextEnabled = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_hintEnabled = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_hintTextAppearance = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_passwordToggleTint = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.ThemeEnforcement = global::PerboyreApp.Droid.Resource.Styleable.ThemeEnforcement;
+			global::Acr.UserDialogs.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::PerboyreApp.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::PerboyreApp.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Acr.UserDialogs.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::PerboyreApp.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar = global::PerboyreApp.Droid.Resource.Styleable.Toolbar;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_android_gravity = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_android_minHeight = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_buttonGravity = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_collapseContentDescription = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_collapseIcon = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_contentInsetEnd = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_contentInsetLeft = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_contentInsetRight = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_contentInsetStart = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_logo = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_logo;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_logoDescription = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_maxButtonHeight = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_navigationContentDescription = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_navigationIcon = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_popupTheme = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_subtitle = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_subtitleTextAppearance = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_subtitleTextColor = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_title = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_title;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_titleMargin = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_titleMarginBottom = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_titleMarginEnd = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_titleMargins = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_titleMarginStart = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_titleMarginTop = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_titleTextAppearance = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_titleTextColor = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Acr.UserDialogs.Resource.Styleable.View = global::PerboyreApp.Droid.Resource.Styleable.View;
+			global::Acr.UserDialogs.Resource.Styleable.ViewBackgroundHelper = global::PerboyreApp.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Acr.UserDialogs.Resource.Styleable.ViewBackgroundHelper_android_background = global::PerboyreApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Acr.UserDialogs.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::PerboyreApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Acr.UserDialogs.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::PerboyreApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.ViewStubCompat = global::PerboyreApp.Droid.Resource.Styleable.ViewStubCompat;
+			global::Acr.UserDialogs.Resource.Styleable.ViewStubCompat_android_id = global::PerboyreApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Acr.UserDialogs.Resource.Styleable.ViewStubCompat_android_inflatedId = global::PerboyreApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Acr.UserDialogs.Resource.Styleable.ViewStubCompat_android_layout = global::PerboyreApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Acr.UserDialogs.Resource.Styleable.View_android_focusable = global::PerboyreApp.Droid.Resource.Styleable.View_android_focusable;
+			global::Acr.UserDialogs.Resource.Styleable.View_android_theme = global::PerboyreApp.Droid.Resource.Styleable.View_android_theme;
+			global::Acr.UserDialogs.Resource.Styleable.View_paddingEnd = global::PerboyreApp.Droid.Resource.Styleable.View_paddingEnd;
+			global::Acr.UserDialogs.Resource.Styleable.View_paddingStart = global::PerboyreApp.Droid.Resource.Styleable.View_paddingStart;
+			global::Acr.UserDialogs.Resource.Styleable.View_theme = global::PerboyreApp.Droid.Resource.Styleable.View_theme;
+			global::AndroidHUD.Resource.Attribute.ahBarColor = global::PerboyreApp.Droid.Resource.Attribute.ahBarColor;
+			global::AndroidHUD.Resource.Attribute.ahBarLength = global::PerboyreApp.Droid.Resource.Attribute.ahBarLength;
+			global::AndroidHUD.Resource.Attribute.ahBarWidth = global::PerboyreApp.Droid.Resource.Attribute.ahBarWidth;
+			global::AndroidHUD.Resource.Attribute.ahCircleColor = global::PerboyreApp.Droid.Resource.Attribute.ahCircleColor;
+			global::AndroidHUD.Resource.Attribute.ahDelayMillis = global::PerboyreApp.Droid.Resource.Attribute.ahDelayMillis;
+			global::AndroidHUD.Resource.Attribute.ahRadius = global::PerboyreApp.Droid.Resource.Attribute.ahRadius;
+			global::AndroidHUD.Resource.Attribute.ahRimColor = global::PerboyreApp.Droid.Resource.Attribute.ahRimColor;
+			global::AndroidHUD.Resource.Attribute.ahRimWidth = global::PerboyreApp.Droid.Resource.Attribute.ahRimWidth;
+			global::AndroidHUD.Resource.Attribute.ahSpinSpeed = global::PerboyreApp.Droid.Resource.Attribute.ahSpinSpeed;
+			global::AndroidHUD.Resource.Attribute.ahText = global::PerboyreApp.Droid.Resource.Attribute.ahText;
+			global::AndroidHUD.Resource.Attribute.ahTextColor = global::PerboyreApp.Droid.Resource.Attribute.ahTextColor;
+			global::AndroidHUD.Resource.Attribute.ahTextSize = global::PerboyreApp.Droid.Resource.Attribute.ahTextSize;
+			global::AndroidHUD.Resource.Drawable.ic_errorstatus = global::PerboyreApp.Droid.Resource.Drawable.ic_errorstatus;
+			global::AndroidHUD.Resource.Drawable.ic_successstatus = global::PerboyreApp.Droid.Resource.Drawable.ic_successstatus;
+			global::AndroidHUD.Resource.Drawable.roundedbg = global::PerboyreApp.Droid.Resource.Drawable.roundedbg;
+			global::AndroidHUD.Resource.Drawable.roundedbgdark = global::PerboyreApp.Droid.Resource.Drawable.roundedbgdark;
+			global::AndroidHUD.Resource.Id.loadingImage = global::PerboyreApp.Droid.Resource.Id.loadingImage;
+			global::AndroidHUD.Resource.Id.loadingProgressBar = global::PerboyreApp.Droid.Resource.Id.loadingProgressBar;
+			global::AndroidHUD.Resource.Id.loadingProgressWheel = global::PerboyreApp.Droid.Resource.Id.loadingProgressWheel;
+			global::AndroidHUD.Resource.Id.textViewStatus = global::PerboyreApp.Droid.Resource.Id.textViewStatus;
+			global::AndroidHUD.Resource.Layout.loading = global::PerboyreApp.Droid.Resource.Layout.loading;
+			global::AndroidHUD.Resource.Layout.loadingimage = global::PerboyreApp.Droid.Resource.Layout.loadingimage;
+			global::AndroidHUD.Resource.Layout.loadingprogress = global::PerboyreApp.Droid.Resource.Layout.loadingprogress;
+			global::AndroidHUD.Resource.String.library_name = global::PerboyreApp.Droid.Resource.String.library_name;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel = global::PerboyreApp.Droid.Resource.Styleable.ProgressWheel;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarColor = global::PerboyreApp.Droid.Resource.Styleable.ProgressWheel_ahBarColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarLength = global::PerboyreApp.Droid.Resource.Styleable.ProgressWheel_ahBarLength;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarWidth = global::PerboyreApp.Droid.Resource.Styleable.ProgressWheel_ahBarWidth;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahCircleColor = global::PerboyreApp.Droid.Resource.Styleable.ProgressWheel_ahCircleColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahDelayMillis = global::PerboyreApp.Droid.Resource.Styleable.ProgressWheel_ahDelayMillis;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRadius = global::PerboyreApp.Droid.Resource.Styleable.ProgressWheel_ahRadius;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRimColor = global::PerboyreApp.Droid.Resource.Styleable.ProgressWheel_ahRimColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRimWidth = global::PerboyreApp.Droid.Resource.Styleable.ProgressWheel_ahRimWidth;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahSpinSpeed = global::PerboyreApp.Droid.Resource.Styleable.ProgressWheel_ahSpinSpeed;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahText = global::PerboyreApp.Droid.Resource.Styleable.ProgressWheel_ahText;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextColor = global::PerboyreApp.Droid.Resource.Styleable.ProgressWheel_ahTextColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextSize = global::PerboyreApp.Droid.Resource.Styleable.ProgressWheel_ahTextSize;
 			global::Plugin.Permissions.Resource.Attribute.alpha = global::PerboyreApp.Droid.Resource.Attribute.alpha;
 			global::Plugin.Permissions.Resource.Attribute.coordinatorLayoutStyle = global::PerboyreApp.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Plugin.Permissions.Resource.Attribute.font = global::PerboyreApp.Droid.Resource.Attribute.font;
@@ -7317,6 +9910,2047 @@ namespace PerboyreApp.Droid
 			global::Rg.Plugins.Popup.Resource.Styleable.View_paddingEnd = global::PerboyreApp.Droid.Resource.Styleable.View_paddingEnd;
 			global::Rg.Plugins.Popup.Resource.Styleable.View_paddingStart = global::PerboyreApp.Droid.Resource.Styleable.View_paddingStart;
 			global::Rg.Plugins.Popup.Resource.Styleable.View_theme = global::PerboyreApp.Droid.Resource.Styleable.View_theme;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Animation.abc_fade_in = global::PerboyreApp.Droid.Resource.Animation.abc_fade_in;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Animation.abc_fade_out = global::PerboyreApp.Droid.Resource.Animation.abc_fade_out;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::PerboyreApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Animation.abc_popup_enter = global::PerboyreApp.Droid.Resource.Animation.abc_popup_enter;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Animation.abc_popup_exit = global::PerboyreApp.Droid.Resource.Animation.abc_popup_exit;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::PerboyreApp.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Animation.abc_slide_in_bottom = global::PerboyreApp.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Animation.abc_slide_in_top = global::PerboyreApp.Droid.Resource.Animation.abc_slide_in_top;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Animation.abc_slide_out_bottom = global::PerboyreApp.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Animation.abc_slide_out_top = global::PerboyreApp.Droid.Resource.Animation.abc_slide_out_top;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::PerboyreApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::PerboyreApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Animation.design_snackbar_in = global::PerboyreApp.Droid.Resource.Animation.design_snackbar_in;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Animation.design_snackbar_out = global::PerboyreApp.Droid.Resource.Animation.design_snackbar_out;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Animator.design_appbar_state_list_animator = global::PerboyreApp.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionBarDivider = global::PerboyreApp.Droid.Resource.Attribute.actionBarDivider;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionBarItemBackground = global::PerboyreApp.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionBarPopupTheme = global::PerboyreApp.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionBarSize = global::PerboyreApp.Droid.Resource.Attribute.actionBarSize;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionBarSplitStyle = global::PerboyreApp.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionBarStyle = global::PerboyreApp.Droid.Resource.Attribute.actionBarStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionBarTabBarStyle = global::PerboyreApp.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionBarTabStyle = global::PerboyreApp.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionBarTabTextStyle = global::PerboyreApp.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionBarTheme = global::PerboyreApp.Droid.Resource.Attribute.actionBarTheme;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionBarWidgetTheme = global::PerboyreApp.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionButtonStyle = global::PerboyreApp.Droid.Resource.Attribute.actionButtonStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionDropDownStyle = global::PerboyreApp.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionLayout = global::PerboyreApp.Droid.Resource.Attribute.actionLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionMenuTextAppearance = global::PerboyreApp.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionMenuTextColor = global::PerboyreApp.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionModeBackground = global::PerboyreApp.Droid.Resource.Attribute.actionModeBackground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::PerboyreApp.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionModeCloseDrawable = global::PerboyreApp.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionModeCopyDrawable = global::PerboyreApp.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionModeCutDrawable = global::PerboyreApp.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionModeFindDrawable = global::PerboyreApp.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionModePasteDrawable = global::PerboyreApp.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionModePopupWindowStyle = global::PerboyreApp.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::PerboyreApp.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionModeShareDrawable = global::PerboyreApp.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionModeSplitBackground = global::PerboyreApp.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionModeStyle = global::PerboyreApp.Droid.Resource.Attribute.actionModeStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::PerboyreApp.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionOverflowButtonStyle = global::PerboyreApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionOverflowMenuStyle = global::PerboyreApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionProviderClass = global::PerboyreApp.Droid.Resource.Attribute.actionProviderClass;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actionViewClass = global::PerboyreApp.Droid.Resource.Attribute.actionViewClass;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.activityChooserViewStyle = global::PerboyreApp.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actualImageResource = global::PerboyreApp.Droid.Resource.Attribute.actualImageResource;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actualImageScaleType = global::PerboyreApp.Droid.Resource.Attribute.actualImageScaleType;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.actualImageUri = global::PerboyreApp.Droid.Resource.Attribute.actualImageUri;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::PerboyreApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.alertDialogCenterButtons = global::PerboyreApp.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.alertDialogStyle = global::PerboyreApp.Droid.Resource.Attribute.alertDialogStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.alertDialogTheme = global::PerboyreApp.Droid.Resource.Attribute.alertDialogTheme;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.allowStacking = global::PerboyreApp.Droid.Resource.Attribute.allowStacking;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.alpha = global::PerboyreApp.Droid.Resource.Attribute.alpha;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.alphabeticModifiers = global::PerboyreApp.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.arrowHeadLength = global::PerboyreApp.Droid.Resource.Attribute.arrowHeadLength;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.arrowShaftLength = global::PerboyreApp.Droid.Resource.Attribute.arrowShaftLength;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::PerboyreApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.autoSizeMaxTextSize = global::PerboyreApp.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.autoSizeMinTextSize = global::PerboyreApp.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.autoSizePresetSizes = global::PerboyreApp.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.autoSizeStepGranularity = global::PerboyreApp.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.autoSizeTextType = global::PerboyreApp.Droid.Resource.Attribute.autoSizeTextType;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.background = global::PerboyreApp.Droid.Resource.Attribute.background;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.backgroundImage = global::PerboyreApp.Droid.Resource.Attribute.backgroundImage;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.backgroundSplit = global::PerboyreApp.Droid.Resource.Attribute.backgroundSplit;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.backgroundStacked = global::PerboyreApp.Droid.Resource.Attribute.backgroundStacked;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.backgroundTint = global::PerboyreApp.Droid.Resource.Attribute.backgroundTint;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.backgroundTintMode = global::PerboyreApp.Droid.Resource.Attribute.backgroundTintMode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.barLength = global::PerboyreApp.Droid.Resource.Attribute.barLength;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.behavior_autoHide = global::PerboyreApp.Droid.Resource.Attribute.behavior_autoHide;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.behavior_hideable = global::PerboyreApp.Droid.Resource.Attribute.behavior_hideable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.behavior_overlapTop = global::PerboyreApp.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.behavior_peekHeight = global::PerboyreApp.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.behavior_skipCollapsed = global::PerboyreApp.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.borderWidth = global::PerboyreApp.Droid.Resource.Attribute.borderWidth;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.borderlessButtonStyle = global::PerboyreApp.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.bottomSheetDialogTheme = global::PerboyreApp.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.bottomSheetStyle = global::PerboyreApp.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.buttonBarButtonStyle = global::PerboyreApp.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::PerboyreApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::PerboyreApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::PerboyreApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.buttonBarStyle = global::PerboyreApp.Droid.Resource.Attribute.buttonBarStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.buttonGravity = global::PerboyreApp.Droid.Resource.Attribute.buttonGravity;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.buttonPanelSideLayout = global::PerboyreApp.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.buttonStyle = global::PerboyreApp.Droid.Resource.Attribute.buttonStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.buttonStyleSmall = global::PerboyreApp.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.buttonTint = global::PerboyreApp.Droid.Resource.Attribute.buttonTint;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.buttonTintMode = global::PerboyreApp.Droid.Resource.Attribute.buttonTintMode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.cardBackgroundColor = global::PerboyreApp.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.cardCornerRadius = global::PerboyreApp.Droid.Resource.Attribute.cardCornerRadius;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.cardElevation = global::PerboyreApp.Droid.Resource.Attribute.cardElevation;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.cardMaxElevation = global::PerboyreApp.Droid.Resource.Attribute.cardMaxElevation;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.cardPreventCornerOverlap = global::PerboyreApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.cardUseCompatPadding = global::PerboyreApp.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.checkboxStyle = global::PerboyreApp.Droid.Resource.Attribute.checkboxStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.checkedTextViewStyle = global::PerboyreApp.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.closeIcon = global::PerboyreApp.Droid.Resource.Attribute.closeIcon;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.closeItemLayout = global::PerboyreApp.Droid.Resource.Attribute.closeItemLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.collapseContentDescription = global::PerboyreApp.Droid.Resource.Attribute.collapseContentDescription;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.collapseIcon = global::PerboyreApp.Droid.Resource.Attribute.collapseIcon;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.collapsedTitleGravity = global::PerboyreApp.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::PerboyreApp.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.color = global::PerboyreApp.Droid.Resource.Attribute.color;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.colorAccent = global::PerboyreApp.Droid.Resource.Attribute.colorAccent;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.colorBackgroundFloating = global::PerboyreApp.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.colorButtonNormal = global::PerboyreApp.Droid.Resource.Attribute.colorButtonNormal;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.colorControlActivated = global::PerboyreApp.Droid.Resource.Attribute.colorControlActivated;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.colorControlHighlight = global::PerboyreApp.Droid.Resource.Attribute.colorControlHighlight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.colorControlNormal = global::PerboyreApp.Droid.Resource.Attribute.colorControlNormal;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.colorError = global::PerboyreApp.Droid.Resource.Attribute.colorError;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.colorPrimary = global::PerboyreApp.Droid.Resource.Attribute.colorPrimary;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.colorPrimaryDark = global::PerboyreApp.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.colorSwitchThumbNormal = global::PerboyreApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.commitIcon = global::PerboyreApp.Droid.Resource.Attribute.commitIcon;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.contentDescription = global::PerboyreApp.Droid.Resource.Attribute.contentDescription;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.contentInsetEnd = global::PerboyreApp.Droid.Resource.Attribute.contentInsetEnd;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.contentInsetEndWithActions = global::PerboyreApp.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.contentInsetLeft = global::PerboyreApp.Droid.Resource.Attribute.contentInsetLeft;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.contentInsetRight = global::PerboyreApp.Droid.Resource.Attribute.contentInsetRight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.contentInsetStart = global::PerboyreApp.Droid.Resource.Attribute.contentInsetStart;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::PerboyreApp.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.contentPadding = global::PerboyreApp.Droid.Resource.Attribute.contentPadding;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.contentPaddingBottom = global::PerboyreApp.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.contentPaddingLeft = global::PerboyreApp.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.contentPaddingRight = global::PerboyreApp.Droid.Resource.Attribute.contentPaddingRight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.contentPaddingTop = global::PerboyreApp.Droid.Resource.Attribute.contentPaddingTop;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.contentScrim = global::PerboyreApp.Droid.Resource.Attribute.contentScrim;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.controlBackground = global::PerboyreApp.Droid.Resource.Attribute.controlBackground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.counterEnabled = global::PerboyreApp.Droid.Resource.Attribute.counterEnabled;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.counterMaxLength = global::PerboyreApp.Droid.Resource.Attribute.counterMaxLength;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.counterOverflowTextAppearance = global::PerboyreApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.counterTextAppearance = global::PerboyreApp.Droid.Resource.Attribute.counterTextAppearance;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.customNavigationLayout = global::PerboyreApp.Droid.Resource.Attribute.customNavigationLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.defaultQueryHint = global::PerboyreApp.Droid.Resource.Attribute.defaultQueryHint;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.dialogPreferredPadding = global::PerboyreApp.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.dialogTheme = global::PerboyreApp.Droid.Resource.Attribute.dialogTheme;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.displayOptions = global::PerboyreApp.Droid.Resource.Attribute.displayOptions;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.divider = global::PerboyreApp.Droid.Resource.Attribute.divider;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.dividerHorizontal = global::PerboyreApp.Droid.Resource.Attribute.dividerHorizontal;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.dividerPadding = global::PerboyreApp.Droid.Resource.Attribute.dividerPadding;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.dividerVertical = global::PerboyreApp.Droid.Resource.Attribute.dividerVertical;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.drawableSize = global::PerboyreApp.Droid.Resource.Attribute.drawableSize;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.drawerArrowStyle = global::PerboyreApp.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.dropDownListViewStyle = global::PerboyreApp.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::PerboyreApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.editTextBackground = global::PerboyreApp.Droid.Resource.Attribute.editTextBackground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.editTextColor = global::PerboyreApp.Droid.Resource.Attribute.editTextColor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.editTextStyle = global::PerboyreApp.Droid.Resource.Attribute.editTextStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.elevation = global::PerboyreApp.Droid.Resource.Attribute.elevation;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.errorEnabled = global::PerboyreApp.Droid.Resource.Attribute.errorEnabled;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.errorTextAppearance = global::PerboyreApp.Droid.Resource.Attribute.errorTextAppearance;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::PerboyreApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.expanded = global::PerboyreApp.Droid.Resource.Attribute.expanded;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.expandedTitleGravity = global::PerboyreApp.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.expandedTitleMargin = global::PerboyreApp.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.expandedTitleMarginBottom = global::PerboyreApp.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.expandedTitleMarginEnd = global::PerboyreApp.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.expandedTitleMarginStart = global::PerboyreApp.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.expandedTitleMarginTop = global::PerboyreApp.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.expandedTitleTextAppearance = global::PerboyreApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.fabSize = global::PerboyreApp.Droid.Resource.Attribute.fabSize;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.fadeDuration = global::PerboyreApp.Droid.Resource.Attribute.fadeDuration;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.failureImage = global::PerboyreApp.Droid.Resource.Attribute.failureImage;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.failureImageScaleType = global::PerboyreApp.Droid.Resource.Attribute.failureImageScaleType;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.fastScrollEnabled = global::PerboyreApp.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::PerboyreApp.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::PerboyreApp.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable = global::PerboyreApp.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable = global::PerboyreApp.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.font = global::PerboyreApp.Droid.Resource.Attribute.font;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.fontFamily = global::PerboyreApp.Droid.Resource.Attribute.fontFamily;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.fontProviderAuthority = global::PerboyreApp.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.fontProviderCerts = global::PerboyreApp.Droid.Resource.Attribute.fontProviderCerts;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.fontProviderFetchStrategy = global::PerboyreApp.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.fontProviderFetchTimeout = global::PerboyreApp.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.fontProviderPackage = global::PerboyreApp.Droid.Resource.Attribute.fontProviderPackage;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.fontProviderQuery = global::PerboyreApp.Droid.Resource.Attribute.fontProviderQuery;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.fontStyle = global::PerboyreApp.Droid.Resource.Attribute.fontStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.fontWeight = global::PerboyreApp.Droid.Resource.Attribute.fontWeight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.foregroundInsidePadding = global::PerboyreApp.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.gapBetweenBars = global::PerboyreApp.Droid.Resource.Attribute.gapBetweenBars;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.goIcon = global::PerboyreApp.Droid.Resource.Attribute.goIcon;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.headerLayout = global::PerboyreApp.Droid.Resource.Attribute.headerLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.height = global::PerboyreApp.Droid.Resource.Attribute.height;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.hideOnContentScroll = global::PerboyreApp.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.hintAnimationEnabled = global::PerboyreApp.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.hintEnabled = global::PerboyreApp.Droid.Resource.Attribute.hintEnabled;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.hintTextAppearance = global::PerboyreApp.Droid.Resource.Attribute.hintTextAppearance;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.homeAsUpIndicator = global::PerboyreApp.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.homeLayout = global::PerboyreApp.Droid.Resource.Attribute.homeLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.icon = global::PerboyreApp.Droid.Resource.Attribute.icon;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.iconTint = global::PerboyreApp.Droid.Resource.Attribute.iconTint;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.iconTintMode = global::PerboyreApp.Droid.Resource.Attribute.iconTintMode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.iconifiedByDefault = global::PerboyreApp.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.imageButtonStyle = global::PerboyreApp.Droid.Resource.Attribute.imageButtonStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.indeterminateProgressStyle = global::PerboyreApp.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.initialActivityCount = global::PerboyreApp.Droid.Resource.Attribute.initialActivityCount;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.insetForeground = global::PerboyreApp.Droid.Resource.Attribute.insetForeground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.isLightTheme = global::PerboyreApp.Droid.Resource.Attribute.isLightTheme;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.itemBackground = global::PerboyreApp.Droid.Resource.Attribute.itemBackground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.itemIconTint = global::PerboyreApp.Droid.Resource.Attribute.itemIconTint;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.itemPadding = global::PerboyreApp.Droid.Resource.Attribute.itemPadding;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.itemTextAppearance = global::PerboyreApp.Droid.Resource.Attribute.itemTextAppearance;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.itemTextColor = global::PerboyreApp.Droid.Resource.Attribute.itemTextColor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.keylines = global::PerboyreApp.Droid.Resource.Attribute.keylines;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.layout = global::PerboyreApp.Droid.Resource.Attribute.layout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.layoutManager = global::PerboyreApp.Droid.Resource.Attribute.layoutManager;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.layout_anchor = global::PerboyreApp.Droid.Resource.Attribute.layout_anchor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.layout_anchorGravity = global::PerboyreApp.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.layout_behavior = global::PerboyreApp.Droid.Resource.Attribute.layout_behavior;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.layout_collapseMode = global::PerboyreApp.Droid.Resource.Attribute.layout_collapseMode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::PerboyreApp.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.layout_dodgeInsetEdges = global::PerboyreApp.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.layout_insetEdge = global::PerboyreApp.Droid.Resource.Attribute.layout_insetEdge;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.layout_keyline = global::PerboyreApp.Droid.Resource.Attribute.layout_keyline;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.layout_scrollFlags = global::PerboyreApp.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.layout_scrollInterpolator = global::PerboyreApp.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::PerboyreApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.listDividerAlertDialog = global::PerboyreApp.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.listItemLayout = global::PerboyreApp.Droid.Resource.Attribute.listItemLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.listLayout = global::PerboyreApp.Droid.Resource.Attribute.listLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.listMenuViewStyle = global::PerboyreApp.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.listPopupWindowStyle = global::PerboyreApp.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.listPreferredItemHeight = global::PerboyreApp.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::PerboyreApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::PerboyreApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::PerboyreApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::PerboyreApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.logo = global::PerboyreApp.Droid.Resource.Attribute.logo;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.logoDescription = global::PerboyreApp.Droid.Resource.Attribute.logoDescription;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.maxActionInlineWidth = global::PerboyreApp.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.maxButtonHeight = global::PerboyreApp.Droid.Resource.Attribute.maxButtonHeight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.measureWithLargestChild = global::PerboyreApp.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.menu = global::PerboyreApp.Droid.Resource.Attribute.menu;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.multiChoiceItemLayout = global::PerboyreApp.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.navigationContentDescription = global::PerboyreApp.Droid.Resource.Attribute.navigationContentDescription;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.navigationIcon = global::PerboyreApp.Droid.Resource.Attribute.navigationIcon;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.navigationMode = global::PerboyreApp.Droid.Resource.Attribute.navigationMode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.numericModifiers = global::PerboyreApp.Droid.Resource.Attribute.numericModifiers;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.overlapAnchor = global::PerboyreApp.Droid.Resource.Attribute.overlapAnchor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.overlayImage = global::PerboyreApp.Droid.Resource.Attribute.overlayImage;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.paddingBottomNoButtons = global::PerboyreApp.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.paddingEnd = global::PerboyreApp.Droid.Resource.Attribute.paddingEnd;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.paddingStart = global::PerboyreApp.Droid.Resource.Attribute.paddingStart;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.paddingTopNoTitle = global::PerboyreApp.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.panelBackground = global::PerboyreApp.Droid.Resource.Attribute.panelBackground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.panelMenuListTheme = global::PerboyreApp.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.panelMenuListWidth = global::PerboyreApp.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.passwordToggleContentDescription = global::PerboyreApp.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.passwordToggleDrawable = global::PerboyreApp.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.passwordToggleEnabled = global::PerboyreApp.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.passwordToggleTint = global::PerboyreApp.Droid.Resource.Attribute.passwordToggleTint;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.passwordToggleTintMode = global::PerboyreApp.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.placeholderImage = global::PerboyreApp.Droid.Resource.Attribute.placeholderImage;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.placeholderImageScaleType = global::PerboyreApp.Droid.Resource.Attribute.placeholderImageScaleType;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.popupMenuStyle = global::PerboyreApp.Droid.Resource.Attribute.popupMenuStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.popupTheme = global::PerboyreApp.Droid.Resource.Attribute.popupTheme;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.popupWindowStyle = global::PerboyreApp.Droid.Resource.Attribute.popupWindowStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.preserveIconSpacing = global::PerboyreApp.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.pressedStateOverlayImage = global::PerboyreApp.Droid.Resource.Attribute.pressedStateOverlayImage;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.pressedTranslationZ = global::PerboyreApp.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.progressBarAutoRotateInterval = global::PerboyreApp.Droid.Resource.Attribute.progressBarAutoRotateInterval;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.progressBarImage = global::PerboyreApp.Droid.Resource.Attribute.progressBarImage;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.progressBarImageScaleType = global::PerboyreApp.Droid.Resource.Attribute.progressBarImageScaleType;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.progressBarPadding = global::PerboyreApp.Droid.Resource.Attribute.progressBarPadding;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.progressBarStyle = global::PerboyreApp.Droid.Resource.Attribute.progressBarStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.queryBackground = global::PerboyreApp.Droid.Resource.Attribute.queryBackground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.queryHint = global::PerboyreApp.Droid.Resource.Attribute.queryHint;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.radioButtonStyle = global::PerboyreApp.Droid.Resource.Attribute.radioButtonStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.ratingBarStyle = global::PerboyreApp.Droid.Resource.Attribute.ratingBarStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.ratingBarStyleIndicator = global::PerboyreApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.ratingBarStyleSmall = global::PerboyreApp.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.retryImage = global::PerboyreApp.Droid.Resource.Attribute.retryImage;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.retryImageScaleType = global::PerboyreApp.Droid.Resource.Attribute.retryImageScaleType;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.reverseLayout = global::PerboyreApp.Droid.Resource.Attribute.reverseLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.rippleColor = global::PerboyreApp.Droid.Resource.Attribute.rippleColor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.roundAsCircle = global::PerboyreApp.Droid.Resource.Attribute.roundAsCircle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.roundBottomLeft = global::PerboyreApp.Droid.Resource.Attribute.roundBottomLeft;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.roundBottomRight = global::PerboyreApp.Droid.Resource.Attribute.roundBottomRight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.roundTopLeft = global::PerboyreApp.Droid.Resource.Attribute.roundTopLeft;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.roundTopRight = global::PerboyreApp.Droid.Resource.Attribute.roundTopRight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.roundWithOverlayColor = global::PerboyreApp.Droid.Resource.Attribute.roundWithOverlayColor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.roundedCornerRadius = global::PerboyreApp.Droid.Resource.Attribute.roundedCornerRadius;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.roundingBorderColor = global::PerboyreApp.Droid.Resource.Attribute.roundingBorderColor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.roundingBorderPadding = global::PerboyreApp.Droid.Resource.Attribute.roundingBorderPadding;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.roundingBorderWidth = global::PerboyreApp.Droid.Resource.Attribute.roundingBorderWidth;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.scrimAnimationDuration = global::PerboyreApp.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::PerboyreApp.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.searchHintIcon = global::PerboyreApp.Droid.Resource.Attribute.searchHintIcon;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.searchIcon = global::PerboyreApp.Droid.Resource.Attribute.searchIcon;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.searchViewStyle = global::PerboyreApp.Droid.Resource.Attribute.searchViewStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.seekBarStyle = global::PerboyreApp.Droid.Resource.Attribute.seekBarStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.selectableItemBackground = global::PerboyreApp.Droid.Resource.Attribute.selectableItemBackground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::PerboyreApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.showAsAction = global::PerboyreApp.Droid.Resource.Attribute.showAsAction;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.showDividers = global::PerboyreApp.Droid.Resource.Attribute.showDividers;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.showText = global::PerboyreApp.Droid.Resource.Attribute.showText;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.showTitle = global::PerboyreApp.Droid.Resource.Attribute.showTitle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.singleChoiceItemLayout = global::PerboyreApp.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.spanCount = global::PerboyreApp.Droid.Resource.Attribute.spanCount;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.spinBars = global::PerboyreApp.Droid.Resource.Attribute.spinBars;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::PerboyreApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.spinnerStyle = global::PerboyreApp.Droid.Resource.Attribute.spinnerStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.splitTrack = global::PerboyreApp.Droid.Resource.Attribute.splitTrack;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.srcCompat = global::PerboyreApp.Droid.Resource.Attribute.srcCompat;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.stackFromEnd = global::PerboyreApp.Droid.Resource.Attribute.stackFromEnd;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.state_above_anchor = global::PerboyreApp.Droid.Resource.Attribute.state_above_anchor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.state_collapsed = global::PerboyreApp.Droid.Resource.Attribute.state_collapsed;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.state_collapsible = global::PerboyreApp.Droid.Resource.Attribute.state_collapsible;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.statusBarBackground = global::PerboyreApp.Droid.Resource.Attribute.statusBarBackground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.statusBarScrim = global::PerboyreApp.Droid.Resource.Attribute.statusBarScrim;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.subMenuArrow = global::PerboyreApp.Droid.Resource.Attribute.subMenuArrow;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.submitBackground = global::PerboyreApp.Droid.Resource.Attribute.submitBackground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.subtitle = global::PerboyreApp.Droid.Resource.Attribute.subtitle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.subtitleTextAppearance = global::PerboyreApp.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.subtitleTextColor = global::PerboyreApp.Droid.Resource.Attribute.subtitleTextColor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.subtitleTextStyle = global::PerboyreApp.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.suggestionRowLayout = global::PerboyreApp.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.switchMinWidth = global::PerboyreApp.Droid.Resource.Attribute.switchMinWidth;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.switchPadding = global::PerboyreApp.Droid.Resource.Attribute.switchPadding;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.switchStyle = global::PerboyreApp.Droid.Resource.Attribute.switchStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.switchTextAppearance = global::PerboyreApp.Droid.Resource.Attribute.switchTextAppearance;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.tabBackground = global::PerboyreApp.Droid.Resource.Attribute.tabBackground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.tabContentStart = global::PerboyreApp.Droid.Resource.Attribute.tabContentStart;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.tabGravity = global::PerboyreApp.Droid.Resource.Attribute.tabGravity;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.tabIndicatorColor = global::PerboyreApp.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.tabIndicatorHeight = global::PerboyreApp.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.tabMaxWidth = global::PerboyreApp.Droid.Resource.Attribute.tabMaxWidth;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.tabMinWidth = global::PerboyreApp.Droid.Resource.Attribute.tabMinWidth;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.tabMode = global::PerboyreApp.Droid.Resource.Attribute.tabMode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.tabPadding = global::PerboyreApp.Droid.Resource.Attribute.tabPadding;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.tabPaddingBottom = global::PerboyreApp.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.tabPaddingEnd = global::PerboyreApp.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.tabPaddingStart = global::PerboyreApp.Droid.Resource.Attribute.tabPaddingStart;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.tabPaddingTop = global::PerboyreApp.Droid.Resource.Attribute.tabPaddingTop;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.tabSelectedTextColor = global::PerboyreApp.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.tabTextAppearance = global::PerboyreApp.Droid.Resource.Attribute.tabTextAppearance;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.tabTextColor = global::PerboyreApp.Droid.Resource.Attribute.tabTextColor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.textAllCaps = global::PerboyreApp.Droid.Resource.Attribute.textAllCaps;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::PerboyreApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.textAppearanceListItem = global::PerboyreApp.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::PerboyreApp.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.textAppearanceListItemSmall = global::PerboyreApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::PerboyreApp.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::PerboyreApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::PerboyreApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::PerboyreApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.textColorAlertDialogListItem = global::PerboyreApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.textColorSearchUrl = global::PerboyreApp.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.theme = global::PerboyreApp.Droid.Resource.Attribute.theme;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.thickness = global::PerboyreApp.Droid.Resource.Attribute.thickness;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.thumbTextPadding = global::PerboyreApp.Droid.Resource.Attribute.thumbTextPadding;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.thumbTint = global::PerboyreApp.Droid.Resource.Attribute.thumbTint;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.thumbTintMode = global::PerboyreApp.Droid.Resource.Attribute.thumbTintMode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.tickMark = global::PerboyreApp.Droid.Resource.Attribute.tickMark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.tickMarkTint = global::PerboyreApp.Droid.Resource.Attribute.tickMarkTint;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.tickMarkTintMode = global::PerboyreApp.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.tint = global::PerboyreApp.Droid.Resource.Attribute.tint;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.tintMode = global::PerboyreApp.Droid.Resource.Attribute.tintMode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.title = global::PerboyreApp.Droid.Resource.Attribute.title;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.titleEnabled = global::PerboyreApp.Droid.Resource.Attribute.titleEnabled;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.titleMargin = global::PerboyreApp.Droid.Resource.Attribute.titleMargin;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.titleMarginBottom = global::PerboyreApp.Droid.Resource.Attribute.titleMarginBottom;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.titleMarginEnd = global::PerboyreApp.Droid.Resource.Attribute.titleMarginEnd;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.titleMarginStart = global::PerboyreApp.Droid.Resource.Attribute.titleMarginStart;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.titleMarginTop = global::PerboyreApp.Droid.Resource.Attribute.titleMarginTop;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.titleMargins = global::PerboyreApp.Droid.Resource.Attribute.titleMargins;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.titleTextAppearance = global::PerboyreApp.Droid.Resource.Attribute.titleTextAppearance;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.titleTextColor = global::PerboyreApp.Droid.Resource.Attribute.titleTextColor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.titleTextStyle = global::PerboyreApp.Droid.Resource.Attribute.titleTextStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.toolbarId = global::PerboyreApp.Droid.Resource.Attribute.toolbarId;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::PerboyreApp.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.toolbarStyle = global::PerboyreApp.Droid.Resource.Attribute.toolbarStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.tooltipForegroundColor = global::PerboyreApp.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.tooltipFrameBackground = global::PerboyreApp.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.tooltipText = global::PerboyreApp.Droid.Resource.Attribute.tooltipText;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.track = global::PerboyreApp.Droid.Resource.Attribute.track;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.trackTint = global::PerboyreApp.Droid.Resource.Attribute.trackTint;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.trackTintMode = global::PerboyreApp.Droid.Resource.Attribute.trackTintMode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.useCompatPadding = global::PerboyreApp.Droid.Resource.Attribute.useCompatPadding;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.viewAspectRatio = global::PerboyreApp.Droid.Resource.Attribute.viewAspectRatio;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.voiceIcon = global::PerboyreApp.Droid.Resource.Attribute.voiceIcon;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.windowActionBar = global::PerboyreApp.Droid.Resource.Attribute.windowActionBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.windowActionBarOverlay = global::PerboyreApp.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.windowActionModeOverlay = global::PerboyreApp.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.windowFixedHeightMajor = global::PerboyreApp.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.windowFixedHeightMinor = global::PerboyreApp.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.windowFixedWidthMajor = global::PerboyreApp.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.windowFixedWidthMinor = global::PerboyreApp.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.windowMinWidthMajor = global::PerboyreApp.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.windowMinWidthMinor = global::PerboyreApp.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Attribute.windowNoTitle = global::PerboyreApp.Droid.Resource.Attribute.windowNoTitle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::PerboyreApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::PerboyreApp.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::PerboyreApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::PerboyreApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::PerboyreApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::PerboyreApp.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.abc_btn_colored_text_material = global::PerboyreApp.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.abc_color_highlight_material = global::PerboyreApp.Droid.Resource.Color.abc_color_highlight_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.abc_hint_foreground_material_dark = global::PerboyreApp.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.abc_hint_foreground_material_light = global::PerboyreApp.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.abc_input_method_navigation_guard = global::PerboyreApp.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::PerboyreApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::PerboyreApp.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.abc_primary_text_material_dark = global::PerboyreApp.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.abc_primary_text_material_light = global::PerboyreApp.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.abc_search_url_text = global::PerboyreApp.Droid.Resource.Color.abc_search_url_text;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.abc_search_url_text_normal = global::PerboyreApp.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.abc_search_url_text_pressed = global::PerboyreApp.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.abc_search_url_text_selected = global::PerboyreApp.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.abc_secondary_text_material_dark = global::PerboyreApp.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.abc_secondary_text_material_light = global::PerboyreApp.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.abc_tint_btn_checkable = global::PerboyreApp.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.abc_tint_default = global::PerboyreApp.Droid.Resource.Color.abc_tint_default;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.abc_tint_edittext = global::PerboyreApp.Droid.Resource.Color.abc_tint_edittext;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.abc_tint_seek_thumb = global::PerboyreApp.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.abc_tint_spinner = global::PerboyreApp.Droid.Resource.Color.abc_tint_spinner;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.abc_tint_switch_track = global::PerboyreApp.Droid.Resource.Color.abc_tint_switch_track;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.accent_material_dark = global::PerboyreApp.Droid.Resource.Color.accent_material_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.accent_material_light = global::PerboyreApp.Droid.Resource.Color.accent_material_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.background_floating_material_dark = global::PerboyreApp.Droid.Resource.Color.background_floating_material_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.background_floating_material_light = global::PerboyreApp.Droid.Resource.Color.background_floating_material_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.background_material_dark = global::PerboyreApp.Droid.Resource.Color.background_material_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.background_material_light = global::PerboyreApp.Droid.Resource.Color.background_material_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::PerboyreApp.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.bright_foreground_disabled_material_light = global::PerboyreApp.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::PerboyreApp.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.bright_foreground_inverse_material_light = global::PerboyreApp.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.bright_foreground_material_dark = global::PerboyreApp.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.bright_foreground_material_light = global::PerboyreApp.Droid.Resource.Color.bright_foreground_material_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.button_material_dark = global::PerboyreApp.Droid.Resource.Color.button_material_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.button_material_light = global::PerboyreApp.Droid.Resource.Color.button_material_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.cardview_dark_background = global::PerboyreApp.Droid.Resource.Color.cardview_dark_background;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.cardview_light_background = global::PerboyreApp.Droid.Resource.Color.cardview_light_background;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.cardview_shadow_end_color = global::PerboyreApp.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.cardview_shadow_start_color = global::PerboyreApp.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::PerboyreApp.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.design_error = global::PerboyreApp.Droid.Resource.Color.design_error;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.design_fab_shadow_end_color = global::PerboyreApp.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.design_fab_shadow_mid_color = global::PerboyreApp.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.design_fab_shadow_start_color = global::PerboyreApp.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::PerboyreApp.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::PerboyreApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::PerboyreApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::PerboyreApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.design_snackbar_background_color = global::PerboyreApp.Droid.Resource.Color.design_snackbar_background_color;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.design_tint_password_toggle = global::PerboyreApp.Droid.Resource.Color.design_tint_password_toggle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::PerboyreApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.dim_foreground_disabled_material_light = global::PerboyreApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.dim_foreground_material_dark = global::PerboyreApp.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.dim_foreground_material_light = global::PerboyreApp.Droid.Resource.Color.dim_foreground_material_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.foreground_material_dark = global::PerboyreApp.Droid.Resource.Color.foreground_material_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.foreground_material_light = global::PerboyreApp.Droid.Resource.Color.foreground_material_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.highlighted_text_material_dark = global::PerboyreApp.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.highlighted_text_material_light = global::PerboyreApp.Droid.Resource.Color.highlighted_text_material_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.material_blue_grey_800 = global::PerboyreApp.Droid.Resource.Color.material_blue_grey_800;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.material_blue_grey_900 = global::PerboyreApp.Droid.Resource.Color.material_blue_grey_900;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.material_blue_grey_950 = global::PerboyreApp.Droid.Resource.Color.material_blue_grey_950;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.material_deep_teal_200 = global::PerboyreApp.Droid.Resource.Color.material_deep_teal_200;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.material_deep_teal_500 = global::PerboyreApp.Droid.Resource.Color.material_deep_teal_500;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.material_grey_100 = global::PerboyreApp.Droid.Resource.Color.material_grey_100;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.material_grey_300 = global::PerboyreApp.Droid.Resource.Color.material_grey_300;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.material_grey_50 = global::PerboyreApp.Droid.Resource.Color.material_grey_50;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.material_grey_600 = global::PerboyreApp.Droid.Resource.Color.material_grey_600;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.material_grey_800 = global::PerboyreApp.Droid.Resource.Color.material_grey_800;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.material_grey_850 = global::PerboyreApp.Droid.Resource.Color.material_grey_850;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.material_grey_900 = global::PerboyreApp.Droid.Resource.Color.material_grey_900;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.notification_action_color_filter = global::PerboyreApp.Droid.Resource.Color.notification_action_color_filter;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.notification_icon_bg_color = global::PerboyreApp.Droid.Resource.Color.notification_icon_bg_color;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.notification_material_background_media_default_color = global::PerboyreApp.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.primary_dark_material_dark = global::PerboyreApp.Droid.Resource.Color.primary_dark_material_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.primary_dark_material_light = global::PerboyreApp.Droid.Resource.Color.primary_dark_material_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.primary_material_dark = global::PerboyreApp.Droid.Resource.Color.primary_material_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.primary_material_light = global::PerboyreApp.Droid.Resource.Color.primary_material_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.primary_text_default_material_dark = global::PerboyreApp.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.primary_text_default_material_light = global::PerboyreApp.Droid.Resource.Color.primary_text_default_material_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.primary_text_disabled_material_dark = global::PerboyreApp.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.primary_text_disabled_material_light = global::PerboyreApp.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.ripple_material_dark = global::PerboyreApp.Droid.Resource.Color.ripple_material_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.ripple_material_light = global::PerboyreApp.Droid.Resource.Color.ripple_material_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.secondary_text_default_material_dark = global::PerboyreApp.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.secondary_text_default_material_light = global::PerboyreApp.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.secondary_text_disabled_material_dark = global::PerboyreApp.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.secondary_text_disabled_material_light = global::PerboyreApp.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::PerboyreApp.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.switch_thumb_disabled_material_light = global::PerboyreApp.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.switch_thumb_material_dark = global::PerboyreApp.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.switch_thumb_material_light = global::PerboyreApp.Droid.Resource.Color.switch_thumb_material_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.switch_thumb_normal_material_dark = global::PerboyreApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.switch_thumb_normal_material_light = global::PerboyreApp.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.tooltip_background_dark = global::PerboyreApp.Droid.Resource.Color.tooltip_background_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Color.tooltip_background_light = global::PerboyreApp.Droid.Resource.Color.tooltip_background_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::PerboyreApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::PerboyreApp.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::PerboyreApp.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::PerboyreApp.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::PerboyreApp.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_action_bar_elevation_material = global::PerboyreApp.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::PerboyreApp.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::PerboyreApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::PerboyreApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::PerboyreApp.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::PerboyreApp.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::PerboyreApp.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::PerboyreApp.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_action_button_min_height_material = global::PerboyreApp.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_action_button_min_width_material = global::PerboyreApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::PerboyreApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::PerboyreApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::PerboyreApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::PerboyreApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::PerboyreApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::PerboyreApp.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::PerboyreApp.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::PerboyreApp.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_control_corner_material = global::PerboyreApp.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_control_inset_material = global::PerboyreApp.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_control_padding_material = global::PerboyreApp.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::PerboyreApp.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::PerboyreApp.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::PerboyreApp.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::PerboyreApp.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::PerboyreApp.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::PerboyreApp.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_dialog_min_width_major = global::PerboyreApp.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::PerboyreApp.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_dialog_padding_material = global::PerboyreApp.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::PerboyreApp.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_dialog_title_divider_material = global::PerboyreApp.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::PerboyreApp.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::PerboyreApp.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::PerboyreApp.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::PerboyreApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::PerboyreApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::PerboyreApp.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::PerboyreApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::PerboyreApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_floating_window_z = global::PerboyreApp.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::PerboyreApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_panel_menu_list_width = global::PerboyreApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_progress_bar_height_material = global::PerboyreApp.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_search_view_preferred_height = global::PerboyreApp.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_search_view_preferred_width = global::PerboyreApp.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::PerboyreApp.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::PerboyreApp.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::PerboyreApp.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_switch_padding = global::PerboyreApp.Droid.Resource.Dimension.abc_switch_padding;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_text_size_body_1_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_text_size_body_2_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_text_size_button_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_text_size_caption_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_text_size_display_1_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_text_size_display_2_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_text_size_display_3_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_text_size_display_4_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_text_size_headline_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_text_size_large_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_text_size_medium_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_text_size_menu_header_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_text_size_menu_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_text_size_small_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_text_size_subhead_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_text_size_title_material = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::PerboyreApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::PerboyreApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.cardview_default_elevation = global::PerboyreApp.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.cardview_default_radius = global::PerboyreApp.Droid.Resource.Dimension.cardview_default_radius;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.compat_button_inset_horizontal_material = global::PerboyreApp.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.compat_button_inset_vertical_material = global::PerboyreApp.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.compat_button_padding_horizontal_material = global::PerboyreApp.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.compat_button_padding_vertical_material = global::PerboyreApp.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.compat_control_corner_material = global::PerboyreApp.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_appbar_elevation = global::PerboyreApp.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::PerboyreApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_bottom_navigation_active_text_size = global::PerboyreApp.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_bottom_navigation_elevation = global::PerboyreApp.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_bottom_navigation_height = global::PerboyreApp.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_bottom_navigation_item_max_width = global::PerboyreApp.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_bottom_navigation_item_min_width = global::PerboyreApp.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_bottom_navigation_margin = global::PerboyreApp.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_bottom_navigation_shadow_height = global::PerboyreApp.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_bottom_navigation_text_size = global::PerboyreApp.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::PerboyreApp.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min = global::PerboyreApp.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_fab_border_width = global::PerboyreApp.Droid.Resource.Dimension.design_fab_border_width;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_fab_elevation = global::PerboyreApp.Droid.Resource.Dimension.design_fab_elevation;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_fab_image_size = global::PerboyreApp.Droid.Resource.Dimension.design_fab_image_size;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_fab_size_mini = global::PerboyreApp.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_fab_size_normal = global::PerboyreApp.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::PerboyreApp.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_navigation_elevation = global::PerboyreApp.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_navigation_icon_padding = global::PerboyreApp.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_navigation_icon_size = global::PerboyreApp.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_navigation_max_width = global::PerboyreApp.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_navigation_padding_bottom = global::PerboyreApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::PerboyreApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::PerboyreApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::PerboyreApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_snackbar_elevation = global::PerboyreApp.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::PerboyreApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_snackbar_max_width = global::PerboyreApp.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_snackbar_min_width = global::PerboyreApp.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::PerboyreApp.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::PerboyreApp.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::PerboyreApp.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_snackbar_text_size = global::PerboyreApp.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_tab_max_width = global::PerboyreApp.Droid.Resource.Dimension.design_tab_max_width;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::PerboyreApp.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_tab_text_size = global::PerboyreApp.Droid.Resource.Dimension.design_tab_text_size;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.design_tab_text_size_2line = global::PerboyreApp.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.disabled_alpha_material_dark = global::PerboyreApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.disabled_alpha_material_light = global::PerboyreApp.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.fastscroll_default_thickness = global::PerboyreApp.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.fastscroll_margin = global::PerboyreApp.Droid.Resource.Dimension.fastscroll_margin;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.fastscroll_minimum_range = global::PerboyreApp.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.highlight_alpha_material_colored = global::PerboyreApp.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.highlight_alpha_material_dark = global::PerboyreApp.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.highlight_alpha_material_light = global::PerboyreApp.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.hint_alpha_material_dark = global::PerboyreApp.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.hint_alpha_material_light = global::PerboyreApp.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.hint_pressed_alpha_material_dark = global::PerboyreApp.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.hint_pressed_alpha_material_light = global::PerboyreApp.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::PerboyreApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::PerboyreApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::PerboyreApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.notification_action_icon_size = global::PerboyreApp.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.notification_action_text_size = global::PerboyreApp.Droid.Resource.Dimension.notification_action_text_size;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.notification_big_circle_margin = global::PerboyreApp.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.notification_content_margin_start = global::PerboyreApp.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.notification_large_icon_height = global::PerboyreApp.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.notification_large_icon_width = global::PerboyreApp.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.notification_main_column_padding_top = global::PerboyreApp.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.notification_media_narrow_margin = global::PerboyreApp.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.notification_right_icon_size = global::PerboyreApp.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.notification_right_side_padding_top = global::PerboyreApp.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.notification_small_icon_background_padding = global::PerboyreApp.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::PerboyreApp.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.notification_subtext_size = global::PerboyreApp.Droid.Resource.Dimension.notification_subtext_size;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.notification_top_pad = global::PerboyreApp.Droid.Resource.Dimension.notification_top_pad;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.notification_top_pad_large_text = global::PerboyreApp.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.tooltip_corner_radius = global::PerboyreApp.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.tooltip_horizontal_padding = global::PerboyreApp.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.tooltip_margin = global::PerboyreApp.Droid.Resource.Dimension.tooltip_margin;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::PerboyreApp.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.tooltip_precise_anchor_threshold = global::PerboyreApp.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.tooltip_vertical_padding = global::PerboyreApp.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.tooltip_y_offset_non_touch = global::PerboyreApp.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Dimension.tooltip_y_offset_touch = global::PerboyreApp.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::PerboyreApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_btn_borderless_material = global::PerboyreApp.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_btn_check_material = global::PerboyreApp.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::PerboyreApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::PerboyreApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_btn_colored_material = global::PerboyreApp.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::PerboyreApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_btn_radio_material = global::PerboyreApp.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::PerboyreApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::PerboyreApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::PerboyreApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::PerboyreApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::PerboyreApp.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_cab_background_top_material = global::PerboyreApp.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_control_background_material = global::PerboyreApp.Droid.Resource.Drawable.abc_control_background_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_dialog_material_background = global::PerboyreApp.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_edit_text_material = global::PerboyreApp.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_ic_ab_back_material = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_ic_clear_material = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_ic_go_search_api_material = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_ic_menu_overflow_material = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_ic_search_api_material = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_ic_star_black_48dp = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_ic_star_half_black_48dp = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::PerboyreApp.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_item_background_holo_dark = global::PerboyreApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_item_background_holo_light = global::PerboyreApp.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_list_focused_holo = global::PerboyreApp.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_list_longpressed_holo = global::PerboyreApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::PerboyreApp.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::PerboyreApp.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::PerboyreApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::PerboyreApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::PerboyreApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::PerboyreApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::PerboyreApp.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_list_selector_holo_light = global::PerboyreApp.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::PerboyreApp.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::PerboyreApp.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::PerboyreApp.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_ratingbar_material = global::PerboyreApp.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_ratingbar_small_material = global::PerboyreApp.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::PerboyreApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::PerboyreApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::PerboyreApp.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_seekbar_tick_mark_material = global::PerboyreApp.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_seekbar_track_material = global::PerboyreApp.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::PerboyreApp.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_switch_thumb_material = global::PerboyreApp.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_tab_indicator_material = global::PerboyreApp.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_text_cursor_material = global::PerboyreApp.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::PerboyreApp.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::PerboyreApp.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::PerboyreApp.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::PerboyreApp.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::PerboyreApp.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::PerboyreApp.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::PerboyreApp.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_textfield_search_material = global::PerboyreApp.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.abc_vector_test = global::PerboyreApp.Droid.Resource.Drawable.abc_vector_test;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.avd_hide_password = global::PerboyreApp.Droid.Resource.Drawable.avd_hide_password;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.avd_show_password = global::PerboyreApp.Droid.Resource.Drawable.avd_show_password;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.btn_action_photobrowser_overlay = global::PerboyreApp.Droid.Resource.Drawable.btn_action_photobrowser_overlay;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.design_bottom_navigation_item_background = global::PerboyreApp.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.design_fab_background = global::PerboyreApp.Droid.Resource.Drawable.design_fab_background;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.design_ic_visibility = global::PerboyreApp.Droid.Resource.Drawable.design_ic_visibility;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.design_ic_visibility_off = global::PerboyreApp.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.design_password_eye = global::PerboyreApp.Droid.Resource.Drawable.design_password_eye;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.design_snackbar_background = global::PerboyreApp.Droid.Resource.Drawable.design_snackbar_background;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.navigation_empty_icon = global::PerboyreApp.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.notification_action_background = global::PerboyreApp.Droid.Resource.Drawable.notification_action_background;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.notification_bg = global::PerboyreApp.Droid.Resource.Drawable.notification_bg;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.notification_bg_low = global::PerboyreApp.Droid.Resource.Drawable.notification_bg_low;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.notification_bg_low_normal = global::PerboyreApp.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.notification_bg_low_pressed = global::PerboyreApp.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.notification_bg_normal = global::PerboyreApp.Droid.Resource.Drawable.notification_bg_normal;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.notification_bg_normal_pressed = global::PerboyreApp.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.notification_icon_background = global::PerboyreApp.Droid.Resource.Drawable.notification_icon_background;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.notification_template_icon_bg = global::PerboyreApp.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.notification_template_icon_low_bg = global::PerboyreApp.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.notification_tile_bg = global::PerboyreApp.Droid.Resource.Drawable.notification_tile_bg;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::PerboyreApp.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.tooltip_frame_dark = global::PerboyreApp.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Drawable.tooltip_frame_light = global::PerboyreApp.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.ALT = global::PerboyreApp.Droid.Resource.Id.ALT;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.CTRL = global::PerboyreApp.Droid.Resource.Id.CTRL;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.FUNCTION = global::PerboyreApp.Droid.Resource.Id.FUNCTION;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.META = global::PerboyreApp.Droid.Resource.Id.META;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.SHIFT = global::PerboyreApp.Droid.Resource.Id.SHIFT;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.SYM = global::PerboyreApp.Droid.Resource.Id.SYM;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.action0 = global::PerboyreApp.Droid.Resource.Id.action0;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.action_bar = global::PerboyreApp.Droid.Resource.Id.action_bar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.action_bar_activity_content = global::PerboyreApp.Droid.Resource.Id.action_bar_activity_content;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.action_bar_container = global::PerboyreApp.Droid.Resource.Id.action_bar_container;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.action_bar_root = global::PerboyreApp.Droid.Resource.Id.action_bar_root;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.action_bar_spinner = global::PerboyreApp.Droid.Resource.Id.action_bar_spinner;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.action_bar_subtitle = global::PerboyreApp.Droid.Resource.Id.action_bar_subtitle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.action_bar_title = global::PerboyreApp.Droid.Resource.Id.action_bar_title;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.action_container = global::PerboyreApp.Droid.Resource.Id.action_container;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.action_context_bar = global::PerboyreApp.Droid.Resource.Id.action_context_bar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.action_divider = global::PerboyreApp.Droid.Resource.Id.action_divider;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.action_image = global::PerboyreApp.Droid.Resource.Id.action_image;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.action_menu_divider = global::PerboyreApp.Droid.Resource.Id.action_menu_divider;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.action_menu_presenter = global::PerboyreApp.Droid.Resource.Id.action_menu_presenter;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.action_mode_bar = global::PerboyreApp.Droid.Resource.Id.action_mode_bar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.action_mode_bar_stub = global::PerboyreApp.Droid.Resource.Id.action_mode_bar_stub;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.action_mode_close_button = global::PerboyreApp.Droid.Resource.Id.action_mode_close_button;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.action_text = global::PerboyreApp.Droid.Resource.Id.action_text;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.actions = global::PerboyreApp.Droid.Resource.Id.actions;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.activity_chooser_view_content = global::PerboyreApp.Droid.Resource.Id.activity_chooser_view_content;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.add = global::PerboyreApp.Droid.Resource.Id.add;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.alertTitle = global::PerboyreApp.Droid.Resource.Id.alertTitle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.all = global::PerboyreApp.Droid.Resource.Id.all;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.always = global::PerboyreApp.Droid.Resource.Id.always;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.async = global::PerboyreApp.Droid.Resource.Id.async;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.auto = global::PerboyreApp.Droid.Resource.Id.auto;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.backgroundView = global::PerboyreApp.Droid.Resource.Id.backgroundView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.beginning = global::PerboyreApp.Droid.Resource.Id.beginning;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.blocking = global::PerboyreApp.Droid.Resource.Id.blocking;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.bottom = global::PerboyreApp.Droid.Resource.Id.bottom;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.btnShare = global::PerboyreApp.Droid.Resource.Id.btnShare;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.buttonPanel = global::PerboyreApp.Droid.Resource.Id.buttonPanel;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.cancel_action = global::PerboyreApp.Droid.Resource.Id.cancel_action;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.center = global::PerboyreApp.Droid.Resource.Id.center;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.centerCrop = global::PerboyreApp.Droid.Resource.Id.centerCrop;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.centerInside = global::PerboyreApp.Droid.Resource.Id.centerInside;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.center_horizontal = global::PerboyreApp.Droid.Resource.Id.center_horizontal;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.center_vertical = global::PerboyreApp.Droid.Resource.Id.center_vertical;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.checkbox = global::PerboyreApp.Droid.Resource.Id.checkbox;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.chronometer = global::PerboyreApp.Droid.Resource.Id.chronometer;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.clip_horizontal = global::PerboyreApp.Droid.Resource.Id.clip_horizontal;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.clip_vertical = global::PerboyreApp.Droid.Resource.Id.clip_vertical;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.collapseActionView = global::PerboyreApp.Droid.Resource.Id.collapseActionView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.container = global::PerboyreApp.Droid.Resource.Id.container;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.contentPanel = global::PerboyreApp.Droid.Resource.Id.contentPanel;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.coordinator = global::PerboyreApp.Droid.Resource.Id.coordinator;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.custom = global::PerboyreApp.Droid.Resource.Id.custom;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.customPanel = global::PerboyreApp.Droid.Resource.Id.customPanel;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.decor_content_parent = global::PerboyreApp.Droid.Resource.Id.decor_content_parent;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.default_activity_button = global::PerboyreApp.Droid.Resource.Id.default_activity_button;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.design_bottom_sheet = global::PerboyreApp.Droid.Resource.Id.design_bottom_sheet;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.design_menu_item_action_area = global::PerboyreApp.Droid.Resource.Id.design_menu_item_action_area;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.design_menu_item_action_area_stub = global::PerboyreApp.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.design_menu_item_text = global::PerboyreApp.Droid.Resource.Id.design_menu_item_text;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.design_navigation_view = global::PerboyreApp.Droid.Resource.Id.design_navigation_view;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.disableHome = global::PerboyreApp.Droid.Resource.Id.disableHome;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.dismissView = global::PerboyreApp.Droid.Resource.Id.dismissView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.edit_query = global::PerboyreApp.Droid.Resource.Id.edit_query;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.end = global::PerboyreApp.Droid.Resource.Id.end;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.end_padder = global::PerboyreApp.Droid.Resource.Id.end_padder;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.enterAlways = global::PerboyreApp.Droid.Resource.Id.enterAlways;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.enterAlwaysCollapsed = global::PerboyreApp.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.exitUntilCollapsed = global::PerboyreApp.Droid.Resource.Id.exitUntilCollapsed;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.expand_activities_button = global::PerboyreApp.Droid.Resource.Id.expand_activities_button;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.expanded_menu = global::PerboyreApp.Droid.Resource.Id.expanded_menu;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.fill = global::PerboyreApp.Droid.Resource.Id.fill;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.fill_horizontal = global::PerboyreApp.Droid.Resource.Id.fill_horizontal;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.fill_vertical = global::PerboyreApp.Droid.Resource.Id.fill_vertical;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.fitBottomStart = global::PerboyreApp.Droid.Resource.Id.fitBottomStart;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.fitCenter = global::PerboyreApp.Droid.Resource.Id.fitCenter;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.fitEnd = global::PerboyreApp.Droid.Resource.Id.fitEnd;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.fitStart = global::PerboyreApp.Droid.Resource.Id.fitStart;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.fitXY = global::PerboyreApp.Droid.Resource.Id.fitXY;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.@fixed = global::PerboyreApp.Droid.Resource.Id.@fixed;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.focusCrop = global::PerboyreApp.Droid.Resource.Id.focusCrop;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.forever = global::PerboyreApp.Droid.Resource.Id.forever;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.ghost_view = global::PerboyreApp.Droid.Resource.Id.ghost_view;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.home = global::PerboyreApp.Droid.Resource.Id.home;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.homeAsUp = global::PerboyreApp.Droid.Resource.Id.homeAsUp;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.icon = global::PerboyreApp.Droid.Resource.Id.icon;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.icon_group = global::PerboyreApp.Droid.Resource.Id.icon_group;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.ifRoom = global::PerboyreApp.Droid.Resource.Id.ifRoom;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.image = global::PerboyreApp.Droid.Resource.Id.image;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.info = global::PerboyreApp.Droid.Resource.Id.info;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.italic = global::PerboyreApp.Droid.Resource.Id.italic;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.item_touch_helper_previous_elevation = global::PerboyreApp.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.largeLabel = global::PerboyreApp.Droid.Resource.Id.largeLabel;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.left = global::PerboyreApp.Droid.Resource.Id.left;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.line1 = global::PerboyreApp.Droid.Resource.Id.line1;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.line3 = global::PerboyreApp.Droid.Resource.Id.line3;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.listMode = global::PerboyreApp.Droid.Resource.Id.listMode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.list_item = global::PerboyreApp.Droid.Resource.Id.list_item;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.masked = global::PerboyreApp.Droid.Resource.Id.masked;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.media_actions = global::PerboyreApp.Droid.Resource.Id.media_actions;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.message = global::PerboyreApp.Droid.Resource.Id.message;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.middle = global::PerboyreApp.Droid.Resource.Id.middle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.mini = global::PerboyreApp.Droid.Resource.Id.mini;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.multiply = global::PerboyreApp.Droid.Resource.Id.multiply;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.navigation_header_container = global::PerboyreApp.Droid.Resource.Id.navigation_header_container;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.never = global::PerboyreApp.Droid.Resource.Id.never;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.none = global::PerboyreApp.Droid.Resource.Id.none;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.normal = global::PerboyreApp.Droid.Resource.Id.normal;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.notification_background = global::PerboyreApp.Droid.Resource.Id.notification_background;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.notification_main_column = global::PerboyreApp.Droid.Resource.Id.notification_main_column;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.notification_main_column_container = global::PerboyreApp.Droid.Resource.Id.notification_main_column_container;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.pager = global::PerboyreApp.Droid.Resource.Id.pager;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.parallax = global::PerboyreApp.Droid.Resource.Id.parallax;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.parentPanel = global::PerboyreApp.Droid.Resource.Id.parentPanel;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.parent_matrix = global::PerboyreApp.Droid.Resource.Id.parent_matrix;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.pin = global::PerboyreApp.Droid.Resource.Id.pin;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.progress_circular = global::PerboyreApp.Droid.Resource.Id.progress_circular;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.progress_horizontal = global::PerboyreApp.Droid.Resource.Id.progress_horizontal;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.radio = global::PerboyreApp.Droid.Resource.Id.radio;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.right = global::PerboyreApp.Droid.Resource.Id.right;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.right_icon = global::PerboyreApp.Droid.Resource.Id.right_icon;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.right_side = global::PerboyreApp.Droid.Resource.Id.right_side;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.save_image_matrix = global::PerboyreApp.Droid.Resource.Id.save_image_matrix;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.save_non_transition_alpha = global::PerboyreApp.Droid.Resource.Id.save_non_transition_alpha;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.save_scale_type = global::PerboyreApp.Droid.Resource.Id.save_scale_type;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.screen = global::PerboyreApp.Droid.Resource.Id.screen;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.scroll = global::PerboyreApp.Droid.Resource.Id.scroll;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.scrollIndicatorDown = global::PerboyreApp.Droid.Resource.Id.scrollIndicatorDown;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.scrollIndicatorUp = global::PerboyreApp.Droid.Resource.Id.scrollIndicatorUp;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.scrollView = global::PerboyreApp.Droid.Resource.Id.scrollView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.scrollable = global::PerboyreApp.Droid.Resource.Id.scrollable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.search_badge = global::PerboyreApp.Droid.Resource.Id.search_badge;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.search_bar = global::PerboyreApp.Droid.Resource.Id.search_bar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.search_button = global::PerboyreApp.Droid.Resource.Id.search_button;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.search_close_btn = global::PerboyreApp.Droid.Resource.Id.search_close_btn;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.search_edit_frame = global::PerboyreApp.Droid.Resource.Id.search_edit_frame;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.search_go_btn = global::PerboyreApp.Droid.Resource.Id.search_go_btn;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.search_mag_icon = global::PerboyreApp.Droid.Resource.Id.search_mag_icon;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.search_plate = global::PerboyreApp.Droid.Resource.Id.search_plate;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.search_src_text = global::PerboyreApp.Droid.Resource.Id.search_src_text;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.search_voice_btn = global::PerboyreApp.Droid.Resource.Id.search_voice_btn;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.select_dialog_listview = global::PerboyreApp.Droid.Resource.Id.select_dialog_listview;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.shortcut = global::PerboyreApp.Droid.Resource.Id.shortcut;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.showCustom = global::PerboyreApp.Droid.Resource.Id.showCustom;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.showHome = global::PerboyreApp.Droid.Resource.Id.showHome;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.showTitle = global::PerboyreApp.Droid.Resource.Id.showTitle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.smallLabel = global::PerboyreApp.Droid.Resource.Id.smallLabel;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.snackbar_action = global::PerboyreApp.Droid.Resource.Id.snackbar_action;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.snackbar_text = global::PerboyreApp.Droid.Resource.Id.snackbar_text;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.snap = global::PerboyreApp.Droid.Resource.Id.snap;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.spacer = global::PerboyreApp.Droid.Resource.Id.spacer;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.split_action_bar = global::PerboyreApp.Droid.Resource.Id.split_action_bar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.src_atop = global::PerboyreApp.Droid.Resource.Id.src_atop;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.src_in = global::PerboyreApp.Droid.Resource.Id.src_in;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.src_over = global::PerboyreApp.Droid.Resource.Id.src_over;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.start = global::PerboyreApp.Droid.Resource.Id.start;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.status_bar_latest_event_content = global::PerboyreApp.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.submenuarrow = global::PerboyreApp.Droid.Resource.Id.submenuarrow;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.submit_area = global::PerboyreApp.Droid.Resource.Id.submit_area;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.tabMode = global::PerboyreApp.Droid.Resource.Id.tabMode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.tag_transition_group = global::PerboyreApp.Droid.Resource.Id.tag_transition_group;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.text = global::PerboyreApp.Droid.Resource.Id.text;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.text2 = global::PerboyreApp.Droid.Resource.Id.text2;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.textSpacerNoButtons = global::PerboyreApp.Droid.Resource.Id.textSpacerNoButtons;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.textSpacerNoTitle = global::PerboyreApp.Droid.Resource.Id.textSpacerNoTitle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.text_input_password_toggle = global::PerboyreApp.Droid.Resource.Id.text_input_password_toggle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.textinput_counter = global::PerboyreApp.Droid.Resource.Id.textinput_counter;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.textinput_error = global::PerboyreApp.Droid.Resource.Id.textinput_error;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.time = global::PerboyreApp.Droid.Resource.Id.time;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.title = global::PerboyreApp.Droid.Resource.Id.title;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.titleDividerNoCustom = global::PerboyreApp.Droid.Resource.Id.titleDividerNoCustom;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.title_template = global::PerboyreApp.Droid.Resource.Id.title_template;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.top = global::PerboyreApp.Droid.Resource.Id.top;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.topPanel = global::PerboyreApp.Droid.Resource.Id.topPanel;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.touch_outside = global::PerboyreApp.Droid.Resource.Id.touch_outside;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.transition_current_scene = global::PerboyreApp.Droid.Resource.Id.transition_current_scene;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.transition_layout_save = global::PerboyreApp.Droid.Resource.Id.transition_layout_save;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.transition_position = global::PerboyreApp.Droid.Resource.Id.transition_position;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.transition_scene_layoutid_cache = global::PerboyreApp.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.transition_transform = global::PerboyreApp.Droid.Resource.Id.transition_transform;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.tvDescription = global::PerboyreApp.Droid.Resource.Id.tvDescription;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.uniform = global::PerboyreApp.Droid.Resource.Id.uniform;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.up = global::PerboyreApp.Droid.Resource.Id.up;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.useLogo = global::PerboyreApp.Droid.Resource.Id.useLogo;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.view_offset_helper = global::PerboyreApp.Droid.Resource.Id.view_offset_helper;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.visible = global::PerboyreApp.Droid.Resource.Id.visible;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.withText = global::PerboyreApp.Droid.Resource.Id.withText;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Id.wrap_content = global::PerboyreApp.Droid.Resource.Id.wrap_content;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Integer.abc_config_activityDefaultDur = global::PerboyreApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Integer.abc_config_activityShortDur = global::PerboyreApp.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::PerboyreApp.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Integer.bottom_sheet_slide_duration = global::PerboyreApp.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Integer.cancel_button_image_alpha = global::PerboyreApp.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Integer.config_tooltipAnimTime = global::PerboyreApp.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Integer.design_snackbar_text_max_lines = global::PerboyreApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Integer.hide_password_duration = global::PerboyreApp.Droid.Resource.Integer.hide_password_duration;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Integer.show_password_duration = global::PerboyreApp.Droid.Resource.Integer.show_password_duration;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::PerboyreApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.abc_action_bar_title_item = global::PerboyreApp.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.abc_action_bar_up_container = global::PerboyreApp.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.abc_action_menu_item_layout = global::PerboyreApp.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.abc_action_menu_layout = global::PerboyreApp.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.abc_action_mode_bar = global::PerboyreApp.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.abc_action_mode_close_item_material = global::PerboyreApp.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.abc_activity_chooser_view = global::PerboyreApp.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::PerboyreApp.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::PerboyreApp.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.abc_alert_dialog_material = global::PerboyreApp.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.abc_alert_dialog_title_material = global::PerboyreApp.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.abc_dialog_title_material = global::PerboyreApp.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.abc_expanded_menu_layout = global::PerboyreApp.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::PerboyreApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.abc_list_menu_item_icon = global::PerboyreApp.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.abc_list_menu_item_layout = global::PerboyreApp.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.abc_list_menu_item_radio = global::PerboyreApp.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.abc_popup_menu_header_item_layout = global::PerboyreApp.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.abc_popup_menu_item_layout = global::PerboyreApp.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.abc_screen_content_include = global::PerboyreApp.Droid.Resource.Layout.abc_screen_content_include;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.abc_screen_simple = global::PerboyreApp.Droid.Resource.Layout.abc_screen_simple;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::PerboyreApp.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.abc_screen_toolbar = global::PerboyreApp.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::PerboyreApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.abc_search_view = global::PerboyreApp.Droid.Resource.Layout.abc_search_view;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.abc_select_dialog_material = global::PerboyreApp.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.design_bottom_navigation_item = global::PerboyreApp.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.design_bottom_sheet_dialog = global::PerboyreApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.design_layout_snackbar = global::PerboyreApp.Droid.Resource.Layout.design_layout_snackbar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.design_layout_snackbar_include = global::PerboyreApp.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.design_layout_tab_icon = global::PerboyreApp.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.design_layout_tab_text = global::PerboyreApp.Droid.Resource.Layout.design_layout_tab_text;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.design_menu_item_action_area = global::PerboyreApp.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.design_navigation_item = global::PerboyreApp.Droid.Resource.Layout.design_navigation_item;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.design_navigation_item_header = global::PerboyreApp.Droid.Resource.Layout.design_navigation_item_header;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.design_navigation_item_separator = global::PerboyreApp.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.design_navigation_item_subheader = global::PerboyreApp.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.design_navigation_menu = global::PerboyreApp.Droid.Resource.Layout.design_navigation_menu;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.design_navigation_menu_item = global::PerboyreApp.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.design_text_input_password_icon = global::PerboyreApp.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.image_viewer = global::PerboyreApp.Droid.Resource.Layout.image_viewer;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.notification_action = global::PerboyreApp.Droid.Resource.Layout.notification_action;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.notification_action_tombstone = global::PerboyreApp.Droid.Resource.Layout.notification_action_tombstone;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.notification_media_action = global::PerboyreApp.Droid.Resource.Layout.notification_media_action;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.notification_media_cancel_action = global::PerboyreApp.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.notification_template_big_media = global::PerboyreApp.Droid.Resource.Layout.notification_template_big_media;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.notification_template_big_media_custom = global::PerboyreApp.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.notification_template_big_media_narrow = global::PerboyreApp.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.notification_template_big_media_narrow_custom = global::PerboyreApp.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.notification_template_custom_big = global::PerboyreApp.Droid.Resource.Layout.notification_template_custom_big;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.notification_template_icon_group = global::PerboyreApp.Droid.Resource.Layout.notification_template_icon_group;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.notification_template_lines_media = global::PerboyreApp.Droid.Resource.Layout.notification_template_lines_media;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.notification_template_media = global::PerboyreApp.Droid.Resource.Layout.notification_template_media;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.notification_template_media_custom = global::PerboyreApp.Droid.Resource.Layout.notification_template_media_custom;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.notification_template_part_chronometer = global::PerboyreApp.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.notification_template_part_time = global::PerboyreApp.Droid.Resource.Layout.notification_template_part_time;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.photo_browser_overlay = global::PerboyreApp.Droid.Resource.Layout.photo_browser_overlay;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.select_dialog_item_material = global::PerboyreApp.Droid.Resource.Layout.select_dialog_item_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.select_dialog_multichoice_material = global::PerboyreApp.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.select_dialog_singlechoice_material = global::PerboyreApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::PerboyreApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.abc_action_bar_home_description = global::PerboyreApp.Droid.Resource.String.abc_action_bar_home_description;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.abc_action_bar_up_description = global::PerboyreApp.Droid.Resource.String.abc_action_bar_up_description;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.abc_action_menu_overflow_description = global::PerboyreApp.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.abc_action_mode_done = global::PerboyreApp.Droid.Resource.String.abc_action_mode_done;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.abc_activity_chooser_view_see_all = global::PerboyreApp.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.abc_activitychooserview_choose_application = global::PerboyreApp.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.abc_capital_off = global::PerboyreApp.Droid.Resource.String.abc_capital_off;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.abc_capital_on = global::PerboyreApp.Droid.Resource.String.abc_capital_on;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.abc_font_family_body_1_material = global::PerboyreApp.Droid.Resource.String.abc_font_family_body_1_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.abc_font_family_body_2_material = global::PerboyreApp.Droid.Resource.String.abc_font_family_body_2_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.abc_font_family_button_material = global::PerboyreApp.Droid.Resource.String.abc_font_family_button_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.abc_font_family_caption_material = global::PerboyreApp.Droid.Resource.String.abc_font_family_caption_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.abc_font_family_display_1_material = global::PerboyreApp.Droid.Resource.String.abc_font_family_display_1_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.abc_font_family_display_2_material = global::PerboyreApp.Droid.Resource.String.abc_font_family_display_2_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.abc_font_family_display_3_material = global::PerboyreApp.Droid.Resource.String.abc_font_family_display_3_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.abc_font_family_display_4_material = global::PerboyreApp.Droid.Resource.String.abc_font_family_display_4_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.abc_font_family_headline_material = global::PerboyreApp.Droid.Resource.String.abc_font_family_headline_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.abc_font_family_menu_material = global::PerboyreApp.Droid.Resource.String.abc_font_family_menu_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.abc_font_family_subhead_material = global::PerboyreApp.Droid.Resource.String.abc_font_family_subhead_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.abc_font_family_title_material = global::PerboyreApp.Droid.Resource.String.abc_font_family_title_material;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.abc_search_hint = global::PerboyreApp.Droid.Resource.String.abc_search_hint;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.abc_searchview_description_clear = global::PerboyreApp.Droid.Resource.String.abc_searchview_description_clear;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.abc_searchview_description_query = global::PerboyreApp.Droid.Resource.String.abc_searchview_description_query;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.abc_searchview_description_search = global::PerboyreApp.Droid.Resource.String.abc_searchview_description_search;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.abc_searchview_description_submit = global::PerboyreApp.Droid.Resource.String.abc_searchview_description_submit;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.abc_searchview_description_voice = global::PerboyreApp.Droid.Resource.String.abc_searchview_description_voice;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.abc_shareactionprovider_share_with = global::PerboyreApp.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::PerboyreApp.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.abc_toolbar_collapse_description = global::PerboyreApp.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.appbar_scrolling_view_behavior = global::PerboyreApp.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.bottom_sheet_behavior = global::PerboyreApp.Droid.Resource.String.bottom_sheet_behavior;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.character_counter_pattern = global::PerboyreApp.Droid.Resource.String.character_counter_pattern;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.password_toggle_content_description = global::PerboyreApp.Droid.Resource.String.password_toggle_content_description;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.path_password_eye = global::PerboyreApp.Droid.Resource.String.path_password_eye;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.path_password_eye_mask_strike_through = global::PerboyreApp.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.path_password_eye_mask_visible = global::PerboyreApp.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.path_password_strike_through = global::PerboyreApp.Droid.Resource.String.path_password_strike_through;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.search_menu_title = global::PerboyreApp.Droid.Resource.String.search_menu_title;
+			global::Stormlion.PhotoBrowser.Droid.Resource.String.status_bar_notification_info_overflow = global::PerboyreApp.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.AlertDialog_AppCompat = global::PerboyreApp.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::PerboyreApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Animation_AppCompat_Dialog = global::PerboyreApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::PerboyreApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Animation_AppCompat_Tooltip = global::PerboyreApp.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::PerboyreApp.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::PerboyreApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::PerboyreApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::PerboyreApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::PerboyreApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip = global::PerboyreApp.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_CardView = global::PerboyreApp.Droid.Resource.Style.Base_CardView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::PerboyreApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::PerboyreApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::PerboyreApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Theme_AppCompat = global::PerboyreApp.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::PerboyreApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::PerboyreApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::PerboyreApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::PerboyreApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::PerboyreApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::PerboyreApp.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::PerboyreApp.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::PerboyreApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::PerboyreApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::PerboyreApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::PerboyreApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::PerboyreApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::PerboyreApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::PerboyreApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::PerboyreApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::PerboyreApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::PerboyreApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::PerboyreApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::PerboyreApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::PerboyreApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::PerboyreApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::PerboyreApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::PerboyreApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::PerboyreApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::PerboyreApp.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::PerboyreApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::PerboyreApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::PerboyreApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::PerboyreApp.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_V26_Theme_AppCompat = global::PerboyreApp.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light = global::PerboyreApp.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::PerboyreApp.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::PerboyreApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::PerboyreApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::PerboyreApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::PerboyreApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::PerboyreApp.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::PerboyreApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::PerboyreApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::PerboyreApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::PerboyreApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::PerboyreApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.CardView = global::PerboyreApp.Droid.Resource.Style.CardView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.CardView_Dark = global::PerboyreApp.Droid.Resource.Style.CardView_Dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.CardView_Light = global::PerboyreApp.Droid.Resource.Style.CardView_Light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Platform_AppCompat = global::PerboyreApp.Droid.Resource.Style.Platform_AppCompat;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Platform_AppCompat_Light = global::PerboyreApp.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::PerboyreApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::PerboyreApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::PerboyreApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Platform_V21_AppCompat = global::PerboyreApp.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Platform_V21_AppCompat_Light = global::PerboyreApp.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Platform_V25_AppCompat = global::PerboyreApp.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Platform_V25_AppCompat_Light = global::PerboyreApp.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::PerboyreApp.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::PerboyreApp.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::PerboyreApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::PerboyreApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::PerboyreApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::PerboyreApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::PerboyreApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::PerboyreApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::PerboyreApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::PerboyreApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::PerboyreApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::PerboyreApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::PerboyreApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::PerboyreApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::PerboyreApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::PerboyreApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_Compat_Notification = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_Compat_Notification_Info = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_Compat_Notification_Media = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_Compat_Notification_Time = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_Compat_Notification_Title = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_Design_Counter = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_Design_Error = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_Design_Hint = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_Design_Tab = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::PerboyreApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Theme_AppCompat = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Theme_AppCompat_DayNight = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Theme_AppCompat_Dialog = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Theme_AppCompat_Light = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::PerboyreApp.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Theme_Design = global::PerboyreApp.Droid.Resource.Style.Theme_Design;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::PerboyreApp.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Theme_Design_Light = global::PerboyreApp.Droid.Resource.Style.Theme_Design_Light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::PerboyreApp.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::PerboyreApp.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Theme_Design_NoActionBar = global::PerboyreApp.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.ThemeOverlay_AppCompat = global::PerboyreApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::PerboyreApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::PerboyreApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::PerboyreApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::PerboyreApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::PerboyreApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::PerboyreApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Button = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_EditText = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_ListMenuView = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_ListView = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_SearchView = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Spinner = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::PerboyreApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_Compat_NotificationActionContainer = global::PerboyreApp.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_Compat_NotificationActionText = global::PerboyreApp.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_Design_AppBarLayout = global::PerboyreApp.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_Design_BottomNavigationView = global::PerboyreApp.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::PerboyreApp.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::PerboyreApp.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::PerboyreApp.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_Design_NavigationView = global::PerboyreApp.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::PerboyreApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_Design_Snackbar = global::PerboyreApp.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_Design_TabLayout = global::PerboyreApp.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Style.Widget_Design_TextInputLayout = global::PerboyreApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBar = global::PerboyreApp.Droid.Resource.Styleable.ActionBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBar_background = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_background;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBar_displayOptions = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBar_divider = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_divider;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBar_elevation = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBar_height = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_height;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBar_homeLayout = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBar_icon = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_icon;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBar_itemPadding = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBar_logo = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_logo;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBar_navigationMode = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBar_popupTheme = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBar_subtitle = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBar_title = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_title;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::PerboyreApp.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBarLayout = global::PerboyreApp.Droid.Resource.Styleable.ActionBarLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::PerboyreApp.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionMenuItemView = global::PerboyreApp.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::PerboyreApp.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionMenuView = global::PerboyreApp.Droid.Resource.Styleable.ActionMenuView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionMode = global::PerboyreApp.Droid.Resource.Styleable.ActionMode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionMode_background = global::PerboyreApp.Droid.Resource.Styleable.ActionMode_background;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::PerboyreApp.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::PerboyreApp.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionMode_height = global::PerboyreApp.Droid.Resource.Styleable.ActionMode_height;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::PerboyreApp.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::PerboyreApp.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActivityChooserView = global::PerboyreApp.Droid.Resource.Styleable.ActivityChooserView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::PerboyreApp.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::PerboyreApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AlertDialog = global::PerboyreApp.Droid.Resource.Styleable.AlertDialog;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AlertDialog_android_layout = global::PerboyreApp.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::PerboyreApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::PerboyreApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AlertDialog_listLayout = global::PerboyreApp.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::PerboyreApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AlertDialog_showTitle = global::PerboyreApp.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::PerboyreApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppBarLayout = global::PerboyreApp.Droid.Resource.Styleable.AppBarLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppBarLayout_android_background = global::PerboyreApp.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::PerboyreApp.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::PerboyreApp.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppBarLayout_elevation = global::PerboyreApp.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppBarLayout_expanded = global::PerboyreApp.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppBarLayoutStates = global::PerboyreApp.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::PerboyreApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::PerboyreApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppBarLayout_Layout = global::PerboyreApp.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::PerboyreApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::PerboyreApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatImageView = global::PerboyreApp.Droid.Resource.Styleable.AppCompatImageView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatImageView_android_src = global::PerboyreApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::PerboyreApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatImageView_tint = global::PerboyreApp.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatImageView_tintMode = global::PerboyreApp.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatSeekBar = global::PerboyreApp.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb = global::PerboyreApp.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatSeekBar_tickMark = global::PerboyreApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::PerboyreApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::PerboyreApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTextHelper = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTextView = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTextView_fontFamily = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_colorError = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::PerboyreApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.BottomNavigationView = global::PerboyreApp.Droid.Resource.Styleable.BottomNavigationView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.BottomNavigationView_elevation = global::PerboyreApp.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.BottomNavigationView_itemBackground = global::PerboyreApp.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.BottomNavigationView_itemIconTint = global::PerboyreApp.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.BottomNavigationView_itemTextColor = global::PerboyreApp.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.BottomNavigationView_menu = global::PerboyreApp.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::PerboyreApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::PerboyreApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::PerboyreApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::PerboyreApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ButtonBarLayout = global::PerboyreApp.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::PerboyreApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CardView = global::PerboyreApp.Droid.Resource.Styleable.CardView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CardView_android_minHeight = global::PerboyreApp.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CardView_android_minWidth = global::PerboyreApp.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::PerboyreApp.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CardView_cardCornerRadius = global::PerboyreApp.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CardView_cardElevation = global::PerboyreApp.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CardView_cardMaxElevation = global::PerboyreApp.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::PerboyreApp.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::PerboyreApp.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CardView_contentPadding = global::PerboyreApp.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::PerboyreApp.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::PerboyreApp.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CardView_contentPaddingRight = global::PerboyreApp.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CardView_contentPaddingTop = global::PerboyreApp.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CollapsingToolbarLayout = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::PerboyreApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ColorStateListItem = global::PerboyreApp.Droid.Resource.Styleable.ColorStateListItem;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ColorStateListItem_alpha = global::PerboyreApp.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::PerboyreApp.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ColorStateListItem_android_color = global::PerboyreApp.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CompoundButton = global::PerboyreApp.Droid.Resource.Styleable.CompoundButton;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CompoundButton_android_button = global::PerboyreApp.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CompoundButton_buttonTint = global::PerboyreApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::PerboyreApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CoordinatorLayout = global::PerboyreApp.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::PerboyreApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::PerboyreApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::PerboyreApp.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::PerboyreApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::PerboyreApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::PerboyreApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::PerboyreApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::PerboyreApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::PerboyreApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::PerboyreApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.DesignTheme = global::PerboyreApp.Droid.Resource.Styleable.DesignTheme;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::PerboyreApp.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::PerboyreApp.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.DrawerArrowToggle = global::PerboyreApp.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::PerboyreApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::PerboyreApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::PerboyreApp.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.DrawerArrowToggle_color = global::PerboyreApp.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::PerboyreApp.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::PerboyreApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::PerboyreApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::PerboyreApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.FloatingActionButton = global::PerboyreApp.Droid.Resource.Styleable.FloatingActionButton;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::PerboyreApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::PerboyreApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::PerboyreApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.FloatingActionButton_elevation = global::PerboyreApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::PerboyreApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::PerboyreApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::PerboyreApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::PerboyreApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::PerboyreApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::PerboyreApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.FontFamily = global::PerboyreApp.Droid.Resource.Styleable.FontFamily;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.FontFamily_fontProviderAuthority = global::PerboyreApp.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.FontFamily_fontProviderCerts = global::PerboyreApp.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::PerboyreApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::PerboyreApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.FontFamily_fontProviderPackage = global::PerboyreApp.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.FontFamily_fontProviderQuery = global::PerboyreApp.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.FontFamilyFont = global::PerboyreApp.Droid.Resource.Styleable.FontFamilyFont;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.FontFamilyFont_android_font = global::PerboyreApp.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle = global::PerboyreApp.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight = global::PerboyreApp.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.FontFamilyFont_font = global::PerboyreApp.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.FontFamilyFont_fontStyle = global::PerboyreApp.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.FontFamilyFont_fontWeight = global::PerboyreApp.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ForegroundLinearLayout = global::PerboyreApp.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::PerboyreApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::PerboyreApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::PerboyreApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.GenericDraweeHierarchy = global::PerboyreApp.Droid.Resource.Styleable.GenericDraweeHierarchy;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.GenericDraweeHierarchy_actualImageScaleType = global::PerboyreApp.Droid.Resource.Styleable.GenericDraweeHierarchy_actualImageScaleType;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.GenericDraweeHierarchy_backgroundImage = global::PerboyreApp.Droid.Resource.Styleable.GenericDraweeHierarchy_backgroundImage;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.GenericDraweeHierarchy_fadeDuration = global::PerboyreApp.Droid.Resource.Styleable.GenericDraweeHierarchy_fadeDuration;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.GenericDraweeHierarchy_failureImage = global::PerboyreApp.Droid.Resource.Styleable.GenericDraweeHierarchy_failureImage;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.GenericDraweeHierarchy_failureImageScaleType = global::PerboyreApp.Droid.Resource.Styleable.GenericDraweeHierarchy_failureImageScaleType;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.GenericDraweeHierarchy_overlayImage = global::PerboyreApp.Droid.Resource.Styleable.GenericDraweeHierarchy_overlayImage;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.GenericDraweeHierarchy_placeholderImage = global::PerboyreApp.Droid.Resource.Styleable.GenericDraweeHierarchy_placeholderImage;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.GenericDraweeHierarchy_placeholderImageScaleType = global::PerboyreApp.Droid.Resource.Styleable.GenericDraweeHierarchy_placeholderImageScaleType;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.GenericDraweeHierarchy_pressedStateOverlayImage = global::PerboyreApp.Droid.Resource.Styleable.GenericDraweeHierarchy_pressedStateOverlayImage;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.GenericDraweeHierarchy_progressBarAutoRotateInterval = global::PerboyreApp.Droid.Resource.Styleable.GenericDraweeHierarchy_progressBarAutoRotateInterval;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.GenericDraweeHierarchy_progressBarImage = global::PerboyreApp.Droid.Resource.Styleable.GenericDraweeHierarchy_progressBarImage;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.GenericDraweeHierarchy_progressBarImageScaleType = global::PerboyreApp.Droid.Resource.Styleable.GenericDraweeHierarchy_progressBarImageScaleType;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.GenericDraweeHierarchy_retryImage = global::PerboyreApp.Droid.Resource.Styleable.GenericDraweeHierarchy_retryImage;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.GenericDraweeHierarchy_retryImageScaleType = global::PerboyreApp.Droid.Resource.Styleable.GenericDraweeHierarchy_retryImageScaleType;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.GenericDraweeHierarchy_roundAsCircle = global::PerboyreApp.Droid.Resource.Styleable.GenericDraweeHierarchy_roundAsCircle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.GenericDraweeHierarchy_roundBottomLeft = global::PerboyreApp.Droid.Resource.Styleable.GenericDraweeHierarchy_roundBottomLeft;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.GenericDraweeHierarchy_roundBottomRight = global::PerboyreApp.Droid.Resource.Styleable.GenericDraweeHierarchy_roundBottomRight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.GenericDraweeHierarchy_roundTopLeft = global::PerboyreApp.Droid.Resource.Styleable.GenericDraweeHierarchy_roundTopLeft;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.GenericDraweeHierarchy_roundTopRight = global::PerboyreApp.Droid.Resource.Styleable.GenericDraweeHierarchy_roundTopRight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.GenericDraweeHierarchy_roundWithOverlayColor = global::PerboyreApp.Droid.Resource.Styleable.GenericDraweeHierarchy_roundWithOverlayColor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.GenericDraweeHierarchy_roundedCornerRadius = global::PerboyreApp.Droid.Resource.Styleable.GenericDraweeHierarchy_roundedCornerRadius;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.GenericDraweeHierarchy_roundingBorderColor = global::PerboyreApp.Droid.Resource.Styleable.GenericDraweeHierarchy_roundingBorderColor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.GenericDraweeHierarchy_roundingBorderPadding = global::PerboyreApp.Droid.Resource.Styleable.GenericDraweeHierarchy_roundingBorderPadding;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.GenericDraweeHierarchy_roundingBorderWidth = global::PerboyreApp.Droid.Resource.Styleable.GenericDraweeHierarchy_roundingBorderWidth;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.GenericDraweeHierarchy_viewAspectRatio = global::PerboyreApp.Droid.Resource.Styleable.GenericDraweeHierarchy_viewAspectRatio;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.LinearLayoutCompat = global::PerboyreApp.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::PerboyreApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::PerboyreApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::PerboyreApp.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::PerboyreApp.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::PerboyreApp.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::PerboyreApp.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::PerboyreApp.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::PerboyreApp.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::PerboyreApp.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::PerboyreApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::PerboyreApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::PerboyreApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::PerboyreApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::PerboyreApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ListPopupWindow = global::PerboyreApp.Droid.Resource.Styleable.ListPopupWindow;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::PerboyreApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::PerboyreApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuGroup = global::PerboyreApp.Droid.Resource.Styleable.MenuGroup;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::PerboyreApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuGroup_android_enabled = global::PerboyreApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuGroup_android_id = global::PerboyreApp.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::PerboyreApp.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::PerboyreApp.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuGroup_android_visible = global::PerboyreApp.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuItem = global::PerboyreApp.Droid.Resource.Styleable.MenuItem;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuItem_actionLayout = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuItem_actionViewClass = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuItem_alphabeticModifiers = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuItem_android_checkable = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuItem_android_checked = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuItem_android_enabled = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuItem_android_icon = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuItem_android_id = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuItem_android_onClick = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuItem_android_title = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuItem_android_visible = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuItem_contentDescription = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuItem_iconTint = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuItem_iconTintMode = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuItem_numericModifiers = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuItem_showAsAction = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuItem_tooltipText = global::PerboyreApp.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuView = global::PerboyreApp.Droid.Resource.Styleable.MenuView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuView_android_headerBackground = global::PerboyreApp.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::PerboyreApp.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuView_android_itemBackground = global::PerboyreApp.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::PerboyreApp.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::PerboyreApp.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::PerboyreApp.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::PerboyreApp.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::PerboyreApp.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.MenuView_subMenuArrow = global::PerboyreApp.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.NavigationView = global::PerboyreApp.Droid.Resource.Styleable.NavigationView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.NavigationView_android_background = global::PerboyreApp.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::PerboyreApp.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::PerboyreApp.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.NavigationView_elevation = global::PerboyreApp.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.NavigationView_headerLayout = global::PerboyreApp.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.NavigationView_itemBackground = global::PerboyreApp.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.NavigationView_itemIconTint = global::PerboyreApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::PerboyreApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.NavigationView_itemTextColor = global::PerboyreApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.NavigationView_menu = global::PerboyreApp.Droid.Resource.Styleable.NavigationView_menu;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.PopupWindow = global::PerboyreApp.Droid.Resource.Styleable.PopupWindow;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::PerboyreApp.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::PerboyreApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::PerboyreApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.PopupWindowBackgroundState = global::PerboyreApp.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::PerboyreApp.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.RecycleListView = global::PerboyreApp.Droid.Resource.Styleable.RecycleListView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::PerboyreApp.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::PerboyreApp.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.RecyclerView = global::PerboyreApp.Droid.Resource.Styleable.RecyclerView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability = global::PerboyreApp.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.RecyclerView_android_orientation = global::PerboyreApp.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled = global::PerboyreApp.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::PerboyreApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::PerboyreApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::PerboyreApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::PerboyreApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.RecyclerView_layoutManager = global::PerboyreApp.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::PerboyreApp.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.RecyclerView_spanCount = global::PerboyreApp.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::PerboyreApp.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::PerboyreApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::PerboyreApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ScrollingViewBehavior_Layout = global::PerboyreApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::PerboyreApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SearchView = global::PerboyreApp.Droid.Resource.Styleable.SearchView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SearchView_android_focusable = global::PerboyreApp.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SearchView_android_imeOptions = global::PerboyreApp.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SearchView_android_inputType = global::PerboyreApp.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SearchView_android_maxWidth = global::PerboyreApp.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SearchView_closeIcon = global::PerboyreApp.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SearchView_commitIcon = global::PerboyreApp.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::PerboyreApp.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SearchView_goIcon = global::PerboyreApp.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::PerboyreApp.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SearchView_layout = global::PerboyreApp.Droid.Resource.Styleable.SearchView_layout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SearchView_queryBackground = global::PerboyreApp.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SearchView_queryHint = global::PerboyreApp.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SearchView_searchHintIcon = global::PerboyreApp.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SearchView_searchIcon = global::PerboyreApp.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SearchView_submitBackground = global::PerboyreApp.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::PerboyreApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SearchView_voiceIcon = global::PerboyreApp.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SimpleDraweeView = global::PerboyreApp.Droid.Resource.Styleable.SimpleDraweeView;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SimpleDraweeView_actualImageResource = global::PerboyreApp.Droid.Resource.Styleable.SimpleDraweeView_actualImageResource;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SimpleDraweeView_actualImageScaleType = global::PerboyreApp.Droid.Resource.Styleable.SimpleDraweeView_actualImageScaleType;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SimpleDraweeView_actualImageUri = global::PerboyreApp.Droid.Resource.Styleable.SimpleDraweeView_actualImageUri;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SimpleDraweeView_backgroundImage = global::PerboyreApp.Droid.Resource.Styleable.SimpleDraweeView_backgroundImage;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SimpleDraweeView_fadeDuration = global::PerboyreApp.Droid.Resource.Styleable.SimpleDraweeView_fadeDuration;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SimpleDraweeView_failureImage = global::PerboyreApp.Droid.Resource.Styleable.SimpleDraweeView_failureImage;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SimpleDraweeView_failureImageScaleType = global::PerboyreApp.Droid.Resource.Styleable.SimpleDraweeView_failureImageScaleType;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SimpleDraweeView_overlayImage = global::PerboyreApp.Droid.Resource.Styleable.SimpleDraweeView_overlayImage;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SimpleDraweeView_placeholderImage = global::PerboyreApp.Droid.Resource.Styleable.SimpleDraweeView_placeholderImage;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SimpleDraweeView_placeholderImageScaleType = global::PerboyreApp.Droid.Resource.Styleable.SimpleDraweeView_placeholderImageScaleType;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SimpleDraweeView_pressedStateOverlayImage = global::PerboyreApp.Droid.Resource.Styleable.SimpleDraweeView_pressedStateOverlayImage;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SimpleDraweeView_progressBarAutoRotateInterval = global::PerboyreApp.Droid.Resource.Styleable.SimpleDraweeView_progressBarAutoRotateInterval;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SimpleDraweeView_progressBarImage = global::PerboyreApp.Droid.Resource.Styleable.SimpleDraweeView_progressBarImage;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SimpleDraweeView_progressBarImageScaleType = global::PerboyreApp.Droid.Resource.Styleable.SimpleDraweeView_progressBarImageScaleType;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SimpleDraweeView_retryImage = global::PerboyreApp.Droid.Resource.Styleable.SimpleDraweeView_retryImage;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SimpleDraweeView_retryImageScaleType = global::PerboyreApp.Droid.Resource.Styleable.SimpleDraweeView_retryImageScaleType;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SimpleDraweeView_roundAsCircle = global::PerboyreApp.Droid.Resource.Styleable.SimpleDraweeView_roundAsCircle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SimpleDraweeView_roundBottomLeft = global::PerboyreApp.Droid.Resource.Styleable.SimpleDraweeView_roundBottomLeft;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SimpleDraweeView_roundBottomRight = global::PerboyreApp.Droid.Resource.Styleable.SimpleDraweeView_roundBottomRight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SimpleDraweeView_roundTopLeft = global::PerboyreApp.Droid.Resource.Styleable.SimpleDraweeView_roundTopLeft;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SimpleDraweeView_roundTopRight = global::PerboyreApp.Droid.Resource.Styleable.SimpleDraweeView_roundTopRight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SimpleDraweeView_roundWithOverlayColor = global::PerboyreApp.Droid.Resource.Styleable.SimpleDraweeView_roundWithOverlayColor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SimpleDraweeView_roundedCornerRadius = global::PerboyreApp.Droid.Resource.Styleable.SimpleDraweeView_roundedCornerRadius;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SimpleDraweeView_roundingBorderColor = global::PerboyreApp.Droid.Resource.Styleable.SimpleDraweeView_roundingBorderColor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SimpleDraweeView_roundingBorderPadding = global::PerboyreApp.Droid.Resource.Styleable.SimpleDraweeView_roundingBorderPadding;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SimpleDraweeView_roundingBorderWidth = global::PerboyreApp.Droid.Resource.Styleable.SimpleDraweeView_roundingBorderWidth;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SimpleDraweeView_viewAspectRatio = global::PerboyreApp.Droid.Resource.Styleable.SimpleDraweeView_viewAspectRatio;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SnackbarLayout = global::PerboyreApp.Droid.Resource.Styleable.SnackbarLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::PerboyreApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SnackbarLayout_elevation = global::PerboyreApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::PerboyreApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Spinner = global::PerboyreApp.Droid.Resource.Styleable.Spinner;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::PerboyreApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Spinner_android_entries = global::PerboyreApp.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Spinner_android_popupBackground = global::PerboyreApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Spinner_android_prompt = global::PerboyreApp.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Spinner_popupTheme = global::PerboyreApp.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SwitchCompat = global::PerboyreApp.Droid.Resource.Styleable.SwitchCompat;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::PerboyreApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::PerboyreApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::PerboyreApp.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SwitchCompat_showText = global::PerboyreApp.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::PerboyreApp.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::PerboyreApp.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::PerboyreApp.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::PerboyreApp.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::PerboyreApp.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SwitchCompat_thumbTint = global::PerboyreApp.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SwitchCompat_thumbTintMode = global::PerboyreApp.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SwitchCompat_track = global::PerboyreApp.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SwitchCompat_trackTint = global::PerboyreApp.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::PerboyreApp.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TabItem = global::PerboyreApp.Droid.Resource.Styleable.TabItem;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TabItem_android_icon = global::PerboyreApp.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TabItem_android_layout = global::PerboyreApp.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TabItem_android_text = global::PerboyreApp.Droid.Resource.Styleable.TabItem_android_text;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TabLayout = global::PerboyreApp.Droid.Resource.Styleable.TabLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TabLayout_tabBackground = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TabLayout_tabContentStart = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TabLayout_tabGravity = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TabLayout_tabMode = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TabLayout_tabPadding = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TabLayout_tabTextColor = global::PerboyreApp.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TextAppearance = global::PerboyreApp.Droid.Resource.Styleable.TextAppearance;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TextAppearance_android_fontFamily = global::PerboyreApp.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::PerboyreApp.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::PerboyreApp.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::PerboyreApp.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::PerboyreApp.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TextAppearance_android_textColor = global::PerboyreApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TextAppearance_android_textColorHint = global::PerboyreApp.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TextAppearance_android_textColorLink = global::PerboyreApp.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TextAppearance_android_textSize = global::PerboyreApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::PerboyreApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TextAppearance_android_typeface = global::PerboyreApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TextAppearance_fontFamily = global::PerboyreApp.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::PerboyreApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TextInputLayout = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TextInputLayout_android_hint = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::PerboyreApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Toolbar = global::PerboyreApp.Droid.Resource.Styleable.Toolbar;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Toolbar_android_gravity = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Toolbar_android_minHeight = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Toolbar_buttonGravity = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Toolbar_collapseIcon = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Toolbar_logo = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_logo;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Toolbar_logoDescription = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Toolbar_navigationIcon = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Toolbar_popupTheme = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Toolbar_subtitle = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Toolbar_title = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_title;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Toolbar_titleMargin = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Toolbar_titleMargins = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.Toolbar_titleTextColor = global::PerboyreApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.View = global::PerboyreApp.Droid.Resource.Styleable.View;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.View_android_focusable = global::PerboyreApp.Droid.Resource.Styleable.View_android_focusable;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.View_android_theme = global::PerboyreApp.Droid.Resource.Styleable.View_android_theme;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.View_paddingEnd = global::PerboyreApp.Droid.Resource.Styleable.View_paddingEnd;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.View_paddingStart = global::PerboyreApp.Droid.Resource.Styleable.View_paddingStart;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.View_theme = global::PerboyreApp.Droid.Resource.Styleable.View_theme;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ViewBackgroundHelper = global::PerboyreApp.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::PerboyreApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::PerboyreApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::PerboyreApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ViewStubCompat = global::PerboyreApp.Droid.Resource.Styleable.ViewStubCompat;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ViewStubCompat_android_id = global::PerboyreApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::PerboyreApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::PerboyreApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::PerboyreApp.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::PerboyreApp.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::PerboyreApp.Droid.Resource.Attribute.font;
@@ -12849,1333 +17483,1450 @@ namespace PerboyreApp.Droid
 			public const int activityChooserViewStyle = 2130903073;
 			
 			// aapt resource value: 0x7F030022
-			public const int alertDialogButtonGroupStyle = 2130903074;
+			public const int actualImageResource = 2130903074;
 			
 			// aapt resource value: 0x7F030023
-			public const int alertDialogCenterButtons = 2130903075;
+			public const int actualImageScaleType = 2130903075;
 			
 			// aapt resource value: 0x7F030024
-			public const int alertDialogStyle = 2130903076;
+			public const int actualImageUri = 2130903076;
 			
 			// aapt resource value: 0x7F030025
-			public const int alertDialogTheme = 2130903077;
+			public const int ahBarColor = 2130903077;
 			
 			// aapt resource value: 0x7F030026
-			public const int allowStacking = 2130903078;
+			public const int ahBarLength = 2130903078;
 			
 			// aapt resource value: 0x7F030027
-			public const int alpha = 2130903079;
+			public const int ahBarWidth = 2130903079;
 			
 			// aapt resource value: 0x7F030028
-			public const int alphabeticModifiers = 2130903080;
+			public const int ahCircleColor = 2130903080;
 			
 			// aapt resource value: 0x7F030029
-			public const int arrowHeadLength = 2130903081;
+			public const int ahDelayMillis = 2130903081;
 			
 			// aapt resource value: 0x7F03002A
-			public const int arrowShaftLength = 2130903082;
+			public const int ahRadius = 2130903082;
 			
 			// aapt resource value: 0x7F03002B
-			public const int autoCompleteTextViewStyle = 2130903083;
+			public const int ahRimColor = 2130903083;
 			
 			// aapt resource value: 0x7F03002C
-			public const int autoSizeMaxTextSize = 2130903084;
+			public const int ahRimWidth = 2130903084;
 			
 			// aapt resource value: 0x7F03002D
-			public const int autoSizeMinTextSize = 2130903085;
+			public const int ahSpinSpeed = 2130903085;
 			
 			// aapt resource value: 0x7F03002E
-			public const int autoSizePresetSizes = 2130903086;
+			public const int ahText = 2130903086;
 			
 			// aapt resource value: 0x7F03002F
-			public const int autoSizeStepGranularity = 2130903087;
+			public const int ahTextColor = 2130903087;
 			
 			// aapt resource value: 0x7F030030
-			public const int autoSizeTextType = 2130903088;
+			public const int ahTextSize = 2130903088;
 			
 			// aapt resource value: 0x7F030031
-			public const int background = 2130903089;
+			public const int alertDialogButtonGroupStyle = 2130903089;
 			
 			// aapt resource value: 0x7F030032
-			public const int backgroundSplit = 2130903090;
+			public const int alertDialogCenterButtons = 2130903090;
 			
 			// aapt resource value: 0x7F030033
-			public const int backgroundStacked = 2130903091;
+			public const int alertDialogStyle = 2130903091;
 			
 			// aapt resource value: 0x7F030034
-			public const int backgroundTint = 2130903092;
+			public const int alertDialogTheme = 2130903092;
 			
 			// aapt resource value: 0x7F030035
-			public const int backgroundTintMode = 2130903093;
+			public const int allowStacking = 2130903093;
 			
 			// aapt resource value: 0x7F030036
-			public const int barLength = 2130903094;
+			public const int alpha = 2130903094;
 			
 			// aapt resource value: 0x7F030037
-			public const int behavior_autoHide = 2130903095;
+			public const int alphabeticModifiers = 2130903095;
 			
 			// aapt resource value: 0x7F030038
-			public const int behavior_fitToContents = 2130903096;
+			public const int arrowHeadLength = 2130903096;
 			
 			// aapt resource value: 0x7F030039
-			public const int behavior_hideable = 2130903097;
+			public const int arrowShaftLength = 2130903097;
 			
 			// aapt resource value: 0x7F03003A
-			public const int behavior_overlapTop = 2130903098;
+			public const int autoCompleteTextViewStyle = 2130903098;
 			
 			// aapt resource value: 0x7F03003B
-			public const int behavior_peekHeight = 2130903099;
+			public const int autoSizeMaxTextSize = 2130903099;
 			
 			// aapt resource value: 0x7F03003C
-			public const int behavior_skipCollapsed = 2130903100;
-			
-			// aapt resource value: 0x7F03003E
-			public const int borderlessButtonStyle = 2130903102;
+			public const int autoSizeMinTextSize = 2130903100;
 			
 			// aapt resource value: 0x7F03003D
-			public const int borderWidth = 2130903101;
+			public const int autoSizePresetSizes = 2130903101;
+			
+			// aapt resource value: 0x7F03003E
+			public const int autoSizeStepGranularity = 2130903102;
 			
 			// aapt resource value: 0x7F03003F
-			public const int bottomAppBarStyle = 2130903103;
+			public const int autoSizeTextType = 2130903103;
 			
 			// aapt resource value: 0x7F030040
-			public const int bottomNavigationStyle = 2130903104;
+			public const int background = 2130903104;
 			
 			// aapt resource value: 0x7F030041
-			public const int bottomSheetDialogTheme = 2130903105;
+			public const int backgroundImage = 2130903105;
 			
 			// aapt resource value: 0x7F030042
-			public const int bottomSheetStyle = 2130903106;
+			public const int backgroundSplit = 2130903106;
 			
 			// aapt resource value: 0x7F030043
-			public const int boxBackgroundColor = 2130903107;
+			public const int backgroundStacked = 2130903107;
 			
 			// aapt resource value: 0x7F030044
-			public const int boxBackgroundMode = 2130903108;
+			public const int backgroundTint = 2130903108;
 			
 			// aapt resource value: 0x7F030045
-			public const int boxCollapsedPaddingTop = 2130903109;
+			public const int backgroundTintMode = 2130903109;
 			
 			// aapt resource value: 0x7F030046
-			public const int boxCornerRadiusBottomEnd = 2130903110;
+			public const int barLength = 2130903110;
 			
 			// aapt resource value: 0x7F030047
-			public const int boxCornerRadiusBottomStart = 2130903111;
+			public const int behavior_autoHide = 2130903111;
 			
 			// aapt resource value: 0x7F030048
-			public const int boxCornerRadiusTopEnd = 2130903112;
+			public const int behavior_fitToContents = 2130903112;
 			
 			// aapt resource value: 0x7F030049
-			public const int boxCornerRadiusTopStart = 2130903113;
+			public const int behavior_hideable = 2130903113;
 			
 			// aapt resource value: 0x7F03004A
-			public const int boxStrokeColor = 2130903114;
+			public const int behavior_overlapTop = 2130903114;
 			
 			// aapt resource value: 0x7F03004B
-			public const int boxStrokeWidth = 2130903115;
+			public const int behavior_peekHeight = 2130903115;
 			
 			// aapt resource value: 0x7F03004C
-			public const int buttonBarButtonStyle = 2130903116;
-			
-			// aapt resource value: 0x7F03004D
-			public const int buttonBarNegativeButtonStyle = 2130903117;
+			public const int behavior_skipCollapsed = 2130903116;
 			
 			// aapt resource value: 0x7F03004E
-			public const int buttonBarNeutralButtonStyle = 2130903118;
+			public const int borderlessButtonStyle = 2130903118;
+			
+			// aapt resource value: 0x7F03004D
+			public const int borderWidth = 2130903117;
 			
 			// aapt resource value: 0x7F03004F
-			public const int buttonBarPositiveButtonStyle = 2130903119;
+			public const int bottomAppBarStyle = 2130903119;
 			
 			// aapt resource value: 0x7F030050
-			public const int buttonBarStyle = 2130903120;
+			public const int bottomNavigationStyle = 2130903120;
 			
 			// aapt resource value: 0x7F030051
-			public const int buttonGravity = 2130903121;
+			public const int bottomSheetDialogTheme = 2130903121;
 			
 			// aapt resource value: 0x7F030052
-			public const int buttonIconDimen = 2130903122;
+			public const int bottomSheetStyle = 2130903122;
 			
 			// aapt resource value: 0x7F030053
-			public const int buttonPanelSideLayout = 2130903123;
+			public const int boxBackgroundColor = 2130903123;
 			
 			// aapt resource value: 0x7F030054
-			public const int buttonStyle = 2130903124;
+			public const int boxBackgroundMode = 2130903124;
 			
 			// aapt resource value: 0x7F030055
-			public const int buttonStyleSmall = 2130903125;
+			public const int boxCollapsedPaddingTop = 2130903125;
 			
 			// aapt resource value: 0x7F030056
-			public const int buttonTint = 2130903126;
+			public const int boxCornerRadiusBottomEnd = 2130903126;
 			
 			// aapt resource value: 0x7F030057
-			public const int buttonTintMode = 2130903127;
+			public const int boxCornerRadiusBottomStart = 2130903127;
 			
 			// aapt resource value: 0x7F030058
-			public const int cardBackgroundColor = 2130903128;
+			public const int boxCornerRadiusTopEnd = 2130903128;
 			
 			// aapt resource value: 0x7F030059
-			public const int cardCornerRadius = 2130903129;
+			public const int boxCornerRadiusTopStart = 2130903129;
 			
 			// aapt resource value: 0x7F03005A
-			public const int cardElevation = 2130903130;
+			public const int boxStrokeColor = 2130903130;
 			
 			// aapt resource value: 0x7F03005B
-			public const int cardMaxElevation = 2130903131;
+			public const int boxStrokeWidth = 2130903131;
 			
 			// aapt resource value: 0x7F03005C
-			public const int cardPreventCornerOverlap = 2130903132;
+			public const int buttonBarButtonStyle = 2130903132;
 			
 			// aapt resource value: 0x7F03005D
-			public const int cardUseCompatPadding = 2130903133;
+			public const int buttonBarNegativeButtonStyle = 2130903133;
 			
 			// aapt resource value: 0x7F03005E
-			public const int cardViewStyle = 2130903134;
+			public const int buttonBarNeutralButtonStyle = 2130903134;
 			
 			// aapt resource value: 0x7F03005F
-			public const int checkboxStyle = 2130903135;
+			public const int buttonBarPositiveButtonStyle = 2130903135;
 			
 			// aapt resource value: 0x7F030060
-			public const int checkedChip = 2130903136;
+			public const int buttonBarStyle = 2130903136;
 			
 			// aapt resource value: 0x7F030061
-			public const int checkedIcon = 2130903137;
+			public const int buttonGravity = 2130903137;
 			
 			// aapt resource value: 0x7F030062
-			public const int checkedIconEnabled = 2130903138;
+			public const int buttonIconDimen = 2130903138;
 			
 			// aapt resource value: 0x7F030063
-			public const int checkedIconVisible = 2130903139;
+			public const int buttonPanelSideLayout = 2130903139;
 			
 			// aapt resource value: 0x7F030064
-			public const int checkedTextViewStyle = 2130903140;
+			public const int buttonStyle = 2130903140;
 			
 			// aapt resource value: 0x7F030065
-			public const int chipBackgroundColor = 2130903141;
+			public const int buttonStyleSmall = 2130903141;
 			
 			// aapt resource value: 0x7F030066
-			public const int chipCornerRadius = 2130903142;
+			public const int buttonTint = 2130903142;
 			
 			// aapt resource value: 0x7F030067
-			public const int chipEndPadding = 2130903143;
+			public const int buttonTintMode = 2130903143;
 			
 			// aapt resource value: 0x7F030068
-			public const int chipGroupStyle = 2130903144;
+			public const int cardBackgroundColor = 2130903144;
 			
 			// aapt resource value: 0x7F030069
-			public const int chipIcon = 2130903145;
+			public const int cardCornerRadius = 2130903145;
 			
 			// aapt resource value: 0x7F03006A
-			public const int chipIconEnabled = 2130903146;
+			public const int cardElevation = 2130903146;
 			
 			// aapt resource value: 0x7F03006B
-			public const int chipIconSize = 2130903147;
+			public const int cardMaxElevation = 2130903147;
 			
 			// aapt resource value: 0x7F03006C
-			public const int chipIconTint = 2130903148;
+			public const int cardPreventCornerOverlap = 2130903148;
 			
 			// aapt resource value: 0x7F03006D
-			public const int chipIconVisible = 2130903149;
+			public const int cardUseCompatPadding = 2130903149;
 			
 			// aapt resource value: 0x7F03006E
-			public const int chipMinHeight = 2130903150;
+			public const int cardViewStyle = 2130903150;
 			
 			// aapt resource value: 0x7F03006F
-			public const int chipSpacing = 2130903151;
+			public const int checkboxStyle = 2130903151;
 			
 			// aapt resource value: 0x7F030070
-			public const int chipSpacingHorizontal = 2130903152;
+			public const int checkedChip = 2130903152;
 			
 			// aapt resource value: 0x7F030071
-			public const int chipSpacingVertical = 2130903153;
+			public const int checkedIcon = 2130903153;
 			
 			// aapt resource value: 0x7F030072
-			public const int chipStandaloneStyle = 2130903154;
+			public const int checkedIconEnabled = 2130903154;
 			
 			// aapt resource value: 0x7F030073
-			public const int chipStartPadding = 2130903155;
+			public const int checkedIconVisible = 2130903155;
 			
 			// aapt resource value: 0x7F030074
-			public const int chipStrokeColor = 2130903156;
+			public const int checkedTextViewStyle = 2130903156;
 			
 			// aapt resource value: 0x7F030075
-			public const int chipStrokeWidth = 2130903157;
+			public const int chipBackgroundColor = 2130903157;
 			
 			// aapt resource value: 0x7F030076
-			public const int chipStyle = 2130903158;
+			public const int chipCornerRadius = 2130903158;
 			
 			// aapt resource value: 0x7F030077
-			public const int closeIcon = 2130903159;
+			public const int chipEndPadding = 2130903159;
 			
 			// aapt resource value: 0x7F030078
-			public const int closeIconEnabled = 2130903160;
+			public const int chipGroupStyle = 2130903160;
 			
 			// aapt resource value: 0x7F030079
-			public const int closeIconEndPadding = 2130903161;
+			public const int chipIcon = 2130903161;
 			
 			// aapt resource value: 0x7F03007A
-			public const int closeIconSize = 2130903162;
+			public const int chipIconEnabled = 2130903162;
 			
 			// aapt resource value: 0x7F03007B
-			public const int closeIconStartPadding = 2130903163;
+			public const int chipIconSize = 2130903163;
 			
 			// aapt resource value: 0x7F03007C
-			public const int closeIconTint = 2130903164;
+			public const int chipIconTint = 2130903164;
 			
 			// aapt resource value: 0x7F03007D
-			public const int closeIconVisible = 2130903165;
+			public const int chipIconVisible = 2130903165;
 			
 			// aapt resource value: 0x7F03007E
-			public const int closeItemLayout = 2130903166;
+			public const int chipMinHeight = 2130903166;
 			
 			// aapt resource value: 0x7F03007F
-			public const int collapseContentDescription = 2130903167;
-			
-			// aapt resource value: 0x7F030081
-			public const int collapsedTitleGravity = 2130903169;
-			
-			// aapt resource value: 0x7F030082
-			public const int collapsedTitleTextAppearance = 2130903170;
+			public const int chipSpacing = 2130903167;
 			
 			// aapt resource value: 0x7F030080
-			public const int collapseIcon = 2130903168;
+			public const int chipSpacingHorizontal = 2130903168;
+			
+			// aapt resource value: 0x7F030081
+			public const int chipSpacingVertical = 2130903169;
+			
+			// aapt resource value: 0x7F030082
+			public const int chipStandaloneStyle = 2130903170;
 			
 			// aapt resource value: 0x7F030083
-			public const int color = 2130903171;
+			public const int chipStartPadding = 2130903171;
 			
 			// aapt resource value: 0x7F030084
-			public const int colorAccent = 2130903172;
+			public const int chipStrokeColor = 2130903172;
 			
 			// aapt resource value: 0x7F030085
-			public const int colorBackgroundFloating = 2130903173;
+			public const int chipStrokeWidth = 2130903173;
 			
 			// aapt resource value: 0x7F030086
-			public const int colorButtonNormal = 2130903174;
+			public const int chipStyle = 2130903174;
 			
 			// aapt resource value: 0x7F030087
-			public const int colorControlActivated = 2130903175;
+			public const int closeIcon = 2130903175;
 			
 			// aapt resource value: 0x7F030088
-			public const int colorControlHighlight = 2130903176;
+			public const int closeIconEnabled = 2130903176;
 			
 			// aapt resource value: 0x7F030089
-			public const int colorControlNormal = 2130903177;
+			public const int closeIconEndPadding = 2130903177;
 			
 			// aapt resource value: 0x7F03008A
-			public const int colorError = 2130903178;
+			public const int closeIconSize = 2130903178;
 			
 			// aapt resource value: 0x7F03008B
-			public const int colorPrimary = 2130903179;
+			public const int closeIconStartPadding = 2130903179;
 			
 			// aapt resource value: 0x7F03008C
-			public const int colorPrimaryDark = 2130903180;
+			public const int closeIconTint = 2130903180;
 			
 			// aapt resource value: 0x7F03008D
-			public const int colorSecondary = 2130903181;
+			public const int closeIconVisible = 2130903181;
 			
 			// aapt resource value: 0x7F03008E
-			public const int colorSwitchThumbNormal = 2130903182;
+			public const int closeItemLayout = 2130903182;
 			
 			// aapt resource value: 0x7F03008F
-			public const int commitIcon = 2130903183;
-			
-			// aapt resource value: 0x7F030090
-			public const int contentDescription = 2130903184;
+			public const int collapseContentDescription = 2130903183;
 			
 			// aapt resource value: 0x7F030091
-			public const int contentInsetEnd = 2130903185;
+			public const int collapsedTitleGravity = 2130903185;
 			
 			// aapt resource value: 0x7F030092
-			public const int contentInsetEndWithActions = 2130903186;
+			public const int collapsedTitleTextAppearance = 2130903186;
+			
+			// aapt resource value: 0x7F030090
+			public const int collapseIcon = 2130903184;
 			
 			// aapt resource value: 0x7F030093
-			public const int contentInsetLeft = 2130903187;
+			public const int color = 2130903187;
 			
 			// aapt resource value: 0x7F030094
-			public const int contentInsetRight = 2130903188;
+			public const int colorAccent = 2130903188;
 			
 			// aapt resource value: 0x7F030095
-			public const int contentInsetStart = 2130903189;
+			public const int colorBackgroundFloating = 2130903189;
 			
 			// aapt resource value: 0x7F030096
-			public const int contentInsetStartWithNavigation = 2130903190;
+			public const int colorButtonNormal = 2130903190;
 			
 			// aapt resource value: 0x7F030097
-			public const int contentPadding = 2130903191;
+			public const int colorControlActivated = 2130903191;
 			
 			// aapt resource value: 0x7F030098
-			public const int contentPaddingBottom = 2130903192;
+			public const int colorControlHighlight = 2130903192;
 			
 			// aapt resource value: 0x7F030099
-			public const int contentPaddingLeft = 2130903193;
+			public const int colorControlNormal = 2130903193;
 			
 			// aapt resource value: 0x7F03009A
-			public const int contentPaddingRight = 2130903194;
+			public const int colorError = 2130903194;
 			
 			// aapt resource value: 0x7F03009B
-			public const int contentPaddingTop = 2130903195;
+			public const int colorPrimary = 2130903195;
 			
 			// aapt resource value: 0x7F03009C
-			public const int contentScrim = 2130903196;
+			public const int colorPrimaryDark = 2130903196;
 			
 			// aapt resource value: 0x7F03009D
-			public const int controlBackground = 2130903197;
+			public const int colorSecondary = 2130903197;
 			
 			// aapt resource value: 0x7F03009E
-			public const int coordinatorLayoutStyle = 2130903198;
+			public const int colorSwitchThumbNormal = 2130903198;
 			
 			// aapt resource value: 0x7F03009F
-			public const int cornerRadius = 2130903199;
+			public const int commitIcon = 2130903199;
 			
 			// aapt resource value: 0x7F0300A0
-			public const int counterEnabled = 2130903200;
+			public const int contentDescription = 2130903200;
 			
 			// aapt resource value: 0x7F0300A1
-			public const int counterMaxLength = 2130903201;
+			public const int contentInsetEnd = 2130903201;
 			
 			// aapt resource value: 0x7F0300A2
-			public const int counterOverflowTextAppearance = 2130903202;
+			public const int contentInsetEndWithActions = 2130903202;
 			
 			// aapt resource value: 0x7F0300A3
-			public const int counterTextAppearance = 2130903203;
+			public const int contentInsetLeft = 2130903203;
 			
 			// aapt resource value: 0x7F0300A4
-			public const int customNavigationLayout = 2130903204;
+			public const int contentInsetRight = 2130903204;
 			
 			// aapt resource value: 0x7F0300A5
-			public const int defaultQueryHint = 2130903205;
+			public const int contentInsetStart = 2130903205;
 			
 			// aapt resource value: 0x7F0300A6
-			public const int dialogCornerRadius = 2130903206;
+			public const int contentInsetStartWithNavigation = 2130903206;
 			
 			// aapt resource value: 0x7F0300A7
-			public const int dialogPreferredPadding = 2130903207;
+			public const int contentPadding = 2130903207;
 			
 			// aapt resource value: 0x7F0300A8
-			public const int dialogTheme = 2130903208;
+			public const int contentPaddingBottom = 2130903208;
 			
 			// aapt resource value: 0x7F0300A9
-			public const int displayOptions = 2130903209;
+			public const int contentPaddingLeft = 2130903209;
 			
 			// aapt resource value: 0x7F0300AA
-			public const int divider = 2130903210;
+			public const int contentPaddingRight = 2130903210;
 			
 			// aapt resource value: 0x7F0300AB
-			public const int dividerHorizontal = 2130903211;
+			public const int contentPaddingTop = 2130903211;
 			
 			// aapt resource value: 0x7F0300AC
-			public const int dividerPadding = 2130903212;
+			public const int contentScrim = 2130903212;
 			
 			// aapt resource value: 0x7F0300AD
-			public const int dividerVertical = 2130903213;
+			public const int controlBackground = 2130903213;
 			
 			// aapt resource value: 0x7F0300AE
-			public const int drawableSize = 2130903214;
+			public const int coordinatorLayoutStyle = 2130903214;
 			
 			// aapt resource value: 0x7F0300AF
-			public const int drawerArrowStyle = 2130903215;
-			
-			// aapt resource value: 0x7F0300B1
-			public const int dropdownListPreferredItemHeight = 2130903217;
+			public const int cornerRadius = 2130903215;
 			
 			// aapt resource value: 0x7F0300B0
-			public const int dropDownListViewStyle = 2130903216;
+			public const int counterEnabled = 2130903216;
+			
+			// aapt resource value: 0x7F0300B1
+			public const int counterMaxLength = 2130903217;
 			
 			// aapt resource value: 0x7F0300B2
-			public const int editTextBackground = 2130903218;
+			public const int counterOverflowTextAppearance = 2130903218;
 			
 			// aapt resource value: 0x7F0300B3
-			public const int editTextColor = 2130903219;
+			public const int counterTextAppearance = 2130903219;
 			
 			// aapt resource value: 0x7F0300B4
-			public const int editTextStyle = 2130903220;
+			public const int customNavigationLayout = 2130903220;
 			
 			// aapt resource value: 0x7F0300B5
-			public const int elevation = 2130903221;
+			public const int defaultQueryHint = 2130903221;
 			
 			// aapt resource value: 0x7F0300B6
-			public const int enforceMaterialTheme = 2130903222;
+			public const int dialogCornerRadius = 2130903222;
 			
 			// aapt resource value: 0x7F0300B7
-			public const int enforceTextAppearance = 2130903223;
+			public const int dialogPreferredPadding = 2130903223;
 			
 			// aapt resource value: 0x7F0300B8
-			public const int errorEnabled = 2130903224;
+			public const int dialogTheme = 2130903224;
 			
 			// aapt resource value: 0x7F0300B9
-			public const int errorTextAppearance = 2130903225;
+			public const int displayOptions = 2130903225;
 			
 			// aapt resource value: 0x7F0300BA
-			public const int expandActivityOverflowButtonDrawable = 2130903226;
+			public const int divider = 2130903226;
 			
 			// aapt resource value: 0x7F0300BB
-			public const int expanded = 2130903227;
+			public const int dividerHorizontal = 2130903227;
 			
 			// aapt resource value: 0x7F0300BC
-			public const int expandedTitleGravity = 2130903228;
+			public const int dividerPadding = 2130903228;
 			
 			// aapt resource value: 0x7F0300BD
-			public const int expandedTitleMargin = 2130903229;
+			public const int dividerVertical = 2130903229;
 			
 			// aapt resource value: 0x7F0300BE
-			public const int expandedTitleMarginBottom = 2130903230;
+			public const int drawableSize = 2130903230;
 			
 			// aapt resource value: 0x7F0300BF
-			public const int expandedTitleMarginEnd = 2130903231;
-			
-			// aapt resource value: 0x7F0300C0
-			public const int expandedTitleMarginStart = 2130903232;
+			public const int drawerArrowStyle = 2130903231;
 			
 			// aapt resource value: 0x7F0300C1
-			public const int expandedTitleMarginTop = 2130903233;
+			public const int dropdownListPreferredItemHeight = 2130903233;
+			
+			// aapt resource value: 0x7F0300C0
+			public const int dropDownListViewStyle = 2130903232;
 			
 			// aapt resource value: 0x7F0300C2
-			public const int expandedTitleTextAppearance = 2130903234;
+			public const int editTextBackground = 2130903234;
 			
 			// aapt resource value: 0x7F0300C3
-			public const int fabAlignmentMode = 2130903235;
+			public const int editTextColor = 2130903235;
 			
 			// aapt resource value: 0x7F0300C4
-			public const int fabCradleMargin = 2130903236;
+			public const int editTextStyle = 2130903236;
 			
 			// aapt resource value: 0x7F0300C5
-			public const int fabCradleRoundedCornerRadius = 2130903237;
+			public const int elevation = 2130903237;
 			
 			// aapt resource value: 0x7F0300C6
-			public const int fabCradleVerticalOffset = 2130903238;
+			public const int enforceMaterialTheme = 2130903238;
 			
 			// aapt resource value: 0x7F0300C7
-			public const int fabCustomSize = 2130903239;
+			public const int enforceTextAppearance = 2130903239;
 			
 			// aapt resource value: 0x7F0300C8
-			public const int fabSize = 2130903240;
+			public const int errorEnabled = 2130903240;
 			
 			// aapt resource value: 0x7F0300C9
-			public const int fastScrollEnabled = 2130903241;
+			public const int errorTextAppearance = 2130903241;
 			
 			// aapt resource value: 0x7F0300CA
-			public const int fastScrollHorizontalThumbDrawable = 2130903242;
+			public const int expandActivityOverflowButtonDrawable = 2130903242;
 			
 			// aapt resource value: 0x7F0300CB
-			public const int fastScrollHorizontalTrackDrawable = 2130903243;
+			public const int expanded = 2130903243;
 			
 			// aapt resource value: 0x7F0300CC
-			public const int fastScrollVerticalThumbDrawable = 2130903244;
+			public const int expandedTitleGravity = 2130903244;
 			
 			// aapt resource value: 0x7F0300CD
-			public const int fastScrollVerticalTrackDrawable = 2130903245;
+			public const int expandedTitleMargin = 2130903245;
 			
 			// aapt resource value: 0x7F0300CE
-			public const int firstBaselineToTopHeight = 2130903246;
+			public const int expandedTitleMarginBottom = 2130903246;
 			
 			// aapt resource value: 0x7F0300CF
-			public const int floatingActionButtonStyle = 2130903247;
+			public const int expandedTitleMarginEnd = 2130903247;
 			
 			// aapt resource value: 0x7F0300D0
-			public const int font = 2130903248;
+			public const int expandedTitleMarginStart = 2130903248;
 			
 			// aapt resource value: 0x7F0300D1
-			public const int fontFamily = 2130903249;
+			public const int expandedTitleMarginTop = 2130903249;
 			
 			// aapt resource value: 0x7F0300D2
-			public const int fontProviderAuthority = 2130903250;
+			public const int expandedTitleTextAppearance = 2130903250;
 			
 			// aapt resource value: 0x7F0300D3
-			public const int fontProviderCerts = 2130903251;
+			public const int fabAlignmentMode = 2130903251;
 			
 			// aapt resource value: 0x7F0300D4
-			public const int fontProviderFetchStrategy = 2130903252;
+			public const int fabCradleMargin = 2130903252;
 			
 			// aapt resource value: 0x7F0300D5
-			public const int fontProviderFetchTimeout = 2130903253;
+			public const int fabCradleRoundedCornerRadius = 2130903253;
 			
 			// aapt resource value: 0x7F0300D6
-			public const int fontProviderPackage = 2130903254;
+			public const int fabCradleVerticalOffset = 2130903254;
 			
 			// aapt resource value: 0x7F0300D7
-			public const int fontProviderQuery = 2130903255;
+			public const int fabCustomSize = 2130903255;
 			
 			// aapt resource value: 0x7F0300D8
-			public const int fontStyle = 2130903256;
+			public const int fabSize = 2130903256;
 			
 			// aapt resource value: 0x7F0300D9
-			public const int fontVariationSettings = 2130903257;
+			public const int fadeDuration = 2130903257;
 			
 			// aapt resource value: 0x7F0300DA
-			public const int fontWeight = 2130903258;
+			public const int failureImage = 2130903258;
 			
 			// aapt resource value: 0x7F0300DB
-			public const int foregroundInsidePadding = 2130903259;
+			public const int failureImageScaleType = 2130903259;
 			
 			// aapt resource value: 0x7F0300DC
-			public const int gapBetweenBars = 2130903260;
+			public const int fastScrollEnabled = 2130903260;
 			
 			// aapt resource value: 0x7F0300DD
-			public const int goIcon = 2130903261;
+			public const int fastScrollHorizontalThumbDrawable = 2130903261;
 			
 			// aapt resource value: 0x7F0300DE
-			public const int headerLayout = 2130903262;
+			public const int fastScrollHorizontalTrackDrawable = 2130903262;
 			
 			// aapt resource value: 0x7F0300DF
-			public const int height = 2130903263;
+			public const int fastScrollVerticalThumbDrawable = 2130903263;
 			
 			// aapt resource value: 0x7F0300E0
-			public const int helperText = 2130903264;
+			public const int fastScrollVerticalTrackDrawable = 2130903264;
 			
 			// aapt resource value: 0x7F0300E1
-			public const int helperTextEnabled = 2130903265;
+			public const int firstBaselineToTopHeight = 2130903265;
 			
 			// aapt resource value: 0x7F0300E2
-			public const int helperTextTextAppearance = 2130903266;
+			public const int floatingActionButtonStyle = 2130903266;
 			
 			// aapt resource value: 0x7F0300E3
-			public const int hideMotionSpec = 2130903267;
+			public const int font = 2130903267;
 			
 			// aapt resource value: 0x7F0300E4
-			public const int hideOnContentScroll = 2130903268;
+			public const int fontFamily = 2130903268;
 			
 			// aapt resource value: 0x7F0300E5
-			public const int hideOnScroll = 2130903269;
+			public const int fontProviderAuthority = 2130903269;
 			
 			// aapt resource value: 0x7F0300E6
-			public const int hintAnimationEnabled = 2130903270;
+			public const int fontProviderCerts = 2130903270;
 			
 			// aapt resource value: 0x7F0300E7
-			public const int hintEnabled = 2130903271;
+			public const int fontProviderFetchStrategy = 2130903271;
 			
 			// aapt resource value: 0x7F0300E8
-			public const int hintTextAppearance = 2130903272;
+			public const int fontProviderFetchTimeout = 2130903272;
 			
 			// aapt resource value: 0x7F0300E9
-			public const int homeAsUpIndicator = 2130903273;
+			public const int fontProviderPackage = 2130903273;
 			
 			// aapt resource value: 0x7F0300EA
-			public const int homeLayout = 2130903274;
+			public const int fontProviderQuery = 2130903274;
 			
 			// aapt resource value: 0x7F0300EB
-			public const int hoveredFocusedTranslationZ = 2130903275;
+			public const int fontStyle = 2130903275;
 			
 			// aapt resource value: 0x7F0300EC
-			public const int icon = 2130903276;
+			public const int fontVariationSettings = 2130903276;
 			
 			// aapt resource value: 0x7F0300ED
-			public const int iconEndPadding = 2130903277;
+			public const int fontWeight = 2130903277;
 			
 			// aapt resource value: 0x7F0300EE
-			public const int iconGravity = 2130903278;
-			
-			// aapt resource value: 0x7F0300F4
-			public const int iconifiedByDefault = 2130903284;
+			public const int foregroundInsidePadding = 2130903278;
 			
 			// aapt resource value: 0x7F0300EF
-			public const int iconPadding = 2130903279;
+			public const int gapBetweenBars = 2130903279;
 			
 			// aapt resource value: 0x7F0300F0
-			public const int iconSize = 2130903280;
+			public const int goIcon = 2130903280;
 			
 			// aapt resource value: 0x7F0300F1
-			public const int iconStartPadding = 2130903281;
+			public const int headerLayout = 2130903281;
 			
 			// aapt resource value: 0x7F0300F2
-			public const int iconTint = 2130903282;
+			public const int height = 2130903282;
 			
 			// aapt resource value: 0x7F0300F3
-			public const int iconTintMode = 2130903283;
+			public const int helperText = 2130903283;
+			
+			// aapt resource value: 0x7F0300F4
+			public const int helperTextEnabled = 2130903284;
 			
 			// aapt resource value: 0x7F0300F5
-			public const int imageButtonStyle = 2130903285;
+			public const int helperTextTextAppearance = 2130903285;
 			
 			// aapt resource value: 0x7F0300F6
-			public const int indeterminateProgressStyle = 2130903286;
+			public const int hideMotionSpec = 2130903286;
 			
 			// aapt resource value: 0x7F0300F7
-			public const int initialActivityCount = 2130903287;
+			public const int hideOnContentScroll = 2130903287;
 			
 			// aapt resource value: 0x7F0300F8
-			public const int insetForeground = 2130903288;
+			public const int hideOnScroll = 2130903288;
 			
 			// aapt resource value: 0x7F0300F9
-			public const int isLightTheme = 2130903289;
+			public const int hintAnimationEnabled = 2130903289;
 			
 			// aapt resource value: 0x7F0300FA
-			public const int itemBackground = 2130903290;
+			public const int hintEnabled = 2130903290;
 			
 			// aapt resource value: 0x7F0300FB
-			public const int itemHorizontalPadding = 2130903291;
+			public const int hintTextAppearance = 2130903291;
 			
 			// aapt resource value: 0x7F0300FC
-			public const int itemHorizontalTranslationEnabled = 2130903292;
+			public const int homeAsUpIndicator = 2130903292;
 			
 			// aapt resource value: 0x7F0300FD
-			public const int itemIconPadding = 2130903293;
+			public const int homeLayout = 2130903293;
 			
 			// aapt resource value: 0x7F0300FE
-			public const int itemIconSize = 2130903294;
+			public const int hoveredFocusedTranslationZ = 2130903294;
 			
 			// aapt resource value: 0x7F0300FF
-			public const int itemIconTint = 2130903295;
+			public const int icon = 2130903295;
 			
 			// aapt resource value: 0x7F030100
-			public const int itemPadding = 2130903296;
+			public const int iconEndPadding = 2130903296;
 			
 			// aapt resource value: 0x7F030101
-			public const int itemSpacing = 2130903297;
-			
-			// aapt resource value: 0x7F030102
-			public const int itemTextAppearance = 2130903298;
-			
-			// aapt resource value: 0x7F030103
-			public const int itemTextAppearanceActive = 2130903299;
-			
-			// aapt resource value: 0x7F030104
-			public const int itemTextAppearanceInactive = 2130903300;
-			
-			// aapt resource value: 0x7F030105
-			public const int itemTextColor = 2130903301;
-			
-			// aapt resource value: 0x7F030106
-			public const int keylines = 2130903302;
+			public const int iconGravity = 2130903297;
 			
 			// aapt resource value: 0x7F030107
-			public const int labelVisibilityMode = 2130903303;
+			public const int iconifiedByDefault = 2130903303;
+			
+			// aapt resource value: 0x7F030102
+			public const int iconPadding = 2130903298;
+			
+			// aapt resource value: 0x7F030103
+			public const int iconSize = 2130903299;
+			
+			// aapt resource value: 0x7F030104
+			public const int iconStartPadding = 2130903300;
+			
+			// aapt resource value: 0x7F030105
+			public const int iconTint = 2130903301;
+			
+			// aapt resource value: 0x7F030106
+			public const int iconTintMode = 2130903302;
 			
 			// aapt resource value: 0x7F030108
-			public const int lastBaselineToBottomHeight = 2130903304;
+			public const int imageButtonStyle = 2130903304;
 			
 			// aapt resource value: 0x7F030109
-			public const int layout = 2130903305;
+			public const int indeterminateProgressStyle = 2130903305;
 			
 			// aapt resource value: 0x7F03010A
-			public const int layoutManager = 2130903306;
+			public const int initialActivityCount = 2130903306;
 			
 			// aapt resource value: 0x7F03010B
-			public const int layout_anchor = 2130903307;
+			public const int insetForeground = 2130903307;
 			
 			// aapt resource value: 0x7F03010C
-			public const int layout_anchorGravity = 2130903308;
+			public const int isLightTheme = 2130903308;
 			
 			// aapt resource value: 0x7F03010D
-			public const int layout_behavior = 2130903309;
+			public const int itemBackground = 2130903309;
 			
 			// aapt resource value: 0x7F03010E
-			public const int layout_collapseMode = 2130903310;
+			public const int itemHorizontalPadding = 2130903310;
 			
 			// aapt resource value: 0x7F03010F
-			public const int layout_collapseParallaxMultiplier = 2130903311;
+			public const int itemHorizontalTranslationEnabled = 2130903311;
 			
 			// aapt resource value: 0x7F030110
-			public const int layout_dodgeInsetEdges = 2130903312;
+			public const int itemIconPadding = 2130903312;
 			
 			// aapt resource value: 0x7F030111
-			public const int layout_insetEdge = 2130903313;
+			public const int itemIconSize = 2130903313;
 			
 			// aapt resource value: 0x7F030112
-			public const int layout_keyline = 2130903314;
+			public const int itemIconTint = 2130903314;
 			
 			// aapt resource value: 0x7F030113
-			public const int layout_scrollFlags = 2130903315;
+			public const int itemPadding = 2130903315;
 			
 			// aapt resource value: 0x7F030114
-			public const int layout_scrollInterpolator = 2130903316;
+			public const int itemSpacing = 2130903316;
 			
 			// aapt resource value: 0x7F030115
-			public const int liftOnScroll = 2130903317;
+			public const int itemTextAppearance = 2130903317;
 			
 			// aapt resource value: 0x7F030116
-			public const int lineHeight = 2130903318;
+			public const int itemTextAppearanceActive = 2130903318;
 			
 			// aapt resource value: 0x7F030117
-			public const int lineSpacing = 2130903319;
+			public const int itemTextAppearanceInactive = 2130903319;
 			
 			// aapt resource value: 0x7F030118
-			public const int listChoiceBackgroundIndicator = 2130903320;
+			public const int itemTextColor = 2130903320;
 			
 			// aapt resource value: 0x7F030119
-			public const int listDividerAlertDialog = 2130903321;
+			public const int keylines = 2130903321;
 			
 			// aapt resource value: 0x7F03011A
-			public const int listItemLayout = 2130903322;
+			public const int labelVisibilityMode = 2130903322;
 			
 			// aapt resource value: 0x7F03011B
-			public const int listLayout = 2130903323;
+			public const int lastBaselineToBottomHeight = 2130903323;
 			
 			// aapt resource value: 0x7F03011C
-			public const int listMenuViewStyle = 2130903324;
+			public const int layout = 2130903324;
 			
 			// aapt resource value: 0x7F03011D
-			public const int listPopupWindowStyle = 2130903325;
+			public const int layoutManager = 2130903325;
 			
 			// aapt resource value: 0x7F03011E
-			public const int listPreferredItemHeight = 2130903326;
+			public const int layout_anchor = 2130903326;
 			
 			// aapt resource value: 0x7F03011F
-			public const int listPreferredItemHeightLarge = 2130903327;
+			public const int layout_anchorGravity = 2130903327;
 			
 			// aapt resource value: 0x7F030120
-			public const int listPreferredItemHeightSmall = 2130903328;
+			public const int layout_behavior = 2130903328;
 			
 			// aapt resource value: 0x7F030121
-			public const int listPreferredItemPaddingLeft = 2130903329;
+			public const int layout_collapseMode = 2130903329;
 			
 			// aapt resource value: 0x7F030122
-			public const int listPreferredItemPaddingRight = 2130903330;
+			public const int layout_collapseParallaxMultiplier = 2130903330;
 			
 			// aapt resource value: 0x7F030123
-			public const int logo = 2130903331;
+			public const int layout_dodgeInsetEdges = 2130903331;
 			
 			// aapt resource value: 0x7F030124
-			public const int logoDescription = 2130903332;
+			public const int layout_insetEdge = 2130903332;
 			
 			// aapt resource value: 0x7F030125
-			public const int materialButtonStyle = 2130903333;
+			public const int layout_keyline = 2130903333;
 			
 			// aapt resource value: 0x7F030126
-			public const int materialCardViewStyle = 2130903334;
+			public const int layout_scrollFlags = 2130903334;
 			
 			// aapt resource value: 0x7F030127
-			public const int maxActionInlineWidth = 2130903335;
+			public const int layout_scrollInterpolator = 2130903335;
 			
 			// aapt resource value: 0x7F030128
-			public const int maxButtonHeight = 2130903336;
+			public const int liftOnScroll = 2130903336;
 			
 			// aapt resource value: 0x7F030129
-			public const int maxImageSize = 2130903337;
+			public const int lineHeight = 2130903337;
 			
 			// aapt resource value: 0x7F03012A
-			public const int measureWithLargestChild = 2130903338;
+			public const int lineSpacing = 2130903338;
 			
 			// aapt resource value: 0x7F03012B
-			public const int menu = 2130903339;
+			public const int listChoiceBackgroundIndicator = 2130903339;
 			
 			// aapt resource value: 0x7F03012C
-			public const int multiChoiceItemLayout = 2130903340;
+			public const int listDividerAlertDialog = 2130903340;
 			
 			// aapt resource value: 0x7F03012D
-			public const int navigationContentDescription = 2130903341;
+			public const int listItemLayout = 2130903341;
 			
 			// aapt resource value: 0x7F03012E
-			public const int navigationIcon = 2130903342;
+			public const int listLayout = 2130903342;
 			
 			// aapt resource value: 0x7F03012F
-			public const int navigationMode = 2130903343;
+			public const int listMenuViewStyle = 2130903343;
 			
 			// aapt resource value: 0x7F030130
-			public const int navigationViewStyle = 2130903344;
+			public const int listPopupWindowStyle = 2130903344;
 			
 			// aapt resource value: 0x7F030131
-			public const int numericModifiers = 2130903345;
+			public const int listPreferredItemHeight = 2130903345;
 			
 			// aapt resource value: 0x7F030132
-			public const int overlapAnchor = 2130903346;
+			public const int listPreferredItemHeightLarge = 2130903346;
 			
 			// aapt resource value: 0x7F030133
-			public const int paddingBottomNoButtons = 2130903347;
+			public const int listPreferredItemHeightSmall = 2130903347;
 			
 			// aapt resource value: 0x7F030134
-			public const int paddingEnd = 2130903348;
+			public const int listPreferredItemPaddingLeft = 2130903348;
 			
 			// aapt resource value: 0x7F030135
-			public const int paddingStart = 2130903349;
+			public const int listPreferredItemPaddingRight = 2130903349;
 			
 			// aapt resource value: 0x7F030136
-			public const int paddingTopNoTitle = 2130903350;
+			public const int logo = 2130903350;
 			
 			// aapt resource value: 0x7F030137
-			public const int panelBackground = 2130903351;
+			public const int logoDescription = 2130903351;
 			
 			// aapt resource value: 0x7F030138
-			public const int panelMenuListTheme = 2130903352;
+			public const int materialButtonStyle = 2130903352;
 			
 			// aapt resource value: 0x7F030139
-			public const int panelMenuListWidth = 2130903353;
+			public const int materialCardViewStyle = 2130903353;
 			
 			// aapt resource value: 0x7F03013A
-			public const int passwordToggleContentDescription = 2130903354;
+			public const int maxActionInlineWidth = 2130903354;
 			
 			// aapt resource value: 0x7F03013B
-			public const int passwordToggleDrawable = 2130903355;
+			public const int maxButtonHeight = 2130903355;
 			
 			// aapt resource value: 0x7F03013C
-			public const int passwordToggleEnabled = 2130903356;
+			public const int maxImageSize = 2130903356;
 			
 			// aapt resource value: 0x7F03013D
-			public const int passwordToggleTint = 2130903357;
+			public const int measureWithLargestChild = 2130903357;
 			
 			// aapt resource value: 0x7F03013E
-			public const int passwordToggleTintMode = 2130903358;
+			public const int menu = 2130903358;
 			
 			// aapt resource value: 0x7F03013F
-			public const int popupMenuStyle = 2130903359;
+			public const int multiChoiceItemLayout = 2130903359;
 			
 			// aapt resource value: 0x7F030140
-			public const int popupTheme = 2130903360;
+			public const int navigationContentDescription = 2130903360;
 			
 			// aapt resource value: 0x7F030141
-			public const int popupWindowStyle = 2130903361;
+			public const int navigationIcon = 2130903361;
 			
 			// aapt resource value: 0x7F030142
-			public const int preserveIconSpacing = 2130903362;
+			public const int navigationMode = 2130903362;
 			
 			// aapt resource value: 0x7F030143
-			public const int pressedTranslationZ = 2130903363;
+			public const int navigationViewStyle = 2130903363;
 			
 			// aapt resource value: 0x7F030144
-			public const int progressBarPadding = 2130903364;
+			public const int numericModifiers = 2130903364;
 			
 			// aapt resource value: 0x7F030145
-			public const int progressBarStyle = 2130903365;
+			public const int overlapAnchor = 2130903365;
 			
 			// aapt resource value: 0x7F030146
-			public const int queryBackground = 2130903366;
+			public const int overlayImage = 2130903366;
 			
 			// aapt resource value: 0x7F030147
-			public const int queryHint = 2130903367;
+			public const int paddingBottomNoButtons = 2130903367;
 			
 			// aapt resource value: 0x7F030148
-			public const int radioButtonStyle = 2130903368;
+			public const int paddingEnd = 2130903368;
 			
 			// aapt resource value: 0x7F030149
-			public const int ratingBarStyle = 2130903369;
+			public const int paddingStart = 2130903369;
 			
 			// aapt resource value: 0x7F03014A
-			public const int ratingBarStyleIndicator = 2130903370;
+			public const int paddingTopNoTitle = 2130903370;
 			
 			// aapt resource value: 0x7F03014B
-			public const int ratingBarStyleSmall = 2130903371;
+			public const int panelBackground = 2130903371;
 			
 			// aapt resource value: 0x7F03014C
-			public const int reverseLayout = 2130903372;
+			public const int panelMenuListTheme = 2130903372;
 			
 			// aapt resource value: 0x7F03014D
-			public const int rippleColor = 2130903373;
+			public const int panelMenuListWidth = 2130903373;
 			
 			// aapt resource value: 0x7F03014E
-			public const int scrimAnimationDuration = 2130903374;
+			public const int passwordToggleContentDescription = 2130903374;
 			
 			// aapt resource value: 0x7F03014F
-			public const int scrimBackground = 2130903375;
+			public const int passwordToggleDrawable = 2130903375;
 			
 			// aapt resource value: 0x7F030150
-			public const int scrimVisibleHeightTrigger = 2130903376;
+			public const int passwordToggleEnabled = 2130903376;
 			
 			// aapt resource value: 0x7F030151
-			public const int searchHintIcon = 2130903377;
+			public const int passwordToggleTint = 2130903377;
 			
 			// aapt resource value: 0x7F030152
-			public const int searchIcon = 2130903378;
+			public const int passwordToggleTintMode = 2130903378;
 			
 			// aapt resource value: 0x7F030153
-			public const int searchViewStyle = 2130903379;
+			public const int placeholderImage = 2130903379;
 			
 			// aapt resource value: 0x7F030154
-			public const int seekBarStyle = 2130903380;
+			public const int placeholderImageScaleType = 2130903380;
 			
 			// aapt resource value: 0x7F030155
-			public const int selectableItemBackground = 2130903381;
+			public const int popupMenuStyle = 2130903381;
 			
 			// aapt resource value: 0x7F030156
-			public const int selectableItemBackgroundBorderless = 2130903382;
+			public const int popupTheme = 2130903382;
 			
 			// aapt resource value: 0x7F030157
-			public const int showAsAction = 2130903383;
+			public const int popupWindowStyle = 2130903383;
 			
 			// aapt resource value: 0x7F030158
-			public const int showDividers = 2130903384;
+			public const int preserveIconSpacing = 2130903384;
 			
 			// aapt resource value: 0x7F030159
-			public const int showMotionSpec = 2130903385;
+			public const int pressedStateOverlayImage = 2130903385;
 			
 			// aapt resource value: 0x7F03015A
-			public const int showText = 2130903386;
+			public const int pressedTranslationZ = 2130903386;
 			
 			// aapt resource value: 0x7F03015B
-			public const int showTitle = 2130903387;
+			public const int progressBarAutoRotateInterval = 2130903387;
 			
 			// aapt resource value: 0x7F03015C
-			public const int singleChoiceItemLayout = 2130903388;
+			public const int progressBarImage = 2130903388;
 			
 			// aapt resource value: 0x7F03015D
-			public const int singleLine = 2130903389;
+			public const int progressBarImageScaleType = 2130903389;
 			
 			// aapt resource value: 0x7F03015E
-			public const int singleSelection = 2130903390;
+			public const int progressBarPadding = 2130903390;
 			
 			// aapt resource value: 0x7F03015F
-			public const int snackbarButtonStyle = 2130903391;
+			public const int progressBarStyle = 2130903391;
 			
 			// aapt resource value: 0x7F030160
-			public const int snackbarStyle = 2130903392;
+			public const int queryBackground = 2130903392;
 			
 			// aapt resource value: 0x7F030161
-			public const int spanCount = 2130903393;
+			public const int queryHint = 2130903393;
 			
 			// aapt resource value: 0x7F030162
-			public const int spinBars = 2130903394;
+			public const int radioButtonStyle = 2130903394;
 			
 			// aapt resource value: 0x7F030163
-			public const int spinnerDropDownItemStyle = 2130903395;
+			public const int ratingBarStyle = 2130903395;
 			
 			// aapt resource value: 0x7F030164
-			public const int spinnerStyle = 2130903396;
+			public const int ratingBarStyleIndicator = 2130903396;
 			
 			// aapt resource value: 0x7F030165
-			public const int splitTrack = 2130903397;
+			public const int ratingBarStyleSmall = 2130903397;
 			
 			// aapt resource value: 0x7F030166
-			public const int srcCompat = 2130903398;
+			public const int retryImage = 2130903398;
 			
 			// aapt resource value: 0x7F030167
-			public const int stackFromEnd = 2130903399;
+			public const int retryImageScaleType = 2130903399;
 			
 			// aapt resource value: 0x7F030168
-			public const int state_above_anchor = 2130903400;
+			public const int reverseLayout = 2130903400;
 			
 			// aapt resource value: 0x7F030169
-			public const int state_collapsed = 2130903401;
+			public const int rippleColor = 2130903401;
 			
 			// aapt resource value: 0x7F03016A
-			public const int state_collapsible = 2130903402;
+			public const int roundAsCircle = 2130903402;
 			
 			// aapt resource value: 0x7F03016B
-			public const int state_liftable = 2130903403;
+			public const int roundBottomLeft = 2130903403;
 			
 			// aapt resource value: 0x7F03016C
-			public const int state_lifted = 2130903404;
-			
-			// aapt resource value: 0x7F03016D
-			public const int statusBarBackground = 2130903405;
-			
-			// aapt resource value: 0x7F03016E
-			public const int statusBarScrim = 2130903406;
-			
-			// aapt resource value: 0x7F03016F
-			public const int strokeColor = 2130903407;
+			public const int roundBottomRight = 2130903404;
 			
 			// aapt resource value: 0x7F030170
-			public const int strokeWidth = 2130903408;
+			public const int roundedCornerRadius = 2130903408;
 			
 			// aapt resource value: 0x7F030171
-			public const int subMenuArrow = 2130903409;
+			public const int roundingBorderColor = 2130903409;
 			
 			// aapt resource value: 0x7F030172
-			public const int submitBackground = 2130903410;
+			public const int roundingBorderPadding = 2130903410;
 			
 			// aapt resource value: 0x7F030173
-			public const int subtitle = 2130903411;
+			public const int roundingBorderWidth = 2130903411;
+			
+			// aapt resource value: 0x7F03016D
+			public const int roundTopLeft = 2130903405;
+			
+			// aapt resource value: 0x7F03016E
+			public const int roundTopRight = 2130903406;
+			
+			// aapt resource value: 0x7F03016F
+			public const int roundWithOverlayColor = 2130903407;
 			
 			// aapt resource value: 0x7F030174
-			public const int subtitleTextAppearance = 2130903412;
+			public const int scrimAnimationDuration = 2130903412;
 			
 			// aapt resource value: 0x7F030175
-			public const int subtitleTextColor = 2130903413;
+			public const int scrimBackground = 2130903413;
 			
 			// aapt resource value: 0x7F030176
-			public const int subtitleTextStyle = 2130903414;
+			public const int scrimVisibleHeightTrigger = 2130903414;
 			
 			// aapt resource value: 0x7F030177
-			public const int suggestionRowLayout = 2130903415;
+			public const int searchHintIcon = 2130903415;
 			
 			// aapt resource value: 0x7F030178
-			public const int switchMinWidth = 2130903416;
+			public const int searchIcon = 2130903416;
 			
 			// aapt resource value: 0x7F030179
-			public const int switchPadding = 2130903417;
+			public const int searchViewStyle = 2130903417;
 			
 			// aapt resource value: 0x7F03017A
-			public const int switchStyle = 2130903418;
+			public const int seekBarStyle = 2130903418;
 			
 			// aapt resource value: 0x7F03017B
-			public const int switchTextAppearance = 2130903419;
+			public const int selectableItemBackground = 2130903419;
 			
 			// aapt resource value: 0x7F03017C
-			public const int tabBackground = 2130903420;
+			public const int selectableItemBackgroundBorderless = 2130903420;
 			
 			// aapt resource value: 0x7F03017D
-			public const int tabContentStart = 2130903421;
+			public const int showAsAction = 2130903421;
 			
 			// aapt resource value: 0x7F03017E
-			public const int tabGravity = 2130903422;
+			public const int showDividers = 2130903422;
 			
 			// aapt resource value: 0x7F03017F
-			public const int tabIconTint = 2130903423;
+			public const int showMotionSpec = 2130903423;
 			
 			// aapt resource value: 0x7F030180
-			public const int tabIconTintMode = 2130903424;
+			public const int showText = 2130903424;
 			
 			// aapt resource value: 0x7F030181
-			public const int tabIndicator = 2130903425;
+			public const int showTitle = 2130903425;
 			
 			// aapt resource value: 0x7F030182
-			public const int tabIndicatorAnimationDuration = 2130903426;
+			public const int singleChoiceItemLayout = 2130903426;
 			
 			// aapt resource value: 0x7F030183
-			public const int tabIndicatorColor = 2130903427;
+			public const int singleLine = 2130903427;
 			
 			// aapt resource value: 0x7F030184
-			public const int tabIndicatorFullWidth = 2130903428;
+			public const int singleSelection = 2130903428;
 			
 			// aapt resource value: 0x7F030185
-			public const int tabIndicatorGravity = 2130903429;
+			public const int snackbarButtonStyle = 2130903429;
 			
 			// aapt resource value: 0x7F030186
-			public const int tabIndicatorHeight = 2130903430;
+			public const int snackbarStyle = 2130903430;
 			
 			// aapt resource value: 0x7F030187
-			public const int tabInlineLabel = 2130903431;
+			public const int spanCount = 2130903431;
 			
 			// aapt resource value: 0x7F030188
-			public const int tabMaxWidth = 2130903432;
+			public const int spinBars = 2130903432;
 			
 			// aapt resource value: 0x7F030189
-			public const int tabMinWidth = 2130903433;
+			public const int spinnerDropDownItemStyle = 2130903433;
 			
 			// aapt resource value: 0x7F03018A
-			public const int tabMode = 2130903434;
+			public const int spinnerStyle = 2130903434;
 			
 			// aapt resource value: 0x7F03018B
-			public const int tabPadding = 2130903435;
+			public const int splitTrack = 2130903435;
 			
 			// aapt resource value: 0x7F03018C
-			public const int tabPaddingBottom = 2130903436;
+			public const int srcCompat = 2130903436;
 			
 			// aapt resource value: 0x7F03018D
-			public const int tabPaddingEnd = 2130903437;
+			public const int stackFromEnd = 2130903437;
 			
 			// aapt resource value: 0x7F03018E
-			public const int tabPaddingStart = 2130903438;
+			public const int state_above_anchor = 2130903438;
 			
 			// aapt resource value: 0x7F03018F
-			public const int tabPaddingTop = 2130903439;
+			public const int state_collapsed = 2130903439;
 			
 			// aapt resource value: 0x7F030190
-			public const int tabRippleColor = 2130903440;
+			public const int state_collapsible = 2130903440;
 			
 			// aapt resource value: 0x7F030191
-			public const int tabSelectedTextColor = 2130903441;
+			public const int state_liftable = 2130903441;
 			
 			// aapt resource value: 0x7F030192
-			public const int tabStyle = 2130903442;
+			public const int state_lifted = 2130903442;
 			
 			// aapt resource value: 0x7F030193
-			public const int tabTextAppearance = 2130903443;
+			public const int statusBarBackground = 2130903443;
 			
 			// aapt resource value: 0x7F030194
-			public const int tabTextColor = 2130903444;
+			public const int statusBarScrim = 2130903444;
 			
 			// aapt resource value: 0x7F030195
-			public const int tabUnboundedRipple = 2130903445;
+			public const int strokeColor = 2130903445;
 			
 			// aapt resource value: 0x7F030196
-			public const int textAllCaps = 2130903446;
+			public const int strokeWidth = 2130903446;
 			
 			// aapt resource value: 0x7F030197
-			public const int textAppearanceBody1 = 2130903447;
+			public const int subMenuArrow = 2130903447;
 			
 			// aapt resource value: 0x7F030198
-			public const int textAppearanceBody2 = 2130903448;
+			public const int submitBackground = 2130903448;
 			
 			// aapt resource value: 0x7F030199
-			public const int textAppearanceButton = 2130903449;
+			public const int subtitle = 2130903449;
 			
 			// aapt resource value: 0x7F03019A
-			public const int textAppearanceCaption = 2130903450;
+			public const int subtitleTextAppearance = 2130903450;
 			
 			// aapt resource value: 0x7F03019B
-			public const int textAppearanceHeadline1 = 2130903451;
+			public const int subtitleTextColor = 2130903451;
 			
 			// aapt resource value: 0x7F03019C
-			public const int textAppearanceHeadline2 = 2130903452;
+			public const int subtitleTextStyle = 2130903452;
 			
 			// aapt resource value: 0x7F03019D
-			public const int textAppearanceHeadline3 = 2130903453;
+			public const int suggestionRowLayout = 2130903453;
 			
 			// aapt resource value: 0x7F03019E
-			public const int textAppearanceHeadline4 = 2130903454;
+			public const int switchMinWidth = 2130903454;
 			
 			// aapt resource value: 0x7F03019F
-			public const int textAppearanceHeadline5 = 2130903455;
+			public const int switchPadding = 2130903455;
 			
 			// aapt resource value: 0x7F0301A0
-			public const int textAppearanceHeadline6 = 2130903456;
+			public const int switchStyle = 2130903456;
 			
 			// aapt resource value: 0x7F0301A1
-			public const int textAppearanceLargePopupMenu = 2130903457;
+			public const int switchTextAppearance = 2130903457;
 			
 			// aapt resource value: 0x7F0301A2
-			public const int textAppearanceListItem = 2130903458;
+			public const int tabBackground = 2130903458;
 			
 			// aapt resource value: 0x7F0301A3
-			public const int textAppearanceListItemSecondary = 2130903459;
+			public const int tabContentStart = 2130903459;
 			
 			// aapt resource value: 0x7F0301A4
-			public const int textAppearanceListItemSmall = 2130903460;
+			public const int tabGravity = 2130903460;
 			
 			// aapt resource value: 0x7F0301A5
-			public const int textAppearanceOverline = 2130903461;
+			public const int tabIconTint = 2130903461;
 			
 			// aapt resource value: 0x7F0301A6
-			public const int textAppearancePopupMenuHeader = 2130903462;
+			public const int tabIconTintMode = 2130903462;
 			
 			// aapt resource value: 0x7F0301A7
-			public const int textAppearanceSearchResultSubtitle = 2130903463;
+			public const int tabIndicator = 2130903463;
 			
 			// aapt resource value: 0x7F0301A8
-			public const int textAppearanceSearchResultTitle = 2130903464;
+			public const int tabIndicatorAnimationDuration = 2130903464;
 			
 			// aapt resource value: 0x7F0301A9
-			public const int textAppearanceSmallPopupMenu = 2130903465;
+			public const int tabIndicatorColor = 2130903465;
 			
 			// aapt resource value: 0x7F0301AA
-			public const int textAppearanceSubtitle1 = 2130903466;
+			public const int tabIndicatorFullWidth = 2130903466;
 			
 			// aapt resource value: 0x7F0301AB
-			public const int textAppearanceSubtitle2 = 2130903467;
+			public const int tabIndicatorGravity = 2130903467;
 			
 			// aapt resource value: 0x7F0301AC
-			public const int textColorAlertDialogListItem = 2130903468;
+			public const int tabIndicatorHeight = 2130903468;
 			
 			// aapt resource value: 0x7F0301AD
-			public const int textColorSearchUrl = 2130903469;
+			public const int tabInlineLabel = 2130903469;
 			
 			// aapt resource value: 0x7F0301AE
-			public const int textEndPadding = 2130903470;
+			public const int tabMaxWidth = 2130903470;
 			
 			// aapt resource value: 0x7F0301AF
-			public const int textInputStyle = 2130903471;
+			public const int tabMinWidth = 2130903471;
 			
 			// aapt resource value: 0x7F0301B0
-			public const int textStartPadding = 2130903472;
+			public const int tabMode = 2130903472;
 			
 			// aapt resource value: 0x7F0301B1
-			public const int theme = 2130903473;
+			public const int tabPadding = 2130903473;
 			
 			// aapt resource value: 0x7F0301B2
-			public const int thickness = 2130903474;
+			public const int tabPaddingBottom = 2130903474;
 			
 			// aapt resource value: 0x7F0301B3
-			public const int thumbTextPadding = 2130903475;
+			public const int tabPaddingEnd = 2130903475;
 			
 			// aapt resource value: 0x7F0301B4
-			public const int thumbTint = 2130903476;
+			public const int tabPaddingStart = 2130903476;
 			
 			// aapt resource value: 0x7F0301B5
-			public const int thumbTintMode = 2130903477;
+			public const int tabPaddingTop = 2130903477;
 			
 			// aapt resource value: 0x7F0301B6
-			public const int tickMark = 2130903478;
+			public const int tabRippleColor = 2130903478;
 			
 			// aapt resource value: 0x7F0301B7
-			public const int tickMarkTint = 2130903479;
+			public const int tabSelectedTextColor = 2130903479;
 			
 			// aapt resource value: 0x7F0301B8
-			public const int tickMarkTintMode = 2130903480;
+			public const int tabStyle = 2130903480;
 			
 			// aapt resource value: 0x7F0301B9
-			public const int tint = 2130903481;
+			public const int tabTextAppearance = 2130903481;
 			
 			// aapt resource value: 0x7F0301BA
-			public const int tintMode = 2130903482;
+			public const int tabTextColor = 2130903482;
 			
 			// aapt resource value: 0x7F0301BB
-			public const int title = 2130903483;
+			public const int tabUnboundedRipple = 2130903483;
 			
 			// aapt resource value: 0x7F0301BC
-			public const int titleEnabled = 2130903484;
+			public const int textAllCaps = 2130903484;
 			
 			// aapt resource value: 0x7F0301BD
-			public const int titleMargin = 2130903485;
+			public const int textAppearanceBody1 = 2130903485;
 			
 			// aapt resource value: 0x7F0301BE
-			public const int titleMarginBottom = 2130903486;
+			public const int textAppearanceBody2 = 2130903486;
 			
 			// aapt resource value: 0x7F0301BF
-			public const int titleMarginEnd = 2130903487;
-			
-			// aapt resource value: 0x7F0301C2
-			public const int titleMargins = 2130903490;
+			public const int textAppearanceButton = 2130903487;
 			
 			// aapt resource value: 0x7F0301C0
-			public const int titleMarginStart = 2130903488;
+			public const int textAppearanceCaption = 2130903488;
 			
 			// aapt resource value: 0x7F0301C1
-			public const int titleMarginTop = 2130903489;
+			public const int textAppearanceHeadline1 = 2130903489;
+			
+			// aapt resource value: 0x7F0301C2
+			public const int textAppearanceHeadline2 = 2130903490;
 			
 			// aapt resource value: 0x7F0301C3
-			public const int titleTextAppearance = 2130903491;
+			public const int textAppearanceHeadline3 = 2130903491;
 			
 			// aapt resource value: 0x7F0301C4
-			public const int titleTextColor = 2130903492;
+			public const int textAppearanceHeadline4 = 2130903492;
 			
 			// aapt resource value: 0x7F0301C5
-			public const int titleTextStyle = 2130903493;
+			public const int textAppearanceHeadline5 = 2130903493;
 			
 			// aapt resource value: 0x7F0301C6
-			public const int toolbarId = 2130903494;
+			public const int textAppearanceHeadline6 = 2130903494;
 			
 			// aapt resource value: 0x7F0301C7
-			public const int toolbarNavigationButtonStyle = 2130903495;
+			public const int textAppearanceLargePopupMenu = 2130903495;
 			
 			// aapt resource value: 0x7F0301C8
-			public const int toolbarStyle = 2130903496;
+			public const int textAppearanceListItem = 2130903496;
 			
 			// aapt resource value: 0x7F0301C9
-			public const int tooltipForegroundColor = 2130903497;
+			public const int textAppearanceListItemSecondary = 2130903497;
 			
 			// aapt resource value: 0x7F0301CA
-			public const int tooltipFrameBackground = 2130903498;
+			public const int textAppearanceListItemSmall = 2130903498;
 			
 			// aapt resource value: 0x7F0301CB
-			public const int tooltipText = 2130903499;
+			public const int textAppearanceOverline = 2130903499;
 			
 			// aapt resource value: 0x7F0301CC
-			public const int track = 2130903500;
+			public const int textAppearancePopupMenuHeader = 2130903500;
 			
 			// aapt resource value: 0x7F0301CD
-			public const int trackTint = 2130903501;
+			public const int textAppearanceSearchResultSubtitle = 2130903501;
 			
 			// aapt resource value: 0x7F0301CE
-			public const int trackTintMode = 2130903502;
+			public const int textAppearanceSearchResultTitle = 2130903502;
 			
 			// aapt resource value: 0x7F0301CF
-			public const int ttcIndex = 2130903503;
+			public const int textAppearanceSmallPopupMenu = 2130903503;
 			
 			// aapt resource value: 0x7F0301D0
-			public const int useCompatPadding = 2130903504;
+			public const int textAppearanceSubtitle1 = 2130903504;
 			
 			// aapt resource value: 0x7F0301D1
-			public const int viewInflaterClass = 2130903505;
+			public const int textAppearanceSubtitle2 = 2130903505;
 			
 			// aapt resource value: 0x7F0301D2
-			public const int voiceIcon = 2130903506;
+			public const int textColorAlertDialogListItem = 2130903506;
 			
 			// aapt resource value: 0x7F0301D3
-			public const int windowActionBar = 2130903507;
+			public const int textColorSearchUrl = 2130903507;
 			
 			// aapt resource value: 0x7F0301D4
-			public const int windowActionBarOverlay = 2130903508;
+			public const int textEndPadding = 2130903508;
 			
 			// aapt resource value: 0x7F0301D5
-			public const int windowActionModeOverlay = 2130903509;
+			public const int textInputStyle = 2130903509;
 			
 			// aapt resource value: 0x7F0301D6
-			public const int windowFixedHeightMajor = 2130903510;
+			public const int textStartPadding = 2130903510;
 			
 			// aapt resource value: 0x7F0301D7
-			public const int windowFixedHeightMinor = 2130903511;
+			public const int theme = 2130903511;
 			
 			// aapt resource value: 0x7F0301D8
-			public const int windowFixedWidthMajor = 2130903512;
+			public const int thickness = 2130903512;
 			
 			// aapt resource value: 0x7F0301D9
-			public const int windowFixedWidthMinor = 2130903513;
+			public const int thumbTextPadding = 2130903513;
 			
 			// aapt resource value: 0x7F0301DA
-			public const int windowMinWidthMajor = 2130903514;
+			public const int thumbTint = 2130903514;
 			
 			// aapt resource value: 0x7F0301DB
-			public const int windowMinWidthMinor = 2130903515;
+			public const int thumbTintMode = 2130903515;
 			
 			// aapt resource value: 0x7F0301DC
-			public const int windowNoTitle = 2130903516;
+			public const int tickMark = 2130903516;
+			
+			// aapt resource value: 0x7F0301DD
+			public const int tickMarkTint = 2130903517;
+			
+			// aapt resource value: 0x7F0301DE
+			public const int tickMarkTintMode = 2130903518;
+			
+			// aapt resource value: 0x7F0301DF
+			public const int tint = 2130903519;
+			
+			// aapt resource value: 0x7F0301E0
+			public const int tintMode = 2130903520;
+			
+			// aapt resource value: 0x7F0301E1
+			public const int title = 2130903521;
+			
+			// aapt resource value: 0x7F0301E2
+			public const int titleEnabled = 2130903522;
+			
+			// aapt resource value: 0x7F0301E3
+			public const int titleMargin = 2130903523;
+			
+			// aapt resource value: 0x7F0301E4
+			public const int titleMarginBottom = 2130903524;
+			
+			// aapt resource value: 0x7F0301E5
+			public const int titleMarginEnd = 2130903525;
+			
+			// aapt resource value: 0x7F0301E8
+			public const int titleMargins = 2130903528;
+			
+			// aapt resource value: 0x7F0301E6
+			public const int titleMarginStart = 2130903526;
+			
+			// aapt resource value: 0x7F0301E7
+			public const int titleMarginTop = 2130903527;
+			
+			// aapt resource value: 0x7F0301E9
+			public const int titleTextAppearance = 2130903529;
+			
+			// aapt resource value: 0x7F0301EA
+			public const int titleTextColor = 2130903530;
+			
+			// aapt resource value: 0x7F0301EB
+			public const int titleTextStyle = 2130903531;
+			
+			// aapt resource value: 0x7F0301EC
+			public const int toolbarId = 2130903532;
+			
+			// aapt resource value: 0x7F0301ED
+			public const int toolbarNavigationButtonStyle = 2130903533;
+			
+			// aapt resource value: 0x7F0301EE
+			public const int toolbarStyle = 2130903534;
+			
+			// aapt resource value: 0x7F0301EF
+			public const int tooltipForegroundColor = 2130903535;
+			
+			// aapt resource value: 0x7F0301F0
+			public const int tooltipFrameBackground = 2130903536;
+			
+			// aapt resource value: 0x7F0301F1
+			public const int tooltipText = 2130903537;
+			
+			// aapt resource value: 0x7F0301F2
+			public const int track = 2130903538;
+			
+			// aapt resource value: 0x7F0301F3
+			public const int trackTint = 2130903539;
+			
+			// aapt resource value: 0x7F0301F4
+			public const int trackTintMode = 2130903540;
+			
+			// aapt resource value: 0x7F0301F5
+			public const int ttcIndex = 2130903541;
+			
+			// aapt resource value: 0x7F0301F6
+			public const int useCompatPadding = 2130903542;
+			
+			// aapt resource value: 0x7F0301F7
+			public const int viewAspectRatio = 2130903543;
+			
+			// aapt resource value: 0x7F0301F8
+			public const int viewInflaterClass = 2130903544;
+			
+			// aapt resource value: 0x7F0301F9
+			public const int voiceIcon = 2130903545;
+			
+			// aapt resource value: 0x7F0301FA
+			public const int windowActionBar = 2130903546;
+			
+			// aapt resource value: 0x7F0301FB
+			public const int windowActionBarOverlay = 2130903547;
+			
+			// aapt resource value: 0x7F0301FC
+			public const int windowActionModeOverlay = 2130903548;
+			
+			// aapt resource value: 0x7F0301FD
+			public const int windowFixedHeightMajor = 2130903549;
+			
+			// aapt resource value: 0x7F0301FE
+			public const int windowFixedHeightMinor = 2130903550;
+			
+			// aapt resource value: 0x7F0301FF
+			public const int windowFixedWidthMajor = 2130903551;
+			
+			// aapt resource value: 0x7F030200
+			public const int windowFixedWidthMinor = 2130903552;
+			
+			// aapt resource value: 0x7F030201
+			public const int windowMinWidthMajor = 2130903553;
+			
+			// aapt resource value: 0x7F030202
+			public const int windowMinWidthMinor = 2130903554;
+			
+			// aapt resource value: 0x7F030203
+			public const int windowNoTitle = 2130903555;
 			
 			static Attribute()
 			{
@@ -15577,112 +20328,139 @@ namespace PerboyreApp.Droid
 			public const int backwhite = 2131165277;
 			
 			// aapt resource value: 0x7F07005E
-			public const int cancelwhite = 2131165278;
+			public const int btn_action_photobrowser_overlay = 2131165278;
 			
 			// aapt resource value: 0x7F07005F
-			public const int custom_search_background = 2131165279;
+			public const int cancelwhite = 2131165279;
 			
 			// aapt resource value: 0x7F070060
-			public const int Dentistas = 2131165280;
+			public const int custom_search_background = 2131165280;
 			
 			// aapt resource value: 0x7F070061
-			public const int Dentistas_collection = 2131165281;
+			public const int Dentistas = 2131165281;
 			
 			// aapt resource value: 0x7F070062
-			public const int design_bottom_navigation_item_background = 2131165282;
+			public const int Dentistas_collection = 2131165282;
 			
 			// aapt resource value: 0x7F070063
-			public const int design_fab_background = 2131165283;
+			public const int design_bottom_navigation_item_background = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public const int design_ic_visibility = 2131165284;
+			public const int design_fab_background = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public const int design_ic_visibility_off = 2131165285;
+			public const int design_ic_visibility = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-			public const int design_password_eye = 2131165286;
+			public const int design_ic_visibility_off = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int design_snackbar_background = 2131165287;
+			public const int design_password_eye = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int Email36 = 2131165288;
+			public const int design_snackbar_background = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int exames = 2131165289;
+			public const int Email36 = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int home = 2131165290;
+			public const int exames = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int home_selected = 2131165291;
+			public const int exames2 = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int ic_mtrl_chip_checked_black = 2131165292;
+			public const int home = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int ic_mtrl_chip_checked_circle = 2131165293;
+			public const int home_selected = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int ic_mtrl_chip_close_circle = 2131165294;
+			public const int ic_errorstatus = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int logo02 = 2131165295;
+			public const int ic_mtrl_chip_checked_black = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int mtrl_snackbar_background = 2131165296;
+			public const int ic_mtrl_chip_checked_circle = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int mtrl_tabs_default_indicator = 2131165297;
+			public const int ic_mtrl_chip_close_circle = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int navigation_empty_icon = 2131165298;
+			public const int ic_successstatus = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int notification_action_background = 2131165299;
+			public const int logo02 = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int notification_bg = 2131165300;
+			public const int mtrl_snackbar_background = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int notification_bg_low = 2131165301;
+			public const int mtrl_tabs_default_indicator = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int notification_bg_low_normal = 2131165302;
+			public const int navigation_empty_icon = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int notification_bg_low_pressed = 2131165303;
+			public const int notification_action_background = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int notification_bg_normal = 2131165304;
+			public const int notification_bg = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int notification_bg_normal_pressed = 2131165305;
+			public const int notification_bg_low = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int notification_icon_background = 2131165306;
+			public const int notification_bg_low_normal = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int notification_template_icon_bg = 2131165307;
+			public const int notification_bg_low_pressed = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int notification_template_icon_low_bg = 2131165308;
+			public const int notification_bg_normal = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int notification_tile_bg = 2131165309;
+			public const int notification_bg_normal_pressed = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int notify_panel_notification_icon_bg = 2131165310;
+			public const int notification_icon_background = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int password36 = 2131165311;
+			public const int notification_template_icon_bg = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int tooltip_frame_dark = 2131165312;
+			public const int notification_template_icon_low_bg = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int tooltip_frame_light = 2131165313;
+			public const int notification_tile_bg = 2131165313;
+			
+			// aapt resource value: 0x7F070082
+			public const int notify_panel_notification_icon_bg = 2131165314;
+			
+			// aapt resource value: 0x7F070083
+			public const int password36 = 2131165315;
+			
+			// aapt resource value: 0x7F070084
+			public const int roundedbg = 2131165316;
+			
+			// aapt resource value: 0x7F070085
+			public const int roundedbgdark = 2131165317;
+			
+			// aapt resource value: 0x7F070086
+			public const int share = 2131165318;
+			
+			// aapt resource value: 0x7F070087
+			public const int Spinner = 2131165319;
+			
+			// aapt resource value: 0x7F070088
+			public const int tooltip_frame_dark = 2131165320;
+			
+			// aapt resource value: 0x7F070089
+			public const int tooltip_frame_light = 2131165321;
+			
+			// aapt resource value: 0x7F07008A
+			public const int zoom = 2131165322;
 			
 			static Drawable()
 			{
@@ -15779,544 +20557,595 @@ namespace PerboyreApp.Droid
 			public const int auto = 2131230751;
 			
 			// aapt resource value: 0x7F080020
-			public const int beginning = 2131230752;
+			public const int backgroundView = 2131230752;
 			
 			// aapt resource value: 0x7F080021
-			public const int blocking = 2131230753;
+			public const int beginning = 2131230753;
 			
 			// aapt resource value: 0x7F080022
-			public const int bottom = 2131230754;
+			public const int blocking = 2131230754;
 			
 			// aapt resource value: 0x7F080023
-			public const int bottomtab_navarea = 2131230755;
+			public const int bottom = 2131230755;
 			
 			// aapt resource value: 0x7F080024
-			public const int bottomtab_tabbar = 2131230756;
+			public const int bottomtab_navarea = 2131230756;
 			
 			// aapt resource value: 0x7F080025
-			public const int browser_actions_header_text = 2131230757;
-			
-			// aapt resource value: 0x7F080028
-			public const int browser_actions_menu_items = 2131230760;
+			public const int bottomtab_tabbar = 2131230757;
 			
 			// aapt resource value: 0x7F080026
-			public const int browser_actions_menu_item_icon = 2131230758;
-			
-			// aapt resource value: 0x7F080027
-			public const int browser_actions_menu_item_text = 2131230759;
+			public const int browser_actions_header_text = 2131230758;
 			
 			// aapt resource value: 0x7F080029
-			public const int browser_actions_menu_view = 2131230761;
+			public const int browser_actions_menu_items = 2131230761;
+			
+			// aapt resource value: 0x7F080027
+			public const int browser_actions_menu_item_icon = 2131230759;
+			
+			// aapt resource value: 0x7F080028
+			public const int browser_actions_menu_item_text = 2131230760;
 			
 			// aapt resource value: 0x7F08002A
-			public const int buttonPanel = 2131230762;
+			public const int browser_actions_menu_view = 2131230762;
 			
 			// aapt resource value: 0x7F08002B
-			public const int cancel_action = 2131230763;
+			public const int btnShare = 2131230763;
 			
 			// aapt resource value: 0x7F08002C
-			public const int center = 2131230764;
+			public const int buttonPanel = 2131230764;
 			
 			// aapt resource value: 0x7F08002D
-			public const int center_horizontal = 2131230765;
+			public const int cancel_action = 2131230765;
 			
 			// aapt resource value: 0x7F08002E
-			public const int center_vertical = 2131230766;
+			public const int center = 2131230766;
 			
 			// aapt resource value: 0x7F08002F
-			public const int checkbox = 2131230767;
+			public const int centerCrop = 2131230767;
 			
 			// aapt resource value: 0x7F080030
-			public const int chronometer = 2131230768;
+			public const int centerInside = 2131230768;
 			
 			// aapt resource value: 0x7F080031
-			public const int clip_horizontal = 2131230769;
+			public const int center_horizontal = 2131230769;
 			
 			// aapt resource value: 0x7F080032
-			public const int clip_vertical = 2131230770;
+			public const int center_vertical = 2131230770;
 			
 			// aapt resource value: 0x7F080033
-			public const int collapseActionView = 2131230771;
+			public const int checkbox = 2131230771;
 			
 			// aapt resource value: 0x7F080034
-			public const int container = 2131230772;
+			public const int chronometer = 2131230772;
 			
 			// aapt resource value: 0x7F080035
-			public const int content = 2131230773;
+			public const int clip_horizontal = 2131230773;
 			
 			// aapt resource value: 0x7F080036
-			public const int contentPanel = 2131230774;
+			public const int clip_vertical = 2131230774;
 			
 			// aapt resource value: 0x7F080037
-			public const int coordinator = 2131230775;
+			public const int collapseActionView = 2131230775;
+			
+			// aapt resource value: 0x7F080038
+			public const int container = 2131230776;
+			
+			// aapt resource value: 0x7F080039
+			public const int content = 2131230777;
+			
+			// aapt resource value: 0x7F08003A
+			public const int contentPanel = 2131230778;
+			
+			// aapt resource value: 0x7F08003B
+			public const int coordinator = 2131230779;
 			
 			// aapt resource value: 0x7F080001
 			public const int CTRL = 2131230721;
 			
-			// aapt resource value: 0x7F080038
-			public const int custom = 2131230776;
-			
-			// aapt resource value: 0x7F080039
-			public const int customPanel = 2131230777;
-			
-			// aapt resource value: 0x7F08003A
-			public const int decor_content_parent = 2131230778;
-			
-			// aapt resource value: 0x7F08003B
-			public const int default_activity_button = 2131230779;
-			
 			// aapt resource value: 0x7F08003C
-			public const int design_bottom_sheet = 2131230780;
+			public const int custom = 2131230780;
 			
 			// aapt resource value: 0x7F08003D
-			public const int design_menu_item_action_area = 2131230781;
+			public const int customPanel = 2131230781;
 			
 			// aapt resource value: 0x7F08003E
-			public const int design_menu_item_action_area_stub = 2131230782;
+			public const int decor_content_parent = 2131230782;
 			
 			// aapt resource value: 0x7F08003F
-			public const int design_menu_item_text = 2131230783;
+			public const int default_activity_button = 2131230783;
 			
 			// aapt resource value: 0x7F080040
-			public const int design_navigation_view = 2131230784;
+			public const int design_bottom_sheet = 2131230784;
 			
 			// aapt resource value: 0x7F080041
-			public const int disableHome = 2131230785;
+			public const int design_menu_item_action_area = 2131230785;
 			
 			// aapt resource value: 0x7F080042
-			public const int edit_query = 2131230786;
+			public const int design_menu_item_action_area_stub = 2131230786;
 			
 			// aapt resource value: 0x7F080043
-			public const int end = 2131230787;
+			public const int design_menu_item_text = 2131230787;
 			
 			// aapt resource value: 0x7F080044
-			public const int end_padder = 2131230788;
+			public const int design_navigation_view = 2131230788;
 			
 			// aapt resource value: 0x7F080045
-			public const int enterAlways = 2131230789;
+			public const int disableHome = 2131230789;
 			
 			// aapt resource value: 0x7F080046
-			public const int enterAlwaysCollapsed = 2131230790;
+			public const int dismissView = 2131230790;
 			
 			// aapt resource value: 0x7F080047
-			public const int exitUntilCollapsed = 2131230791;
-			
-			// aapt resource value: 0x7F080049
-			public const int expanded_menu = 2131230793;
+			public const int edit_query = 2131230791;
 			
 			// aapt resource value: 0x7F080048
-			public const int expand_activities_button = 2131230792;
+			public const int end = 2131230792;
+			
+			// aapt resource value: 0x7F080049
+			public const int end_padder = 2131230793;
 			
 			// aapt resource value: 0x7F08004A
-			public const int fill = 2131230794;
-			
-			// aapt resource value: 0x7F08004D
-			public const int filled = 2131230797;
+			public const int enterAlways = 2131230794;
 			
 			// aapt resource value: 0x7F08004B
-			public const int fill_horizontal = 2131230795;
+			public const int enterAlwaysCollapsed = 2131230795;
 			
 			// aapt resource value: 0x7F08004C
-			public const int fill_vertical = 2131230796;
+			public const int exitUntilCollapsed = 2131230796;
 			
 			// aapt resource value: 0x7F08004E
-			public const int @fixed = 2131230798;
+			public const int expanded_menu = 2131230798;
+			
+			// aapt resource value: 0x7F08004D
+			public const int expand_activities_button = 2131230797;
 			
 			// aapt resource value: 0x7F08004F
-			public const int flyoutcontent_appbar = 2131230799;
+			public const int fill = 2131230799;
+			
+			// aapt resource value: 0x7F080052
+			public const int filled = 2131230802;
 			
 			// aapt resource value: 0x7F080050
-			public const int flyoutcontent_recycler = 2131230800;
+			public const int fill_horizontal = 2131230800;
 			
 			// aapt resource value: 0x7F080051
-			public const int forever = 2131230801;
+			public const int fill_vertical = 2131230801;
+			
+			// aapt resource value: 0x7F080053
+			public const int fitBottomStart = 2131230803;
+			
+			// aapt resource value: 0x7F080054
+			public const int fitCenter = 2131230804;
+			
+			// aapt resource value: 0x7F080055
+			public const int fitEnd = 2131230805;
+			
+			// aapt resource value: 0x7F080056
+			public const int fitStart = 2131230806;
+			
+			// aapt resource value: 0x7F080057
+			public const int fitXY = 2131230807;
+			
+			// aapt resource value: 0x7F080058
+			public const int @fixed = 2131230808;
+			
+			// aapt resource value: 0x7F080059
+			public const int flyoutcontent_appbar = 2131230809;
+			
+			// aapt resource value: 0x7F08005A
+			public const int flyoutcontent_recycler = 2131230810;
+			
+			// aapt resource value: 0x7F08005B
+			public const int focusCrop = 2131230811;
+			
+			// aapt resource value: 0x7F08005C
+			public const int forever = 2131230812;
 			
 			// aapt resource value: 0x7F080002
 			public const int FUNCTION = 2131230722;
 			
-			// aapt resource value: 0x7F080052
-			public const int ghost_view = 2131230802;
-			
-			// aapt resource value: 0x7F080053
-			public const int group_divider = 2131230803;
-			
-			// aapt resource value: 0x7F080054
-			public const int home = 2131230804;
-			
-			// aapt resource value: 0x7F080055
-			public const int homeAsUp = 2131230805;
-			
-			// aapt resource value: 0x7F080056
-			public const int icon = 2131230806;
-			
-			// aapt resource value: 0x7F080057
-			public const int icon_group = 2131230807;
-			
-			// aapt resource value: 0x7F080058
-			public const int ifRoom = 2131230808;
-			
-			// aapt resource value: 0x7F080059
-			public const int image = 2131230809;
-			
-			// aapt resource value: 0x7F08005A
-			public const int info = 2131230810;
-			
-			// aapt resource value: 0x7F08005B
-			public const int italic = 2131230811;
-			
-			// aapt resource value: 0x7F08005C
-			public const int item_touch_helper_previous_elevation = 2131230812;
-			
 			// aapt resource value: 0x7F08005D
-			public const int labeled = 2131230813;
+			public const int ghost_view = 2131230813;
 			
 			// aapt resource value: 0x7F08005E
-			public const int largeLabel = 2131230814;
+			public const int group_divider = 2131230814;
 			
 			// aapt resource value: 0x7F08005F
-			public const int left = 2131230815;
+			public const int home = 2131230815;
 			
 			// aapt resource value: 0x7F080060
-			public const int line1 = 2131230816;
+			public const int homeAsUp = 2131230816;
 			
 			// aapt resource value: 0x7F080061
-			public const int line3 = 2131230817;
+			public const int icon = 2131230817;
 			
 			// aapt resource value: 0x7F080062
-			public const int listMode = 2131230818;
+			public const int icon_group = 2131230818;
 			
 			// aapt resource value: 0x7F080063
-			public const int list_item = 2131230819;
+			public const int ifRoom = 2131230819;
 			
 			// aapt resource value: 0x7F080064
-			public const int main_appbar = 2131230820;
+			public const int image = 2131230820;
 			
 			// aapt resource value: 0x7F080065
-			public const int main_tablayout = 2131230821;
+			public const int info = 2131230821;
 			
 			// aapt resource value: 0x7F080066
-			public const int main_toolbar = 2131230822;
+			public const int italic = 2131230822;
 			
 			// aapt resource value: 0x7F080067
-			public const int main_viewpager = 2131230823;
+			public const int item_touch_helper_previous_elevation = 2131230823;
 			
 			// aapt resource value: 0x7F080068
-			public const int masked = 2131230824;
+			public const int labeled = 2131230824;
 			
 			// aapt resource value: 0x7F080069
-			public const int media_actions = 2131230825;
+			public const int largeLabel = 2131230825;
 			
 			// aapt resource value: 0x7F08006A
-			public const int message = 2131230826;
+			public const int left = 2131230826;
+			
+			// aapt resource value: 0x7F08006B
+			public const int line1 = 2131230827;
+			
+			// aapt resource value: 0x7F08006C
+			public const int line3 = 2131230828;
+			
+			// aapt resource value: 0x7F08006D
+			public const int listMode = 2131230829;
+			
+			// aapt resource value: 0x7F08006E
+			public const int list_item = 2131230830;
+			
+			// aapt resource value: 0x7F08006F
+			public const int loadingImage = 2131230831;
+			
+			// aapt resource value: 0x7F080070
+			public const int loadingProgressBar = 2131230832;
+			
+			// aapt resource value: 0x7F080071
+			public const int loadingProgressWheel = 2131230833;
+			
+			// aapt resource value: 0x7F080072
+			public const int main_appbar = 2131230834;
+			
+			// aapt resource value: 0x7F080073
+			public const int main_tablayout = 2131230835;
+			
+			// aapt resource value: 0x7F080074
+			public const int main_toolbar = 2131230836;
+			
+			// aapt resource value: 0x7F080075
+			public const int main_viewpager = 2131230837;
+			
+			// aapt resource value: 0x7F080076
+			public const int masked = 2131230838;
+			
+			// aapt resource value: 0x7F080077
+			public const int media_actions = 2131230839;
+			
+			// aapt resource value: 0x7F080078
+			public const int message = 2131230840;
 			
 			// aapt resource value: 0x7F080003
 			public const int META = 2131230723;
 			
-			// aapt resource value: 0x7F08006B
-			public const int middle = 2131230827;
-			
-			// aapt resource value: 0x7F08006C
-			public const int mini = 2131230828;
-			
-			// aapt resource value: 0x7F08006D
-			public const int mtrl_child_content_container = 2131230829;
-			
-			// aapt resource value: 0x7F08006E
-			public const int mtrl_internal_children_alpha_tag = 2131230830;
-			
-			// aapt resource value: 0x7F08006F
-			public const int multiply = 2131230831;
-			
-			// aapt resource value: 0x7F080070
-			public const int navigation_header_container = 2131230832;
-			
-			// aapt resource value: 0x7F080071
-			public const int never = 2131230833;
-			
-			// aapt resource value: 0x7F080072
-			public const int none = 2131230834;
-			
-			// aapt resource value: 0x7F080073
-			public const int normal = 2131230835;
-			
-			// aapt resource value: 0x7F080074
-			public const int notification_background = 2131230836;
-			
-			// aapt resource value: 0x7F080075
-			public const int notification_main_column = 2131230837;
-			
-			// aapt resource value: 0x7F080076
-			public const int notification_main_column_container = 2131230838;
-			
-			// aapt resource value: 0x7F080077
-			public const int outline = 2131230839;
-			
-			// aapt resource value: 0x7F080078
-			public const int parallax = 2131230840;
-			
 			// aapt resource value: 0x7F080079
-			public const int parentPanel = 2131230841;
+			public const int middle = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int parent_matrix = 2131230842;
+			public const int mini = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
-			public const int pin = 2131230843;
+			public const int mtrl_child_content_container = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int progress_circular = 2131230844;
+			public const int mtrl_internal_children_alpha_tag = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int progress_horizontal = 2131230845;
+			public const int multiply = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int radio = 2131230846;
+			public const int navigation_header_container = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int right = 2131230847;
+			public const int never = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int right_icon = 2131230848;
+			public const int none = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int right_side = 2131230849;
+			public const int normal = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int save_image_matrix = 2131230850;
+			public const int notification_background = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int save_non_transition_alpha = 2131230851;
+			public const int notification_main_column = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int save_scale_type = 2131230852;
+			public const int notification_main_column_container = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int screen = 2131230853;
+			public const int outline = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int scroll = 2131230854;
-			
-			// aapt resource value: 0x7F08008A
-			public const int scrollable = 2131230858;
+			public const int pager = 2131230854;
 			
 			// aapt resource value: 0x7F080087
-			public const int scrollIndicatorDown = 2131230855;
+			public const int parallax = 2131230855;
 			
 			// aapt resource value: 0x7F080088
-			public const int scrollIndicatorUp = 2131230856;
+			public const int parentPanel = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int scrollView = 2131230857;
+			public const int parent_matrix = 2131230857;
+			
+			// aapt resource value: 0x7F08008A
+			public const int pin = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int search_badge = 2131230859;
+			public const int progress_circular = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int search_bar = 2131230860;
+			public const int progress_horizontal = 2131230860;
 			
 			// aapt resource value: 0x7F08008D
-			public const int search_button = 2131230861;
+			public const int radio = 2131230861;
 			
 			// aapt resource value: 0x7F08008E
-			public const int search_close_btn = 2131230862;
+			public const int right = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int search_edit_frame = 2131230863;
+			public const int right_icon = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int search_go_btn = 2131230864;
+			public const int right_side = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int search_mag_icon = 2131230865;
+			public const int save_image_matrix = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int search_plate = 2131230866;
+			public const int save_non_transition_alpha = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int search_src_text = 2131230867;
+			public const int save_scale_type = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int search_voice_btn = 2131230868;
-			
-			// aapt resource value: 0x7F080096
-			public const int selected = 2131230870;
+			public const int screen = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int select_dialog_listview = 2131230869;
+			public const int scroll = 2131230869;
+			
+			// aapt resource value: 0x7F080099
+			public const int scrollable = 2131230873;
+			
+			// aapt resource value: 0x7F080096
+			public const int scrollIndicatorDown = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int shellcontent_appbar = 2131230871;
+			public const int scrollIndicatorUp = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int shellcontent_toolbar = 2131230872;
+			public const int scrollView = 2131230872;
+			
+			// aapt resource value: 0x7F08009A
+			public const int search_badge = 2131230874;
+			
+			// aapt resource value: 0x7F08009B
+			public const int search_bar = 2131230875;
+			
+			// aapt resource value: 0x7F08009C
+			public const int search_button = 2131230876;
+			
+			// aapt resource value: 0x7F08009D
+			public const int search_close_btn = 2131230877;
+			
+			// aapt resource value: 0x7F08009E
+			public const int search_edit_frame = 2131230878;
+			
+			// aapt resource value: 0x7F08009F
+			public const int search_go_btn = 2131230879;
+			
+			// aapt resource value: 0x7F0800A0
+			public const int search_mag_icon = 2131230880;
+			
+			// aapt resource value: 0x7F0800A1
+			public const int search_plate = 2131230881;
+			
+			// aapt resource value: 0x7F0800A2
+			public const int search_src_text = 2131230882;
+			
+			// aapt resource value: 0x7F0800A3
+			public const int search_voice_btn = 2131230883;
+			
+			// aapt resource value: 0x7F0800A5
+			public const int selected = 2131230885;
+			
+			// aapt resource value: 0x7F0800A4
+			public const int select_dialog_listview = 2131230884;
+			
+			// aapt resource value: 0x7F0800A6
+			public const int shellcontent_appbar = 2131230886;
+			
+			// aapt resource value: 0x7F0800A7
+			public const int shellcontent_toolbar = 2131230887;
 			
 			// aapt resource value: 0x7F080004
 			public const int SHIFT = 2131230724;
 			
-			// aapt resource value: 0x7F080099
-			public const int shortcut = 2131230873;
-			
-			// aapt resource value: 0x7F08009A
-			public const int showCustom = 2131230874;
-			
-			// aapt resource value: 0x7F08009B
-			public const int showHome = 2131230875;
-			
-			// aapt resource value: 0x7F08009C
-			public const int showTitle = 2131230876;
-			
-			// aapt resource value: 0x7F08009D
-			public const int sliding_tabs = 2131230877;
-			
-			// aapt resource value: 0x7F08009E
-			public const int smallLabel = 2131230878;
-			
-			// aapt resource value: 0x7F08009F
-			public const int snackbar_action = 2131230879;
-			
-			// aapt resource value: 0x7F0800A0
-			public const int snackbar_text = 2131230880;
-			
-			// aapt resource value: 0x7F0800A1
-			public const int snap = 2131230881;
-			
-			// aapt resource value: 0x7F0800A2
-			public const int snapMargins = 2131230882;
-			
-			// aapt resource value: 0x7F0800A3
-			public const int spacer = 2131230883;
-			
-			// aapt resource value: 0x7F0800A4
-			public const int split_action_bar = 2131230884;
-			
-			// aapt resource value: 0x7F0800A5
-			public const int src_atop = 2131230885;
-			
-			// aapt resource value: 0x7F0800A6
-			public const int src_in = 2131230886;
-			
-			// aapt resource value: 0x7F0800A7
-			public const int src_over = 2131230887;
-			
 			// aapt resource value: 0x7F0800A8
-			public const int start = 2131230888;
+			public const int shortcut = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int status_bar_latest_event_content = 2131230889;
+			public const int showCustom = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int stretch = 2131230890;
+			public const int showHome = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int submenuarrow = 2131230891;
+			public const int showTitle = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int submit_area = 2131230892;
+			public const int sliding_tabs = 2131230892;
+			
+			// aapt resource value: 0x7F0800AD
+			public const int smallLabel = 2131230893;
+			
+			// aapt resource value: 0x7F0800AE
+			public const int snackbar_action = 2131230894;
+			
+			// aapt resource value: 0x7F0800AF
+			public const int snackbar_text = 2131230895;
+			
+			// aapt resource value: 0x7F0800B0
+			public const int snap = 2131230896;
+			
+			// aapt resource value: 0x7F0800B1
+			public const int snapMargins = 2131230897;
+			
+			// aapt resource value: 0x7F0800B2
+			public const int spacer = 2131230898;
+			
+			// aapt resource value: 0x7F0800B3
+			public const int split_action_bar = 2131230899;
+			
+			// aapt resource value: 0x7F0800B4
+			public const int src_atop = 2131230900;
+			
+			// aapt resource value: 0x7F0800B5
+			public const int src_in = 2131230901;
+			
+			// aapt resource value: 0x7F0800B6
+			public const int src_over = 2131230902;
+			
+			// aapt resource value: 0x7F0800B7
+			public const int start = 2131230903;
+			
+			// aapt resource value: 0x7F0800B8
+			public const int status_bar_latest_event_content = 2131230904;
+			
+			// aapt resource value: 0x7F0800B9
+			public const int stretch = 2131230905;
+			
+			// aapt resource value: 0x7F0800BA
+			public const int submenuarrow = 2131230906;
+			
+			// aapt resource value: 0x7F0800BB
+			public const int submit_area = 2131230907;
 			
 			// aapt resource value: 0x7F080005
 			public const int SYM = 2131230725;
 			
-			// aapt resource value: 0x7F0800AD
-			public const int tabMode = 2131230893;
-			
-			// aapt resource value: 0x7F0800AE
-			public const int tag_transition_group = 2131230894;
-			
-			// aapt resource value: 0x7F0800AF
-			public const int tag_unhandled_key_event_manager = 2131230895;
-			
-			// aapt resource value: 0x7F0800B0
-			public const int tag_unhandled_key_listeners = 2131230896;
-			
-			// aapt resource value: 0x7F0800B1
-			public const int text = 2131230897;
-			
-			// aapt resource value: 0x7F0800B2
-			public const int text2 = 2131230898;
-			
-			// aapt resource value: 0x7F0800B7
-			public const int textinput_counter = 2131230903;
-			
-			// aapt resource value: 0x7F0800B8
-			public const int textinput_error = 2131230904;
-			
-			// aapt resource value: 0x7F0800B9
-			public const int textinput_helper_text = 2131230905;
-			
-			// aapt resource value: 0x7F0800B3
-			public const int textSpacerNoButtons = 2131230899;
-			
-			// aapt resource value: 0x7F0800B4
-			public const int textSpacerNoTitle = 2131230900;
-			
-			// aapt resource value: 0x7F0800B5
-			public const int textStart = 2131230901;
-			
-			// aapt resource value: 0x7F0800B6
-			public const int text_input_password_toggle = 2131230902;
-			
-			// aapt resource value: 0x7F0800BA
-			public const int time = 2131230906;
-			
-			// aapt resource value: 0x7F0800BB
-			public const int title = 2131230907;
-			
 			// aapt resource value: 0x7F0800BC
-			public const int titleDividerNoCustom = 2131230908;
+			public const int tabMode = 2131230908;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int title_template = 2131230909;
+			public const int tag_transition_group = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int toolbar = 2131230910;
+			public const int tag_unhandled_key_event_manager = 2131230910;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int top = 2131230911;
+			public const int tag_unhandled_key_listeners = 2131230911;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int topPanel = 2131230912;
+			public const int text = 2131230912;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int touch_outside = 2131230913;
-			
-			// aapt resource value: 0x7F0800C2
-			public const int transition_current_scene = 2131230914;
-			
-			// aapt resource value: 0x7F0800C3
-			public const int transition_layout_save = 2131230915;
-			
-			// aapt resource value: 0x7F0800C4
-			public const int transition_position = 2131230916;
-			
-			// aapt resource value: 0x7F0800C5
-			public const int transition_scene_layoutid_cache = 2131230917;
-			
-			// aapt resource value: 0x7F0800C6
-			public const int transition_transform = 2131230918;
+			public const int text2 = 2131230913;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int uniform = 2131230919;
+			public const int textinput_counter = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int unlabeled = 2131230920;
+			public const int textinput_error = 2131230920;
 			
 			// aapt resource value: 0x7F0800C9
-			public const int up = 2131230921;
+			public const int textinput_helper_text = 2131230921;
+			
+			// aapt resource value: 0x7F0800C2
+			public const int textSpacerNoButtons = 2131230914;
+			
+			// aapt resource value: 0x7F0800C3
+			public const int textSpacerNoTitle = 2131230915;
+			
+			// aapt resource value: 0x7F0800C4
+			public const int textStart = 2131230916;
+			
+			// aapt resource value: 0x7F0800C5
+			public const int textViewStatus = 2131230917;
+			
+			// aapt resource value: 0x7F0800C6
+			public const int text_input_password_toggle = 2131230918;
 			
 			// aapt resource value: 0x7F0800CA
-			public const int useLogo = 2131230922;
+			public const int time = 2131230922;
 			
 			// aapt resource value: 0x7F0800CB
-			public const int view_offset_helper = 2131230923;
+			public const int title = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int visible = 2131230924;
+			public const int titleDividerNoCustom = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int withText = 2131230925;
+			public const int title_template = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int wrap_content = 2131230926;
+			public const int toolbar = 2131230926;
+			
+			// aapt resource value: 0x7F0800CF
+			public const int top = 2131230927;
+			
+			// aapt resource value: 0x7F0800D0
+			public const int topPanel = 2131230928;
+			
+			// aapt resource value: 0x7F0800D1
+			public const int touch_outside = 2131230929;
+			
+			// aapt resource value: 0x7F0800D2
+			public const int transition_current_scene = 2131230930;
+			
+			// aapt resource value: 0x7F0800D3
+			public const int transition_layout_save = 2131230931;
+			
+			// aapt resource value: 0x7F0800D4
+			public const int transition_position = 2131230932;
+			
+			// aapt resource value: 0x7F0800D5
+			public const int transition_scene_layoutid_cache = 2131230933;
+			
+			// aapt resource value: 0x7F0800D6
+			public const int transition_transform = 2131230934;
+			
+			// aapt resource value: 0x7F0800D7
+			public const int tvDescription = 2131230935;
+			
+			// aapt resource value: 0x7F0800D8
+			public const int uniform = 2131230936;
+			
+			// aapt resource value: 0x7F0800D9
+			public const int unlabeled = 2131230937;
+			
+			// aapt resource value: 0x7F0800DA
+			public const int up = 2131230938;
+			
+			// aapt resource value: 0x7F0800DB
+			public const int useLogo = 2131230939;
+			
+			// aapt resource value: 0x7F0800DC
+			public const int view_offset_helper = 2131230940;
+			
+			// aapt resource value: 0x7F0800DD
+			public const int visible = 2131230941;
+			
+			// aapt resource value: 0x7F0800DE
+			public const int withText = 2131230942;
+			
+			// aapt resource value: 0x7F0800DF
+			public const int wrap_content = 2131230943;
 			
 			static Id()
 			{
@@ -16553,79 +21382,94 @@ namespace PerboyreApp.Droid
 			public const int FlyoutContent = 2131427373;
 			
 			// aapt resource value: 0x7F0B002E
-			public const int mtrl_layout_snackbar = 2131427374;
+			public const int image_viewer = 2131427374;
 			
 			// aapt resource value: 0x7F0B002F
-			public const int mtrl_layout_snackbar_include = 2131427375;
+			public const int loading = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int notification_action = 2131427376;
+			public const int loadingimage = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int notification_action_tombstone = 2131427377;
+			public const int loadingprogress = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int notification_media_action = 2131427378;
+			public const int mtrl_layout_snackbar = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int notification_media_cancel_action = 2131427379;
+			public const int mtrl_layout_snackbar_include = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int notification_template_big_media = 2131427380;
+			public const int notification_action = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int notification_template_big_media_custom = 2131427381;
+			public const int notification_action_tombstone = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int notification_template_big_media_narrow = 2131427382;
+			public const int notification_media_action = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int notification_template_big_media_narrow_custom = 2131427383;
+			public const int notification_media_cancel_action = 2131427383;
 			
 			// aapt resource value: 0x7F0B0038
-			public const int notification_template_custom_big = 2131427384;
+			public const int notification_template_big_media = 2131427384;
 			
 			// aapt resource value: 0x7F0B0039
-			public const int notification_template_icon_group = 2131427385;
+			public const int notification_template_big_media_custom = 2131427385;
 			
 			// aapt resource value: 0x7F0B003A
-			public const int notification_template_lines_media = 2131427386;
+			public const int notification_template_big_media_narrow = 2131427386;
 			
 			// aapt resource value: 0x7F0B003B
-			public const int notification_template_media = 2131427387;
+			public const int notification_template_big_media_narrow_custom = 2131427387;
 			
 			// aapt resource value: 0x7F0B003C
-			public const int notification_template_media_custom = 2131427388;
+			public const int notification_template_custom_big = 2131427388;
 			
 			// aapt resource value: 0x7F0B003D
-			public const int notification_template_part_chronometer = 2131427389;
+			public const int notification_template_icon_group = 2131427389;
 			
 			// aapt resource value: 0x7F0B003E
-			public const int notification_template_part_time = 2131427390;
+			public const int notification_template_lines_media = 2131427390;
 			
 			// aapt resource value: 0x7F0B003F
-			public const int RootLayout = 2131427391;
+			public const int notification_template_media = 2131427391;
 			
 			// aapt resource value: 0x7F0B0040
-			public const int select_dialog_item_material = 2131427392;
+			public const int notification_template_media_custom = 2131427392;
 			
 			// aapt resource value: 0x7F0B0041
-			public const int select_dialog_multichoice_material = 2131427393;
+			public const int notification_template_part_chronometer = 2131427393;
 			
 			// aapt resource value: 0x7F0B0042
-			public const int select_dialog_singlechoice_material = 2131427394;
+			public const int notification_template_part_time = 2131427394;
 			
 			// aapt resource value: 0x7F0B0043
-			public const int ShellContent = 2131427395;
+			public const int photo_browser_overlay = 2131427395;
 			
 			// aapt resource value: 0x7F0B0044
-			public const int support_simple_spinner_dropdown_item = 2131427396;
+			public const int RootLayout = 2131427396;
 			
 			// aapt resource value: 0x7F0B0045
-			public const int Tabbar = 2131427397;
+			public const int select_dialog_item_material = 2131427397;
 			
 			// aapt resource value: 0x7F0B0046
-			public const int Toolbar = 2131427398;
+			public const int select_dialog_multichoice_material = 2131427398;
+			
+			// aapt resource value: 0x7F0B0047
+			public const int select_dialog_singlechoice_material = 2131427399;
+			
+			// aapt resource value: 0x7F0B0048
+			public const int ShellContent = 2131427400;
+			
+			// aapt resource value: 0x7F0B0049
+			public const int support_simple_spinner_dropdown_item = 2131427401;
+			
+			// aapt resource value: 0x7F0B004A
+			public const int Tabbar = 2131427402;
+			
+			// aapt resource value: 0x7F0B004B
+			public const int Toolbar = 2131427403;
 			
 			static Layout()
 			{
@@ -16801,28 +21645,31 @@ namespace PerboyreApp.Droid
 			public const int hide_bottom_view_on_scroll_behavior = 2131558445;
 			
 			// aapt resource value: 0x7F0D002E
-			public const int mtrl_chip_close_icon_content_description = 2131558446;
+			public const int library_name = 2131558446;
 			
 			// aapt resource value: 0x7F0D002F
-			public const int password_toggle_content_description = 2131558447;
+			public const int mtrl_chip_close_icon_content_description = 2131558447;
 			
 			// aapt resource value: 0x7F0D0030
-			public const int path_password_eye = 2131558448;
+			public const int password_toggle_content_description = 2131558448;
 			
 			// aapt resource value: 0x7F0D0031
-			public const int path_password_eye_mask_strike_through = 2131558449;
+			public const int path_password_eye = 2131558449;
 			
 			// aapt resource value: 0x7F0D0032
-			public const int path_password_eye_mask_visible = 2131558450;
+			public const int path_password_eye_mask_strike_through = 2131558450;
 			
 			// aapt resource value: 0x7F0D0033
-			public const int path_password_strike_through = 2131558451;
+			public const int path_password_eye_mask_visible = 2131558451;
 			
 			// aapt resource value: 0x7F0D0034
-			public const int search_menu_title = 2131558452;
+			public const int path_password_strike_through = 2131558452;
 			
 			// aapt resource value: 0x7F0D0035
-			public const int status_bar_notification_info_overflow = 2131558453;
+			public const int search_menu_title = 2131558453;
+			
+			// aapt resource value: 0x7F0D0036
+			public const int status_bar_notification_info_overflow = 2131558454;
 			
 			static String()
 			{
@@ -18365,37 +23212,37 @@ namespace PerboyreApp.Droid
 		public partial class Styleable
 		{
 			
-			// aapt resource value: { 0x7F030031,0x7F030032,0x7F030033,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F0300A4,0x7F0300A9,0x7F0300AA,0x7F0300B5,0x7F0300DF,0x7F0300E4,0x7F0300E9,0x7F0300EA,0x7F0300EC,0x7F0300F6,0x7F030100,0x7F030123,0x7F03012F,0x7F030140,0x7F030144,0x7F030145,0x7F030173,0x7F030176,0x7F0301BB,0x7F0301C5 }
+			// aapt resource value: { 0x7F030040,0x7F030042,0x7F030043,0x7F0300A1,0x7F0300A2,0x7F0300A3,0x7F0300A4,0x7F0300A5,0x7F0300A6,0x7F0300B4,0x7F0300B9,0x7F0300BA,0x7F0300C5,0x7F0300F2,0x7F0300F7,0x7F0300FC,0x7F0300FD,0x7F0300FF,0x7F030109,0x7F030113,0x7F030136,0x7F030142,0x7F030156,0x7F03015E,0x7F03015F,0x7F030199,0x7F03019C,0x7F0301E1,0x7F0301EB }
 			public static int[] ActionBar = new int[] {
-					2130903089,
-					2130903090,
-					2130903091,
-					2130903185,
-					2130903186,
-					2130903187,
-					2130903188,
-					2130903189,
-					2130903190,
+					2130903104,
+					2130903106,
+					2130903107,
+					2130903201,
+					2130903202,
+					2130903203,
 					2130903204,
-					2130903209,
-					2130903210,
-					2130903221,
-					2130903263,
-					2130903268,
-					2130903273,
-					2130903274,
-					2130903276,
-					2130903286,
-					2130903296,
-					2130903331,
-					2130903343,
-					2130903360,
-					2130903364,
-					2130903365,
-					2130903411,
-					2130903414,
-					2130903483,
-					2130903493};
+					2130903205,
+					2130903206,
+					2130903220,
+					2130903225,
+					2130903226,
+					2130903237,
+					2130903282,
+					2130903287,
+					2130903292,
+					2130903293,
+					2130903295,
+					2130903305,
+					2130903315,
+					2130903350,
+					2130903362,
+					2130903382,
+					2130903390,
+					2130903391,
+					2130903449,
+					2130903452,
+					2130903521,
+					2130903531};
 			
 			// aapt resource value: { 0x10100B3 }
 			public static int[] ActionBarLayout = new int[] {
@@ -18502,14 +23349,14 @@ namespace PerboyreApp.Droid
 			public static int[] ActionMenuView = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F030031,0x7F030032,0x7F03007E,0x7F0300DF,0x7F030176,0x7F0301C5 }
+			// aapt resource value: { 0x7F030040,0x7F030042,0x7F03008E,0x7F0300F2,0x7F03019C,0x7F0301EB }
 			public static int[] ActionMode = new int[] {
-					2130903089,
-					2130903090,
-					2130903166,
-					2130903263,
-					2130903414,
-					2130903493};
+					2130903104,
+					2130903106,
+					2130903182,
+					2130903282,
+					2130903452,
+					2130903531};
 			
 			// aapt resource value: 0
 			public const int ActionMode_background = 0;
@@ -18529,10 +23376,10 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 5
 			public const int ActionMode_titleTextStyle = 5;
 			
-			// aapt resource value: { 0x7F0300BA,0x7F0300F7 }
+			// aapt resource value: { 0x7F0300CA,0x7F03010A }
 			public static int[] ActivityChooserView = new int[] {
-					2130903226,
-					2130903287};
+					2130903242,
+					2130903306};
 			
 			// aapt resource value: 0
 			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 0;
@@ -18540,16 +23387,16 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 1
 			public const int ActivityChooserView_initialActivityCount = 1;
 			
-			// aapt resource value: { 0x10100F2,0x7F030052,0x7F030053,0x7F03011A,0x7F03011B,0x7F03012C,0x7F03015B,0x7F03015C }
+			// aapt resource value: { 0x10100F2,0x7F030062,0x7F030063,0x7F03012D,0x7F03012E,0x7F03013F,0x7F030181,0x7F030182 }
 			public static int[] AlertDialog = new int[] {
 					16842994,
-					2130903122,
-					2130903123,
-					2130903322,
-					2130903323,
-					2130903340,
-					2130903387,
-					2130903388};
+					2130903138,
+					2130903139,
+					2130903341,
+					2130903342,
+					2130903359,
+					2130903425,
+					2130903426};
 			
 			// aapt resource value: 0
 			public const int AlertDialog_android_layout = 0;
@@ -18632,21 +23479,21 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 1
 			public const int AnimatedStateListDrawableTransition_android_toId = 1;
 			
-			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300B5,0x7F0300BB,0x7F030115 }
+			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300C5,0x7F0300CB,0x7F030128 }
 			public static int[] AppBarLayout = new int[] {
 					16842964,
 					16843919,
 					16844096,
-					2130903221,
-					2130903227,
-					2130903317};
+					2130903237,
+					2130903243,
+					2130903336};
 			
-			// aapt resource value: { 0x7F030169,0x7F03016A,0x7F03016B,0x7F03016C }
+			// aapt resource value: { 0x7F03018F,0x7F030190,0x7F030191,0x7F030192 }
 			public static int[] AppBarLayoutStates = new int[] {
-					2130903401,
-					2130903402,
-					2130903403,
-					2130903404};
+					2130903439,
+					2130903440,
+					2130903441,
+					2130903442};
 			
 			// aapt resource value: 0
 			public const int AppBarLayoutStates_state_collapsed = 0;
@@ -18675,10 +23522,10 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 4
 			public const int AppBarLayout_expanded = 4;
 			
-			// aapt resource value: { 0x7F030113,0x7F030114 }
+			// aapt resource value: { 0x7F030126,0x7F030127 }
 			public static int[] AppBarLayout_Layout = new int[] {
-					2130903315,
-					2130903316};
+					2130903334,
+					2130903335};
 			
 			// aapt resource value: 0
 			public const int AppBarLayout_Layout_layout_scrollFlags = 0;
@@ -18689,12 +23536,12 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 5
 			public const int AppBarLayout_liftOnScroll = 5;
 			
-			// aapt resource value: { 0x1010119,0x7F030166,0x7F0301B9,0x7F0301BA }
+			// aapt resource value: { 0x1010119,0x7F03018C,0x7F0301DF,0x7F0301E0 }
 			public static int[] AppCompatImageView = new int[] {
 					16843033,
-					2130903398,
-					2130903481,
-					2130903482};
+					2130903436,
+					2130903519,
+					2130903520};
 			
 			// aapt resource value: 0
 			public const int AppCompatImageView_android_src = 0;
@@ -18708,12 +23555,12 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 3
 			public const int AppCompatImageView_tintMode = 3;
 			
-			// aapt resource value: { 0x1010142,0x7F0301B6,0x7F0301B7,0x7F0301B8 }
+			// aapt resource value: { 0x1010142,0x7F0301DC,0x7F0301DD,0x7F0301DE }
 			public static int[] AppCompatSeekBar = new int[] {
 					16843074,
-					2130903478,
-					2130903479,
-					2130903480};
+					2130903516,
+					2130903517,
+					2130903518};
 			
 			// aapt resource value: 0
 			public const int AppCompatSeekBar_android_thumb = 0;
@@ -18758,19 +23605,19 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 0
 			public const int AppCompatTextHelper_android_textAppearance = 0;
 			
-			// aapt resource value: { 0x1010034,0x7F03002C,0x7F03002D,0x7F03002E,0x7F03002F,0x7F030030,0x7F0300CE,0x7F0300D1,0x7F030108,0x7F030116,0x7F030196 }
+			// aapt resource value: { 0x1010034,0x7F03003B,0x7F03003C,0x7F03003D,0x7F03003E,0x7F03003F,0x7F0300E1,0x7F0300E4,0x7F03011B,0x7F030129,0x7F0301BC }
 			public static int[] AppCompatTextView = new int[] {
 					16842804,
-					2130903084,
-					2130903085,
-					2130903086,
-					2130903087,
-					2130903088,
-					2130903246,
-					2130903249,
-					2130903304,
-					2130903318,
-					2130903446};
+					2130903099,
+					2130903100,
+					2130903101,
+					2130903102,
+					2130903103,
+					2130903265,
+					2130903268,
+					2130903323,
+					2130903337,
+					2130903484};
 			
 			// aapt resource value: 0
 			public const int AppCompatTextView_android_textAppearance = 0;
@@ -18805,7 +23652,7 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 10
 			public const int AppCompatTextView_textAllCaps = 10;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F03002B,0x7F03003E,0x7F03004C,0x7F03004D,0x7F03004E,0x7F03004F,0x7F030050,0x7F030054,0x7F030055,0x7F03005F,0x7F030064,0x7F030084,0x7F030085,0x7F030086,0x7F030087,0x7F030088,0x7F030089,0x7F03008A,0x7F03008B,0x7F03008C,0x7F03008E,0x7F03009D,0x7F0300A6,0x7F0300A7,0x7F0300A8,0x7F0300AB,0x7F0300AD,0x7F0300B0,0x7F0300B1,0x7F0300B2,0x7F0300B3,0x7F0300B4,0x7F0300E9,0x7F0300F5,0x7F030118,0x7F030119,0x7F03011C,0x7F03011D,0x7F03011E,0x7F03011F,0x7F030120,0x7F030121,0x7F030122,0x7F030137,0x7F030138,0x7F030139,0x7F03013F,0x7F030141,0x7F030148,0x7F030149,0x7F03014A,0x7F03014B,0x7F030153,0x7F030154,0x7F030155,0x7F030156,0x7F030163,0x7F030164,0x7F03017A,0x7F0301A1,0x7F0301A2,0x7F0301A3,0x7F0301A4,0x7F0301A6,0x7F0301A7,0x7F0301A8,0x7F0301A9,0x7F0301AC,0x7F0301AD,0x7F0301C7,0x7F0301C8,0x7F0301C9,0x7F0301CA,0x7F0301D1,0x7F0301D3,0x7F0301D4,0x7F0301D5,0x7F0301D6,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0301DB,0x7F0301DC }
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030021,0x7F030031,0x7F030032,0x7F030033,0x7F030034,0x7F03003A,0x7F03004E,0x7F03005C,0x7F03005D,0x7F03005E,0x7F03005F,0x7F030060,0x7F030064,0x7F030065,0x7F03006F,0x7F030074,0x7F030094,0x7F030095,0x7F030096,0x7F030097,0x7F030098,0x7F030099,0x7F03009A,0x7F03009B,0x7F03009C,0x7F03009E,0x7F0300AD,0x7F0300B6,0x7F0300B7,0x7F0300B8,0x7F0300BB,0x7F0300BD,0x7F0300C0,0x7F0300C1,0x7F0300C2,0x7F0300C3,0x7F0300C4,0x7F0300FC,0x7F030108,0x7F03012B,0x7F03012C,0x7F03012F,0x7F030130,0x7F030131,0x7F030132,0x7F030133,0x7F030134,0x7F030135,0x7F03014B,0x7F03014C,0x7F03014D,0x7F030155,0x7F030157,0x7F030162,0x7F030163,0x7F030164,0x7F030165,0x7F030179,0x7F03017A,0x7F03017B,0x7F03017C,0x7F030189,0x7F03018A,0x7F0301A0,0x7F0301C7,0x7F0301C8,0x7F0301C9,0x7F0301CA,0x7F0301CC,0x7F0301CD,0x7F0301CE,0x7F0301CF,0x7F0301D2,0x7F0301D3,0x7F0301ED,0x7F0301EE,0x7F0301EF,0x7F0301F0,0x7F0301F8,0x7F0301FA,0x7F0301FB,0x7F0301FC,0x7F0301FD,0x7F0301FE,0x7F0301FF,0x7F030200,0x7F030201,0x7F030202,0x7F030203 }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
@@ -18840,94 +23687,94 @@ namespace PerboyreApp.Droid
 					2130903069,
 					2130903070,
 					2130903073,
-					2130903074,
-					2130903075,
-					2130903076,
-					2130903077,
-					2130903083,
-					2130903102,
-					2130903116,
-					2130903117,
+					2130903089,
+					2130903090,
+					2130903091,
+					2130903092,
+					2130903098,
 					2130903118,
-					2130903119,
-					2130903120,
-					2130903124,
-					2130903125,
+					2130903132,
+					2130903133,
+					2130903134,
 					2130903135,
+					2130903136,
 					2130903140,
-					2130903172,
-					2130903173,
-					2130903174,
-					2130903175,
-					2130903176,
-					2130903177,
-					2130903178,
-					2130903179,
-					2130903180,
-					2130903182,
-					2130903197,
-					2130903206,
-					2130903207,
-					2130903208,
-					2130903211,
+					2130903141,
+					2130903151,
+					2130903156,
+					2130903188,
+					2130903189,
+					2130903190,
+					2130903191,
+					2130903192,
+					2130903193,
+					2130903194,
+					2130903195,
+					2130903196,
+					2130903198,
 					2130903213,
-					2130903216,
-					2130903217,
-					2130903218,
-					2130903219,
-					2130903220,
-					2130903273,
-					2130903285,
-					2130903320,
-					2130903321,
-					2130903324,
-					2130903325,
-					2130903326,
-					2130903327,
-					2130903328,
-					2130903329,
-					2130903330,
-					2130903351,
-					2130903352,
-					2130903353,
-					2130903359,
-					2130903361,
-					2130903368,
-					2130903369,
-					2130903370,
+					2130903222,
+					2130903223,
+					2130903224,
+					2130903227,
+					2130903229,
+					2130903232,
+					2130903233,
+					2130903234,
+					2130903235,
+					2130903236,
+					2130903292,
+					2130903304,
+					2130903339,
+					2130903340,
+					2130903343,
+					2130903344,
+					2130903345,
+					2130903346,
+					2130903347,
+					2130903348,
+					2130903349,
 					2130903371,
-					2130903379,
-					2130903380,
+					2130903372,
+					2130903373,
 					2130903381,
-					2130903382,
+					2130903383,
+					2130903394,
 					2130903395,
 					2130903396,
+					2130903397,
+					2130903417,
 					2130903418,
-					2130903457,
-					2130903458,
-					2130903459,
-					2130903460,
-					2130903462,
-					2130903463,
-					2130903464,
-					2130903465,
-					2130903468,
-					2130903469,
+					2130903419,
+					2130903420,
+					2130903433,
+					2130903434,
+					2130903456,
 					2130903495,
 					2130903496,
 					2130903497,
 					2130903498,
-					2130903505,
+					2130903500,
+					2130903501,
+					2130903502,
+					2130903503,
+					2130903506,
 					2130903507,
-					2130903508,
-					2130903509,
-					2130903510,
-					2130903511,
-					2130903512,
-					2130903513,
-					2130903514,
-					2130903515,
-					2130903516};
+					2130903533,
+					2130903534,
+					2130903535,
+					2130903536,
+					2130903544,
+					2130903546,
+					2130903547,
+					2130903548,
+					2130903549,
+					2130903550,
+					2130903551,
+					2130903552,
+					2130903553,
+					2130903554,
+					2130903555};
 			
 			// aapt resource value: 2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -19292,14 +24139,14 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 120
 			public const int AppCompatTheme_windowNoTitle = 120;
 			
-			// aapt resource value: { 0x7F030034,0x7F0300C3,0x7F0300C4,0x7F0300C5,0x7F0300C6,0x7F0300E5 }
+			// aapt resource value: { 0x7F030044,0x7F0300D3,0x7F0300D4,0x7F0300D5,0x7F0300D6,0x7F0300F8 }
 			public static int[] BottomAppBar = new int[] {
-					2130903092,
-					2130903235,
-					2130903236,
-					2130903237,
-					2130903238,
-					2130903269};
+					2130903108,
+					2130903251,
+					2130903252,
+					2130903253,
+					2130903254,
+					2130903288};
 			
 			// aapt resource value: 0
 			public const int BottomAppBar_backgroundTint = 0;
@@ -19319,18 +24166,18 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 5
 			public const int BottomAppBar_hideOnScroll = 5;
 			
-			// aapt resource value: { 0x7F0300B5,0x7F0300FA,0x7F0300FC,0x7F0300FE,0x7F0300FF,0x7F030103,0x7F030104,0x7F030105,0x7F030107,0x7F03012B }
+			// aapt resource value: { 0x7F0300C5,0x7F03010D,0x7F03010F,0x7F030111,0x7F030112,0x7F030116,0x7F030117,0x7F030118,0x7F03011A,0x7F03013E }
 			public static int[] BottomNavigationView = new int[] {
-					2130903221,
-					2130903290,
-					2130903292,
-					2130903294,
-					2130903295,
-					2130903299,
-					2130903300,
-					2130903301,
-					2130903303,
-					2130903339};
+					2130903237,
+					2130903309,
+					2130903311,
+					2130903313,
+					2130903314,
+					2130903318,
+					2130903319,
+					2130903320,
+					2130903322,
+					2130903358};
 			
 			// aapt resource value: 0
 			public const int BottomNavigationView_elevation = 0;
@@ -19362,12 +24209,12 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 9
 			public const int BottomNavigationView_menu = 9;
 			
-			// aapt resource value: { 0x7F030038,0x7F030039,0x7F03003B,0x7F03003C }
+			// aapt resource value: { 0x7F030048,0x7F030049,0x7F03004B,0x7F03004C }
 			public static int[] BottomSheetBehavior_Layout = new int[] {
-					2130903096,
-					2130903097,
-					2130903099,
-					2130903100};
+					2130903112,
+					2130903113,
+					2130903115,
+					2130903116};
 			
 			// aapt resource value: 0
 			public const int BottomSheetBehavior_Layout_behavior_fitToContents = 0;
@@ -19381,28 +24228,28 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 3
 			public const int BottomSheetBehavior_Layout_behavior_skipCollapsed = 3;
 			
-			// aapt resource value: { 0x7F030026 }
+			// aapt resource value: { 0x7F030035 }
 			public static int[] ButtonBarLayout = new int[] {
-					2130903078};
+					2130903093};
 			
 			// aapt resource value: 0
 			public const int ButtonBarLayout_allowStacking = 0;
 			
-			// aapt resource value: { 0x101013F,0x1010140,0x7F030058,0x7F030059,0x7F03005A,0x7F03005B,0x7F03005C,0x7F03005D,0x7F030097,0x7F030098,0x7F030099,0x7F03009A,0x7F03009B }
+			// aapt resource value: { 0x101013F,0x1010140,0x7F030068,0x7F030069,0x7F03006A,0x7F03006B,0x7F03006C,0x7F03006D,0x7F0300A7,0x7F0300A8,0x7F0300A9,0x7F0300AA,0x7F0300AB }
 			public static int[] CardView = new int[] {
 					16843071,
 					16843072,
-					2130903128,
-					2130903129,
-					2130903130,
-					2130903131,
-					2130903132,
-					2130903133,
-					2130903191,
-					2130903192,
-					2130903193,
-					2130903194,
-					2130903195};
+					2130903144,
+					2130903145,
+					2130903146,
+					2130903147,
+					2130903148,
+					2130903149,
+					2130903207,
+					2130903208,
+					2130903209,
+					2130903210,
+					2130903211};
 			
 			// aapt resource value: 1
 			public const int CardView_android_minHeight = 1;
@@ -19443,51 +24290,51 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 12
 			public const int CardView_contentPaddingTop = 12;
 			
-			// aapt resource value: { 0x1010034,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030061,0x7F030062,0x7F030063,0x7F030065,0x7F030066,0x7F030067,0x7F030069,0x7F03006A,0x7F03006B,0x7F03006C,0x7F03006D,0x7F03006E,0x7F030073,0x7F030074,0x7F030075,0x7F030077,0x7F030078,0x7F030079,0x7F03007A,0x7F03007B,0x7F03007C,0x7F03007D,0x7F0300E3,0x7F0300ED,0x7F0300F1,0x7F03014D,0x7F030159,0x7F0301AE,0x7F0301B0 }
+			// aapt resource value: { 0x1010034,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030071,0x7F030072,0x7F030073,0x7F030075,0x7F030076,0x7F030077,0x7F030079,0x7F03007A,0x7F03007B,0x7F03007C,0x7F03007D,0x7F03007E,0x7F030083,0x7F030084,0x7F030085,0x7F030087,0x7F030088,0x7F030089,0x7F03008A,0x7F03008B,0x7F03008C,0x7F03008D,0x7F0300F6,0x7F030100,0x7F030104,0x7F030169,0x7F03017F,0x7F0301D4,0x7F0301D6 }
 			public static int[] Chip = new int[] {
 					16842804,
 					16842923,
 					16843039,
 					16843087,
 					16843237,
-					2130903137,
-					2130903138,
-					2130903139,
-					2130903141,
-					2130903142,
-					2130903143,
-					2130903145,
-					2130903146,
-					2130903147,
-					2130903148,
-					2130903149,
-					2130903150,
+					2130903153,
+					2130903154,
 					2130903155,
-					2130903156,
 					2130903157,
+					2130903158,
 					2130903159,
-					2130903160,
 					2130903161,
 					2130903162,
 					2130903163,
 					2130903164,
 					2130903165,
-					2130903267,
-					2130903277,
-					2130903281,
-					2130903373,
-					2130903385,
-					2130903470,
-					2130903472};
+					2130903166,
+					2130903171,
+					2130903172,
+					2130903173,
+					2130903175,
+					2130903176,
+					2130903177,
+					2130903178,
+					2130903179,
+					2130903180,
+					2130903181,
+					2130903286,
+					2130903296,
+					2130903300,
+					2130903401,
+					2130903423,
+					2130903508,
+					2130903510};
 			
-			// aapt resource value: { 0x7F030060,0x7F03006F,0x7F030070,0x7F030071,0x7F03015D,0x7F03015E }
+			// aapt resource value: { 0x7F030070,0x7F03007F,0x7F030080,0x7F030081,0x7F030183,0x7F030184 }
 			public static int[] ChipGroup = new int[] {
-					2130903136,
-					2130903151,
 					2130903152,
-					2130903153,
-					2130903389,
-					2130903390};
+					2130903167,
+					2130903168,
+					2130903169,
+					2130903427,
+					2130903428};
 			
 			// aapt resource value: 0
 			public const int ChipGroup_checkedChip = 0;
@@ -19609,24 +24456,24 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 33
 			public const int Chip_textStartPadding = 33;
 			
-			// aapt resource value: { 0x7F030081,0x7F030082,0x7F03009C,0x7F0300BC,0x7F0300BD,0x7F0300BE,0x7F0300BF,0x7F0300C0,0x7F0300C1,0x7F0300C2,0x7F03014E,0x7F030150,0x7F03016E,0x7F0301BB,0x7F0301BC,0x7F0301C6 }
+			// aapt resource value: { 0x7F030091,0x7F030092,0x7F0300AC,0x7F0300CC,0x7F0300CD,0x7F0300CE,0x7F0300CF,0x7F0300D0,0x7F0300D1,0x7F0300D2,0x7F030174,0x7F030176,0x7F030194,0x7F0301E1,0x7F0301E2,0x7F0301EC }
 			public static int[] CollapsingToolbarLayout = new int[] {
-					2130903169,
-					2130903170,
-					2130903196,
-					2130903228,
-					2130903229,
-					2130903230,
-					2130903231,
-					2130903232,
-					2130903233,
-					2130903234,
-					2130903374,
-					2130903376,
-					2130903406,
-					2130903483,
-					2130903484,
-					2130903494};
+					2130903185,
+					2130903186,
+					2130903212,
+					2130903244,
+					2130903245,
+					2130903246,
+					2130903247,
+					2130903248,
+					2130903249,
+					2130903250,
+					2130903412,
+					2130903414,
+					2130903444,
+					2130903521,
+					2130903522,
+					2130903532};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 0;
@@ -19658,10 +24505,10 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 9
 			public const int CollapsingToolbarLayout_expandedTitleTextAppearance = 9;
 			
-			// aapt resource value: { 0x7F03010E,0x7F03010F }
+			// aapt resource value: { 0x7F030121,0x7F030122 }
 			public static int[] CollapsingToolbarLayout_Layout = new int[] {
-					2130903310,
-					2130903311};
+					2130903329,
+					2130903330};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
@@ -19687,11 +24534,11 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 15
 			public const int CollapsingToolbarLayout_toolbarId = 15;
 			
-			// aapt resource value: { 0x10101A5,0x101031F,0x7F030027 }
+			// aapt resource value: { 0x10101A5,0x101031F,0x7F030036 }
 			public static int[] ColorStateListItem = new int[] {
 					16843173,
 					16843551,
-					2130903079};
+					2130903094};
 			
 			// aapt resource value: 2
 			public const int ColorStateListItem_alpha = 2;
@@ -19702,11 +24549,11 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 0
 			public const int ColorStateListItem_android_color = 0;
 			
-			// aapt resource value: { 0x1010107,0x7F030056,0x7F030057 }
+			// aapt resource value: { 0x1010107,0x7F030066,0x7F030067 }
 			public static int[] CompoundButton = new int[] {
 					16843015,
-					2130903126,
-					2130903127};
+					2130903142,
+					2130903143};
 			
 			// aapt resource value: 0
 			public const int CompoundButton_android_button = 0;
@@ -19717,23 +24564,23 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 2
 			public const int CompoundButton_buttonTintMode = 2;
 			
-			// aapt resource value: { 0x7F030106,0x7F03016D }
+			// aapt resource value: { 0x7F030119,0x7F030193 }
 			public static int[] CoordinatorLayout = new int[] {
-					2130903302,
-					2130903405};
+					2130903321,
+					2130903443};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_keylines = 0;
 			
-			// aapt resource value: { 0x10100B3,0x7F03010B,0x7F03010C,0x7F03010D,0x7F030110,0x7F030111,0x7F030112 }
+			// aapt resource value: { 0x10100B3,0x7F03011E,0x7F03011F,0x7F030120,0x7F030123,0x7F030124,0x7F030125 }
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
-					2130903307,
-					2130903308,
-					2130903309,
-					2130903312,
-					2130903313,
-					2130903314};
+					2130903326,
+					2130903327,
+					2130903328,
+					2130903331,
+					2130903332,
+					2130903333};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_Layout_android_layout_gravity = 0;
@@ -19759,10 +24606,10 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 1
 			public const int CoordinatorLayout_statusBarBackground = 1;
 			
-			// aapt resource value: { 0x7F030041,0x7F030042 }
+			// aapt resource value: { 0x7F030051,0x7F030052 }
 			public static int[] DesignTheme = new int[] {
-					2130903105,
-					2130903106};
+					2130903121,
+					2130903122};
 			
 			// aapt resource value: 0
 			public const int DesignTheme_bottomSheetDialogTheme = 0;
@@ -19770,16 +24617,16 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 1
 			public const int DesignTheme_bottomSheetStyle = 1;
 			
-			// aapt resource value: { 0x7F030029,0x7F03002A,0x7F030036,0x7F030083,0x7F0300AE,0x7F0300DC,0x7F030162,0x7F0301B2 }
+			// aapt resource value: { 0x7F030038,0x7F030039,0x7F030046,0x7F030093,0x7F0300BE,0x7F0300EF,0x7F030188,0x7F0301D8 }
 			public static int[] DrawerArrowToggle = new int[] {
-					2130903081,
-					2130903082,
-					2130903094,
-					2130903171,
-					2130903214,
-					2130903260,
-					2130903394,
-					2130903474};
+					2130903096,
+					2130903097,
+					2130903110,
+					2130903187,
+					2130903230,
+					2130903279,
+					2130903432,
+					2130903512};
 			
 			// aapt resource value: 0
 			public const int DrawerArrowToggle_arrowHeadLength = 0;
@@ -19805,21 +24652,21 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 7
 			public const int DrawerArrowToggle_thickness = 7;
 			
-			// aapt resource value: { 0x7F030034,0x7F030035,0x7F03003D,0x7F0300B5,0x7F0300C7,0x7F0300C8,0x7F0300E3,0x7F0300EB,0x7F030129,0x7F030143,0x7F03014D,0x7F030159,0x7F0301D0 }
+			// aapt resource value: { 0x7F030044,0x7F030045,0x7F03004D,0x7F0300C5,0x7F0300D7,0x7F0300D8,0x7F0300F6,0x7F0300FE,0x7F03013C,0x7F03015A,0x7F030169,0x7F03017F,0x7F0301F6 }
 			public static int[] FloatingActionButton = new int[] {
-					2130903092,
-					2130903093,
-					2130903101,
-					2130903221,
-					2130903239,
-					2130903240,
-					2130903267,
-					2130903275,
-					2130903337,
-					2130903363,
-					2130903373,
-					2130903385,
-					2130903504};
+					2130903108,
+					2130903109,
+					2130903117,
+					2130903237,
+					2130903255,
+					2130903256,
+					2130903286,
+					2130903294,
+					2130903356,
+					2130903386,
+					2130903401,
+					2130903423,
+					2130903542};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_backgroundTint = 0;
@@ -19827,9 +24674,9 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 1
 			public const int FloatingActionButton_backgroundTintMode = 1;
 			
-			// aapt resource value: { 0x7F030037 }
+			// aapt resource value: { 0x7F030047 }
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
-					2130903095};
+					2130903111};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 0;
@@ -19867,10 +24714,10 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 12
 			public const int FloatingActionButton_useCompatPadding = 12;
 			
-			// aapt resource value: { 0x7F030101,0x7F030117 }
+			// aapt resource value: { 0x7F030114,0x7F03012A }
 			public static int[] FlowLayout = new int[] {
-					2130903297,
-					2130903319};
+					2130903316,
+					2130903338};
 			
 			// aapt resource value: 0
 			public const int FlowLayout_itemSpacing = 0;
@@ -19878,27 +24725,27 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 1
 			public const int FlowLayout_lineSpacing = 1;
 			
-			// aapt resource value: { 0x7F0300D2,0x7F0300D3,0x7F0300D4,0x7F0300D5,0x7F0300D6,0x7F0300D7 }
+			// aapt resource value: { 0x7F0300E5,0x7F0300E6,0x7F0300E7,0x7F0300E8,0x7F0300E9,0x7F0300EA }
 			public static int[] FontFamily = new int[] {
-					2130903250,
-					2130903251,
-					2130903252,
-					2130903253,
-					2130903254,
-					2130903255};
+					2130903269,
+					2130903270,
+					2130903271,
+					2130903272,
+					2130903273,
+					2130903274};
 			
-			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F0300D0,0x7F0300D8,0x7F0300D9,0x7F0300DA,0x7F0301CF }
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F0300E3,0x7F0300EB,0x7F0300EC,0x7F0300ED,0x7F0301F5 }
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844083,
 					16844095,
 					16844143,
 					16844144,
-					2130903248,
-					2130903256,
-					2130903257,
-					2130903258,
-					2130903503};
+					2130903267,
+					2130903275,
+					2130903276,
+					2130903277,
+					2130903541};
 			
 			// aapt resource value: 0
 			public const int FontFamilyFont_android_font = 0;
@@ -19948,11 +24795,11 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 5
 			public const int FontFamily_fontProviderQuery = 5;
 			
-			// aapt resource value: { 0x1010109,0x1010200,0x7F0300DB }
+			// aapt resource value: { 0x1010109,0x1010200,0x7F0300EE }
 			public static int[] ForegroundLinearLayout = new int[] {
 					16843017,
 					16843264,
-					2130903259};
+					2130903278};
 			
 			// aapt resource value: 0
 			public const int ForegroundLinearLayout_android_foreground = 0;
@@ -19962,6 +24809,109 @@ namespace PerboyreApp.Droid
 			
 			// aapt resource value: 2
 			public const int ForegroundLinearLayout_foregroundInsidePadding = 2;
+			
+			// aapt resource value: { 0x7F030023,0x7F030041,0x7F0300D9,0x7F0300DA,0x7F0300DB,0x7F030146,0x7F030153,0x7F030154,0x7F030159,0x7F03015B,0x7F03015C,0x7F03015D,0x7F030166,0x7F030167,0x7F03016A,0x7F03016B,0x7F03016C,0x7F03016D,0x7F03016E,0x7F03016F,0x7F030170,0x7F030171,0x7F030172,0x7F030173,0x7F0301F7 }
+			public static int[] GenericDraweeHierarchy = new int[] {
+					2130903075,
+					2130903105,
+					2130903257,
+					2130903258,
+					2130903259,
+					2130903366,
+					2130903379,
+					2130903380,
+					2130903385,
+					2130903387,
+					2130903388,
+					2130903389,
+					2130903398,
+					2130903399,
+					2130903402,
+					2130903403,
+					2130903404,
+					2130903405,
+					2130903406,
+					2130903407,
+					2130903408,
+					2130903409,
+					2130903410,
+					2130903411,
+					2130903543};
+			
+			// aapt resource value: 0
+			public const int GenericDraweeHierarchy_actualImageScaleType = 0;
+			
+			// aapt resource value: 1
+			public const int GenericDraweeHierarchy_backgroundImage = 1;
+			
+			// aapt resource value: 2
+			public const int GenericDraweeHierarchy_fadeDuration = 2;
+			
+			// aapt resource value: 3
+			public const int GenericDraweeHierarchy_failureImage = 3;
+			
+			// aapt resource value: 4
+			public const int GenericDraweeHierarchy_failureImageScaleType = 4;
+			
+			// aapt resource value: 5
+			public const int GenericDraweeHierarchy_overlayImage = 5;
+			
+			// aapt resource value: 6
+			public const int GenericDraweeHierarchy_placeholderImage = 6;
+			
+			// aapt resource value: 7
+			public const int GenericDraweeHierarchy_placeholderImageScaleType = 7;
+			
+			// aapt resource value: 8
+			public const int GenericDraweeHierarchy_pressedStateOverlayImage = 8;
+			
+			// aapt resource value: 9
+			public const int GenericDraweeHierarchy_progressBarAutoRotateInterval = 9;
+			
+			// aapt resource value: 10
+			public const int GenericDraweeHierarchy_progressBarImage = 10;
+			
+			// aapt resource value: 11
+			public const int GenericDraweeHierarchy_progressBarImageScaleType = 11;
+			
+			// aapt resource value: 12
+			public const int GenericDraweeHierarchy_retryImage = 12;
+			
+			// aapt resource value: 13
+			public const int GenericDraweeHierarchy_retryImageScaleType = 13;
+			
+			// aapt resource value: 14
+			public const int GenericDraweeHierarchy_roundAsCircle = 14;
+			
+			// aapt resource value: 15
+			public const int GenericDraweeHierarchy_roundBottomLeft = 15;
+			
+			// aapt resource value: 16
+			public const int GenericDraweeHierarchy_roundBottomRight = 16;
+			
+			// aapt resource value: 20
+			public const int GenericDraweeHierarchy_roundedCornerRadius = 20;
+			
+			// aapt resource value: 21
+			public const int GenericDraweeHierarchy_roundingBorderColor = 21;
+			
+			// aapt resource value: 22
+			public const int GenericDraweeHierarchy_roundingBorderPadding = 22;
+			
+			// aapt resource value: 23
+			public const int GenericDraweeHierarchy_roundingBorderWidth = 23;
+			
+			// aapt resource value: 17
+			public const int GenericDraweeHierarchy_roundTopLeft = 17;
+			
+			// aapt resource value: 18
+			public const int GenericDraweeHierarchy_roundTopRight = 18;
+			
+			// aapt resource value: 19
+			public const int GenericDraweeHierarchy_roundWithOverlayColor = 19;
+			
+			// aapt resource value: 24
+			public const int GenericDraweeHierarchy_viewAspectRatio = 24;
 			
 			// aapt resource value: { 0x101019D,0x101019E,0x10101A1,0x10101A2,0x10101A3,0x10101A4,0x1010201,0x101020B,0x1010510,0x1010511,0x1010512,0x1010513 }
 			public static int[] GradientColor = new int[] {
@@ -20025,17 +24975,17 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 2
 			public const int GradientColor_android_type = 2;
 			
-			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300AA,0x7F0300AC,0x7F03012A,0x7F030158 }
+			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300BA,0x7F0300BC,0x7F03013D,0x7F03017E }
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
 					16843046,
 					16843047,
 					16843048,
-					2130903210,
-					2130903212,
-					2130903338,
-					2130903384};
+					2130903226,
+					2130903228,
+					2130903357,
+					2130903422};
 			
 			// aapt resource value: 2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -20094,24 +25044,24 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
-			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F030034,0x7F030035,0x7F03009F,0x7F0300EC,0x7F0300EE,0x7F0300EF,0x7F0300F0,0x7F0300F2,0x7F0300F3,0x7F03014D,0x7F03016F,0x7F030170 }
+			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F030044,0x7F030045,0x7F0300AF,0x7F0300FF,0x7F030101,0x7F030102,0x7F030103,0x7F030105,0x7F030106,0x7F030169,0x7F030195,0x7F030196 }
 			public static int[] MaterialButton = new int[] {
 					16843191,
 					16843192,
 					16843193,
 					16843194,
-					2130903092,
-					2130903093,
-					2130903199,
-					2130903276,
-					2130903278,
-					2130903279,
-					2130903280,
-					2130903282,
-					2130903283,
-					2130903373,
-					2130903407,
-					2130903408};
+					2130903108,
+					2130903109,
+					2130903215,
+					2130903295,
+					2130903297,
+					2130903298,
+					2130903299,
+					2130903301,
+					2130903302,
+					2130903401,
+					2130903445,
+					2130903446};
 			
 			// aapt resource value: 3
 			public const int MaterialButton_android_insetBottom = 3;
@@ -20161,10 +25111,10 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 15
 			public const int MaterialButton_strokeWidth = 15;
 			
-			// aapt resource value: { 0x7F03016F,0x7F030170 }
+			// aapt resource value: { 0x7F030195,0x7F030196 }
 			public static int[] MaterialCardView = new int[] {
-					2130903407,
-					2130903408};
+					2130903445,
+					2130903446};
 			
 			// aapt resource value: 0
 			public const int MaterialCardView_strokeColor = 0;
@@ -20172,40 +25122,40 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 1
 			public const int MaterialCardView_strokeWidth = 1;
 			
-			// aapt resource value: { 0x7F030041,0x7F030042,0x7F030068,0x7F030072,0x7F030076,0x7F030084,0x7F030085,0x7F03008B,0x7F03008C,0x7F03008D,0x7F0300B4,0x7F0300CF,0x7F030125,0x7F030126,0x7F030130,0x7F03014F,0x7F03015F,0x7F030192,0x7F030197,0x7F030198,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A5,0x7F0301AA,0x7F0301AB,0x7F0301AF }
+			// aapt resource value: { 0x7F030051,0x7F030052,0x7F030078,0x7F030082,0x7F030086,0x7F030094,0x7F030095,0x7F03009B,0x7F03009C,0x7F03009D,0x7F0300C4,0x7F0300E2,0x7F030138,0x7F030139,0x7F030143,0x7F030175,0x7F030185,0x7F0301B8,0x7F0301BD,0x7F0301BE,0x7F0301BF,0x7F0301C0,0x7F0301C1,0x7F0301C2,0x7F0301C3,0x7F0301C4,0x7F0301C5,0x7F0301C6,0x7F0301CB,0x7F0301D0,0x7F0301D1,0x7F0301D5 }
 			public static int[] MaterialComponentsTheme = new int[] {
-					2130903105,
-					2130903106,
-					2130903144,
-					2130903154,
-					2130903158,
-					2130903172,
-					2130903173,
-					2130903179,
-					2130903180,
-					2130903181,
-					2130903220,
-					2130903247,
-					2130903333,
-					2130903334,
-					2130903344,
-					2130903375,
-					2130903391,
-					2130903442,
-					2130903447,
-					2130903448,
-					2130903449,
-					2130903450,
-					2130903451,
-					2130903452,
-					2130903453,
-					2130903454,
-					2130903455,
-					2130903456,
-					2130903461,
-					2130903466,
-					2130903467,
-					2130903471};
+					2130903121,
+					2130903122,
+					2130903160,
+					2130903170,
+					2130903174,
+					2130903188,
+					2130903189,
+					2130903195,
+					2130903196,
+					2130903197,
+					2130903236,
+					2130903266,
+					2130903352,
+					2130903353,
+					2130903363,
+					2130903413,
+					2130903429,
+					2130903480,
+					2130903485,
+					2130903486,
+					2130903487,
+					2130903488,
+					2130903489,
+					2130903490,
+					2130903491,
+					2130903492,
+					2130903493,
+					2130903494,
+					2130903499,
+					2130903504,
+					2130903505,
+					2130903509};
 			
 			// aapt resource value: 0
 			public const int MaterialComponentsTheme_bottomSheetDialogTheme = 0;
@@ -20330,7 +25280,7 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 2
 			public const int MenuGroup_android_visible = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030020,0x7F030028,0x7F030090,0x7F0300F2,0x7F0300F3,0x7F030131,0x7F030157,0x7F0301CB }
+			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030020,0x7F030037,0x7F0300A0,0x7F030105,0x7F030106,0x7F030144,0x7F03017D,0x7F0301F1 }
 			public static int[] MenuItem = new int[] {
 					16842754,
 					16842766,
@@ -20348,13 +25298,13 @@ namespace PerboyreApp.Droid
 					2130903053,
 					2130903071,
 					2130903072,
-					2130903080,
-					2130903184,
-					2130903282,
-					2130903283,
-					2130903345,
-					2130903383,
-					2130903499};
+					2130903095,
+					2130903200,
+					2130903301,
+					2130903302,
+					2130903364,
+					2130903421,
+					2130903537};
 			
 			// aapt resource value: 13
 			public const int MenuItem_actionLayout = 13;
@@ -20425,7 +25375,7 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 22
 			public const int MenuItem_tooltipText = 22;
 			
-			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F030142,0x7F030171 }
+			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F030158,0x7F030197 }
 			public static int[] MenuView = new int[] {
 					16842926,
 					16843052,
@@ -20434,8 +25384,8 @@ namespace PerboyreApp.Droid
 					16843055,
 					16843056,
 					16843057,
-					2130903362,
-					2130903409};
+					2130903384,
+					2130903447};
 			
 			// aapt resource value: 4
 			public const int MenuView_android_headerBackground = 4;
@@ -20464,20 +25414,20 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 8
 			public const int MenuView_subMenuArrow = 8;
 			
-			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0300B5,0x7F0300DE,0x7F0300FA,0x7F0300FB,0x7F0300FD,0x7F0300FF,0x7F030102,0x7F030105,0x7F03012B }
+			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0300C5,0x7F0300F1,0x7F03010D,0x7F03010E,0x7F030110,0x7F030112,0x7F030115,0x7F030118,0x7F03013E }
 			public static int[] NavigationView = new int[] {
 					16842964,
 					16842973,
 					16843039,
-					2130903221,
-					2130903262,
-					2130903290,
-					2130903291,
-					2130903293,
-					2130903295,
-					2130903298,
-					2130903301,
-					2130903339};
+					2130903237,
+					2130903281,
+					2130903309,
+					2130903310,
+					2130903312,
+					2130903314,
+					2130903317,
+					2130903320,
+					2130903358};
 			
 			// aapt resource value: 0
 			public const int NavigationView_android_background = 0;
@@ -20515,15 +25465,15 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 11
 			public const int NavigationView_menu = 11;
 			
-			// aapt resource value: { 0x1010176,0x10102C9,0x7F030132 }
+			// aapt resource value: { 0x1010176,0x10102C9,0x7F030145 }
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					16843465,
-					2130903346};
+					2130903365};
 			
-			// aapt resource value: { 0x7F030168 }
+			// aapt resource value: { 0x7F03018E }
 			public static int[] PopupWindowBackgroundState = new int[] {
-					2130903400};
+					2130903438};
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
@@ -20537,10 +25487,61 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 2
 			public const int PopupWindow_overlapAnchor = 2;
 			
-			// aapt resource value: { 0x7F030133,0x7F030136 }
+			// aapt resource value: { 0x7F030025,0x7F030026,0x7F030027,0x7F030028,0x7F030029,0x7F03002A,0x7F03002B,0x7F03002C,0x7F03002D,0x7F03002E,0x7F03002F,0x7F030030 }
+			public static int[] ProgressWheel = new int[] {
+					2130903077,
+					2130903078,
+					2130903079,
+					2130903080,
+					2130903081,
+					2130903082,
+					2130903083,
+					2130903084,
+					2130903085,
+					2130903086,
+					2130903087,
+					2130903088};
+			
+			// aapt resource value: 0
+			public const int ProgressWheel_ahBarColor = 0;
+			
+			// aapt resource value: 1
+			public const int ProgressWheel_ahBarLength = 1;
+			
+			// aapt resource value: 2
+			public const int ProgressWheel_ahBarWidth = 2;
+			
+			// aapt resource value: 3
+			public const int ProgressWheel_ahCircleColor = 3;
+			
+			// aapt resource value: 4
+			public const int ProgressWheel_ahDelayMillis = 4;
+			
+			// aapt resource value: 5
+			public const int ProgressWheel_ahRadius = 5;
+			
+			// aapt resource value: 6
+			public const int ProgressWheel_ahRimColor = 6;
+			
+			// aapt resource value: 7
+			public const int ProgressWheel_ahRimWidth = 7;
+			
+			// aapt resource value: 8
+			public const int ProgressWheel_ahSpinSpeed = 8;
+			
+			// aapt resource value: 9
+			public const int ProgressWheel_ahText = 9;
+			
+			// aapt resource value: 10
+			public const int ProgressWheel_ahTextColor = 10;
+			
+			// aapt resource value: 11
+			public const int ProgressWheel_ahTextSize = 11;
+			
+			// aapt resource value: { 0x7F030147,0x7F03014A }
 			public static int[] RecycleListView = new int[] {
-					2130903347,
-					2130903350};
+					2130903367,
+					2130903370};
 			
 			// aapt resource value: 0
 			public const int RecycleListView_paddingBottomNoButtons = 0;
@@ -20548,19 +25549,19 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 1
 			public const int RecycleListView_paddingTopNoTitle = 1;
 			
-			// aapt resource value: { 0x10100C4,0x10100F1,0x7F0300C9,0x7F0300CA,0x7F0300CB,0x7F0300CC,0x7F0300CD,0x7F03010A,0x7F03014C,0x7F030161,0x7F030167 }
+			// aapt resource value: { 0x10100C4,0x10100F1,0x7F0300DC,0x7F0300DD,0x7F0300DE,0x7F0300DF,0x7F0300E0,0x7F03011D,0x7F030168,0x7F030187,0x7F03018D }
 			public static int[] RecyclerView = new int[] {
 					16842948,
 					16842993,
-					2130903241,
-					2130903242,
-					2130903243,
-					2130903244,
-					2130903245,
-					2130903306,
-					2130903372,
-					2130903393,
-					2130903399};
+					2130903260,
+					2130903261,
+					2130903262,
+					2130903263,
+					2130903264,
+					2130903325,
+					2130903400,
+					2130903431,
+					2130903437};
 			
 			// aapt resource value: 1
 			public const int RecyclerView_android_descendantFocusability = 1;
@@ -20595,39 +25596,39 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 10
 			public const int RecyclerView_stackFromEnd = 10;
 			
-			// aapt resource value: { 0x7F0300F8 }
+			// aapt resource value: { 0x7F03010B }
 			public static int[] ScrimInsetsFrameLayout = new int[] {
-					2130903288};
+					2130903307};
 			
 			// aapt resource value: 0
 			public const int ScrimInsetsFrameLayout_insetForeground = 0;
 			
-			// aapt resource value: { 0x7F03003A }
+			// aapt resource value: { 0x7F03004A }
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
-					2130903098};
+					2130903114};
 			
 			// aapt resource value: 0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
 			
-			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030077,0x7F03008F,0x7F0300A5,0x7F0300DD,0x7F0300F4,0x7F030109,0x7F030146,0x7F030147,0x7F030151,0x7F030152,0x7F030172,0x7F030177,0x7F0301D2 }
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030087,0x7F03009F,0x7F0300B5,0x7F0300F0,0x7F030107,0x7F03011C,0x7F030160,0x7F030161,0x7F030177,0x7F030178,0x7F030198,0x7F03019D,0x7F0301F9 }
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
 					16843296,
 					16843364,
-					2130903159,
-					2130903183,
-					2130903205,
-					2130903261,
-					2130903284,
-					2130903305,
-					2130903366,
-					2130903367,
-					2130903377,
-					2130903378,
-					2130903410,
+					2130903175,
+					2130903199,
+					2130903221,
+					2130903280,
+					2130903303,
+					2130903324,
+					2130903392,
+					2130903393,
 					2130903415,
-					2130903506};
+					2130903416,
+					2130903448,
+					2130903453,
+					2130903545};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
@@ -20680,16 +25681,127 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 16
 			public const int SearchView_voiceIcon = 16;
 			
-			// aapt resource value: { 0x7F03015F,0x7F030160 }
-			public static int[] Snackbar = new int[] {
-					2130903391,
-					2130903392};
+			// aapt resource value: { 0x7F030022,0x7F030023,0x7F030024,0x7F030041,0x7F0300D9,0x7F0300DA,0x7F0300DB,0x7F030146,0x7F030153,0x7F030154,0x7F030159,0x7F03015B,0x7F03015C,0x7F03015D,0x7F030166,0x7F030167,0x7F03016A,0x7F03016B,0x7F03016C,0x7F03016D,0x7F03016E,0x7F03016F,0x7F030170,0x7F030171,0x7F030172,0x7F030173,0x7F0301F7 }
+			public static int[] SimpleDraweeView = new int[] {
+					2130903074,
+					2130903075,
+					2130903076,
+					2130903105,
+					2130903257,
+					2130903258,
+					2130903259,
+					2130903366,
+					2130903379,
+					2130903380,
+					2130903385,
+					2130903387,
+					2130903388,
+					2130903389,
+					2130903398,
+					2130903399,
+					2130903402,
+					2130903403,
+					2130903404,
+					2130903405,
+					2130903406,
+					2130903407,
+					2130903408,
+					2130903409,
+					2130903410,
+					2130903411,
+					2130903543};
 			
-			// aapt resource value: { 0x101011F,0x7F0300B5,0x7F030127 }
+			// aapt resource value: 0
+			public const int SimpleDraweeView_actualImageResource = 0;
+			
+			// aapt resource value: 1
+			public const int SimpleDraweeView_actualImageScaleType = 1;
+			
+			// aapt resource value: 2
+			public const int SimpleDraweeView_actualImageUri = 2;
+			
+			// aapt resource value: 3
+			public const int SimpleDraweeView_backgroundImage = 3;
+			
+			// aapt resource value: 4
+			public const int SimpleDraweeView_fadeDuration = 4;
+			
+			// aapt resource value: 5
+			public const int SimpleDraweeView_failureImage = 5;
+			
+			// aapt resource value: 6
+			public const int SimpleDraweeView_failureImageScaleType = 6;
+			
+			// aapt resource value: 7
+			public const int SimpleDraweeView_overlayImage = 7;
+			
+			// aapt resource value: 8
+			public const int SimpleDraweeView_placeholderImage = 8;
+			
+			// aapt resource value: 9
+			public const int SimpleDraweeView_placeholderImageScaleType = 9;
+			
+			// aapt resource value: 10
+			public const int SimpleDraweeView_pressedStateOverlayImage = 10;
+			
+			// aapt resource value: 11
+			public const int SimpleDraweeView_progressBarAutoRotateInterval = 11;
+			
+			// aapt resource value: 12
+			public const int SimpleDraweeView_progressBarImage = 12;
+			
+			// aapt resource value: 13
+			public const int SimpleDraweeView_progressBarImageScaleType = 13;
+			
+			// aapt resource value: 14
+			public const int SimpleDraweeView_retryImage = 14;
+			
+			// aapt resource value: 15
+			public const int SimpleDraweeView_retryImageScaleType = 15;
+			
+			// aapt resource value: 16
+			public const int SimpleDraweeView_roundAsCircle = 16;
+			
+			// aapt resource value: 17
+			public const int SimpleDraweeView_roundBottomLeft = 17;
+			
+			// aapt resource value: 18
+			public const int SimpleDraweeView_roundBottomRight = 18;
+			
+			// aapt resource value: 22
+			public const int SimpleDraweeView_roundedCornerRadius = 22;
+			
+			// aapt resource value: 23
+			public const int SimpleDraweeView_roundingBorderColor = 23;
+			
+			// aapt resource value: 24
+			public const int SimpleDraweeView_roundingBorderPadding = 24;
+			
+			// aapt resource value: 25
+			public const int SimpleDraweeView_roundingBorderWidth = 25;
+			
+			// aapt resource value: 19
+			public const int SimpleDraweeView_roundTopLeft = 19;
+			
+			// aapt resource value: 20
+			public const int SimpleDraweeView_roundTopRight = 20;
+			
+			// aapt resource value: 21
+			public const int SimpleDraweeView_roundWithOverlayColor = 21;
+			
+			// aapt resource value: 26
+			public const int SimpleDraweeView_viewAspectRatio = 26;
+			
+			// aapt resource value: { 0x7F030185,0x7F030186 }
+			public static int[] Snackbar = new int[] {
+					2130903429,
+					2130903430};
+			
+			// aapt resource value: { 0x101011F,0x7F0300C5,0x7F03013A }
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
-					2130903221,
-					2130903335};
+					2130903237,
+					2130903354};
 			
 			// aapt resource value: 0
 			public const int SnackbarLayout_android_maxWidth = 0;
@@ -20706,13 +25818,13 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 1
 			public const int Snackbar_snackbarStyle = 1;
 			
-			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F030140 }
+			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F030156 }
 			public static int[] Spinner = new int[] {
 					16842930,
 					16843126,
 					16843131,
 					16843362,
-					2130903360};
+					2130903382};
 			
 			// aapt resource value: 3
 			public const int Spinner_android_dropDownWidth = 3;
@@ -20763,22 +25875,22 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 1
 			public const int StateListDrawable_android_visible = 1;
 			
-			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F03015A,0x7F030165,0x7F030178,0x7F030179,0x7F03017B,0x7F0301B3,0x7F0301B4,0x7F0301B5,0x7F0301CC,0x7F0301CD,0x7F0301CE }
+			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F030180,0x7F03018B,0x7F03019E,0x7F03019F,0x7F0301A1,0x7F0301D9,0x7F0301DA,0x7F0301DB,0x7F0301F2,0x7F0301F3,0x7F0301F4 }
 			public static int[] SwitchCompat = new int[] {
 					16843044,
 					16843045,
 					16843074,
-					2130903386,
-					2130903397,
-					2130903416,
-					2130903417,
-					2130903419,
-					2130903475,
-					2130903476,
-					2130903477,
-					2130903500,
-					2130903501,
-					2130903502};
+					2130903424,
+					2130903435,
+					2130903454,
+					2130903455,
+					2130903457,
+					2130903513,
+					2130903514,
+					2130903515,
+					2130903538,
+					2130903539,
+					2130903540};
 			
 			// aapt resource value: 1
 			public const int SwitchCompat_android_textOff = 1;
@@ -20837,33 +25949,33 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 2
 			public const int TabItem_android_text = 2;
 			
-			// aapt resource value: { 0x7F03017C,0x7F03017D,0x7F03017E,0x7F03017F,0x7F030180,0x7F030181,0x7F030182,0x7F030183,0x7F030184,0x7F030185,0x7F030186,0x7F030187,0x7F030188,0x7F030189,0x7F03018A,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030193,0x7F030194,0x7F030195 }
+			// aapt resource value: { 0x7F0301A2,0x7F0301A3,0x7F0301A4,0x7F0301A5,0x7F0301A6,0x7F0301A7,0x7F0301A8,0x7F0301A9,0x7F0301AA,0x7F0301AB,0x7F0301AC,0x7F0301AD,0x7F0301AE,0x7F0301AF,0x7F0301B0,0x7F0301B1,0x7F0301B2,0x7F0301B3,0x7F0301B4,0x7F0301B5,0x7F0301B6,0x7F0301B7,0x7F0301B9,0x7F0301BA,0x7F0301BB }
 			public static int[] TabLayout = new int[] {
-					2130903420,
-					2130903421,
-					2130903422,
-					2130903423,
-					2130903424,
-					2130903425,
-					2130903426,
-					2130903427,
-					2130903428,
-					2130903429,
-					2130903430,
-					2130903431,
-					2130903432,
-					2130903433,
-					2130903434,
-					2130903435,
-					2130903436,
-					2130903437,
-					2130903438,
-					2130903439,
-					2130903440,
-					2130903441,
-					2130903443,
-					2130903444,
-					2130903445};
+					2130903458,
+					2130903459,
+					2130903460,
+					2130903461,
+					2130903462,
+					2130903463,
+					2130903464,
+					2130903465,
+					2130903466,
+					2130903467,
+					2130903468,
+					2130903469,
+					2130903470,
+					2130903471,
+					2130903472,
+					2130903473,
+					2130903474,
+					2130903475,
+					2130903476,
+					2130903477,
+					2130903478,
+					2130903479,
+					2130903481,
+					2130903482,
+					2130903483};
 			
 			// aapt resource value: 0
 			public const int TabLayout_tabBackground = 0;
@@ -20940,7 +26052,7 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 24
 			public const int TabLayout_tabUnboundedRipple = 24;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F0300D1,0x7F030196 }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F0300E4,0x7F0301BC }
 			public static int[] TextAppearance = new int[] {
 					16842901,
 					16842902,
@@ -20953,8 +26065,8 @@ namespace PerboyreApp.Droid
 					16843107,
 					16843108,
 					16843692,
-					2130903249,
-					2130903446};
+					2130903268,
+					2130903484};
 			
 			// aapt resource value: 10
 			public const int TextAppearance_android_fontFamily = 10;
@@ -20995,36 +26107,36 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 12
 			public const int TextAppearance_textAllCaps = 12;
 			
-			// aapt resource value: { 0x101009A,0x1010150,0x7F030043,0x7F030044,0x7F030045,0x7F030046,0x7F030047,0x7F030048,0x7F030049,0x7F03004A,0x7F03004B,0x7F0300A0,0x7F0300A1,0x7F0300A2,0x7F0300A3,0x7F0300B8,0x7F0300B9,0x7F0300E0,0x7F0300E1,0x7F0300E2,0x7F0300E6,0x7F0300E7,0x7F0300E8,0x7F03013A,0x7F03013B,0x7F03013C,0x7F03013D,0x7F03013E }
+			// aapt resource value: { 0x101009A,0x1010150,0x7F030053,0x7F030054,0x7F030055,0x7F030056,0x7F030057,0x7F030058,0x7F030059,0x7F03005A,0x7F03005B,0x7F0300B0,0x7F0300B1,0x7F0300B2,0x7F0300B3,0x7F0300C8,0x7F0300C9,0x7F0300F3,0x7F0300F4,0x7F0300F5,0x7F0300F9,0x7F0300FA,0x7F0300FB,0x7F03014E,0x7F03014F,0x7F030150,0x7F030151,0x7F030152 }
 			public static int[] TextInputLayout = new int[] {
 					16842906,
 					16843088,
-					2130903107,
-					2130903108,
-					2130903109,
-					2130903110,
-					2130903111,
-					2130903112,
-					2130903113,
-					2130903114,
-					2130903115,
-					2130903200,
-					2130903201,
-					2130903202,
-					2130903203,
-					2130903224,
-					2130903225,
-					2130903264,
-					2130903265,
-					2130903266,
-					2130903270,
-					2130903271,
-					2130903272,
-					2130903354,
-					2130903355,
-					2130903356,
-					2130903357,
-					2130903358};
+					2130903123,
+					2130903124,
+					2130903125,
+					2130903126,
+					2130903127,
+					2130903128,
+					2130903129,
+					2130903130,
+					2130903131,
+					2130903216,
+					2130903217,
+					2130903218,
+					2130903219,
+					2130903240,
+					2130903241,
+					2130903283,
+					2130903284,
+					2130903285,
+					2130903289,
+					2130903290,
+					2130903291,
+					2130903374,
+					2130903375,
+					2130903376,
+					2130903377,
+					2130903378};
 			
 			// aapt resource value: 1
 			public const int TextInputLayout_android_hint = 1;
@@ -21110,11 +26222,11 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 27
 			public const int TextInputLayout_passwordToggleTintMode = 27;
 			
-			// aapt resource value: { 0x1010034,0x7F0300B6,0x7F0300B7 }
+			// aapt resource value: { 0x1010034,0x7F0300C6,0x7F0300C7 }
 			public static int[] ThemeEnforcement = new int[] {
 					16842804,
-					2130903222,
-					2130903223};
+					2130903238,
+					2130903239};
 			
 			// aapt resource value: 0
 			public const int ThemeEnforcement_android_textAppearance = 0;
@@ -21125,37 +26237,37 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 2
 			public const int ThemeEnforcement_enforceTextAppearance = 2;
 			
-			// aapt resource value: { 0x10100AF,0x1010140,0x7F030051,0x7F03007F,0x7F030080,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030123,0x7F030124,0x7F030128,0x7F03012D,0x7F03012E,0x7F030140,0x7F030173,0x7F030174,0x7F030175,0x7F0301BB,0x7F0301BD,0x7F0301BE,0x7F0301BF,0x7F0301C0,0x7F0301C1,0x7F0301C2,0x7F0301C3,0x7F0301C4 }
+			// aapt resource value: { 0x10100AF,0x1010140,0x7F030061,0x7F03008F,0x7F030090,0x7F0300A1,0x7F0300A2,0x7F0300A3,0x7F0300A4,0x7F0300A5,0x7F0300A6,0x7F030136,0x7F030137,0x7F03013B,0x7F030140,0x7F030141,0x7F030156,0x7F030199,0x7F03019A,0x7F03019B,0x7F0301E1,0x7F0301E3,0x7F0301E4,0x7F0301E5,0x7F0301E6,0x7F0301E7,0x7F0301E8,0x7F0301E9,0x7F0301EA }
 			public static int[] Toolbar = new int[] {
 					16842927,
 					16843072,
-					2130903121,
-					2130903167,
-					2130903168,
-					2130903185,
-					2130903186,
-					2130903187,
-					2130903188,
-					2130903189,
-					2130903190,
-					2130903331,
-					2130903332,
-					2130903336,
-					2130903341,
-					2130903342,
+					2130903137,
+					2130903183,
+					2130903184,
+					2130903201,
+					2130903202,
+					2130903203,
+					2130903204,
+					2130903205,
+					2130903206,
+					2130903350,
+					2130903351,
+					2130903355,
 					2130903360,
-					2130903411,
-					2130903412,
-					2130903413,
-					2130903483,
-					2130903485,
-					2130903486,
-					2130903487,
-					2130903488,
-					2130903489,
-					2130903490,
-					2130903491,
-					2130903492};
+					2130903361,
+					2130903382,
+					2130903449,
+					2130903450,
+					2130903451,
+					2130903521,
+					2130903523,
+					2130903524,
+					2130903525,
+					2130903526,
+					2130903527,
+					2130903528,
+					2130903529,
+					2130903530};
 			
 			// aapt resource value: 0
 			public const int Toolbar_android_gravity = 0;
@@ -21244,19 +26356,19 @@ namespace PerboyreApp.Droid
 			// aapt resource value: 28
 			public const int Toolbar_titleTextColor = 28;
 			
-			// aapt resource value: { 0x1010000,0x10100DA,0x7F030134,0x7F030135,0x7F0301B1 }
+			// aapt resource value: { 0x1010000,0x10100DA,0x7F030148,0x7F030149,0x7F0301D7 }
 			public static int[] View = new int[] {
 					16842752,
 					16842970,
-					2130903348,
-					2130903349,
-					2130903473};
+					2130903368,
+					2130903369,
+					2130903511};
 			
-			// aapt resource value: { 0x10100D4,0x7F030034,0x7F030035 }
+			// aapt resource value: { 0x10100D4,0x7F030044,0x7F030045 }
 			public static int[] ViewBackgroundHelper = new int[] {
 					16842964,
-					2130903092,
-					2130903093};
+					2130903108,
+					2130903109};
 			
 			// aapt resource value: 0
 			public const int ViewBackgroundHelper_android_background = 0;

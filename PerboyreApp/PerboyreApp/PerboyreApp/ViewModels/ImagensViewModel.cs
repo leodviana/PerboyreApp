@@ -4,8 +4,10 @@ using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using Acr.UserDialogs;
 using PerboyreApp.Interfaces;
 using PerboyreApp.Models;
 using Prism.Commands;
@@ -291,7 +293,7 @@ namespace PerboyreApp.ViewModels
                 return _selecionarItem3 ?? (_selecionarItem3 = new Command<ArqImagens>(objeto =>
                 {
                     ArqImagens teste = objeto;
-
+                    
                     compartilhaImagemAsync(teste.nome_arquivo_completo);
                     // string NomeSelecionado = teste.nome_arquivo_completo;
 
@@ -301,58 +303,81 @@ namespace PerboyreApp.ViewModels
 
         private async void compartilhaImagemAsync(string nome_arquivo_completo)
         {
-
-           /* if (conectionHelper.testaConexao())
-            {
-
-                paciente pac = new paciente();
-                pac.photo = nome_arquivo_completo;
-                byte[] imagem = null;
-                using (var Dialog = UserDialogs.Instance.Loading("Compartilhando...", null, null, true, MaskType.Clear))
+            string caminho = Path.Combine(FileSystem.CacheDirectory, "teste.jpg");
+           if (InternetConnectivity())
+           {
+               
+                using( var Dialog  = UserDialogs.Instance.Loading("Compartilhando...",null,null,true,MaskType.Clear))
                 {
-                    imagem = await apiService.getExame(pac);
+                    
+                    var retorno = await apiService.DownloadFileAsync(nome_arquivo_completo);
+
+
+                    File.WriteAllBytes(caminho, retorno.ToArray());
                 }
+                
+
+                compartilhaImagem(caminho);
 
 
-                try
-                {
-                    if (imagem == null)
-                    {
-                        await PageDialogService.DisplayAlertAsync("app", "Imagem nao encontrada!", "Ok");
-                    }
-                    else
-                    {
-
-                        MemoryStream ms = new MemoryStream(imagem);
-                        Xamarin.Forms.DependencyService.Get<IFileService>().SavePicture("ImageName.jpg", ms, "Download");
-                        var filePath = Xamarin.Forms.DependencyService.Get<IFileStore>().GetFilePath();
-
-                        compartilhaImagem(filePath);
-
-                    }
-                }
-                catch (Exception ex)
-                {
-
-                }
             }
-            else
-            {
-                await PageDialogService.DisplayAlertAsync("app", "Por favor Verifique sua conexao!", "Ok");
-                IsRunning = false;
-                isVisible = false;
-
-                return;
-            }*/
         }
 
-        private void compartilhaImagem(string file)
+
+        /* private async void compartilhaImagemAsync(string nome_arquivo_completo)
+        {
+
+         if (conectionHelper.testaConexao())
+         {
+
+             paciente pac = new paciente();
+             pac.photo = nome_arquivo_completo;
+             byte[] imagem = null;
+             using (var Dialog = UserDialogs.Instance.Loading("Compartilhando...", null, null, true, MaskType.Clear))
+             {
+                 imagem = await apiService.getExame(pac);
+             }
+
+
+             try
+             {
+                 if (imagem == null)
+                 {
+                     await PageDialogService.DisplayAlertAsync("app", "Imagem nao encontrada!", "Ok");
+                 }
+                 else
+                 {
+
+                     MemoryStream ms = new MemoryStream(imagem);
+                     Xamarin.Forms.DependencyService.Get<IFileService>().SavePicture("ImageName.jpg", ms, "Download");
+                     var filePath = Xamarin.Forms.DependencyService.Get<IFileStore>().GetFilePath();
+
+                     compartilhaImagem(filePath);
+
+                 }
+             }
+             catch (Exception ex)
+             {
+
+             }
+         }
+         else
+         {
+             await PageDialogService.DisplayAlertAsync("app", "Por favor Verifique sua conexao!", "Ok");
+             IsRunning = false;
+             isVisible = false;
+
+             return;
+         }*/
+    //}
+
+    private void compartilhaImagem(string file)
         {
             
             Share.RequestAsync(new ShareFileRequest()
             {
-                Title = Title,
-
+                Title = "Exames do Paciente",
+                
                 File = new ShareFile(file)
             });
         }
