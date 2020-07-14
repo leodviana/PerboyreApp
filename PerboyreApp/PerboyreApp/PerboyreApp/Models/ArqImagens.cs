@@ -13,5 +13,7 @@ namespace PerboyreApp.Models
         public double altura { get; set; }
         public double tamanho { get; set; }
         public bool primeiro { get; set; }
+
+        public List<string> lista_jpeg { get; set; }
     }
 }
