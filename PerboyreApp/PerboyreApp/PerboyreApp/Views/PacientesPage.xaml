@@ -31,31 +31,32 @@
     </ContentPage.Resources>
     <NavigationPage.TitleView >
         
-           <Grid  ColumnSpacing="0" >
-
-               <Grid.ColumnDefinitions>
-                   <ColumnDefinition Width="{OnPlatform Android='22', iOS='15'}"></ColumnDefinition>
-                    <ColumnDefinition Width="30"/>
-                   <ColumnDefinition Width="*"/>
-                   
-                   
-               </Grid.ColumnDefinitions>
-               
-               <Button HeightRequest="22"  Grid.Column="0"  BackgroundColor="Transparent"  Command="{Binding voltarCommand}" ImageSource="backwhite" HorizontalOptions="Start" ></Button>
-               <Label Grid.Column="1"  Text="{Binding pacientecont}"  FontSize="Subtitle"  TextColor="White" HorizontalOptions="Start" VerticalOptions="Center" >
-                   <Label.GestureRecognizers>
-                       <TapGestureRecognizer Command="{Binding voltarCommand}"/>
+                <Grid ColumnSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="{OnPlatform Android='22', iOS='15'}"></ColumnDefinition>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="45"/>
+                         
+                    </Grid.ColumnDefinitions>
+                    <Button HeightRequest="22"  Grid.Column="0"  BackgroundColor="Transparent"  Command="{Binding voltarCommand}" ImageSource="backwhite" HorizontalOptions="Start" ></Button>
+                    <Label Grid.Column="1"  Text="{Binding pacientecont}"  FontSize="Subtitle"  TextColor="White" HorizontalOptions="Start" VerticalOptions="Center" >
+                        <Label.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding voltarCommand}"/>
 
                        
-                   </Label.GestureRecognizers>
-               </Label>  
-           
-               <Label  Grid.Column="2"  Text="Pacientes"  FontSize="{OnPlatform Android='20', iOS='26'}"  TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"  >
+                        </Label.GestureRecognizers>
+                    </Label>  
+                        
+                    <StackLayout Grid.Column="2">
+                            <Label   Text="Pacientes"  FontSize="{OnPlatform Android='20', iOS='26'}"  TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  VerticalTextAlignment="Center" >
                    
-               </Label>
-           
-          </Grid>
-           
+                            </Label>
+
+                    </StackLayout> 
+                        
+                           
+                </Grid>
          
     </NavigationPage.TitleView>
   
@@ -63,12 +64,13 @@
     
       
            
-              <SearchBar Placeholder="Localizar" Margin="{OnPlatform Android='10,10,5,10',iOS='10,10,15,10'}" 
+              <SearchBar Placeholder="Localizar" Margin="{OnPlatform Android='10,10,15,10',iOS='10,10,15,10'}" 
                  x:Name="filtro" HeightRequest="40"
                  Text="{Binding DentistaFilter, Mode=TwoWay}"
                  SearchCommand="{Binding PesquisaCommand}"
                  TextColor="#8F8E8F"
-                 IsVisible="{Binding Mostra}">
+                 IsVisible="{Binding Mostra}"
+                 >
                  
                
              </SearchBar>

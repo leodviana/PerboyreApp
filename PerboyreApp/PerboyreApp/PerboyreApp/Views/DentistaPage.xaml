@@ -3,7 +3,7 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="PerboyreApp.Views.DentistaPage"
-    Icon="Dentistas"
+    Icon="home"
     
    
  >
@@ -36,8 +36,9 @@
       
         <StackLayout Padding="0" Spacing="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
                
-             <SearchBar Placeholder="Localizar" Margin="{OnPlatform Android='10,10,5,10',iOS='10,0,15,10'}"
-                 x:Name="filtro" 
+             <SearchBar Placeholder="Localizar" Margin="{OnPlatform Android='10,10,15,10',iOS='10,0,15,10'}"
+                 x:Name="filtro"
+                 HeightRequest="40"
                  Text="{Binding DentistaFilter, Mode=TwoWay}"
                  SearchCommand="{Binding PesquisaCommand}"
                  PlaceholderColor="#8F8E8F">

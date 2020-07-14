@@ -216,6 +216,15 @@
     <BundleResource Include="Resources\exames2%403x.png" />
     <BundleResource Include="Resources\share%403x.png" />
     <BundleResource Include="Resources\zoom%403x.png" />
+    <BundleResource Include="Resources\pdf.png" />
+    <BundleResource Include="Resources\pdf%402x.png" />
+    <BundleResource Include="Resources\pdf%403x.png" />
+    <BundleResource Include="Resources\Perfil.png" />
+    <BundleResource Include="Resources\Perfil%402x.png" />
+    <BundleResource Include="Resources\Perfil%403x.png" />
+    <BundleResource Include="Resources\requisicao.png" />
+    <BundleResource Include="Resources\requisicao%402x.png" />
+    <BundleResource Include="Resources\requisicao%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="renderers\" />

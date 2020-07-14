@@ -21,13 +21,16 @@
         
            <Grid  ColumnSpacing="0" >
 
-               <Grid.ColumnDefinitions>
-                   <ColumnDefinition Width="{OnPlatform Android='22', iOS='15'}"></ColumnDefinition>
-                    <ColumnDefinition Width="13"/>
-                   <ColumnDefinition Width="*"/>
+               
+                  <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="{OnPlatform Android='22', iOS='15'}"></ColumnDefinition>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="60"/>
+                         
+                    </Grid.ColumnDefinitions>
                    
-                   
-               </Grid.ColumnDefinitions>
+               
                
                <Button HeightRequest="22"  Grid.Column="0"  BackgroundColor="Transparent"  Command="{Binding voltarCommand}" ImageSource="backwhite" HorizontalOptions="Start" ></Button>
                <Label Grid.Column="1"  Text=""  FontSize="Subtitle"  TextColor="White" HorizontalOptions="Start" VerticalOptions="Center" >

@@ -2,9 +2,99 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PerboyreApp.Views.PdfPage"
-             Icon="exames"
+             Icon="pdf"
              >
-    <ContentPage.Content>
-        <Label Text="pdf"/>
-    </ContentPage.Content>
+
+
+     <ContentPage.Resources>
+        <ResourceDictionary>
+
+            <Style x:Key="QuemAssisteStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="#181818" />
+                <Setter Property="FontSize" Value="16" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="Margin" Value="0, 12" />
+            </Style>
+
+            <Style x:Key="ProfileItemTextStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="FontSize" Value="20" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="VerticalOptions" Value="Start" />
+            </Style>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Frame Grid.Row="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"  Margin="10,200,12,10" IsVisible="{Binding Mostra_label}">
+            <Label  Grid.Row="0" Text="{Binding Mensagem}"  HorizontalOptions="CenterAndExpand" VerticalOptions="FillAndExpand" FontSize="20"></Label>
+        </Frame>
+        <StackLayout Grid.Row="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+
+
+            <ActivityIndicator IsRunning="{Binding IsRunning}" IsVisible="{Binding isVisible}" VerticalOptions="Center">
+
+            </ActivityIndicator>
+            <CollectionView
+                    ItemsSource="{Binding imgs, Mode=OneWay}"
+                    BackgroundColor="White"
+                   
+                    IsVisible="{Binding Mostra_listview}"
+                    x:Name="listapdf">
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate >
+                        <Frame HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"  Margin="10,12,12,10" >
+                            <StackLayout  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="5,10" Margin="0,15,0,15">
+                                <BoxView  Color="LightGray" HeightRequest="2" HorizontalOptions="FillAndExpand" ></BoxView>
+                                <Grid
+                                
+                                Margin="12, 10, 0, 12">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="75" />
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+                                    <Image
+                                    Grid.Row="0"
+                                    Source="pdf.png"/>
+                                    <Label
+                                    
+                                    Grid.Row="1"
+                                    Text="{Binding nome_arquivo}"
+                                    
+                                    Style="{StaticResource ProfileItemTextStyle}"/>
+                                </Grid>
+                                <BoxView  Color="LightGray" HeightRequest="2" HorizontalOptions="FillAndExpand"></BoxView>
+                                <Grid BackgroundColor="White" HeightRequest="30" HorizontalOptions="FillAndExpand">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="30" />
+                                        <ColumnDefinition Width="1" />
+                                        <ColumnDefinition Width="30" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <Image  Source="share.png" Grid.Column="0"  VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
+                                        <Image.GestureRecognizers>
+                                            <TapGestureRecognizer  Command="{Binding Path=BindingContext.SelecionarItem3, Source={x:Reference listapdf}}" CommandParameter="{Binding .}" />
+                                        </Image.GestureRecognizers>
+                                    </Image>
+                                </Grid>
+
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </StackLayout>
+
+    </Grid>
 </ContentPage>
