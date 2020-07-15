@@ -59,7 +59,7 @@
         <StackLayout  Grid.Row="0"   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
          <ActivityIndicator
                  IsRunning="{Binding IsRunning}"
-                 IsVisible="{Binding isVisible2}"
+                 IsVisible="{Binding isVisible}"
                  Color="#4c0507"
                  VerticalOptions="Center"
                  HorizontalOptions="Center"
@@ -94,9 +94,12 @@
                                         <RowDefinition Height="75" />
                                         <RowDefinition Height="*" />
                                     </Grid.RowDefinitions>
-                                    <Image
-                                    Grid.Row="0"
-                                    Source="pdf.png"/>
+                                    <Image Grid.Row="0" Source="pdf.png">
+                                         <Image.GestureRecognizers>
+                                                <TapGestureRecognizer  Command="{Binding Path=BindingContext.SelecionarItem, Source={x:Reference ListViewExames}}" CommandParameter="{Binding .}" />
+                                            </Image.GestureRecognizers>
+
+                                    </Image>
                                     <Label
                                     
                                     Grid.Row="1"

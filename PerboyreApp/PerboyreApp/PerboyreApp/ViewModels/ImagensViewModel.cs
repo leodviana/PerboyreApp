@@ -390,8 +390,8 @@ namespace PerboyreApp.ViewModels
                 {
                     ArqImagens teste = objeto;
 
-                    string NomeSelecionado = teste.nome_arquivo_completo;
-                    showZoom(NomeSelecionado);
+                   // string NomeSelecionado = teste.nome_arquivo_completo;
+                    showZoom(teste);
                     /*var navigationParams = new NavigationParameters();
                     navigationParams.Add("imagem", NomeSelecionado);
                      _navigationService.NavigateAsync("ImagensDetalhes2", navigationParams);*/
@@ -410,7 +410,7 @@ namespace PerboyreApp.ViewModels
                     ArqImagens teste = objeto;
 
                     string NomeSelecionado = teste.nome_arquivo_completo;
-                    showZoom(NomeSelecionado);
+                    showZoom(teste);
                     /*var navigationParams = new NavigationParameters();
                     navigationParams.Add("imagem", NomeSelecionado);
                      _navigationService.NavigateAsync("ImagensDetalhes2", navigationParams);*/
@@ -419,7 +419,7 @@ namespace PerboyreApp.ViewModels
             }
         }
 
-        private void showZoom(string nomeSelecionado)
+        private void showZoom(ArqImagens nomeSelecionado)
         {
             new PhotoBrowser
             {
@@ -428,7 +428,7 @@ namespace PerboyreApp.ViewModels
                     new Photo
 
                     {
-                        URL = nomeSelecionado,
+                        URL = nomeSelecionado.nome_arquivo_completo,
 
                     },
 

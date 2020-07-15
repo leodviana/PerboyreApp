@@ -301,8 +301,11 @@ namespace PerboyreApp.ViewModels
         }
 
         private async void compartilhaImagemAsync(string nome_arquivo_completo)
+
         {
-            string caminho = Path.Combine(FileSystem.CacheDirectory, "teste.pdf");
+            var nome_arquivo = Path.GetFileName(nome_arquivo_completo);
+
+            string caminho = Path.Combine(FileSystem.CacheDirectory, nome_arquivo);
             if (InternetConnectivity())
             {
 
@@ -319,6 +322,10 @@ namespace PerboyreApp.ViewModels
                 compartilhaImagem(caminho);
 
 
+            }
+            else
+            {
+                await exibeErro("Dispositivo não está conectado a internet!");
             }
         }
 
@@ -390,7 +397,7 @@ namespace PerboyreApp.ViewModels
                     ArqImagens teste = objeto;
 
                     string NomeSelecionado = teste.nome_arquivo_completo;
-                    showZoom(NomeSelecionado);
+                    showZoom(teste);
                     /*var navigationParams = new NavigationParameters();
                     navigationParams.Add("imagem", NomeSelecionado);
                      _navigationService.NavigateAsync("ImagensDetalhes2", navigationParams);*/
@@ -409,7 +416,7 @@ namespace PerboyreApp.ViewModels
                     ArqImagens teste = objeto;
 
                     string NomeSelecionado = teste.nome_arquivo_completo;
-                    showZoom(NomeSelecionado);
+                    showZoom(teste);
                     /*var navigationParams = new NavigationParameters();
                     navigationParams.Add("imagem", NomeSelecionado);
                      _navigationService.NavigateAsync("ImagensDetalhes2", navigationParams);*/
@@ -418,21 +425,22 @@ namespace PerboyreApp.ViewModels
             }
         }
 
-        private void showZoom(string nomeSelecionado)
+        private void showZoom(ArqImagens nomeSelecionado)
         {
+            List<Photo>_photo = new List<Photo>();
+            for (int i = 0;i<nomeSelecionado.lista_jpeg.Count();i++)
+            {
+                var foto = new Photo();
+                foto.URL = nomeSelecionado.lista_jpeg[i].ToString();
+                _photo.Add(foto);
+            }
+
             new PhotoBrowser
             {
-                Photos = new List<Photo>
-                {
-                    new Photo
+                Photos = _photo,
+                
 
-                    {
-                        URL = nomeSelecionado,
-
-                    },
-
-
-                },
+                
                 ActionButtonPressed = (index) =>
                 {
                     Debug.WriteLine($"Clicked {index}");
