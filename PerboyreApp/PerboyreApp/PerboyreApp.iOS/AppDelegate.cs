@@ -24,7 +24,7 @@ namespace PerboyreApp.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
-            UITabBar.Appearance.SelectedImageTintColor = UIColor.FromRGB(76, 5, 7);
+            /*UITabBar.Appearance.SelectedImageTintColor = UIColor.FromRGB(76, 5, 7);
 
             // Color of the tabbar background:
             UITabBar.Appearance.BarTintColor = UIColor.FromRGB(247, 247, 247);
@@ -43,7 +43,7 @@ namespace PerboyreApp.iOS
                 {
                     TextColor = UIColor.Gray
                 },
-                UIControlState.Normal);
+                UIControlState.Normal);*/
             Stormlion.PhotoBrowser.iOS.Platform.Init();
             global::Xamarin.Forms.Forms.Init();
             FFImageLoading.Forms.Platform.CachedImageRenderer.Init();

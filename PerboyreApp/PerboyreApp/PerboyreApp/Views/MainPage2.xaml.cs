@@ -21,6 +21,7 @@ namespace PerboyreApp.Views
             //if (Device.RuntimePlatform == Device.iOS)
             //    Children.Add(new TrainingView());
 
+            Children.Add(new Unidades());
             Children.Add(new Perfil());
          }
 

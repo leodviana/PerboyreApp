@@ -171,9 +171,6 @@
     <BundleResource Include="Resources\Dentistas_colection%403x.png" />
     <BundleResource Include="Resources\Dentistas%402x.png" />
     <BundleResource Include="Resources\Dentistas%403x.png" />
-    <BundleResource Include="Resources\home%402x.png" />
-    <BundleResource Include="Resources\home%403x.png" />
-    <BundleResource Include="Resources\home.png" />
     <BundleResource Include="Resources\home_selected.png" />
     <BundleResource Include="Resources\home_selected%402x.png" />
     <BundleResource Include="Resources\home_selected%403x.png" />
@@ -225,6 +222,14 @@
     <BundleResource Include="Resources\requisicao.png" />
     <BundleResource Include="Resources\requisicao%402x.png" />
     <BundleResource Include="Resources\requisicao%403x.png" />
+    <BundleResource Include="Resources\unidades.png" />
+    <BundleResource Include="Resources\unidades%402x.png" />
+    <BundleResource Include="Resources\unidades%403x.png" />
+    <BundleResource Include="Resources\home%403x.png" />
+    <BundleResource Include="Resources\home%402x.png" />
+    <BundleResource Include="Resources\home.png">
+      <Optimize>true</Optimize>
+    </BundleResource>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="renderers\" />

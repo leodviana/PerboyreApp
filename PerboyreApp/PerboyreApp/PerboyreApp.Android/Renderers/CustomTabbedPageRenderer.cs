@@ -26,7 +26,7 @@ namespace PerboyreApp.Droid.Renderers
         {
             base.OnElementChanged(e);
 
-            /*if (e.NewElement != null)
+            if (e.NewElement != null)
             {
                 _formsTabs = Element;
                 _formsTabs.CurrentPageChanged += OnCurrentPageChanged;
@@ -34,14 +34,14 @@ namespace PerboyreApp.Droid.Renderers
                 var relativeLayout = base.GetChildAt(0) as Android.Widget.RelativeLayout;
                 
                     _bottomNavigationView = relativeLayout.GetChildAt(1) as BottomNavigationView;
-                    // _bottomNavigationView.ItemIconTintList =null;
+                   // _bottomNavigationView.ItemIconTintList =null;
                     _bottomNavigationView.LabelVisibilityMode = LabelVisibilityMode.LabelVisibilityUnlabeled;
 
                     UpdateAllTabs();
                 
                 
                
-            }*/
+            }
 
             if (e.OldElement != null)
             {
@@ -61,7 +61,8 @@ namespace PerboyreApp.Droid.Renderers
                 var androidTab = _bottomNavigationView.Menu.GetItem(index);
                 int iconId;
 
-                if (_formsTabs.Children[index]?.Navigation?.NavigationStack?.FirstOrDefault() is ITabPageIcons tabPage)
+                //if (_formsTabs.Children[index]?.Navigation?.NavigationStack?.FirstOrDefault() is ITabPageIcons tabPage)
+                if (_formsTabs.Children[index] is ITabPageIcons tabPage)
                 {
                     if (_formsTabs.Children[index] == _formsTabs.CurrentPage)
                     {

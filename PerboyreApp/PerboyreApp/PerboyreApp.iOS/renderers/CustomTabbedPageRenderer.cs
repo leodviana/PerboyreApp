@@ -16,15 +16,25 @@ namespace PerboyreApp.iOS.renderers
         {
             base.ViewDidLayoutSubviews();
 
+            
             foreach (var item in TabBar.Items)
             {
                 item.ImageInsets = new UIEdgeInsets(6, 0,-6, 0);
+               // UIImage teste = ;
+                //teste.ImageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal);
+                
+               // item.Image = GetImageFromFile("home");
+                
+                
             }
         }
 
+        
+
         protected override async Task<Tuple<UIImage, UIImage>> GetIcon(Page page)
         {
-            if (page?.Navigation?.NavigationStack?.FirstOrDefault() is ITabPageIcons tabPage)
+            //if (page?.Navigation?.NavigationStack?.FirstOrDefault() is ITabPageIcons tabPage)
+            if (page is ITabPageIcons tabPage)
                 return await Task.FromResult(
                     new Tuple<UIImage, UIImage>(
                         GetImageFromFile(tabPage.GetIcon()),

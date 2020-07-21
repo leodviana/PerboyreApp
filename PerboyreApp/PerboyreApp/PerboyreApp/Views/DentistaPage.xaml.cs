@@ -6,12 +6,22 @@ using Xamarin.Forms;
 
 namespace PerboyreApp.Views
 {
-    public partial class DentistaPage : ContentPage,IDynamicTitle
+    public partial class DentistaPage : ContentPage,IDynamicTitle ,ITabPageIcons
     {
         private View _title;
         public DentistaPage()
         {
             InitializeComponent();
+        }
+
+        public string GetIcon()
+        {
+            return "home";
+        }
+
+        public string GetSelectedIcon()
+        {
+            return "home";
         }
 
         public View GetTitle()

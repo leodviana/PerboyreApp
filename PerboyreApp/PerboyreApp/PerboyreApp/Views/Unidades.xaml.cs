@@ -2,26 +2,24 @@
 using System.Collections.Generic;
 using PerboyreApp.Interfaces;
 using Xamarin.Forms;
-using Xamarin.Forms.PlatformConfiguration;
 
 namespace PerboyreApp.Views
 {
-    public partial class Localizacao : ContentPage, ITabPageIcons
+    public partial class Unidades : ContentPage, ITabPageIcons
     {
-        public Localizacao()
+        public Unidades()
         {
             InitializeComponent();
-            
         }
 
         public string GetIcon()
         {
-            return "requisicao";
+            return "unidades";
         }
 
         public string GetSelectedIcon()
         {
-            return "requisicao";
+            return "unidades";
         }
     }
 }

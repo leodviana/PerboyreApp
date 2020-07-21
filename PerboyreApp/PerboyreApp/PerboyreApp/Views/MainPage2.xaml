@@ -10,11 +10,11 @@
     
     android:TabbedPage.ToolbarPlacement="Bottom"
     BarBackgroundColor="#EFEFF0"
-    BarTextColor="Black"
+    
     android:TabbedPage.BarSelectedItemColor ="#4c0507"
     android:TabbedPage.BarItemColor="Black"
     mc:Ignorable="d"
-    Padding="0">
+    Padding="0" >
     
 
 </TabbedPage>

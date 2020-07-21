@@ -2,15 +2,8 @@
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="PerboyreApp.Views.Perfil"
-   
-    
->
-    <NavigationPage.TitleView>
-        <Label Text="fnkldnfkd"/>
-    </NavigationPage.TitleView>
+    x:Class="PerboyreApp.Views.Unidades"
+   > 
     <ContentPage.Content>
-
-        <Button Command="{Binding LogoutCommand}" Text="Sair"></Button>
     </ContentPage.Content>
 </ContentPage>

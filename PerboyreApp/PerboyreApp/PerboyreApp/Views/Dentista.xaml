@@ -5,7 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="PerboyreApp.Views.Dentista"
     prism:ViewModelLocator.AutowireViewModel="True"
-   Icon="home">
+   >
 
     
        <ContentPage.Resources>

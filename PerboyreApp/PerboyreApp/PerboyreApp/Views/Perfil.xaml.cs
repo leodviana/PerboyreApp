@@ -7,7 +7,7 @@ using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 
 namespace PerboyreApp.Views
 {
-    public partial class Perfil : ContentPage 
+    public partial class Perfil : ContentPage ,ITabPageIcons
     { 
        
         public Perfil()
@@ -17,7 +17,15 @@ namespace PerboyreApp.Views
           
         }
 
-        
+        public string GetIcon()
+        {
+            return "Perfil";
+        }
+
+        public string GetSelectedIcon()
+        {
+            return "Perfil";
+        }
     }
 }
 
