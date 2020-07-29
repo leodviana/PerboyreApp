@@ -104,6 +104,51 @@ namespace PerboyreApp.Services
                 throw;*/
             }
         }
+
+
+        public async Task<List<Unidade>> getUnidades()
+        {
+            try
+            {
+
+                /*var jsonRequest = JsonConvert.SerializeObject(paramrequest);
+                var httpContent = new StringContent(jsonRequest, Encoding.UTF8, "application/json");*/
+                var client = new HttpClient();
+                client.BaseAddress = new Uri("https://www.painelstudio.com/perboyre/");
+                // client.BaseAddress = new Uri("http://192.168.0.15:3000/");
+                //var url = "api/Dentista/getDentistas";
+                var url = "api/Unidade/Getunidades";
+                var response = await client.GetAsync(url);
+
+                if (!response.IsSuccessStatusCode)
+                {
+                    return null;
+
+                }
+
+                var result = await response.Content.ReadAsStringAsync();
+                List<Unidade> exames = JsonConvert.DeserializeObject<List<Unidade>>(result);
+                
+                
+                return exames;
+                
+                // return exames.Skip(pageIndex * pageSize).Take(pageSize).ToList();     //_pessoas.Skip(pageIndex * pageSize).Take(pageSize).ToList();
+
+
+
+
+            }
+            catch (Exception ex)
+            {
+                return null;
+                /*return new Response
+                {
+                    IsSuccess = false,
+                    Message = ex.Message,
+                };
+                throw;*/
+            }
+        }
         public async Task<List<ArqImagens>> getExames(paciente pac)
         {
             try

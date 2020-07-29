@@ -5,21 +5,21 @@ using Xamarin.Forms;
 
 namespace PerboyreApp.Views
 {
-    public partial class imagensPage : ContentPage 
+    public partial class imagensPage : ContentPage ,ITabPageIcons
     {
         public imagensPage()
         {
             InitializeComponent();
         }
 
-       /* public string GetIcon()
+        public string GetIcon()
         {
             return "exames";
         }
 
         public string GetSelectedIcon()
         {
-            return "exames";
-        }*/
+            return "exames_selected";
+        }
     }
 }

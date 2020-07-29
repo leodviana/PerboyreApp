@@ -21,7 +21,7 @@ namespace PerboyreApp.Views
 
         public string GetSelectedIcon()
         {
-            return "home";
+            return "home_selected";
         }
 
         public View GetTitle()

@@ -19,12 +19,12 @@ namespace PerboyreApp.Views
 
         public string GetIcon()
         {
-            return "Perfil";
+            return "perfil";
         }
 
         public string GetSelectedIcon()
         {
-            return "Perfil";
+            return "perfil_selected";
         }
     }
 }

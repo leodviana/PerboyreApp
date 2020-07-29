@@ -8,34 +8,5 @@
     BackgroundColor="White"
     ios:Page.UseSafeArea ="False"
     >
-    <StackLayout>
-    <pancake:PancakeView
-        HeightRequest="{OnPlatform Android='80', iOS='120'}"
-        BackgroundGradientStartColor="#4c0507"
-        BackgroundGradientEndColor="#4c0507"
-        BackgroundGradientAngle="10"
-        >
-        
-       <Label Margin="{OnPlatform  iOS='50'}" Text="Dentistas" TextColor="White" FontSize="{OnPlatform Android='20', iOS='26'}"  VerticalOptions="Center" HorizontalOptions="Center"/>
-           
    
-    </pancake:PancakeView>
-    <Grid RowSpacing="0" >
-      <Grid.RowDefinitions>
-            <RowDefinition Height="60"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="70"/>
-      </Grid.RowDefinitions>
-      <Grid Grid.Row="0"  >
-          <Grid.RowDefinitions>
-              <RowDefinition Height="70">
-
-              </RowDefinition>
-          </Grid.RowDefinitions>
-           <Image Margin="5"  HorizontalOptions="Start"    Source="back" VerticalOptions="Center"/>
-           <Button Grid.Column="1" HorizontalOptions="EndAndExpand" Margin="15" BackgroundColor="Transparent" FontSize="25"  ImageSource="back"/>
-      </Grid>
-     
-     </Grid>
-        </StackLayout>
 </ContentPage>

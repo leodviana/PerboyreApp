@@ -15,6 +15,7 @@ using PerboyreApp.Models;
 
 using PerboyreApp.Navegacao;
 using Prism.Plugin.Popups;
+using static Xamarin.Essentials.Permissions;
 
 namespace PerboyreApp
 {
@@ -36,9 +37,13 @@ namespace PerboyreApp
                 await this.NavigationService.NavigateAsync("LoginPage");
             }
             else
+
             {
+                // var status  = await ChecapermisaoService.checa_permissao( new Permissions.StorageWrite());
+               // var testa2 = await ChecapermisaoService.checa_permissao(new Permissions.LocationWhenInUse());
                 if (usuariologado.Id == 999999999)
                 {
+                   
                     usuariologado.tipo = "Administrador";
                     // $"{nameof(NavigationPage)}/{nameof(MainPage)}"
                     var mainPage = $"{nameof(NavigationPage)}/{nameof(MainPage2)}";
@@ -77,6 +82,7 @@ namespace PerboyreApp
             containerRegistry.RegisterForNavigation<PopupMensagemPage,PopMensagemViewModel>();
             containerRegistry.RegisterForNavigation<imagensPage, ImagensViewModel>();
             containerRegistry.RegisterForNavigation<PdfPage, pdfViewModel>();
+            containerRegistry.RegisterForNavigation<Unidades, UnidadeViewModel>();
 
 
             containerRegistry.RegisterSingleton<IApiService, ApiService>();

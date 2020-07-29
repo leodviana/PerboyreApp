@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using PerboyreApp.Interfaces;
+using PerboyreApp.Views.TitleViews;
 using Xamarin.Forms;
 
 namespace PerboyreApp.Views
 {
-    public partial class Unidades : ContentPage, ITabPageIcons
+    public partial class Unidades : ContentPage, IDynamicTitle,ITabPageIcons
     {
+        private View _title;
         public Unidades()
         {
             InitializeComponent();
@@ -19,7 +21,16 @@ namespace PerboyreApp.Views
 
         public string GetSelectedIcon()
         {
-            return "unidades";
+            return "unidades_selected";
+        }
+
+        public View GetTitle()
+        {
+            if (_title == null)
+            {
+                _title = new UnidadesTitleView();
+            }
+            return _title;
         }
     }
 }

@@ -21,7 +21,7 @@ namespace PerboyreApp.Views
 
         public string GetSelectedIcon()
         {
-            return "requisicao";
+            return "requisicao_selected";
         }
     }
 }

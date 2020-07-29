@@ -19,7 +19,7 @@ namespace PerboyreApp.iOS.renderers
             
             foreach (var item in TabBar.Items)
             {
-                item.ImageInsets = new UIEdgeInsets(6, 0,-6, 0);
+                item.ImageInsets = new UIEdgeInsets(6, 5,-6, 0);
                // UIImage teste = ;
                 //teste.ImageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal);
                 

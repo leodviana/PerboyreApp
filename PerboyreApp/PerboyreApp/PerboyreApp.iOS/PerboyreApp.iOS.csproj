@@ -177,12 +177,6 @@
     <BundleResource Include="Resources\Dentistas%403x cópia.png" />
     <BundleResource Include="Resources\Dentistas%403x cópia%402x.png" />
     <BundleResource Include="Resources\Dentistas%403x cópia%403x.png" />
-    <BundleResource Include="Resources\dentista_invertido.png" />
-    <BundleResource Include="Resources\dentista_invertido%402x.png" />
-    <BundleResource Include="Resources\dentista_invertido%403x.png" />
-    <BundleResource Include="Resources\dentista_ivertido_sem fundo.png" />
-    <BundleResource Include="Resources\dentista_ivertido_sem fundo%402x.png" />
-    <BundleResource Include="Resources\dentista_ivertido_sem fundo%403x.png" />
     <BundleResource Include="Resources\cancelwhite.png" />
     <BundleResource Include="Resources\library_arrow.png" />
     <BundleResource Include="Resources\library_arrow%402x.png" />
@@ -216,9 +210,9 @@
     <BundleResource Include="Resources\pdf.png" />
     <BundleResource Include="Resources\pdf%402x.png" />
     <BundleResource Include="Resources\pdf%403x.png" />
-    <BundleResource Include="Resources\Perfil.png" />
-    <BundleResource Include="Resources\Perfil%402x.png" />
-    <BundleResource Include="Resources\Perfil%403x.png" />
+    <BundleResource Include="Resources\perfil.png" />
+    <BundleResource Include="Resources\perfil%402x.png" />
+    <BundleResource Include="Resources\perfil%403x.png" />
     <BundleResource Include="Resources\requisicao.png" />
     <BundleResource Include="Resources\requisicao%402x.png" />
     <BundleResource Include="Resources\requisicao%403x.png" />
@@ -230,6 +224,24 @@
     <BundleResource Include="Resources\home.png">
       <Optimize>true</Optimize>
     </BundleResource>
+    <BundleResource Include="Resources\perfil_selected.png" />
+    <BundleResource Include="Resources\perfil_selected%402x.png" />
+    <BundleResource Include="Resources\perfil_selected%403x.png" />
+    <BundleResource Include="Resources\requisicao_selected.png" />
+    <BundleResource Include="Resources\requisicao_selected%402x.png" />
+    <BundleResource Include="Resources\requisicao_selected%403x.png" />
+    <BundleResource Include="Resources\unidades_selected.png" />
+    <BundleResource Include="Resources\unidades_selected%402x.png" />
+    <BundleResource Include="Resources\unidades_selected%403x.png" />
+    <BundleResource Include="Resources\exames_selected.png" />
+    <BundleResource Include="Resources\exames_selected%402x.png" />
+    <BundleResource Include="Resources\exames_selected%403x.png" />
+    <BundleResource Include="Resources\pdf_selected.png" />
+    <BundleResource Include="Resources\pdf_selected%402x.png" />
+    <BundleResource Include="Resources\pdf_selected%403x.png" />
+    <BundleResource Include="Resources\splash.png" />
+    <BundleResource Include="Resources\splash%402x.png" />
+    <BundleResource Include="Resources\splash%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="renderers\" />

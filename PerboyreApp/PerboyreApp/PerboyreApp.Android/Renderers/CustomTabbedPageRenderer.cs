@@ -34,7 +34,8 @@ namespace PerboyreApp.Droid.Renderers
                 var relativeLayout = base.GetChildAt(0) as Android.Widget.RelativeLayout;
                 
                     _bottomNavigationView = relativeLayout.GetChildAt(1) as BottomNavigationView;
-                   // _bottomNavigationView.ItemIconTintList =null;
+                    _bottomNavigationView.ItemIconTintList =null;
+                    _bottomNavigationView.ItemIconSize = 90;
                     _bottomNavigationView.LabelVisibilityMode = LabelVisibilityMode.LabelVisibilityUnlabeled;
 
                     UpdateAllTabs();
