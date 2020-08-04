@@ -32,5 +32,10 @@ namespace PerboyreApp.Views
             }
             return _title;
         }
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            
+        }
     }
 }

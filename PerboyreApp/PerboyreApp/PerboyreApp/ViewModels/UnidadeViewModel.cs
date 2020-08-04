@@ -8,6 +8,7 @@ using PerboyreApp.Interfaces;
 using PerboyreApp.Models;
 using Prism.Navigation;
 using Prism.Services;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace PerboyreApp.ViewModels
@@ -18,7 +19,7 @@ namespace PerboyreApp.ViewModels
 
         private bool isRunning;
 
-
+        //private ICommand _navegar;
 
         public bool IsRunning
         {
@@ -67,8 +68,8 @@ namespace PerboyreApp.ViewModels
         }
 
 
-        private Dentista _Selection;
-        public Dentista Selection
+        private Unidade _Selection;
+        public Unidade Selection
         {
             get { return _Selection; }
             set
@@ -80,6 +81,7 @@ namespace PerboyreApp.ViewModels
         }
 
         private ICommand _refresh;
+        private ICommand _navega;
         private bool isRunning2;
 
         //active indicator do rodape 
@@ -147,10 +149,31 @@ namespace PerboyreApp.ViewModels
             mostra = false;
             inicializa = false;
 
+            IsActiveChanged += HandleIsActiveTrue;
+            IsActiveChanged += HandleIsActiveFalse;
+
             //PageDialogService.DisplayAlertAsync("app", "Sem conexao!", "Ok");
         }
 
+        private void HandleIsActiveFalse(object sender, EventArgs e)
+        {
+            if (IsActive == true) return;
 
+        }
+
+        private async void HandleIsActiveTrue(object sender, EventArgs e)
+        {
+            if (IsActive == false) return;
+            if (!inicializa)
+                await GetDentistasasync();
+
+        }
+
+        public override void Destroy()
+        {
+            IsActiveChanged -= HandleIsActiveTrue;
+            IsActiveChanged -= HandleIsActiveFalse;
+        }
         private void GetDentistas()
         {
             try
@@ -261,20 +284,34 @@ namespace PerboyreApp.ViewModels
             }
         }
 
-        private async void Navega()
+
+       
+        private async Task Navega()
         {
 
             if (Selection != null)
             {
-                // await PageDialogService.DisplayAlertAsync("app", Selection.nome, "Ok");
-                var navigationParams = new NavigationParameters();
-                navigationParams.Add("paciente", Selection);
-                await NavigationService.NavigateAsync("PacientesPage", navigationParams);
+                await pegaDirecao(Selection);
                 Selection = null;
             }
 
         }
 
+
+        private async Task pegaDirecao(Unidade unidade)
+        {
+            // await PageDialogService.DisplayAlertAsync("app", Selection.nome, "Ok");
+            // var navigationParams = new NavigationParameters();
+            // navigationParams.Add("unidade", Selection);
+            //await NavigationService.NavigateAsync("Localizacao", navigationParams);
+            var options = new MapLaunchOptions { NavigationMode = Xamarin.Essentials.NavigationMode.Driving };
+
+
+            var adress = unidade.Endereco;
+            var locations = await Geocoding.GetLocationsAsync(adress);
+            var location = locations?.FirstOrDefault();
+            await Map.OpenAsync(location, options);
+        }
         public override void OnNavigatedFrom(INavigationParameters parameters)
         {
 
@@ -284,7 +321,7 @@ namespace PerboyreApp.ViewModels
         {
             var navigationMode = parameters.GetNavigationMode();
 
-            if (navigationMode != NavigationMode.Back)
+            if (navigationMode != Prism.Navigation.NavigationMode.Back)
 
                 await InitializeAsync();
         }
@@ -296,6 +333,41 @@ namespace PerboyreApp.ViewModels
         }
 
 
+        public ICommand navegaCommand
+        {
+            get
+            {
+                return _navega ?? (_navega = new Command<Unidade>(async objeto =>
+                {
+
+                    
+                    await pegaDirecao(objeto);
+
+                }));
+            }
+        }
+        private ICommand _selecionarItem3;
+        public ICommand SelecionarItem3
+        {
+            get
+            {
+                return _selecionarItem3 ?? (_selecionarItem3 = new Command<Unidade>(objeto =>
+                {
+
+
+                    Share.RequestAsync(new ShareTextRequest()
+                    {
+                        Title = objeto.Descricao,
+
+                        Text = objeto.Endereco + " Cep " + objeto.Cep + " Telefone " + objeto.Telefone + " - " + objeto.Telefone02
+                    }); 
+                    // string NomeSelecionado = teste.nome_arquivo_completo;
+
+                }));
+            }
+        }
+
+        
         public ICommand RefreshCommand
         {
             get

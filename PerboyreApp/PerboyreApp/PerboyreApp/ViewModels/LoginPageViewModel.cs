@@ -119,8 +119,8 @@ namespace PerboyreApp.ViewModels
 
         private async void Login()
         {
-            var testa = await ChecapermisaoService.checa_permissao(new Permissions.StorageWrite());
-            var testa2 = await ChecapermisaoService.checa_permissao(new Permissions.LocationWhenInUse());
+            //var testa = await ChecapermisaoService.checa_permissao(new Permissions.StorageWrite());
+            //var testa2 = await ChecapermisaoService.checa_permissao(new Permissions.LocationWhenInUse());
             if (string.IsNullOrEmpty(Usuarioid))
             {
                 await exibeErro("Prencha o campo Email!");
