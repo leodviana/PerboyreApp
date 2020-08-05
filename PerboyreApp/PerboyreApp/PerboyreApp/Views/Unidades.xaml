@@ -100,9 +100,19 @@
 
                           <StackLayout  Orientation="Horizontal" Margin="0,5,0,0"  >
 
-                              <ImageButton Source="unidades" HeightRequest="28" HorizontalOptions="End" Command="{Binding Path=BindingContext.navegaCommand, Source={x:Reference Colectionunidades}}" CommandParameter="{Binding .} "/>
+                              <Image   Source="unidades" HeightRequest="28" HorizontalOptions="End">
+                                            <Image.GestureRecognizers>
+                                                <TapGestureRecognizer  Command="{Binding Path=BindingContext.navegaCommand, Source={x:Reference Colectionunidades}}" CommandParameter="{Binding .} " />
+                                            </Image.GestureRecognizers>
+                                        </Image>
 
-                              <Image  Source="share.png"  VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
+                              <Image Margin="5" Source="whatsapp.png" HeightRequest="28"  VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
+                                            <Image.GestureRecognizers>
+                                                <TapGestureRecognizer  Command="{Binding Path=BindingContext.Comunicador, Source={x:Reference Colectionunidades}}" CommandParameter="{Binding .}" />
+                                            </Image.GestureRecognizers>
+                                        </Image>
+
+                              <Image Margin="5" Source="share.png" HeightRequest="28"  VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
                                             <Image.GestureRecognizers>
                                                 <TapGestureRecognizer  Command="{Binding Path=BindingContext.SelecionarItem3, Source={x:Reference Colectionunidades}}" CommandParameter="{Binding .}" />
                                             </Image.GestureRecognizers>

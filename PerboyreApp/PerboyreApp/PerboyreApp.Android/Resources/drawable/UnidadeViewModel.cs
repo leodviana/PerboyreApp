@@ -13,7 +13,7 @@ using Xamarin.Forms;
 
 namespace PerboyreApp.ViewModels
 {
-    public class UnidadeViewModel : ViewModelBase
+    public class UnidadeViewModel:ViewModelBase
     {
         IApiService apiService;
 
@@ -285,7 +285,7 @@ namespace PerboyreApp.ViewModels
         }
 
 
-
+       
         private async Task Navega()
         {
 
@@ -340,7 +340,7 @@ namespace PerboyreApp.ViewModels
                 return _navega ?? (_navega = new Command<Unidade>(async objeto =>
                 {
 
-
+                    
                     await pegaDirecao(objeto);
 
                 }));
@@ -360,7 +360,7 @@ namespace PerboyreApp.ViewModels
                         Title = objeto.Descricao,
 
                         Text = objeto.Endereco + " Cep " + objeto.Cep + " Telefone " + objeto.Telefone + " - " + objeto.Telefone02
-                    });
+                    }); 
                     // string NomeSelecionado = teste.nome_arquivo_completo;
 
                 }));
@@ -372,32 +372,32 @@ namespace PerboyreApp.ViewModels
         {
             get
             {
-                return _whatsapp ?? (_whatsapp = new Command<Unidade>(async objeto =>
+                return _whatsapp ?? (_whatsapp = new Command<Unidade>( async objeto =>
                 {
 
 
                     await abre_zap(objeto);
-
+                    
 
                 }));
             }
         }
 
-        private async Task abre_zap(Unidade objeto)
+        private async  Task abre_zap(Unidade objeto)
         {
             try
 
             {
-                string fone = "+55" + objeto.Telefone02.Replace("(", "");
-                fone = fone.Replace(")", "");
+                string  fone = "+55" + objeto.Telefone02.Replace("(","");
+                 fone = fone.Replace(")","");
                 var uriString = "whatsapp://send?phone=" + fone + " teste de mensagen";
                 await Launcher.OpenAsync(uriString);
             }
-            catch (Exception ex)
+            catch(Exception ex)
             {
 
             }
-
+            
         }
 
         public ICommand RefreshCommand
