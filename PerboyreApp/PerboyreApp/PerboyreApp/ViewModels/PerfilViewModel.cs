@@ -14,9 +14,19 @@ namespace PerboyreApp.ViewModels
 
         private ICommand _logout;
 
+        private string _photo;
+
+        public string Photo
+        {
+            get { return _photo; }
+            set
+            {
+                SetProperty(ref _photo, value);
+            }
+        }
         public PerfilViewModel(INavigationService navigationService, IPageDialogService pageDialogService, IApiService ApiService) : base(navigationService, pageDialogService)
         {
-             
+            Photo = App.usuariologado.ImagePath;
         }
 
         public ICommand LogoutCommand

@@ -431,7 +431,7 @@ namespace PerboyreApp.ViewModels
             for (int i = 0;i<nomeSelecionado.lista_jpeg.Count();i++)
             {
                 var foto = new Photo();
-                foto.URL = nomeSelecionado.lista_jpeg[i].ToString();
+                foto.URL = nomeSelecionado.lista_jpeg[i].ToString().Replace(" ","%20");
                 _photo.Add(foto);
             }
 
