@@ -24,6 +24,7 @@
     <PackageReference Include="Prism.Plugin.Popups" Version="7.2.0.1046" />
     <PackageReference Include="PhotoBrowser.Forms" Version="0.1.4" />
     <PackageReference Include="Acr.UserDialogs" Version="7.1.0.442" />
+    <PackageReference Include="Xam.Plugin.Media" Version="5.0.1" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\" />
@@ -35,6 +36,7 @@
     <Folder Include="Utils\" />
     <Folder Include="Views\Mensagens\" />
     <Folder Include="Navegacao\" />
+    <Folder Include="Helpers\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Views\MainPage.xaml.cs" />

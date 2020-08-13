@@ -59,7 +59,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <MtouchArch>ARM64</MtouchArch>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Distribution: Perboyre Castelo (36V76X3N9M)</CodesignKey>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
   <ItemGroup>
@@ -151,6 +151,9 @@
     </PackageReference>
     <PackageReference Include="Acr.UserDialogs">
       <Version>7.1.0.442</Version>
+    </PackageReference>
+    <PackageReference Include="Xam.Plugin.Media">
+      <Version>5.0.1</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
@@ -245,6 +248,9 @@
     <BundleResource Include="Resources\whatsapp.png" />
     <BundleResource Include="Resources\whatsapp%402x.png" />
     <BundleResource Include="Resources\whatsapp%403x.png" />
+    <BundleResource Include="Resources\foto.png" />
+    <BundleResource Include="Resources\foto%402x.png" />
+    <BundleResource Include="Resources\foto%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="renderers\" />

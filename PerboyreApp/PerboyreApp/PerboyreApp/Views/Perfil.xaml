@@ -10,9 +10,9 @@
     <ContentPage.Content>
         <Grid >
               <Grid.RowDefinitions>
-                <RowDefinition Height="150" />
+                <RowDefinition Height="{OnPlatform Android='150', iOS='200'}" />
+                <RowDefinition Height="{OnPlatform Android='80', iOS='60'}" />
                 <RowDefinition Height="*" />
-                                   
               </Grid.RowDefinitions>
            
           
@@ -22,17 +22,30 @@
                >
                
               
-           </pancakeView:PancakeView>    
-           
-            <ffimageloading:CachedImage Grid.Row="0"  TranslationY="100"  CacheDuration="50" RetryCount="3" RetryDelay="600"  HorizontalOptions="CenterAndExpand"  VerticalOptions="End"    DownsampleToViewSize="true"
+           </pancakeView:PancakeView>
+            
+              <Frame  Grid.Row="0" Padding="0"  TranslationY="70" HeightRequest="154" WidthRequest="154" IsClippedToBounds="True" CornerRadius="77" VerticalOptions="Center" HorizontalOptions="Center">
+                
+                    <ffimageloading:CachedImage     CacheDuration="50" RetryCount="3" RetryDelay="600"  HorizontalOptions="CenterAndExpand"  VerticalOptions="End"    DownsampleToViewSize="true"
                                    Aspect="AspectFill"   Source="{Binding Photo}" HeightRequest="150" WidthRequest="150" 
                                    LoadingPlaceholder = "Spinner.gif"  ErrorPlaceholder="unnamed.png"  CacheType="Memory">
                                        <ffimageloading:CachedImage.Transformations>
                                     <fftransformations:CircleTransformation />
                                 </ffimageloading:CachedImage.Transformations>
-           </ffimageloading:CachedImage>
+                     </ffimageloading:CachedImage>
+                   
+               
+               
+               
+              </Frame>
+                
               
-           <Button Grid.Row="1" VerticalOptions="End" Command="{Binding LogoutCommand}" Text="Sair"></Button>
+             <Image  Grid.Row="1" Source="foto" HeightRequest="40"   VerticalOptions="End" HorizontalOptions="Center">
+                 <Image.GestureRecognizers>
+                                                <TapGestureRecognizer  Command="{Binding abrircameraCommand}"  />
+                  </Image.GestureRecognizers>
+             </Image>
+           <Button Grid.Row="2" VerticalOptions="End" Command="{Binding LogoutCommand}" Text="Sair"></Button>
            
         
         </Grid>
