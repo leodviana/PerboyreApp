@@ -1,31 +1,41 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations" xmlns:pancakeView="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+    xmlns:pancakeView="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
     x:Class="PerboyreApp.Views.Perfil"
+     xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+  >
+   
+
    
     
->
-    
-    <ContentPage.Content>
-        <Grid >
-              <Grid.RowDefinitions>
-                <RowDefinition Height="{OnPlatform Android='150', iOS='200'}" />
+       <ScrollView BackgroundColor="#4c0507"  >
+        <Grid RowSpacing="0" Padding="0" Margin="0" BackgroundColor="White">
+              <Grid.RowDefinitions >
+                
+                <RowDefinition Height="auto" />
                 <RowDefinition Height="{OnPlatform Android='80', iOS='60'}" />
+                <RowDefinition Height="30" />
+                <RowDefinition Height="30" />
+                <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
               </Grid.RowDefinitions>
            
-          
-           <pancakeView:PancakeView Grid.Row="0"
-               BackgroundColor="#4c0507"
-               
+           
+           <pancakeView:PancakeView Grid.Row="0" Padding="0"
+               BackgroundColor="#4c0507" 
+               HeightRequest="{OnPlatform Android='150', iOS='200'}"
                >
-               
+
+
               
            </pancakeView:PancakeView>
-            
               <Frame  Grid.Row="0" Padding="0"  TranslationY="70" HeightRequest="154" WidthRequest="154" IsClippedToBounds="True" CornerRadius="77" VerticalOptions="Center" HorizontalOptions="Center">
-                
+
+                  
                     <ffimageloading:CachedImage     CacheDuration="50" RetryCount="3" RetryDelay="600"  HorizontalOptions="CenterAndExpand"  VerticalOptions="End"    DownsampleToViewSize="true"
                                    Aspect="AspectFill"   Source="{Binding Photo}" HeightRequest="150" WidthRequest="150" 
                                    LoadingPlaceholder = "Spinner.gif"  ErrorPlaceholder="unnamed.png"  CacheType="Memory">
@@ -39,16 +49,40 @@
                
               </Frame>
                 
-              
+             
              <Image  Grid.Row="1" Source="foto" HeightRequest="40"   VerticalOptions="End" HorizontalOptions="Center">
                  <Image.GestureRecognizers>
-                                                <TapGestureRecognizer  Command="{Binding abrircameraCommand}"  />
+                    <TapGestureRecognizer  Command="{Binding abrircameraCommand}"  />
                   </Image.GestureRecognizers>
              </Image>
-           <Button Grid.Row="2" VerticalOptions="End" Command="{Binding LogoutCommand}" Text="Sair"></Button>
+            <Label Text="{Binding Nome}" Grid.Row="2" FontSize="Medium" HorizontalOptions="Center" ></Label>
+            <StackLayout Orientation="Horizontal" Grid.Row="3" HorizontalOptions="Center">
+                 <Label Text="Id." FontSize="Small"/>
+                 <Label Text="{Binding id}"  FontSize="Small" HorizontalOptions="Center" ></Label>     
+            </StackLayout>
+
            
+            <FlexLayout Grid.Row="4"  Direction="Column" >
+
+                <Label Text="Login" Margin="10,0,10,5" />
+                <Entry Text="{Binding Login}" Placeholder="Login..." HeightRequest="40" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"  Margin="10"></Entry>
+
+                <Label Text="Email" Margin="10,0,10,5" />
+                <Entry Text="{Binding Email}" Placeholder="Email..." HeightRequest="40" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"  Margin="10"></Entry>
+
+
+                <Label Text="Senha" Margin="10,0,10,5" />
+                <Entry Text="" Placeholder="Senha..." HeightRequest="40" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"  Margin="10"></Entry>
+                <Button Text="Login" Margin="10,25,10,10" Command="{Binding navegar}" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" BorderRadius = "20" BackgroundColor="#4c0507" TextColor="White"  ></Button>
+ 
+            </FlexLayout>
+            
+             
+             <Button Grid.Row="5"   Command="{Binding LogoutCommand}" Text="Sair"></Button>
         
         </Grid>
-        
-    </ContentPage.Content>
+        </ScrollView>
+   
+   
 </ContentPage>
+

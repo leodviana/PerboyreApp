@@ -2,8 +2,10 @@
 using System.Windows.Input;
 using FFImageLoading.Cache;
 using FFImageLoading.Forms;
+using Newtonsoft.Json;
 using PerboyreApp.Helpers;
 using PerboyreApp.Interfaces;
+using PerboyreApp.Models;
 using PerboyreApp.Utils;
 using Plugin.Media;
 using Plugin.Media.Abstractions;
@@ -21,18 +23,107 @@ namespace PerboyreApp.ViewModels
 
         public byte[] imageArray;
         private ICommand _abrircameraCommand;
+        private ICommand _salvarCommand;
 
-        /*private string _photo;
+        IApiService apiService;
 
-        public string Photo
+
+        private bool _inicializa;
+
+        public bool inicializa
         {
-            get { return _photo; }
+            get { return _inicializa; }
             set
             {
-                SetProperty(ref _photo, value);
+                SetProperty(ref _inicializa, value);
+
             }
         }
-        */
+
+        private bool isRunning;
+
+        public bool IsRunning
+        {
+            get { return isRunning; }
+            set
+            {
+                SetProperty(ref isRunning, value);
+
+            }
+        }
+
+        private string _nome;
+
+        public string Nome
+        {
+            get { return _nome; }
+            set
+            {
+                SetProperty(ref _nome, value);
+
+            }
+        }
+
+        private string _email;
+
+        public string Email
+        {
+            get { return _email; }
+            set
+            {
+                SetProperty(ref _email, value);
+
+            }
+        }
+        private string _senha;
+
+        public string Senha
+        {
+            get { return _senha; }
+            set
+            {
+                SetProperty(ref _senha, value);
+
+            }
+        }
+
+
+        private string _login;
+
+        public string Login
+        {
+            get { return _login; }
+            set
+            {
+                SetProperty(ref _login, value);
+
+            }
+        }
+
+
+        private Int64 _id;
+
+        public Int64 id
+        {
+            get { return _id; }
+            set
+            {
+                SetProperty(ref _id, value);
+
+            }
+        }
+        private string _status;
+
+        public string status
+        {
+            get { return _status; }
+            set
+            {
+                SetProperty(ref _status, value);
+
+            }
+        }
+
         private ImageSource _photo;
 
         public ImageSource Photo
@@ -46,7 +137,31 @@ namespace PerboyreApp.ViewModels
         }
         public PerfilViewModel(INavigationService navigationService, IPageDialogService pageDialogService, IApiService ApiService) : base(navigationService, pageDialogService)
         {
+            apiService = ApiService;
             Photo = App.usuariologado.ImagePath;
+            inicializa = false;
+            IsActiveChanged += HandleIsActiveTrue;
+            IsActiveChanged += HandleIsActiveFalse;
+        }
+
+        private void HandleIsActiveFalse(object sender, EventArgs e)
+        {
+            if (IsActive == true) return;
+
+        }
+
+        private async void HandleIsActiveTrue(object sender, EventArgs e)
+        {
+            if (IsActive == false) return;
+            if (!inicializa)
+                atribuivalores(App.usuariologado);
+
+        }
+
+        public override void Destroy()
+        {
+            IsActiveChanged -= HandleIsActiveTrue;
+            IsActiveChanged -= HandleIsActiveFalse;
         }
 
         public ICommand LogoutCommand
@@ -114,14 +229,16 @@ namespace PerboyreApp.ViewModels
             var file = await CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions
             {
                // Name = _dentista.nome,
-                AllowCropping = true,
+                AllowCropping = false,
                 Directory = "Photos",
                 SaveToAlbum = true,
                 CompressionQuality = 75,
                 CustomPhotoSize = 50,
                 PhotoSize = PhotoSize.MaxWidthHeight,
                 MaxWidthHeight = 2000,
-                DefaultCamera = CameraDevice.Front
+                DefaultCamera = CameraDevice.Front,
+                //RotateImage = DisplayRotation.Rotation270
+                
             });
             // Plugin.Media.Abstractions.StoreCameraMediaOptions teste = new Plugin.Media.Abstractions.StoreCameraMediaOptions();
 
@@ -177,6 +294,152 @@ namespace PerboyreApp.ViewModels
                 return stream;
             });
         }
+
+
+        public ICommand salvarCommand
+        {
+            get
+            {
+                return _salvarCommand ?? (_salvarCommand = new Command(objeto =>
+                {
+
+                    atualizar();
+                }));
+            }
+        }
+
+
+
+        private void atualizar()
+        {
+
+            IsRunning = true;
+            var current = Connectivity.NetworkAccess;
+
+            if (current == NetworkAccess.Internet)
+
+            {
+
+                salvaPerfil();
+            }
+            else
+            {
+                PageDialogService.DisplayAlertAsync("Painel Studio - Perboyre Castelo", "Por favor Verifique sua conexao!", "Ok");
+                IsRunning = false;
+                return;
+
+            }
+            IsRunning = false;
+
+        }
+
+        private void limpaFormulario()
+        {
+            id = 0;
+            Nome = "";
+            Email = "";
+            Senha = "";
+            Login = "";
+            status = "";
+            Photo = "";
+
+        }
+        private async void salvaPerfil()
+        {
+            IsRunning = true;
+            if (string.IsNullOrEmpty(Email))
+            {
+                await PageDialogService.DisplayAlertAsync("Painel Studio - Perboyre Castelo", "Prencha o campo Email!", "OK");
+                // await dialogServices.ShowMessage("Erro", "Prencha o campo Usuário!");
+                IsRunning = false;
+                return;
+            }
+
+
+            if (string.IsNullOrEmpty(Senha))
+            {
+                await PageDialogService.DisplayAlertAsync("Painel Studio - Perboyre Castelo", "Prencha o campo Senha!", "OK");
+                IsRunning = false;
+                return;
+            }
+            if (string.IsNullOrEmpty(Login))
+            {
+                await PageDialogService.DisplayAlertAsync("Painel Studio - Perboyre Castelo", "Prencha o campo Login!", "OK");
+                IsRunning = false;
+                return;
+            }
+
+            Dentista dentistaatualizado = new Dentista();
+            dentistaatualizado.Id = id;
+            dentistaatualizado.nome = Nome;
+            dentistaatualizado.Email = Email;
+            dentistaatualizado.logon = Login;
+            dentistaatualizado.status = "0";
+            dentistaatualizado.senha = Senha;
+            dentistaatualizado.ImagePath = "";
+            dentistaatualizado.ImageArray = imageArray;
+
+            //Lista = await apiService.getDentistas();
+            // await _dialogService.DisplayAlertAsync("Painel Studio - Perboyre Castelo", _dentista.senha, "Ok");
+            var response = await apiService.PutDentista(dentistaatualizado);
+            if (!response.IsSuccess)
+            {
+                await exibeErro(response.Message);
+                //?await PageDialogService.DisplayAlertAsync("Painel Studio - Perboyre Castelo", response.Message, "Ok");
+                return;
+            }
+            var result = (Dentista)response.Result;
+
+            // await _dialogService.DisplayAlertAsync("Painel Studio - Perboyre Castelo", result.senha, "Ok");
+            limpaFormulario();
+            gravaUsuarioLogado(result);
+            Photo = "";
+            atribuivalores(result);
+            await exibeErro(response.Message);
+            //await PageDialogService.DisplayAlertAsync("Painel Studio - Perboyre Castelo", response.Message, "OK");
+            IsRunning = false;
+
+            /*  Settings.ClearAllData();
+              App.usuariologado = null;*/
+            //  Page nova = Navegacao_aux.GetMainPage();
+            // App.Current.MainPage = nova;
+
+        }
+        private void atribuivalores(Dentista _dentista)
+        {
+            id = _dentista.Id;
+            Nome = _dentista.nome;
+            Email = _dentista.Email;
+            Senha = _dentista.senha;
+            Login = _dentista.logon;
+            status = _dentista.status;
+            Photo = _dentista.ImagePath;
+            _dentista.ImageArray = null;
+
+        }
+        private void gravaUsuarioLogado(Dentista User)
+        {
+            if (User.Id == 999999999)
+            {
+                User.tipo = "Administrador";
+                App.usuariologado = User;
+                Preferences.Set("dentistaserializado", JsonConvert.SerializeObject(User));
+                // Preferences.Get("dentistaserializado", JsonConvert.SerializeObject(User));
+                //Settings.Grava_Settings(JsonConvert.SerializeObject(User));
+                // await _navigationService.NavigateAsync("/MasterPage/NavigationPage/DentistaPage");
+            }
+            else
+            {
+                User.tipo = "Dentista";
+                App.usuariologado = User;
+                Preferences.Set("dentistaserializado", JsonConvert.SerializeObject(User));
+                var navigationParams = new NavigationParameters();
+                navigationParams.Add("paciente", User);
+
+                // await _navigationService.NavigateAsync("/MasterPage/NavigationPage/ExamesPage", navigationParams);
+            }
+        }
+
 
     }
 }
