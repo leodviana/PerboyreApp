@@ -20,8 +20,8 @@
                 <RowDefinition Height="{OnPlatform Android='80', iOS='60'}" />
                 <RowDefinition Height="30" />
                 <RowDefinition Height="30" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="*" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
               </Grid.RowDefinitions>
            
            
