@@ -261,27 +261,7 @@ namespace PerboyreApp.ViewModels
 
 
                     string NomeSelecionado = teste.nome_arquivo_completo;
-                    //apaguei para saber se era utilizado 
-                    /*   var ShareMessage = new Plugin.Share.Abstractions.ShareMessage
-                       {
-
-                           Text = "Exemplo de como compartilhar textos ou links em Aplicações Xamarin.Forms. / Example of how to share texts or links in Xamarin.Forms Applications.",
-                           Title = "Share",
-                           Url = "https://www.julianocustodio.com"
-
-                       };
-
-                       CrossShare.Current.Share(ShareMessage);
-                      /* Share.RequestAsync(new ShareFileRequest
-                       {
-                           Title = Title,
-                           File = new ShareFile(file)
-                       });*/
-                    //showZoom(NomeSelecionado);
-                    /*var navigationParams = new NavigationParameters();
-                    navigationParams.Add("imagem", NomeSelecionado);
-                     _navigationService.NavigateAsync("ImagensDetalhes2", navigationParams);*/
-                    //EscolaSelecionado = teste.Escola;*/
+                   
                 }));
             }
         }
@@ -389,13 +369,9 @@ namespace PerboyreApp.ViewModels
                 return _selecionarItem2 ?? (_selecionarItem2 = new Command<ArqImagens>(objeto =>
                 {
                     ArqImagens teste = objeto;
-
-                   // string NomeSelecionado = teste.nome_arquivo_completo;
+                                      
                     showZoom(teste);
-                    /*var navigationParams = new NavigationParameters();
-                    navigationParams.Add("imagem", NomeSelecionado);
-                     _navigationService.NavigateAsync("ImagensDetalhes2", navigationParams);*/
-                    //EscolaSelecionado = teste.Escola;
+                   
                 }));
             }
         }
@@ -409,21 +385,23 @@ namespace PerboyreApp.ViewModels
                 {
                     ArqImagens teste = objeto;
 
-                    string NomeSelecionado = teste.nome_arquivo_completo;
+                    string NomeSelecionado = "https://www.painelstudio.com/perboyre/exames/676716-CLODOALDO_SANTOS_NOVAES_NETO/676716pa.jpg";//teste.nome_arquivo_completo;
                     showZoom(teste);
-                    /*var navigationParams = new NavigationParameters();
-                    navigationParams.Add("imagem", NomeSelecionado);
-                     _navigationService.NavigateAsync("ImagensDetalhes2", navigationParams);*/
-                    //EscolaSelecionado = teste.Escola;
+                   
                 }));
             }
         }
 
         private void showZoom(ArqImagens nomeSelecionado)
         {
-            new PhotoBrowser
+            try
             {
-                Photos = new List<Photo>
+
+
+                new PhotoBrowser
+                {
+
+                    Photos = new List<Photo>
                 {
                     new Photo
 
@@ -434,14 +412,19 @@ namespace PerboyreApp.ViewModels
 
 
                 },
-                ActionButtonPressed = (index) =>
-                {
-                    Debug.WriteLine($"Clicked {index}");
-                    PhotoBrowser.Close();
+                    ActionButtonPressed = (index) =>
+                    {
+                        Debug.WriteLine($"Clicked {index}");
+                        PhotoBrowser.Close();
                     //  _navigationService.GoBackAsync();
                 }
 
-            }.Show();
+                }.Show();
+            }
+            catch(Exception ex)
+            {
+
+            }
         }
 
 
