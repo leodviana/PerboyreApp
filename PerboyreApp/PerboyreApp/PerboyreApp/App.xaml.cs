@@ -39,8 +39,8 @@ namespace PerboyreApp
             else
 
             {
-                // var status  = await ChecapermisaoService.checa_permissao( new Permissions.StorageWrite());
-               // var testa2 = await ChecapermisaoService.checa_permissao(new Permissions.LocationWhenInUse());
+                 var status  = await ChecapermisaoService.checa_permissao( new Permissions.StorageWrite());
+                var testa2 = await ChecapermisaoService.checa_permissao(new Permissions.LocationWhenInUse());
                 if (usuariologado.Id == 999999999)
                 {
                    

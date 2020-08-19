@@ -33,7 +33,7 @@
 
               
            </pancakeView:PancakeView>
-              <Frame  Grid.Row="0" Padding="0"  TranslationY="70" HeightRequest="154" WidthRequest="154" IsClippedToBounds="True" CornerRadius="77" VerticalOptions="Center" HorizontalOptions="Center">
+              <Frame  Grid.Row="0" Padding="0"  TranslationY="50" HeightRequest="154" WidthRequest="154" IsClippedToBounds="True" CornerRadius="77" VerticalOptions="Center" HorizontalOptions="Center">
 
                   
                     <ffimageloading:CachedImage     CacheDuration="50" RetryCount="3" RetryDelay="600"  HorizontalOptions="CenterAndExpand"  VerticalOptions="End"    DownsampleToViewSize="true"
@@ -72,13 +72,16 @@
 
 
                 <Label Text="Senha" Margin="10,0,10,5" />
-                <Entry Text="" Placeholder="Senha..." HeightRequest="40" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"  Margin="10"></Entry>
-                <Button Text="Login" Margin="10,25,10,10" Command="{Binding navegar}" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" BorderRadius = "20" BackgroundColor="#4c0507" TextColor="White"  ></Button>
+                <Entry Text="{Binding Senha}" Placeholder="Senha..." HeightRequest="40" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"  Margin="10"></Entry>
+                <Button Text="Login" Margin="10,25,10,10"  Command="{Binding navegar}" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand" BorderRadius = "20" BackgroundColor="#4c0507" TextColor="White"  ></Button>
  
             </FlexLayout>
             
              
-             <Button Grid.Row="5"   Command="{Binding LogoutCommand}" Text="Sair"></Button>
+                 
+                 <Button Grid.Row="5"   Command="{Binding LogoutCommand}" Text="Sair"></Button>
+             
+             
         
         </Grid>
         </ScrollView>
