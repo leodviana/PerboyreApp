@@ -32,8 +32,6 @@
 	<string>LaunchScreen</string>
 	<key>CFBundleName</key>
 	<string>PerboyreApp</string>
-	<key>XSAppIconAssets</key>
-	<string>Assets.xcassets/AppIcon.appiconset</string>
 	<key>NSCameraUsageDescription</key>
 	<string>This app needs access to the camera to take photos.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
@@ -43,8 +41,14 @@
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>This app needs access to the photo gallery.</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>New Entry</string>
+	<string>This app needs access</string>
 	<key>NSLocationUsageDescription</key>
-	<string>New Entry</string>
+	<string>this app needs location</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>this app needs location</string>
+	<key>UIMainStoryboardFile</key>
+	<string>LaunchScreen</string>
+	<key>XSAppIconAssets</key>
+	<string>Assets.xcassets/AppIcons.appiconset</string>
 </dict>
 </plist>
