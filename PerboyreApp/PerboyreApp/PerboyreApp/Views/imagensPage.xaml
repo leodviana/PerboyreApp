@@ -50,7 +50,7 @@
             BackgroundColor="Transparent"
             
             SelectedItem="{Binding Selection}"
-            ItemSizingStrategy="MeasureAllItems"
+            ItemSizingStrategy="MeasureFirstItem"
         >
         <CollectionView.ItemsLayout>
                    <GridItemsLayout Orientation="Vertical"  VerticalItemSpacing="2" >

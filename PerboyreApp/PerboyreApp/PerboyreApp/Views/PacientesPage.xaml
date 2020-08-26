@@ -96,7 +96,7 @@
                ItemsSource="{Binding pacs, Mode=OneWay}"
                SelectionMode="Single"
                SelectedItem="{Binding Selection}"
-               ItemSizingStrategy="MeasureAllItems"
+               ItemSizingStrategy="MeasureFirstItem"
                >
                
                <CollectionView.ItemsLayout>
@@ -137,7 +137,10 @@
                                             <Label  Text="Atendimento No.:"  TextColor="#4c0507"/>
                                             <Label  Text="{Binding Id}"  TextColor="#4c0507"/>
                                         </StackLayout>
-                                        
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label  Text="Exame Realizado:"  TextColor="#4c0507"/>
+                                            <Label  Text="{Binding unidade}"  TextColor="#4c0507"/>
+                                        </StackLayout>
                                     </StackLayout>
                                 </Grid>
                             </StackLayout>

@@ -366,11 +366,11 @@ namespace PerboyreApp.ViewModels
         {
             get
             {
-                return _selecionarItem2 ?? (_selecionarItem2 = new Command<ArqImagens>(objeto =>
+                return _selecionarItem2 ?? (_selecionarItem2 = new Command<ArqImagens>( objeto =>
                 {
                     ArqImagens teste = objeto;
                                       
-                    showZoom(teste);
+                     showZoom(teste);
                    
                 }));
             }
@@ -385,7 +385,7 @@ namespace PerboyreApp.ViewModels
                 {
                     ArqImagens teste = objeto;
 
-                    string NomeSelecionado = "https://www.painelstudio.com/perboyre/exames/676716-CLODOALDO_SANTOS_NOVAES_NETO/676716pa.jpg";//teste.nome_arquivo_completo;
+                    string NomeSelecionado = teste.nome_arquivo_completo;
                     showZoom(teste);
                    
                 }));
@@ -407,6 +407,7 @@ namespace PerboyreApp.ViewModels
 
                     {
                         URL = nomeSelecionado.nome_arquivo_completo,
+                       
 
                     },
 

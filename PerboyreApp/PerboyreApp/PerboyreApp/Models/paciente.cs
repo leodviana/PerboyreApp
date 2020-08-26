@@ -12,5 +12,6 @@ namespace PerboyreApp.Models
         public System.DateTime dt_atendimento { get; set; }
         public long cd_dentista { get; set; }
         public string photo { get; set; }
+        public string unidade { get; set; }
     }
 }
