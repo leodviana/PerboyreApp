@@ -42,9 +42,7 @@
 	<string>This app needs access to microphone.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>This app needs access to the photo gallery.</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>New Entry</string>
-	<key>NSLocationUsageDescription</key>
-	<string>New Entry</string>
+	<key>UIMainStoryboardFile</key>
+	<string>LaunchScreen</string>
 </dict>
 </plist>

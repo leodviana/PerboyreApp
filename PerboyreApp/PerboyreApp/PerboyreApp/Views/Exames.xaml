@@ -24,6 +24,7 @@
                
                   <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="{OnPlatform Android='22', iOS='15'}"></ColumnDefinition>
+                        
                         <ColumnDefinition Width="30"/>
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="60"/>
@@ -33,13 +34,14 @@
                
                
                <Button HeightRequest="22"  Grid.Column="0"  BackgroundColor="Transparent"  Command="{Binding voltarCommand}" ImageSource="backwhite" HorizontalOptions="Start" ></Button>
-               <Label Grid.Column="1"  Text=""  FontSize="Subtitle"  TextColor="White" HorizontalOptions="Start" VerticalOptions="Center" >
-                   <Label.GestureRecognizers>
-                       <TapGestureRecognizer Command="{Binding voltarCommand}"/>
+               <Label Grid.Column="1"  Text="    "  FontSize="Subtitle"  TextColor="White" HorizontalOptions="Start" VerticalOptions="Center" >
+                        <Label.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding voltarCommand}"/>
 
                        
-                   </Label.GestureRecognizers>
-               </Label>  
+                        </Label.GestureRecognizers>
+                    </Label>  
+               
            
                <Label  Grid.Column="2"  Text="Exames"  FontSize="{OnPlatform Android='20', iOS='26'}"   TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"  >
                    
