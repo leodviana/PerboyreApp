@@ -28,6 +28,14 @@ namespace PerboyreApp.Droid.Renderers
 
             if (e.NewElement != null)
             {
+                var altura = (int)Resources.DisplayMetrics.HeightPixels;
+                int tamamnhoicone = 90;
+                int alturaTab = 100;
+                if (altura<=960)
+                {
+                    tamamnhoicone = 50;
+                    alturaTab = 60;
+                }
                 _formsTabs = Element;
                 _formsTabs.CurrentPageChanged += OnCurrentPageChanged;
 
@@ -35,7 +43,8 @@ namespace PerboyreApp.Droid.Renderers
                 
                     _bottomNavigationView = relativeLayout.GetChildAt(1) as BottomNavigationView;
                     _bottomNavigationView.ItemIconTintList =null;
-                    _bottomNavigationView.ItemIconSize = 90;
+                    _bottomNavigationView.SetMinimumHeight(alturaTab); 
+                    _bottomNavigationView.ItemIconSize = tamamnhoicone;
                     _bottomNavigationView.LabelVisibilityMode = LabelVisibilityMode.LabelVisibilityUnlabeled;
 
                     UpdateAllTabs();

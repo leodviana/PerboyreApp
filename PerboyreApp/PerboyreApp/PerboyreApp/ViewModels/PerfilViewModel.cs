@@ -24,6 +24,7 @@ namespace PerboyreApp.ViewModels
         public byte[] imageArray;
         private ICommand _abrircameraCommand;
         private ICommand _salvarCommand;
+        private ICommand _navegarCommand;
 
         IApiService apiService;
 
@@ -309,6 +310,24 @@ namespace PerboyreApp.ViewModels
         }
 
 
+
+        public ICommand navegarCommand
+        {
+            get
+            {
+                return _navegarCommand ?? (_navegarCommand = new Command(objeto =>
+                {
+
+                    mostrar();
+                }));
+            }
+        }
+
+        private async  void mostrar()
+        {
+            var mainDisplayInfo = DeviceDisplay.MainDisplayInfo;
+            await exibeErro("Densidade " + mainDisplayInfo.Density.ToString() +" largura" + mainDisplayInfo.Width.ToString()  + " altura " + mainDisplayInfo.Height.ToString()  );
+        }
 
         private void atualizar()
         {

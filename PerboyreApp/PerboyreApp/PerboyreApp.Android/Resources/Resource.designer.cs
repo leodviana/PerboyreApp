@@ -19378,7 +19378,7 @@ namespace PerboyreApp.Droid
 			public const int highlighted_text_material_light = 2131034183;
 			
 			// aapt resource value: 0x7F050048
-			public const int launcher_background = 2131034184;
+			public const int ic_launcher_background = 2131034184;
 			
 			// aapt resource value: 0x7F050049
 			public const int material_blue_grey_800 = 2131034185;
@@ -21732,9 +21732,6 @@ namespace PerboyreApp.Droid
 			
 			// aapt resource value: 0x7F0C0002
 			public const int ic_launcher_round = 2131492866;
-			
-			// aapt resource value: 0x7F0C0005
-			public const int launcher_foreground = 2131492869;
 			
 			static Mipmap()
 			{
