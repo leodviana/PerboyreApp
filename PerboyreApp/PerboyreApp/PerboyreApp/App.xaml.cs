@@ -30,7 +30,8 @@ namespace PerboyreApp
             InitializeComponent();
             string usuario_logado = Preferences.Get("dentistaserializado", "");
             App.usuariologado = JsonConvert.DeserializeObject<Models.Dentista>(usuario_logado);
-           
+
+
             if (App.usuariologado == null)
             {
 
@@ -39,6 +40,10 @@ namespace PerboyreApp
             else
 
             {
+                if (usuariologado.ImagePath.Equals(""))
+                {
+                    usuariologado.ImagePath = "perfil";
+                }
                //  var status  = await ChecapermisaoService.checa_permissao( new Permissions.StorageWrite());
                // var testa2 = await ChecapermisaoService.checa_permissao(new Permissions.LocationWhenInUse());
                 if (usuariologado.Id == 999999999)

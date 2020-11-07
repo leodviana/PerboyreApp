@@ -33,7 +33,8 @@
 
               
            </pancakeView:PancakeView>
-              <Frame  Grid.Row="0" Padding="0"  TranslationY="50" HeightRequest="154" WidthRequest="154" IsClippedToBounds="True" CornerRadius="77" VerticalOptions="Center" HorizontalOptions="Center">
+
+              <Frame  Grid.Row="0" Padding="0"  TranslationY="50" HeightRequest="150" WidthRequest="150" IsClippedToBounds="True" CornerRadius="77" VerticalOptions="Center" HorizontalOptions="Center">
 
                   
                     <ffimageloading:CachedImage     CacheDuration="50" RetryCount="3" RetryDelay="600"  HorizontalOptions="CenterAndExpand"  VerticalOptions="End"    DownsampleToViewSize="true"
@@ -49,12 +50,20 @@
                
               </Frame>
                 
+              <Grid ColumnSpacing="0" RowSpacing="0" Grid.Row="0"  >
+                  <Grid.ColumnDefinitions>
+                      <ColumnDefinition Width="1.8*"></ColumnDefinition>
+                       <ColumnDefinition Width="*"></ColumnDefinition>
+                  </Grid.ColumnDefinitions>
+                  
+                  
+                  <Image  Grid.Column="1"  Source="foto" HeightRequest="40"   VerticalOptions="End" HorizontalOptions="Start">
+                    <Image.GestureRecognizers>
+                      <TapGestureRecognizer  Command="{Binding abrircameraCommand}"  />
+                     </Image.GestureRecognizers>
+                 </Image>
+              </Grid>
              
-             <Image  Grid.Row="1" Source="foto" HeightRequest="40"   VerticalOptions="End" HorizontalOptions="Center">
-                 <Image.GestureRecognizers>
-                    <TapGestureRecognizer  Command="{Binding abrircameraCommand}"  />
-                  </Image.GestureRecognizers>
-             </Image>
             <Label Text="{Binding Nome}" Grid.Row="2" FontSize="Medium" HorizontalOptions="Center" ></Label>
             <StackLayout Orientation="Horizontal" Grid.Row="3" HorizontalOptions="Center">
                  <Label Text="Id." FontSize="Small"/>
@@ -74,12 +83,13 @@
                 <Label Text="Senha" Margin="10,0,10,5" />
                 <Entry Text="{Binding Senha}" Placeholder="Senha..." HeightRequest="40" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"  Margin="10"></Entry>
                 <Button Text="Login" Margin="10,25,10,10"  Command="{Binding navegarCommand}" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand" BorderRadius = "20" BackgroundColor="#4c0507" TextColor="White"  ></Button>
- 
+
+                 <Button BackgroundColor="Transparent"   Command="{Binding LogoutCommand}" Text="Sair"></Button>
             </FlexLayout>
             
              
                  
-                 <Button Grid.Row="5"   Command="{Binding LogoutCommand}" Text="Sair"></Button>
+                
              
              
         

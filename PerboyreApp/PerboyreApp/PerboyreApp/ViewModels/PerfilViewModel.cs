@@ -23,8 +23,8 @@ namespace PerboyreApp.ViewModels
 
         public byte[] imageArray;
         private ICommand _abrircameraCommand;
-        private ICommand _salvarCommand;
         private ICommand _navegarCommand;
+        private ICommand _salvarCommand;
 
         IApiService apiService;
 

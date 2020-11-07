@@ -31,7 +31,7 @@ namespace PerboyreApp.Droid.Renderers
                 var altura = (int)Resources.DisplayMetrics.HeightPixels;
                 int tamamnhoicone = 90;
                 int alturaTab = 100;
-                if (altura<=960)
+                if (altura<=976)
                 {
                     tamamnhoicone = 50;
                     alturaTab = 60;

@@ -431,8 +431,11 @@ namespace PerboyreApp.ViewModels
             for (int i = 0;i<nomeSelecionado.lista_jpeg.Count();i++)
             {
                 var foto = new Photo();
+
                 foto.URL = nomeSelecionado.lista_jpeg[i].ToString().Replace(" ","%20");
+                //foto.URL = nomeSelecionado.lista_jpeg[i];
                 _photo.Add(foto);
+                
             }
 
             new PhotoBrowser
@@ -445,6 +448,7 @@ namespace PerboyreApp.ViewModels
                 {
                     Debug.WriteLine($"Clicked {index}");
                     PhotoBrowser.Close();
+                    
                     //  _navigationService.GoBackAsync();
                 }
 

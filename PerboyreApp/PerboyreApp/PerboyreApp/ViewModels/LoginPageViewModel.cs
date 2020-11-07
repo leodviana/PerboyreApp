@@ -183,6 +183,10 @@ namespace PerboyreApp.ViewModels
             {
                 User.tipo = "Dentista";
                 App.usuariologado = User;
+                if (App.usuariologado.ImagePath.Equals(""))
+                {
+                    App.usuariologado.ImagePath = "perfil";
+                }
                 // Settings.Grava_Settings(JsonConvert.SerializeObject(User));
                 Preferences.Set("dentistaserializado", JsonConvert.SerializeObject(User));
                 //Preferences.Get("dentistaserializado", JsonConvert.SerializeObject(User));
