@@ -89,7 +89,7 @@ namespace PerboyreApp
             containerRegistry.RegisterForNavigation<PdfPage, pdfViewModel>();
             containerRegistry.RegisterForNavigation<Unidades, UnidadeViewModel>();
 
-
+            containerRegistry.RegisterForNavigation<TesteImagem, TesteImagemViewModel>();
             containerRegistry.RegisterSingleton<IApiService, ApiService>();
         }
 

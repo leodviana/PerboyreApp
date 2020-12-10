@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerboyreApp.iOS", "Perboyre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerboyreApp", "PerboyreApp\PerboyreApp\PerboyreApp.csproj", "{C85E252E-E416-4DB6-81CB-F4615B65C408}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EF771717-1B0C-401B-BC78-6ED6EFEFEFCF}"
+	ProjectSection(SolutionItems) = preProject
+		PerboyreApp.sln = PerboyreApp.sln
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

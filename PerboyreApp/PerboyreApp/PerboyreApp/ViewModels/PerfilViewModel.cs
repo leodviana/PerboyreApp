@@ -201,6 +201,11 @@ namespace PerboyreApp.ViewModels
             var action = await PageDialogService.DisplayActionSheetAsync("Selecione Imagem:", "Cancel", null, "Camera", "Galeria");
             if (action == "Camera")
             {
+                var status = await Permissions.CheckStatusAsync<Permissions.Camera>();
+                if(status!=PermissionStatus.Granted)
+                {
+                    status = await Permissions.RequestAsync<Permissions.Camera>();
+                }
                 abrircamera();
             }
             else if (action == "Galeria")
@@ -318,7 +323,7 @@ namespace PerboyreApp.ViewModels
                 return _navegarCommand ?? (_navegarCommand = new Command(objeto =>
                 {
 
-                    mostrar();
+                     atualizar();
                 }));
             }
         }
@@ -424,7 +429,7 @@ namespace PerboyreApp.ViewModels
             // App.Current.MainPage = nova;
 
         }
-        private void atribuivalores(Dentista _dentista)
+        private async void atribuivalores(Dentista _dentista)
         {
             id = _dentista.Id;
             Nome = _dentista.nome;
@@ -433,6 +438,7 @@ namespace PerboyreApp.ViewModels
             Login = _dentista.logon;
             status = _dentista.status;
             Photo = _dentista.ImagePath;
+            await FFImageLoading.Forms.CachedImage.InvalidateCache(Photo, CacheType.Memory);
             _dentista.ImageArray = null;
 
         }

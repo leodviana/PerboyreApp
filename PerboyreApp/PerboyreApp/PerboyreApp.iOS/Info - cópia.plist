@@ -34,8 +34,6 @@
 	<string>PerboyreApp</string>
 	<key>NSCameraUsageDescription</key>
 	<string>This app needs access to the camera to take photos.</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>This app needs access to photos.</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>This app needs access to microphone.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
@@ -44,5 +42,9 @@
 	<string>LaunchScreen</string>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>Custom Property</key>
+	<string>teste</string>
 </dict>
 </plist>

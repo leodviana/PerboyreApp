@@ -82,7 +82,7 @@
 
                 <Label Text="Senha" Margin="10,0,10,5" />
                 <Entry Text="{Binding Senha}" Placeholder="Senha..." HeightRequest="40" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"  Margin="10"></Entry>
-                <Button Text="Login" Margin="10,25,10,10"  Command="{Binding navegarCommand}" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand" BorderRadius = "20" BackgroundColor="#4c0507" TextColor="White"  ></Button>
+                <Button Text="Salvar" Margin="10,25,10,10"  Command="{Binding navegarCommand}" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand" BorderRadius = "20" BackgroundColor="#4c0507" TextColor="White"  ></Button>
 
                  <Button BackgroundColor="Transparent"   Command="{Binding LogoutCommand}" Text="Sair"></Button>
             </FlexLayout>

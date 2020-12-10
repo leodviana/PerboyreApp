@@ -283,6 +283,7 @@ namespace PerboyreApp.ViewModels
 
         private async void compartilhaImagemAsync(string nome_arquivo_completo)
         {
+            var testa = await CheckAndRequestLocationPermission();
             string caminho = Path.Combine(FileSystem.CacheDirectory, "teste.jpg");
            if (InternetConnectivity())
            {
@@ -303,6 +304,27 @@ namespace PerboyreApp.ViewModels
             }
         }
 
+
+        public async Task<PermissionStatus> CheckAndRequestLocationPermission()
+        {
+            var status = await Permissions.CheckStatusAsync<Permissions.StorageWrite>();
+
+            if (status == PermissionStatus.Granted)
+                return status;
+
+            if (status == PermissionStatus.Denied && DeviceInfo.Platform == DevicePlatform.iOS)
+            {
+                // Prompt the user to turn on in settings
+                // On iOS once a permission has been denied it may not be requested again from the application
+                return status;
+            }
+
+           
+
+            status = await Permissions.RequestAsync<Permissions.StorageWrite>();
+
+            return status;
+        }
 
         /* private async void compartilhaImagemAsync(string nome_arquivo_completo)
         {
@@ -349,9 +371,9 @@ namespace PerboyreApp.ViewModels
 
              return;
          }*/
-    //}
+        //}
 
-    private void compartilhaImagem(string file)
+        private void compartilhaImagem(string file)
         {
             
             Share.RequestAsync(new ShareFileRequest()

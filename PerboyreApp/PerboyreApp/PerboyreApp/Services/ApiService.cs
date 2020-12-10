@@ -285,7 +285,7 @@ namespace PerboyreApp.Services
                 var jsonRequest = JsonConvert.SerializeObject(dentista);
                 var httpContent = new StringContent(jsonRequest, Encoding.UTF8, "application/json");
                 var client = new HttpClient();
-                client.BaseAddress = new Uri("http://www.painelstudio.com/perboyre/");
+                client.BaseAddress = new Uri("https://www.painelstudio.com/perboyre/");
                 // client.BaseAddress = new Uri("http://192.168.0.7:30000/");
                 //var url = "api/Dentista/getDentistas";
                 var url = "api/Dentista/PutDentista";

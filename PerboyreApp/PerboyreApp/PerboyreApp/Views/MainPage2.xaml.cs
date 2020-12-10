@@ -16,7 +16,7 @@ namespace PerboyreApp.Views
             InitializeComponent();
 
             Children.Add(new DentistaPage());
-            Children.Add(new Localizacao());
+            //Children.Add(new Localizacao());
 
             //if (Device.RuntimePlatform == Device.iOS)
             //    Children.Add(new TrainingView());

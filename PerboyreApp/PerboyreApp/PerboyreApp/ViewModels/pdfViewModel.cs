@@ -18,7 +18,7 @@ using Xamarin.Forms;
 
 namespace PerboyreApp.ViewModels
 {
-    public class pdfViewModel: ViewModelBase,IInitialize
+    public class pdfViewModel : ViewModelBase, IInitialize
     {
         public paciente _paciente;
 
@@ -428,42 +428,187 @@ namespace PerboyreApp.ViewModels
         private void showZoom(ArqImagens nomeSelecionado)
         {
             List<Photo>_photo = new List<Photo>();
-            for (int i = 0;i<nomeSelecionado.lista_jpeg.Count();i++)
+
+            // NavigationService.NavigateAsync("LoginPacientePage");
+          // teste(nomeSelecionado);
+             for (int i = 0;i<nomeSelecionado.lista_jpeg.Count();i++)
+             {
+                 var foto = new Photo();
+
+                 foto.URL = nomeSelecionado.lista_jpeg[i].ToString().Replace(" ","%20");
+                 //foto.URL = nomeSelecionado.lista_jpeg[i];
+                 _photo.Add(foto);
+
+             }
+           // var retorno = await apiService.DownloadFileAsync(nome_arquivo_completo);
+            new PhotoBrowser
+             {
+                 Photos = _photo.ToList(),
+
+                 
+
+            ActionButtonPressed = (index) =>
+                 {
+                     Debug.WriteLine($"Clicked {index}");
+                     PhotoBrowser.Close();
+
+                     //  _navigationService.GoBackAsync();
+                 }
+
+             }.Show();
+            
+        }
+
+
+      /*  private async void showZoom(ArqImagens nomeSelecionado)
+        {
+            List<Photo> _photo = new List<Photo>();
+            string caminho = Path.Combine(FileSystem.CacheDirectory, "teste.jpg");
+            // NavigationService.NavigateAsync("LoginPacientePage");
+            // teste(nomeSelecionado);
+            _photo = await grava_local(nomeSelecionado);
+            try
             {
-                var foto = new Photo();
 
-                foto.URL = nomeSelecionado.lista_jpeg[i].ToString().Replace(" ","%20");
-                //foto.URL = nomeSelecionado.lista_jpeg[i];
-                _photo.Add(foto);
-                
-            }
-
+            
             new PhotoBrowser
             {
-                Photos = _photo,
-                
+                Photos = _photo.ToList(),
 
-                
+
+
                 ActionButtonPressed = (index) =>
                 {
                     Debug.WriteLine($"Clicked {index}");
                     PhotoBrowser.Close();
-                    
+
                     //  _navigationService.GoBackAsync();
                 }
 
             }.Show();
+            }
+            catch(Exception ex)
+            {
+
+            }
+
         }
 
 
+        private async Task<List<Photo>> grava_local(ArqImagens nomeSelecionado)
+        {
+            string caminho = "";
+            List<Photo> _photo = new List<Photo>();
+            for (int i = 0; i < nomeSelecionado.lista_jpeg.Count(); i++)
+            {
+                caminho = Path.Combine(FileSystem.CacheDirectory, "teste" + i + ".jpg");
+                var foto = new Photo();
+
+                foto.URL = nomeSelecionado.lista_jpeg[i].ToString().Replace(" ", "%20");
+                //foto.URL = nomeSelecionado.lista_jpeg[i];
+                var retorno = await apiService.DownloadFileAsync(foto.URL);
+                File.WriteAllBytes(caminho, retorno.ToArray());
+                foto.Title = "teste" + i + ".jpg";
+                foto.URL = caminho;
+                _photo.Add(foto);
+
+            }
+            return _photo;
+        }*/
+      /*private void showZoom(ArqImagens nomeSelecionado)
+        {
+                    try
+                    {
+                        new PhotoBrowser
+                        {
+                            Photos = new List<Photo>
+                {
+                    new Photo
+                    {
+                        URL = "https://www.painelstudio.com/perboyre/exames/687014-ERICA_GONCALVES_GOMES/687014pa.jpg",
+                        Title = "Vincent"
+                    },
+                    new Photo
+                    {
+                        URL = "https://www.painelstudio.com/perboyre/exames/685593-ISADORA_REIS_FRANCO/pdf/685593L/teste.jpg",
+                        Title = "Vincent"
+                    },
+                    new Photo
+                    {
+                        URL = nomeSelecionado.nome_arquivo_completo,
+                        Title = "Jules"
+                    },
+                    new Photo
+                    {
+                        URL = "https://raw.githubusercontent.com/stfalcon-studio/FrescoImageViewer/v.0.5.0/images/posters/Korben.jpg",
+                        Title = "Korben"
+                    },
+                    new Photo
+                    {
+                        URL = "https://raw.githubusercontent.com/stfalcon-studio/FrescoImageViewer/v.0.5.0/images/posters/Toretto.jpg",
+                        Title = "Toretto"
+                    },
+                    new Photo
+                    {
+                        URL = "https://raw.githubusercontent.com/stfalcon-studio/FrescoImageViewer/v.0.5.0/images/posters/Marty.jpg",
+                        Title = "Marty"
+                    },
+                    new Photo
+                    {
+                        URL = "https://raw.githubusercontent.com/stfalcon-studio/FrescoImageViewer/v.0.5.0/images/posters/Driver.jpg",
+                        Title = "Driver"
+                    },
+                    new Photo
+                    {
+                        URL = "https://raw.githubusercontent.com/stfalcon-studio/FrescoImageViewer/v.0.5.0/images/posters/Frank.jpg",
+                        Title = "Frank"
+                    },
+                    new Photo
+                    {
+                        URL = "https://raw.githubusercontent.com/stfalcon-studio/FrescoImageViewer/v.0.5.0/images/posters/Max.jpg",
+                        Title = "Max"
+                    },
+                    new Photo
+                    {
+                        URL = "https://raw.githubusercontent.com/stfalcon-studio/FrescoImageViewer/v.0.5.0/images/posters/Daniel.jpg",
+                        Title = "Daniel"
+                    }
+                },
+                            ActionButtonPressed = (index) =>
+                            {
+                                Debug.WriteLine($"Clicked {index}");
+                                PhotoBrowser.Close();
+                            },
+
+
+
+
+                        }.Show();
+                    }
+                    catch(Exception e)
+                    {
+
+                    }
+
+
+
+        }*/
+        private async void teste(ArqImagens nomeSelecionado)
+        {
+          var navigationParams = new NavigationParameters();
+          navigationParams.Add("imagem", nomeSelecionado);
+          await NavigationService.NavigateAsync("TesteImagem",navigationParams);
+           
+            // await Navigation.PushAsync(new TesteImagem());
+        }
 
         public async void Initialize(INavigationParameters parameters)
         {
 
-            _paciente = (paciente)parameters["paciente"];
-            titulo = _paciente.nome;
+          _paciente = (paciente)parameters["paciente"];
+          titulo = _paciente.nome;
 
-            await GetExames();
+          await GetExames();
 
         }
     }

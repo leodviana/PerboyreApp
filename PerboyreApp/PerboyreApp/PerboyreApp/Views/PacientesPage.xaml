@@ -74,15 +74,7 @@
                  
                
              </SearchBar>
-             <ActivityIndicator
-                 IsRunning="{Binding IsRunning}"
-                 IsVisible="false"
-                 Color="#4c0507"
-                 VerticalOptions="Center"
-                 HorizontalOptions="Center"
-             >
-
-             </ActivityIndicator>
+            
           <RefreshView
               Command="{Binding RefreshCommand}"
               IsRefreshing="{Binding IsRunning}"
