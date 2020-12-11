@@ -4,6 +4,8 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using Acr.UserDialogs;
+using PerboyreApp.Helpers;
 using PerboyreApp.Interfaces;
 using PerboyreApp.Models;
 using Prism.Navigation;
@@ -229,18 +231,12 @@ namespace PerboyreApp.ViewModels
                         dentistas = null;
                         await exibeErro("Dispositivo não está conectado a internet!");
                     }
-
-
                 }
                 else
                 {
                     await exibeErro("Dispositivo não está conectado a internet!");
 
                     mostra = true;
-
-                    // await PageDialogService.DisplayAlertAsync("app", "Sem conexao!", "Ok");
-
-
                 }
             }
             catch (Exception ex)
@@ -275,7 +271,6 @@ namespace PerboyreApp.ViewModels
             {
                 await GetDentistasasync();
                 inicializa = true;
-
             }
             catch (Exception ex)
             {
@@ -300,18 +295,25 @@ namespace PerboyreApp.ViewModels
 
         private async Task pegaDirecao(Unidade unidade)
         {
-            // await PageDialogService.DisplayAlertAsync("app", Selection.nome, "Ok");
-            // var navigationParams = new NavigationParameters();
-            // navigationParams.Add("unidade", Selection);
-            //await NavigationService.NavigateAsync("Localizacao", navigationParams);
-            var options = new MapLaunchOptions { NavigationMode = Xamarin.Essentials.NavigationMode.Driving };
+            var permission = await PermissionHelper.CheckAndRequestPermission(new Permissions.LocationAlways());
 
+            if (permission == PermissionStatus.Granted)
+            {
+                var options = new MapLaunchOptions { NavigationMode = Xamarin.Essentials.NavigationMode.Driving };
 
-            var adress = unidade.Endereco;
-            var locations = await Geocoding.GetLocationsAsync(adress);
-            var location = locations?.FirstOrDefault();
-            await Map.OpenAsync(location, options);
+                var adress = unidade.Endereco;
+                var locations = await Geocoding.GetLocationsAsync(adress);
+                var location = locations?.FirstOrDefault();
+
+                if (location != null)
+                    await Map.OpenAsync(location, options);
+            }
+            else
+            {
+                UserDialogs.Instance.Toast("Para obter a localização você precisa permitir o uso da geolocalização.");
+            }
         }
+
         public override void OnNavigatedFrom(INavigationParameters parameters)
         {
 
@@ -322,8 +324,7 @@ namespace PerboyreApp.ViewModels
             var navigationMode = parameters.GetNavigationMode();
 
             if (navigationMode != Prism.Navigation.NavigationMode.Back)
-
-                await InitializeAsync();
+                Task.Run(() => InitializeAsync()).ConfigureAwait(false);
         }
 
         public override async void OnNavigatingTo(INavigationParameters parameters)
@@ -339,10 +340,7 @@ namespace PerboyreApp.ViewModels
             {
                 return _navega ?? (_navega = new Command<Unidade>(async objeto =>
                 {
-
-
                     await pegaDirecao(objeto);
-
                 }));
             }
         }

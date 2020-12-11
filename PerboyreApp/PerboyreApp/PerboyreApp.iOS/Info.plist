@@ -40,6 +40,14 @@
 	<string>This app needs access to microphone.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>This app needs access to the photo gallery.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Para um funcionamento correto da aplicação, precisamos da sua localização.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Para um funcionamento correto da aplicação, precisamos da sua localização.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Para um funcionamento correto da aplicação, precisamos da sua localização.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Para um funcionamento correto da aplicação, precisamos da sua localização.</string>
 	<key>UIMainStoryboardFile</key>
 	<string>LaunchScreen</string>
 	<key>XSAppIconAssets</key>

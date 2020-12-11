@@ -16,6 +16,7 @@ using PerboyreApp.Models;
 using PerboyreApp.Navegacao;
 using Prism.Plugin.Popups;
 using static Xamarin.Essentials.Permissions;
+using Acr.UserDialogs;
 
 namespace PerboyreApp
 {
@@ -75,7 +76,7 @@ namespace PerboyreApp
         {
            // containerRegistry.RegisterPopupNavigationService();
             containerRegistry.RegisterForNavigation<NavigationPage>();
-
+            containerRegistry.RegisterInstance(UserDialogs.Instance);
             //containerRegistry.RegisterForNavigation<CustomNavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage2,MainPage2ViewModel>();
             containerRegistry.RegisterForNavigation<LoginPage,LoginPageViewModel>();

@@ -8,6 +8,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Acr.UserDialogs;
+using PerboyreApp.Helpers;
 using PerboyreApp.Interfaces;
 using PerboyreApp.Models;
 using Prism.Commands;
@@ -19,7 +20,7 @@ using Xamarin.Forms;
 
 namespace PerboyreApp.ViewModels
 {
-    public class ImagensViewModel: ViewModelBase,IInitialize
+    public class ImagensViewModel : ViewModelBase, IInitialize
     {
         public paciente _paciente;
 
@@ -131,7 +132,7 @@ namespace PerboyreApp.ViewModels
 
         public ImagensViewModel(INavigationService navigationService, IPageDialogService pageDialogService, IApiService ApiService) : base(navigationService, pageDialogService)
         {
-            
+
             apiService = ApiService;
 
             Lista = new List<ArqImagens>();
@@ -161,7 +162,7 @@ namespace PerboyreApp.ViewModels
             {
                 if (InternetConnectivity())
                 {
-                    
+
                     if (Lista != null)
                     {
                         if (Lista.Any())
@@ -177,21 +178,21 @@ namespace PerboyreApp.ViewModels
                         return;*/
                     }
                     Lista = await apiService.getExames(_paciente);
-                    if (Lista!=null)
+                    if (Lista != null)
                     {
                         if (Lista.Count > 0)
                         {
                             imgs = new ObservableCollection<ArqImagens>(Lista);
                             imagemcont = Lista.Count;
                         }
-                          
+
                         else
                         {
                             Mostra_label = true;
                             Mostra_listview = false;
                             Mensagem = "Sem Imagens!";
                             imagemcont = 0;
-        
+
                         }
 
                     }
@@ -208,7 +209,7 @@ namespace PerboyreApp.ViewModels
                         imagemcont = 0;
                         return;
                     }
-                   
+
                     //pacientecont = imgs.Count;
 
                 }
@@ -261,7 +262,7 @@ namespace PerboyreApp.ViewModels
 
 
                     string NomeSelecionado = teste.nome_arquivo_completo;
-                   
+
                 }));
             }
         }
@@ -273,7 +274,7 @@ namespace PerboyreApp.ViewModels
                 return _selecionarItem3 ?? (_selecionarItem3 = new Command<ArqImagens>(objeto =>
                 {
                     ArqImagens teste = objeto;
-                    
+
                     compartilhaImagemAsync(teste.nome_arquivo_completo);
                     // string NomeSelecionado = teste.nome_arquivo_completo;
 
@@ -283,48 +284,28 @@ namespace PerboyreApp.ViewModels
 
         private async void compartilhaImagemAsync(string nome_arquivo_completo)
         {
-            var testa = await CheckAndRequestLocationPermission();
+            var permission = await PermissionHelper.CheckAndRequestPermission(new Permissions.StorageWrite());
             string caminho = Path.Combine(FileSystem.CacheDirectory, "teste.jpg");
-           if (InternetConnectivity())
-           {
-               
-                using( var Dialog  = UserDialogs.Instance.Loading("Compartilhando...",null,null,true,MaskType.Clear))
+            if (InternetConnectivity())
+            {
+                using (var Dialog = UserDialogs.Instance.Loading("Compartilhando...", null, null, true, MaskType.Clear))
                 {
-                    
-                    var retorno = await apiService.DownloadFileAsync(nome_arquivo_completo);
+                    try
+                    {
+                        var retorno = await apiService.DownloadFileAsync(nome_arquivo_completo);
 
-
-                    File.WriteAllBytes(caminho, retorno.ToArray());
+                        File.WriteAllBytes(caminho, retorno.ToArray());
+                    }
+                    catch (Exception ex)
+                    {
+                        UserDialogs.Instance.Toast("Erro ao baixar imagem para compartilhamento");
+                    }
                 }
-                
 
                 compartilhaImagem(caminho);
-
-
             }
         }
 
-
-        public async Task<PermissionStatus> CheckAndRequestLocationPermission()
-        {
-            var status = await Permissions.CheckStatusAsync<Permissions.StorageWrite>();
-
-            if (status == PermissionStatus.Granted)
-                return status;
-
-            if (status == PermissionStatus.Denied && DeviceInfo.Platform == DevicePlatform.iOS)
-            {
-                // Prompt the user to turn on in settings
-                // On iOS once a permission has been denied it may not be requested again from the application
-                return status;
-            }
-
-           
-
-            status = await Permissions.RequestAsync<Permissions.StorageWrite>();
-
-            return status;
-        }
 
         /* private async void compartilhaImagemAsync(string nome_arquivo_completo)
         {
@@ -375,11 +356,11 @@ namespace PerboyreApp.ViewModels
 
         private void compartilhaImagem(string file)
         {
-            
+
             Share.RequestAsync(new ShareFileRequest()
             {
                 Title = "Exames do Paciente",
-                
+
                 File = new ShareFile(file)
             });
         }
@@ -388,13 +369,13 @@ namespace PerboyreApp.ViewModels
         {
             get
             {
-                return _selecionarItem2 ?? (_selecionarItem2 = new Command<ArqImagens>( objeto =>
-                {
-                    ArqImagens teste = objeto;
-                                      
-                     showZoom(teste);
-                   
-                }));
+                return _selecionarItem2 ?? (_selecionarItem2 = new Command<ArqImagens>(objeto =>
+               {
+                   ArqImagens teste = objeto;
+
+                   showZoom(teste);
+
+               }));
             }
         }
 
@@ -409,7 +390,7 @@ namespace PerboyreApp.ViewModels
 
                     string NomeSelecionado = teste.nome_arquivo_completo;
                     showZoom(teste);
-                   
+
                 }));
             }
         }
@@ -429,7 +410,7 @@ namespace PerboyreApp.ViewModels
 
                     {
                         URL = nomeSelecionado.nome_arquivo_completo,
-                       
+
 
                     },
 
@@ -439,12 +420,12 @@ namespace PerboyreApp.ViewModels
                     {
                         Debug.WriteLine($"Clicked {index}");
                         PhotoBrowser.Close();
-                    //  _navigationService.GoBackAsync();
-                }
+                        //  _navigationService.GoBackAsync();
+                    }
 
                 }.Show();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
 
             }

@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Threading.Tasks;
 using System.Windows.Input;
+using Acr.UserDialogs;
 using FFImageLoading.Cache;
 using FFImageLoading.Forms;
 using Newtonsoft.Json;
@@ -18,14 +20,14 @@ namespace PerboyreApp.ViewModels
 {
     public class PerfilViewModel :ViewModelBase
     {
-
+        private const string TitleAlert = "Painel Studio - Perboyre Castelo";
         private ICommand _logout;
 
         public byte[] imageArray;
         private ICommand _abrircameraCommand;
         private ICommand _navegarCommand;
         private ICommand _salvarCommand;
-
+        private readonly IUserDialogs _userDialogs;
         IApiService apiService;
 
 
@@ -136,8 +138,9 @@ namespace PerboyreApp.ViewModels
                 CachedImage.InvalidateCache(_photo, CacheType.All, true);
             }
         }
-        public PerfilViewModel(INavigationService navigationService, IPageDialogService pageDialogService, IApiService ApiService) : base(navigationService, pageDialogService)
+        public PerfilViewModel(INavigationService navigationService, IPageDialogService pageDialogService, IApiService ApiService, IUserDialogs userDialogs) : base(navigationService, pageDialogService)
         {
+            _userDialogs = userDialogs;
             apiService = ApiService;
             Photo = App.usuariologado.ImagePath;
             inicializa = false;
@@ -308,7 +311,6 @@ namespace PerboyreApp.ViewModels
             {
                 return _salvarCommand ?? (_salvarCommand = new Command(objeto =>
                 {
-
                     atualizar();
                 }));
             }
@@ -334,27 +336,31 @@ namespace PerboyreApp.ViewModels
             await exibeErro("Densidade " + mainDisplayInfo.Density.ToString() +" largura" + mainDisplayInfo.Width.ToString()  + " altura " + mainDisplayInfo.Height.ToString()  );
         }
 
-        private void atualizar()
+        private async void atualizar()
         {
-
-            IsRunning = true;
-            var current = Connectivity.NetworkAccess;
-
-            if (current == NetworkAccess.Internet)
-
+            try
             {
+                IsRunning = true;
+                var current = Connectivity.NetworkAccess;
 
-                salvaPerfil();
-            }
-            else
-            {
-                PageDialogService.DisplayAlertAsync("Painel Studio - Perboyre Castelo", "Por favor Verifique sua conexao!", "Ok");
+                if (current == NetworkAccess.Internet)
+                {
+                    await salvaPerfil();
+                }
+                else
+                {
+                    PageDialogService.DisplayAlertAsync(TitleAlert, "Por favor Verifique sua conexao!", "Ok");
+                    IsRunning = false;
+                    return;
+                }
+
                 IsRunning = false;
-                return;
-
             }
-            IsRunning = false;
-
+            catch (Exception ex)
+            {
+                _userDialogs.HideLoading();
+                _userDialogs.Toast("Erro ao salvar perfil.");
+            }
         }
 
         private void limpaFormulario()
@@ -368,13 +374,12 @@ namespace PerboyreApp.ViewModels
             Photo = "";
 
         }
-        private async void salvaPerfil()
+        private async Task salvaPerfil()
         {
             IsRunning = true;
             if (string.IsNullOrEmpty(Email))
             {
-                await PageDialogService.DisplayAlertAsync("Painel Studio - Perboyre Castelo", "Prencha o campo Email!", "OK");
-                // await dialogServices.ShowMessage("Erro", "Prencha o campo Usuário!");
+                await PageDialogService.DisplayAlertAsync(TitleAlert, "Prencha o campo Email!", "OK");
                 IsRunning = false;
                 return;
             }
@@ -382,16 +387,18 @@ namespace PerboyreApp.ViewModels
 
             if (string.IsNullOrEmpty(Senha))
             {
-                await PageDialogService.DisplayAlertAsync("Painel Studio - Perboyre Castelo", "Prencha o campo Senha!", "OK");
+                await PageDialogService.DisplayAlertAsync(TitleAlert, "Prencha o campo Senha!", "OK");
                 IsRunning = false;
                 return;
             }
             if (string.IsNullOrEmpty(Login))
             {
-                await PageDialogService.DisplayAlertAsync("Painel Studio - Perboyre Castelo", "Prencha o campo Login!", "OK");
+                await PageDialogService.DisplayAlertAsync(TitleAlert, "Prencha o campo Login!", "OK");
                 IsRunning = false;
                 return;
             }
+
+            _userDialogs.ShowLoading("Salvando");
 
             Dentista dentistaatualizado = new Dentista();
             dentistaatualizado.Id = id;
@@ -408,7 +415,8 @@ namespace PerboyreApp.ViewModels
             var response = await apiService.PutDentista(dentistaatualizado);
             if (!response.IsSuccess)
             {
-                await exibeErro(response.Message);
+                _userDialogs.HideLoading();
+                await PageDialogService.DisplayAlertAsync(TitleAlert, response.Message, "OK");
                 //?await PageDialogService.DisplayAlertAsync("Painel Studio - Perboyre Castelo", response.Message, "Ok");
                 return;
             }
@@ -419,7 +427,8 @@ namespace PerboyreApp.ViewModels
             gravaUsuarioLogado(result);
             Photo = "";
             atribuivalores(result);
-            await exibeErro(response.Message);
+            _userDialogs.HideLoading();
+            await PageDialogService.DisplayAlertAsync(TitleAlert, response.Message, "OK");
             //await PageDialogService.DisplayAlertAsync("Painel Studio - Perboyre Castelo", response.Message, "OK");
             IsRunning = false;
 
