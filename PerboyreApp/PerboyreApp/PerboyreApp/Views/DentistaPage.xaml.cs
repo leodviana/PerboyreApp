@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using PerboyreApp.Interfaces;
+using PerboyreApp.ViewModels;
 using PerboyreApp.Views.TitleViews;
 using Xamarin.Forms;
 

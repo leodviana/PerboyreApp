@@ -9,10 +9,11 @@ using Prism.Navigation;
 using Prism.Services;
 using Xamarin.Forms;
 using System.Linq;
+using System.Threading;
 
 namespace PerboyreApp.ViewModels
 {
-    public class Dentista2ViewModel : ViewModelBase 
+    public class Dentista2ViewModel : ViewModelBase
     {
         IApiService apiService;
 
@@ -125,8 +126,20 @@ namespace PerboyreApp.ViewModels
             set
             {
                 SetProperty(ref _DentistaFilter, value);
+                SearchDentista();
+            }
+        }
 
-                GetDentistas();
+        Task taskThro;
+        private async void SearchDentista()
+        {
+            if (taskThro is null || taskThro.IsCompleted)
+            {
+                taskThro = Task.Run(async () =>
+                {
+                    await Task.Delay(500);
+                    GetDentistas();
+                });
             }
         }
 
@@ -146,7 +159,6 @@ namespace PerboyreApp.ViewModels
             isVisible2 = true;
             mostra = false;
             inicializa = false;
-           
             //PageDialogService.DisplayAlertAsync("app", "Sem conexao!", "Ok");
         }
 
@@ -173,11 +185,13 @@ namespace PerboyreApp.ViewModels
             }
             catch (Exception ex)
             {
-                
+
             }
-
-
-
+            finally
+            {
+                taskThro?.Dispose();
+                taskThro = null;
+            }
         }
 
         private async Task GetDentistasasync()
@@ -207,24 +221,24 @@ namespace PerboyreApp.ViewModels
                         await exibeErro("Dispositivo não está conectado a internet!");
                     }
 
-                   
+
                 }
                 else
                 {
                     await exibeErro("Dispositivo não está conectado a internet!");
-                    
+
                     mostra = true;
-                   
+
                     // await PageDialogService.DisplayAlertAsync("app", "Sem conexao!", "Ok");
-                  
-                    
+
+
                 }
             }
             catch (Exception ex)
             {
                 await exibeErro(ex.Message.ToString());
-                
-               
+
+
             }
             IsRunning = false;
             isVisible = false;
@@ -233,28 +247,28 @@ namespace PerboyreApp.ViewModels
         }
 
 
-        
+
 
         /*private async void Initialize(INavigationParameters parameters)
         {
-            
+
                 // await PageDialogService.DisplayAlertAsync("app", "Sem conexao!", "Ok");
 
                 await InitializeAsync();
-            
+
 
         }*/
 
-       private async Task InitializeAsync()
+        private async Task InitializeAsync()
         {
             //await PageDialogService.DisplayAlertAsync("app", "Sem conexao!", "Ok");
             try
             {
                 await GetDentistasasync();
-                inicializa = true ;
-                
+                inicializa = true;
+
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 await PageDialogService.DisplayAlertAsync("app", ex.ToString(), "Ok");
                 return;
@@ -277,25 +291,24 @@ namespace PerboyreApp.ViewModels
 
         public override void OnNavigatedFrom(INavigationParameters parameters)
         {
-            
+
         }
 
-        public override async void OnNavigatedTo(INavigationParameters parameters)
+        public override void OnNavigatedTo(INavigationParameters parameters)
         {
             var navigationMode = parameters.GetNavigationMode();
 
-            if (navigationMode!= NavigationMode.Back)
-
-               await InitializeAsync();
+            if (navigationMode != NavigationMode.Back)
+                Task.Run(() => InitializeAsync()).ConfigureAwait(false);
         }
 
         public override async void OnNavigatingTo(INavigationParameters parameters)
         {
 
-           // await InitializeAsync();
+            // await InitializeAsync();
         }
 
-        
+
         public ICommand RefreshCommand
         {
             get
@@ -308,7 +321,7 @@ namespace PerboyreApp.ViewModels
                         await GetDentistasasync();
                     }
                     inicializa = true;
-                      
+
 
 
                 }));

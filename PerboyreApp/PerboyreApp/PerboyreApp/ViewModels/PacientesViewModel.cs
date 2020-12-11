@@ -131,7 +131,20 @@ namespace PerboyreApp.ViewModels
             {
                 SetProperty(ref _DentistaFilter, value);
                 //Filtro();
-                GetPacientes();
+                SearchPacientes();
+            }
+        }
+
+        Task taskThro;
+        private async void SearchPacientes()
+        {
+            if (taskThro is null || taskThro.IsCompleted)
+            {
+                taskThro = Task.Run(async () =>
+                {
+                    await Task.Delay(500);
+                    GetPacientes();
+                });
             }
         }
 
@@ -232,10 +245,11 @@ namespace PerboyreApp.ViewModels
             catch (Exception ex)
             {
                 exibeErro(ex.Message.ToString());
+            }finally
+            {
+                taskThro?.Dispose();
+                taskThro = null;
             }
-
-
-            
         }
 
         private async Task GetPacientesAsync(long id)
@@ -375,14 +389,14 @@ namespace PerboyreApp.ViewModels
             //  throw new NotImplementedException();
         }
 
-        public override async  void OnNavigatedTo(INavigationParameters parameters)
+        public override  void OnNavigatedTo(INavigationParameters parameters)
         {
             //throw new NotImplementedException();
             if (_dentista == null)
             {
                 _dentista = (Dentista)parameters["paciente"];
                 nomeProfissional = _dentista.nome;
-                await InitializeAsync(_dentista.Id);
+                Task.Run(() => InitializeAsync(_dentista.Id)).ConfigureAwait(false);
             }
         }
 
