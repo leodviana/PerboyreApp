@@ -19,7 +19,7 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="30"/>
             </Grid.RowDefinitions>
-            <Image Source="logo02.png" Aspect="AspectFit" Grid.Row="1"></Image>
+            <Image Margin="10,0,30,0" Source="logo02.png" Aspect="AspectFit" Grid.Row="1"></Image>
             
 
             <StackLayout Grid.Row="3" Margin="10,0,10,10" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Padding="10,30,20,0">
@@ -53,11 +53,7 @@
                     
                     <Button Text="Login" Margin="10,0,0,10" Command="{Binding navegar}" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" BorderRadius = "20" BackgroundColor="#4c0507" TextColor="White" Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="2" ></Button>
                     
-                    <Label Text="Perfil Paciente" VerticalOptions="FillAndExpand" HorizontalOptions="Center" Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="2" TextColor="#4c0507">
-                        <Label.GestureRecognizers>
-                            <TapGestureRecognizer Command="{Binding ForgotPasswordCommand}" />
-                        </Label.GestureRecognizers>
-                    </Label>
+                    
 
                     
 
