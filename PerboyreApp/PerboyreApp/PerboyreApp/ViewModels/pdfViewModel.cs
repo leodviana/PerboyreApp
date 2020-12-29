@@ -427,35 +427,44 @@ namespace PerboyreApp.ViewModels
 
         private void showZoom(ArqImagens nomeSelecionado)
         {
-            List<Photo>_photo = new List<Photo>();
+            
+            try
+            {
 
-            // NavigationService.NavigateAsync("LoginPacientePage");
-          // teste(nomeSelecionado);
-             for (int i = 0;i<nomeSelecionado.lista_jpeg.Count();i++)
-             {
-                 var foto = new Photo();
+                List<Photo> _photo = new List<Photo>();
 
-                 foto.URL = nomeSelecionado.lista_jpeg[i].ToString().Replace(" ","%20");
-                 //foto.URL = nomeSelecionado.lista_jpeg[i];
-                 _photo.Add(foto);
+                // NavigationService.NavigateAsync("LoginPacientePage");
+                // teste(nomeSelecionado);
+                for (int i = 0; i < nomeSelecionado.lista_jpeg.Count(); i++)
+                {
+                    var foto = new Photo();
 
-             }
-           // var retorno = await apiService.DownloadFileAsync(nome_arquivo_completo);
-            new PhotoBrowser
-             {
-                 Photos = _photo.ToList(),
+                    foto.URL = nomeSelecionado.lista_jpeg[i].ToString().Replace(" ", "%20");
+                    //foto.URL = nomeSelecionado.lista_jpeg[i];
+                    _photo.Add(foto);
 
-                 
+                }
+                // var retorno = await apiService.DownloadFileAsync(nome_arquivo_completo);
+                new PhotoBrowser
+                {
+                    Photos = _photo.ToList(),
 
-            ActionButtonPressed = (index) =>
-                 {
-                     Debug.WriteLine($"Clicked {index}");
-                     PhotoBrowser.Close();
+
+
+                    ActionButtonPressed = (index) =>
+                         {
+                             Debug.WriteLine($"Clicked {index}");
+                             PhotoBrowser.Close();
 
                      //  _navigationService.GoBackAsync();
                  }
 
-             }.Show();
+                }.Show();
+            }
+            catch (Exception ex)
+            {
+
+            }
             
         }
 

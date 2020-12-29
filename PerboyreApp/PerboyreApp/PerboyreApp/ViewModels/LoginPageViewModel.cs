@@ -175,7 +175,7 @@ namespace PerboyreApp.ViewModels
                 //Settings.Grava_Settings(JsonConvert.SerializeObject(User));
                 Preferences.Set("dentistaserializado", JsonConvert.SerializeObject(User));
                 //Preferences.Get("dentistaserializado", JsonConvert.SerializeObject(User));
-                var mainPage = $"{nameof(NavigationPage)}/{nameof(MainPage2)}";
+                var mainPage = $"/{nameof(NavigationPage)}/{nameof(MainPage2)}";
                 await NavigationService.NavigateAsync(mainPage);
                 //await NavigationService.NavigateAsync("/MasterPage/NavigationPage/DentistaPage");
             }
@@ -193,7 +193,7 @@ namespace PerboyreApp.ViewModels
                 var navigationParams = new NavigationParameters();
                 navigationParams.Add("paciente", User);
                 //await NavigationService.NavigateAsync("/MasterPage/NavigationPage/DentistaPage");
-                var mainPage = $"{nameof(NavigationPage)}/{nameof(MainPage2)}";
+                var mainPage = $"/{nameof(NavigationPage)}/{nameof(MainPage2)}";
                 await NavigationService.NavigateAsync(mainPage);
                 //  await _navigationService.NavigateAsync("/MasterPage/NavigationPage/ExamesPage", navigationParams);
             }
