@@ -64,7 +64,7 @@
 
                                 <StackLayout   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="5,10" Margin="0,15,0,15">
                                     <BoxView  Color="LightGray" HeightRequest="2" HorizontalOptions="FillAndExpand" ></BoxView>
-                                    <ffimageloading:CachedImage  CacheDuration="50" RetryCount="3" RetryDelay="600"  HorizontalOptions="CenterAndExpand" DownsampleToViewSize="true"
+                                    <ffimageloading:CachedImage  CacheDuration="50" RetryCount="5" RetryDelay="1000"  HorizontalOptions="CenterAndExpand" DownsampleToViewSize="true"
                                    Aspect="AspectFit" HeightRequest="300" WidthRequest="300" Source="{Binding nome_arquivo_completo}" 
                                    LoadingPlaceholder = "Spinner.gif"  ErrorPlaceholder="unnamed.png" DownsampleWidth="100" DownsampleHeight="100" Margin="20,20,20,10" CacheType="Memory">
                                         <ffimageloading:CachedImage.GestureRecognizers>

@@ -17,6 +17,9 @@ using PerboyreApp.Navegacao;
 using Prism.Plugin.Popups;
 using static Xamarin.Essentials.Permissions;
 using Acr.UserDialogs;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 
 namespace PerboyreApp
 {
@@ -96,7 +99,10 @@ namespace PerboyreApp
 
         protected override void OnStart()
         {
-            // Handle when your app starts
+            AppCenter.Start("ios=e86fd80a-d526-4fa1-9a87-d299aa1c8318;" +
+
+                  "android={Your Android App secret here}",
+                  typeof(Analytics), typeof(Crashes));
         }
 
         protected override void OnSleep()

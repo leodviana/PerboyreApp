@@ -301,7 +301,7 @@ namespace PerboyreApp.ViewModels
             {
                 var options = new MapLaunchOptions { NavigationMode = Xamarin.Essentials.NavigationMode.Driving };
 
-                var adress = unidade.Endereco;
+                var adress = unidade.Endereco + ", "+ unidade.Cep;
                 var locations = await Geocoding.GetLocationsAsync(adress);
                 var location = locations?.FirstOrDefault();
 

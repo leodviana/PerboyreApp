@@ -447,7 +447,7 @@ namespace PerboyreApp.ViewModels
                 // var retorno = await apiService.DownloadFileAsync(nome_arquivo_completo);
                 new PhotoBrowser
                 {
-                    Photos = _photo.ToList(),
+                    Photos = _photo,
 
 
 
@@ -463,7 +463,7 @@ namespace PerboyreApp.ViewModels
             }
             catch (Exception ex)
             {
-
+                ex.Message.ToString();
             }
             
         }
